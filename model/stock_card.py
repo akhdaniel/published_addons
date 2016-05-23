@@ -6,6 +6,8 @@ import logging
 from openerp.tools.translate import _
 
 _logger = logging.getLogger(__name__)
+SC_STATES =[('draft','Draft'),('open','Open'), ('done','Done')]
+
 
 class stock_card(osv.osv):
 	_name 		= "vit.stock_card"
@@ -134,19 +136,15 @@ class stock_card(osv.osv):
 
 	def action_draft(self,cr,uid,ids,context=None):
 		#set to "draft" state
-		return self.write(cr,uid,ids,{'state':BIAYA_STATES[0][0]},context=context)
+		return self.write(cr,uid,ids,{'state':SC_STATES[0][0]},context=context)
 	
 	def action_confirm(self,cr,uid,ids,context=None):
 		#set to "confirmed" state
-		return self.write(cr,uid,ids,{'state':BIAYA_STATES[1][0]},context=context)
-	
-	def action_reject(self,cr,uid,ids,context=None):
-		#set to "done" state
-		return self.write(cr,uid,ids,{'state':BIAYA_STATES[2][0]},context=context)
+		return self.write(cr,uid,ids,{'state':SC_STATES[1][0]},context=context)
 	
 	def action_done(self,cr,uid,ids,context=None):
 		#set to "done" state
-		return self.write(cr,uid,ids,{'state':BIAYA_STATES[3][0]},context=context)
+		return self.write(cr,uid,ids,{'state':SC_STATES[2][0]},context=context)
 
 	def create(self, cr, uid, vals, context=None):
 		if context is None:
