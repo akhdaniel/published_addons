@@ -18,6 +18,7 @@ Manage
 	"data": [
 		"menu.xml", 
 		"view/stock_card.xml", 
+		"report/stock_card.xml", 
 		"data/ir_sequence.xml",
 		"security/ir.model.access.csv",
 	],

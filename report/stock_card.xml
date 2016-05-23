@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report 
+            id="report_stock_card_menu"
+            string="Stock Card"
+            model="vit.stock_card" 
+            report_type="qweb-pdf"
+            file="vit.stock_card" 
+            name="vit_stock_card.stock_card_report" 
+        />
+
+        <template id="report_stock_card_document">
+            <t t-call="report.external_layout">
+                <div class="page">
+                    <div class="oe_structure"/>
+                    
+                    <h2>
+                        STOCK CARD
+                        <br/><span t-field="o.product_id"/>
+                    </h2>
+
+                    <table class="table table-condensed">
+                        <tr><td>Ref</td><td><span t-field="o.ref"/></td></tr>
+                        <tr><td>Date</td><td><span t-field="o.date_start"/> to <span t-field="o.date_end"/></td></tr>
+                        <tr><td>Location</td><td><span t-field="o.location_id.name"/></td></tr>
+                    </table>
+
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th style="width:20%">Date</th>
+                                <th>Picking</th>
+                                <th>Description</th>
+                                <th class="text-right">Start</th>
+                                <th class="text-right">In</th>
+                                <th class="text-right">Out</th>
+                                <th class="text-right">Balance</th>
+                                <th class="text-right">UoM</th>
+                            </tr>
+                       </thead>
+
+                       <tbody class="tbody">
+                            <tr t-foreach="o.line_ids" t-as="l">
+         
+                                <td>
+                                   <span t-field="l.date"/>
+                                </td>
+
+                                <td>
+                                   <span t-field="l.picking_id"/>
+                                </td>
+         
+                                <td>
+                                   <span t-field="l.name"/>
+                                </td>
+
+                                <td class="text-right">
+                                    <span t-field="l.qty_start" />
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="l.qty_in" />
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="l.qty_out" />
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="l.qty_balance" />
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="l.product_uom_id" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <div class="oe_structure"/>
+                </div>
+            </t>
+        </template>
+
+        <template id="stock_card_report">
+            <t t-call="report.html_container">
+                <t t-foreach="doc_ids" t-as="doc_id">
+                    <t t-raw="translate_doc(doc_id, doc_model, 'user_id.partner_id.lang', 
+                        'vit_stock_card.report_stock_card_document')"/>
+                </t>
+            </t>
+        </template>
+
+
+
+    </data>
+</openerp>

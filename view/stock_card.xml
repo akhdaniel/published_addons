@@ -62,9 +62,9 @@
 					            <field name="line_ids">
 					            	<tree string="Detail Lines">
 										<!-- <field name="move_id" />			 -->
+										<field name="date" />			
 										<field name="picking_id" />			
 										<field name="name" />			
-										<field name="date" />			
 										<field name="qty_start" />		
 										<field name="qty_in" />		
 										<field name="qty_out" />		
