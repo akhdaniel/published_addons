@@ -9,8 +9,9 @@ _logger = logging.getLogger(__name__)
 
 class stock_card(osv.osv):
 	_name 		= "vit.stock_card"
+	_res_name 	= "product_id"
 	_columns 	= {
-		"name"				: fields.char("Number"),
+		"ref"				: fields.char("Number"),
 		"date_start"		: fields.date("Date Start"),
 		"date_end"			: fields.date("Date End"),
 		"location_id"		: fields.many2one('stock.location', 'Location'),
@@ -24,7 +25,7 @@ class stock_card(osv.osv):
 		'date_start'     	: lambda *a : time.strftime("%Y-%m-%d") ,
 		'date_end'     		: lambda *a : time.strftime("%Y-%m-%d") ,
 		'user_id'			: lambda obj, cr, uid, context: uid,
-		'name'				: lambda obj, cr, uid, context: '/',		
+		'ref'				: lambda obj, cr, uid, context: '/',		
 		"state"				: "draft",
 	}	
 
@@ -52,7 +53,7 @@ class stock_card(osv.osv):
 			product_uom = False 
 
 
-			##beginning balance in 
+			## beginning balance in 
 			sql = "select sum(product_uom_qty) from stock_move where product_id=%s and date < '%s' and location_dest_id=%s and state='done'" %(
 				sc.product_id.id, sc.date_start, sc.location_id.id)
 			cr.execute(sql)
@@ -60,7 +61,7 @@ class stock_card(osv.osv):
 			if res and res[0]!= None:
 				qty_start = res[0]
 
-			##beginning balance out
+			## beginning balance out
 			sql = "select sum(product_uom_qty) from stock_move where product_id=%s and date < '%s' and location_id=%s and state='done'" %(
 				sc.product_id.id, sc.date_start, sc.location_id.id)
 			cr.execute(sql)
@@ -68,7 +69,7 @@ class stock_card(osv.osv):
 			if res and res[0]!= None:
 				qty_start = qty_start - res[0]
 			
-			##product uom
+			## product uom
 			# import pdb;pdb.set_trace()
 			prod = product.browse(cr, uid, [sc.product_id.id], context=context)
 			product_uom = prod.uom_id 
@@ -87,14 +88,18 @@ class stock_card(osv.osv):
 
 			##mutasi
 			sm_ids = stock_move.search(cr, uid, [
+				'|',
+				('location_dest_id','=',sc.location_id.id),
+				('location_id','=',sc.location_id.id),
 				('product_id', 	'=' , sc.product_id.id),
 				('date', 		'>=', sc.date_start),
 				('date', 		'<=', sc.date_end),
-				('state',		'=', 'done')
-			], context=context)
+				('state',		'=', 'done'),
+
+			], order='date asc', context=context)
 
 			for sm in stock_move.browse(cr, uid, sm_ids, context=context):
-				
+
 				qty_in = 0.0
 				qty_out = 0.0
 
@@ -114,12 +119,14 @@ class stock_card(osv.osv):
 				data = {
 					"stock_card_id"	: sc.id,
 					"move_id"		: sm.id,
+					"picking_id"	: sm.picking_id.id,
 					"date"			: sm.date,
 					"qty_start"		: qty_start,
 					"qty_in"		: qty_in,
 					"qty_out"		: qty_out,
 					"qty_balance"	: qty_balance,	
 					"product_uom_id": product_uom.id,	
+					"name"			: sm.name,
 				}
 				stock_card_line.create(cr, uid, data, context=context)
 				qty_start = qty_balance
@@ -144,8 +151,8 @@ class stock_card(osv.osv):
 	def create(self, cr, uid, vals, context=None):
 		if context is None:
 			context = {}
-		if vals.get('name', '/') == '/':
-			vals['name'] = self.pool.get('ir.sequence').get(cr, uid, 'vit.stock_card') or '/'
+		if vals.get('ref', '/') == '/':
+			vals['ref'] = self.pool.get('ir.sequence').get(cr, uid, 'vit.stock_card') or '/'
 		new_id = super(stock_card, self).create(cr, uid, vals, context=context)
 		return new_id
 
@@ -153,8 +160,10 @@ class stock_card(osv.osv):
 class stock_card_line(osv.osv):
 	_name 		= "vit.stock_card_line"
 	_columns 	= {
+		"name"			: fields.char("Description"),
 		"stock_card_id"	: fields.many2one('vit.stock_card_id', 'Stock Card'),
 		"move_id"		: fields.many2one('stock.move', 'Stock Move'),
+		"picking_id"	: fields.many2one('stock.picking', 'Picking'),
 		"date"			: fields.date("Date"),
 		"qty_start"		: fields.float("Start"),
 		"qty_in"		: fields.float("Qty In"),
