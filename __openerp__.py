@@ -19,6 +19,7 @@ Manage
 		"menu.xml", 
 		"view/stock_card.xml", 
 		"data/ir_sequence.xml",
+		"security/ir.model.access.csv",
 	],
 	"installable": True,
 	"auto_install": False,

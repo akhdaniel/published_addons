@@ -10,7 +10,7 @@ _logger = logging.getLogger(__name__)
 class stock_card(osv.osv):
 	_name 		= "vit.stock_card"
 	_columns 	= {
-		"name"		: fields.char("Number"),
+		"name"				: fields.char("Number"),
 		"date_start"		: fields.date("Date Start"),
 		"date_end"			: fields.date("Date End"),
 		"location_id"		: fields.many2one('stock.location', 'Location'),
@@ -71,7 +71,7 @@ class stock_card(osv.osv):
 			##product uom
 			# import pdb;pdb.set_trace()
 			prod = product.browse(cr, uid, [sc.product_id.id], context=context)
-			product_uom_id = prod.uom_id.id 
+			product_uom = prod.uom_id 
 
 
 			data = {
@@ -81,7 +81,7 @@ class stock_card(osv.osv):
 				"qty_in"		: False,
 				"qty_out"		: False,
 				"qty_balance"	: qty_start,	
-				"product_uom_id": product_uom_id,	
+				"product_uom_id": product_uom.id,	
 			}
 			stock_card_line.create(cr, uid, data, context=context)
 
@@ -94,12 +94,21 @@ class stock_card(osv.osv):
 			], context=context)
 
 			for sm in stock_move.browse(cr, uid, sm_ids, context=context):
-				#incoming, dest = location
-				if sm.location_dest_id == sc.location_id:
-					qty_in = sm.product_uom_qty
-				#outgoing, source = location
-				elif sm.location_id == sc.location_id:
-					qty_out = sm.product_uom_qty
+				
+				qty_in = 0.0
+				qty_out = 0.0
+
+				#uom conversion factor
+				if product_uom.id != sm.product_uom.id:
+					factor =  product_uom.factor / sm.product_uom.factor 
+				else:
+					factor = 1.0
+
+				if sm.location_dest_id == sc.location_id:	#incoming, dest = location
+					qty_in = sm.product_uom_qty  * factor				
+				elif sm.location_id == sc.location_id:		#outgoing, source = location
+					qty_out = sm.product_uom_qty * factor
+
 				qty_balance = qty_start + qty_in - qty_out
 
 				data = {
@@ -110,7 +119,7 @@ class stock_card(osv.osv):
 					"qty_in"		: qty_in,
 					"qty_out"		: qty_out,
 					"qty_balance"	: qty_balance,	
-					"product_uom_id": sm.product_uom.id,	
+					"product_uom_id": product_uom.id,	
 				}
 				stock_card_line.create(cr, uid, data, context=context)
 				qty_start = qty_balance
