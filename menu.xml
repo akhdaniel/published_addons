@@ -10,6 +10,7 @@
 		<menuitem id="vit_stock_card"
 		 action="action_stock_card_list"
 		 name="Stock Card"
+         groups="stock.group_stock_manager"
 		 sequence="40"
 		 parent="stock.menu_traceability"/>
 
