@@ -19,7 +19,7 @@ class stock_card(osv.osv):
 		"location_id"		: fields.many2one('stock.location', 'Location'),
 		"product_id"		: fields.many2one('product.product', 'Product'),
 		"line_ids"			: fields.one2many('vit.stock_card_line','stock_card_id','Details', ondelete="cascade"),
-		"state"				: fields.selection([('draft','Draft'),('confirmed','Confirmed'),('done','Done')],'Status',readonly=True,required=True),
+		"state"				: fields.selection(SC_STATES,'Status',readonly=True,required=True),
 		"user_id"			: fields.many2one('res.users', 'Created'),
 	}
 
