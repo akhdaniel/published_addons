@@ -1,0 +1,109 @@
+<openerp>
+	<data>
+
+		<!-- tree view -->
+		<record id="view_stock_summary_tree" model="ir.ui.view">
+		    <field name="name">vit_stock_summary_tree</field>
+		    <field name="model">vit.stock_summary</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list stock_summary" colors="grey:state=='done'; blue:state=='draft'">
+		            <field name="ref"/>
+					<field name="date_start" />	
+					<field name="date_end" />		
+					<field name="location_id" />	
+					<field name="state" />			
+					<field name="user_id" />				            
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- form view -->
+        <record id="view_stock_summary_form" model="ir.ui.view">
+            <field name="name">vit_stock_summary_form</field>
+            <field name="model">vit.stock_summary</field>
+            <field name="arch" type="xml">
+            	<form string="stock_summary form" version="7.0">
+            		<header>
+						<button string="Calculate" type="object" name="action_calculate" class="oe_highlight"
+						 	 states="draft" />
+						<button string="Confirm" type="object" name="action_confirm" class="oe_highlight"
+						 	 states="draft" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" />
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Location" />
+							<h1>
+								<field name="location_id" />
+							</h1>
+						</div>
+			            <group>
+			            	<group>
+								<field name="date_start" />	
+								<field name="date_end" />		
+
+				            </group>
+				            <group>
+								<field name="ref" />
+								<field name="user_id" /> 
+				            </group>
+				        </group>
+
+		            	<!--xpath expr="">
+		            	</xpath-->
+
+			            <notebook>
+			            	<page string="Lines">
+					            <field name="line_ids">
+					            	<tree string="Detail Lines">
+										<field name="product_id" />
+										<!--<field name="name" />-->
+										<field name="lot_id" />
+										<field name="expired_date" />
+										<field name="qty_start" />
+										<field name="qty_in" />		
+										<field name="qty_out" />		
+										<field name="qty_balance" />    
+										<field name="product_uom_id" />
+						            </tree>
+						        </field>
+						    </page>
+						</notebook>
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+
+		<!-- ini definisi search stock_summary -->
+		<record id="view_stock_summary_filter" model="ir.ui.view">
+		    <field name="name">stock_summary.filter</field>
+		    <field name="model">vit.stock_summary</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Stock summary">
+		            
+					<field name="location_id" />
+		            <field name="ref"/>
+					<field name="date_start" />	
+					<field name="date_end" />		
+					<field name="user_id" />
+		            
+		            <group expand="1" string="Group By...">
+		                <filter string="Product" icon="terp-personal" 
+		                    domain="[]" 
+		                	 context="{'group_by':'product_id'}"/>
+		                <filter string="Location" 
+		                    icon="terp-personal" domain="[]" 
+		                	 context="{'group_by':'location_id'}"/>
+
+		            </group>                                        
+
+		        </search>
+		    </field>
+		</record>
+
+	</data>
+</openerp>
