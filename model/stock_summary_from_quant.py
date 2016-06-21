@@ -56,31 +56,30 @@ class stock_summary(osv.osv):
 				self.mutasi_lines_nosn(cr, uid, stock_summary_line, sc, context=context)
 
 			self.update_balance(cr, uid, sc, context=context)
+
 		return
 
 
 	def beginning_lines_sn(self, cr, uid, stock_summary_line, sc, context=None):
-		date = "date < '%s 24:00:00'" % (sc.date_start)
 		line_type = "beg"
-		self.process_lines_sn(cr, uid, line_type, date, stock_summary_line, sc, context=context)
+		self.process_lines_sn(cr, uid, line_type, stock_summary_line, sc, context=context)
 
 	def mutasi_lines_sn(self, cr, uid, stock_summary_line, sc, context=None):
-		date = "m.date >= '%s 00:00:00' and m.date <= '%s 24:00:00'" % (sc.date_start, sc.date_end)
 		line_type = "mut"
-		self.process_lines_sn(cr, uid, line_type, date,  stock_summary_line, sc, context=context)
+		self.process_lines_sn(cr, uid, line_type,  stock_summary_line, sc, context=context)
 
 
-	def process_lines_sn(self,cr, uid,line_type, date,  stock_summary_line, sc, context=None):
-
-		sql = "select m.product_id, m.product_uom, lot_id, sum(q.qty)\
-				from \
-				stock_quant_move_rel qm \
-				join stock_quant q on q.id = qm.quant_id \
-				join stock_move m on m.id=qm.move_id \
-				where %s \
-				and %s \
-				group by q.lot_id,m.product_id,m.product_uom  \
-				order by m.product_id "
+	def process_lines_sn(self,cr, uid,line_type,  stock_summary_line, sc, context=None):
+		sql = "select \
+			product_id, \
+			uom_id,\
+			qty,\
+			lot_id, \
+			in_date, \
+			id \
+			from stock_quant where \
+			%s and \
+			location_id %s"
 
 		##########################################################################
 		# fill product
@@ -89,111 +88,145 @@ class stock_summary(osv.osv):
 			self.fill_product_data(cr, uid, sql, stock_summary_line, sc, context=context)
 			self.update_starting(cr, uid, sql, stock_summary_line, sc, context=context)
 
+		return
+
 		##########################################################################
-		# update incoming
-		# update outgoing
+		# update incoming: qty_in
+		# outgoing: qty_out
 		##########################################################################
-		if line_type == "mut":
+		if line_type=="mut":
 			self.update_incoming(cr, uid, sql, stock_summary_line, sc, context=context)
 			self.update_outgoing(cr, uid, sql, stock_summary_line, sc, context=context)
 
-		return
+
+		##########################################################################
+		# sub total
+		##########################################################################
+
+
+
 
 	def fill_product_data(self,cr, uid, sql, stock_summary_line, sc, context=None):
-
-		date = "m.date <= '%s 24:00:00'" % (sc.date_end)
-		loc = "(m.location_id = %s or m.location_dest_id=%s)" % (sc.location_id.id, sc.location_id.id)
-		cr.execute(sql % (date, loc))
+		date  = "in_date <= '%s 24:00:00'"  % (sc.date_end)
+		cr.execute(sql % (date, "=%s" % (sc.location_id.id)))
 		res = cr.fetchall()
 		if not res or res[0] == None:
 			return False
 		for beg in res:
-			product_id 		= beg[0]
-			product_uom_id	= beg[1]
-			lot_id 			= beg[2]
-			qty 			= beg[3]
-			data = {
-				"stock_summary_id"	: sc.id,
-				"product_id"		: product_id,
-				"product_uom_id"	: product_uom_id,
-				"lot_id"			: lot_id,
-			}
-			stock_summary_line.create(cr, uid, data, context=context)
+			product_id = beg[0]
+			product_uom_id = beg[1]
+			lot_id = beg[3] if beg[3] is not None else False
+			quant_id = beg[5]
+
+			# cari stock move
+			sql3 = "select qm.move_id from \
+				stock_quant_move_rel qm \
+				left join stock_move m on m.id = qm.move_id \
+				where qm.quant_id=%s and \
+				(m.location_dest_id=%s or m.location_id=%s)" %(
+				quant_id, sc.location_id.id, sc.location_id.id)
+			cr.execute(sql3)
+			moves = cr.fetchall()
+			if not moves or moves[0] == None:
+				data = {
+					"stock_summary_id": sc.id,
+					"product_id"	: product_id,
+					"product_uom_id"	: product_uom_id,
+					"lot_id"			: lot_id,
+					"stock_quant_id"	: quant_id,
+					"stock_move_id"			: False
+				}
+				stock_summary_line.create(cr, uid, data, context=context)
+			else:
+				for move in moves:
+					move_id = move[0]
+					data = {
+						"stock_summary_id"	: sc.id,
+						"product_id"		: product_id,
+						"product_uom_id"	: product_uom_id,
+						"lot_id"			: lot_id,
+						"stock_quant_id"	: quant_id,
+						"stock_move_id"			: move_id
+					}
+					stock_summary_line.create(cr, uid, data, context=context)
 
 	def update_starting(self, cr, uid, sql, stock_summary_line, sc, context=None):
-		date = "m.date < '%s 00:00:00'" % (sc.date_start)
-		loc = "m.location_dest_id=%s" % (sc.location_id.id)
-		cr.execute(sql % (date, loc))
+		date = "write_date < '%s 00:00:00'" % (sc.date_start)
+		cr.execute(sql % (date, "=%s"%(sc.location_id.id)))
 		res = cr.fetchall()
 		if not res or res[0] == None:
-			return False
+			return
+
 		for beg in res:
-			product_id 		= beg[0]
-			sm_uom_id		= beg[1]
-			lot_id 			= beg[2]
-			if lot_id is None:
-				lot_id = " is null"
-			else:
-				lot_id = "=%s"  % (lot_id)
-			qty 			= beg[3]
-
+			product_id = beg[0]
+			sm_uom_id = beg[1]
+			qty = beg[2]
 			qty, product_uom_id = self.convert_uom_qty(cr, uid, product_id, sm_uom_id, qty, context=context)
+			quant_id = beg[5]
 
-			sql2 = "update vit_stock_summary_line set \
-						qty_start = %s \
-						where stock_summary_id=%s and product_id=%s and lot_id %s" % \
-				   (qty, sc.id, product_id, lot_id)
-			cr.execute(sql2)
+			# cari stock move
+			sql3 = "select qm.move_id,m.product_uom_qty from stock_quant_move_rel qm \
+				left join stock_move m on m.id = qm.move_id \
+				where qm.quant_id=%s" % (quant_id)
+			cr.execute(sql3)
+			moves = cr.fetchall()
+			if not moves or moves[0] == None:
+				sql2 = "update vit_stock_summary_line set \
+							qty_start = %s \
+							where stock_summary_id=%s and stock_quant_id = %s" % \
+					   (qty, sc.id, quant_id)
+				cr.execute(sql2)
+			else:
+				for move in moves:
+					sql2 = "update vit_stock_summary_line set \
+								qty_start = %s \
+								where stock_summary_id=%s and stock_quant_id = %s and stock_move_id=%s" % \
+						   (move[1], sc.id, quant_id, move[0])
+					cr.execute(sql2)
 
 	def update_incoming(self, cr, uid, sql, stock_summary_line, sc, context=None):
-		date = "m.date >= '%s 00:00:00' and m.date <='%s 24:00:00'" % (sc.date_start, sc.date_end)
-		loc = "m.location_dest_id=%s" % (sc.location_id.id)
-		cr.execute(sql % (date, loc))
+		date = "in_date >= '%s 00:00:00' and in_date <='%s 24:00:00'" % (sc.date_start,sc.date_end)
+		cr.execute(sql % (date, "=%s"%(sc.location_id.id)))
 		res = cr.fetchall()
-		if not res or res[0] is None:
-			return False
+		if not res or res[0] == 'None':
+			return
+
 		for beg in res:
-			product_id 		= beg[0]
-			sm_uom_id		= beg[1]
-			lot_id 			= beg[2]
-			if lot_id is None:
-				lot_id = " is null"
-			else:
-				lot_id = "=%s"  % (lot_id)
-			qty 			= beg[3]
-
+			product_id = beg[0]
+			sm_uom_id = beg[1]
+			qty = beg[2]
 			qty, product_uom_id = self.convert_uom_qty(cr, uid, product_id, sm_uom_id, qty, context=context)
-
+			quant_id = beg[5]
 			sql2 = "update vit_stock_summary_line set \
 						qty_in = %s \
-						where stock_summary_id=%s and product_id=%s and lot_id %s" % \
-				   (qty, sc.id, product_id, lot_id)
+						where stock_summary_id=%s and stock_quant_id = %s" % \
+				   (qty, sc.id, quant_id)
 			cr.execute(sql2)
 
 	def update_outgoing(self, cr, uid, sql, stock_summary_line, sc, context=None):
-		date = "m.date >= '%s 00:00:00' and m.date <='%s 24:00:00'" % (sc.date_start, sc.date_end)
-		loc = "m.location_id=%s" % (sc.location_id.id)
-		cr.execute(sql % (date, loc))
+		date = "in_date >= '%s 00:00:00' and in_date <='%s 24:00:00'" % (sc.date_start,sc.date_end)
+		cr.execute(sql % (date, "<>%s"%(sc.location_id.id)))
 		res = cr.fetchall()
-		if not res or res[0] is None:
-			return False
+		if not res or res[0] == 'None':
+			return
+
 		for beg in res:
-			product_id 		= beg[0]
-			sm_uom_id		= beg[1]
-			lot_id 			= beg[2]
-			if lot_id is None:
-				lot_id = " is null"
-			else:
-				lot_id = "=%s"  % (lot_id)
-			qty 			= beg[3]
-
+			product_id = beg[0]
+			sm_uom_id = beg[1]
+			qty = beg[2]
 			qty, product_uom_id = self.convert_uom_qty(cr, uid, product_id, sm_uom_id, qty, context=context)
-
+			quant_id = beg[5]
 			sql2 = "update vit_stock_summary_line set \
 						qty_out = %s \
-						where stock_summary_id=%s and product_id=%s and lot_id %s" % \
-				   (qty, sc.id, product_id, lot_id)
+						where stock_summary_id=%s and stock_quant_id = %s" % \
+				   (qty, sc.id, quant_id)
 			cr.execute(sql2)
+
+	def update_balance(self, cr, uid, sc, context=None):
+		sql3 = "update vit_stock_summary_line set \
+			qty_balance =  coalesce( qty_start,0) +  coalesce(qty_in,0) -  coalesce(qty_out,0) \
+	    	where stock_summary_id = %s " % (sc.id)
+		cr.execute(sql3)
 
 	def beginning_lines_nosn(self, cr, uid, stock_summary_line, sc, context=None):
 		date = "date < '%s 24:00:00'" % (sc.date_start)
@@ -305,11 +338,6 @@ class stock_summary(osv.osv):
 
 		return converted_qty, product.uom_id.id
 
-	def update_balance(self, cr, uid, sc, context=None):
-		sql3 = "update vit_stock_summary_line set \
-			qty_balance =  coalesce( qty_start,0) +  coalesce(qty_in,0) -  coalesce(qty_out,0) \
-	    	where stock_summary_id = %s " % (sc.id)
-		cr.execute(sql3)
 	#
 	# def beginning_lines_sn(self, cr, uid, stock_summary_line, sc, context=None):
 	#
@@ -436,6 +464,7 @@ class stock_summary_line(osv.osv):
 	_columns 	= {
 		"name"			: fields.char("Description"),
 		"stock_summary_id"	: fields.many2one('vit.stock_summary_id', 'Stock Card'),
+		"stock_quant_id"	: fields.many2one('stock.quant', 'Quant'),
 		"product_id"	: fields.many2one('product.product', 'Product'),
 		"product_uom_id": fields.many2one('product.uom', 'UoM'),
 		"lot_id"		: fields.many2one('stock.production.lot', 'Serial Number'),

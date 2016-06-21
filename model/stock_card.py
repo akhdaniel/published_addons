@@ -11,7 +11,7 @@ SC_STATES =[('draft','Draft'),('open','Open'), ('done','Done')]
 
 class stock_card(osv.osv):
 	_name 		= "vit.stock_card"
-	_res_name 	= "product_id"
+	_rec_name 	= "product_id"
 	_columns 	= {
 		"ref"				: fields.char("Number"),
 		"date_start"		: fields.date("Date Start"),

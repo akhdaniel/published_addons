@@ -49,6 +49,7 @@
 				            <group>
 								<field name="ref" />
 								<field name="user_id" /> 
+								<field name="breakdown_sn" />
 				            </group>
 				        </group>
 
@@ -58,7 +59,7 @@
 			            <notebook>
 			            	<page string="Lines">
 					            <field name="line_ids">
-					            	<tree string="Detail Lines">
+					            	<tree string="Detail Lines" widget="one2many_list" context="{'group_by':'product_id'}">
 										<field name="product_id" />
 										<!--<field name="name" />-->
 										<field name="lot_id" />
@@ -68,6 +69,7 @@
 										<field name="qty_out" />		
 										<field name="qty_balance" />    
 										<field name="product_uom_id" />
+										<field name="stock_move_id" />
 						            </tree>
 						        </field>
 						    </page>
