@@ -64,7 +64,7 @@
 										<!--<field name="name" />-->
 										<field name="lot_id" />
 										<field name="expired_date" />
-										<field name="qty_start" />
+							w			<field name="qty_start" />
 										<field name="qty_in" />		
 										<field name="qty_out" />		
 										<field name="qty_balance" />    
