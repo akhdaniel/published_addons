@@ -14,10 +14,12 @@ class stock_card(osv.osv):
 	_rec_name 	= "product_id"
 	_columns 	= {
 		"ref"				: fields.char("Number"),
-		"date_start"		: fields.date("Date Start"),
-		"date_end"			: fields.date("Date End"),
-		"location_id"		: fields.many2one('stock.location', 'Location'),
-		"product_id"		: fields.many2one('product.product', 'Product'),
+		"date_start"		: fields.date("Date Start", required=True),
+		"date_end"			: fields.date("Date End", required=True),
+		"location_id"		: fields.many2one('stock.location', 'Location', required=True),
+		"product_id"		: fields.many2one('product.product', 'Product', required=True),
+		"lot_id"			: fields.many2one('stock.production.lot', 'Serial Number', required=True),
+		"expired_date"		: fields.related('lot_id', "life_date", string="Expired Date", type="date", relation="stock.production.lot"),
 		"line_ids"			: fields.one2many('vit.stock_card_line','stock_card_id','Details', ondelete="cascade"),
 		"state"				: fields.selection(SC_STATES,'Status',readonly=True,required=True),
 		"user_id"			: fields.many2one('res.users', 'Created'),
@@ -52,12 +54,26 @@ class stock_card(osv.osv):
 			qty_balance = 0.0
 			qty_in = 0.0
 			qty_out = 0.0
-			product_uom = False 
+			product_uom = False
 
+			### cari lot id moves
+			lot_id = sc.lot_id
+			sql2 = "select move_id from stock_quant_move_rel qm " \
+					"join stock_quant q on qm.quant_id = q.id "\
+					"where q.lot_id = %s" % (lot_id.id)
+			cr.execute(sql2)
+			res = cr.fetchall()
+			move_ids = []
+			if res and res[0]!= None:
+				for move in res:
+					move_ids.append(move[0])
 
 			## beginning balance in 
-			sql = "select sum(product_uom_qty) from stock_move where product_id=%s and date < '%s' and location_dest_id=%s and state='done'" %(
-				sc.product_id.id, sc.date_start, sc.location_id.id)
+			sql = "select sum(product_uom_qty) from stock_move where product_id=%s " \
+				  "and date < '%s' and location_dest_id=%s " \
+				  "and id in %s"\
+				  "and state='done'" %(
+				sc.product_id.id, sc.date_start, sc.location_id.id, tuple(move_ids))
 			cr.execute(sql)
 			res = cr.fetchone()
 			if res and res[0]!= None:
@@ -96,7 +112,8 @@ class stock_card(osv.osv):
 				('product_id', 	'=' , sc.product_id.id),
 				('date', 		'>=', sc.date_start),
 				('date', 		'<=', sc.date_end),
-				('state',		'=', 'done'),
+				('state',		'=',  'done'),
+				('id',			'in', move_ids)
 
 			], order='date asc', context=context)
 
@@ -118,6 +135,20 @@ class stock_card(osv.osv):
 
 				qty_balance = qty_start + qty_in - qty_out
 
+				name = sm.name if sm.name!=prod.display_name else ""
+				partner_name = sm.partner_id.name if sm.partner_id else ""
+				notes = sm.picking_id.note or ""
+				po_no = sm.group_id.name if sm.group_id else ""
+				origin = sm.origin or ""
+				finish_product = ""
+
+				if "MO" in origin:
+					mrp = self.pool.get('mrp.production')
+					mo_id = mrp.search(cr, uid, [("name","=",origin)], context=context)
+					mo = mrp.browse(cr, uid, mo_id, context=context)
+					finish_product = "%s:%s"%(mo[0].product_id.name,mo[0].batch_number) if mo else ""
+
+
 				data = {
 					"stock_card_id"	: sc.id,
 					"move_id"		: sm.id,
@@ -128,7 +159,7 @@ class stock_card(osv.osv):
 					"qty_out"		: qty_out,
 					"qty_balance"	: qty_balance,	
 					"product_uom_id": product_uom.id,	
-					"name"			: sm.name,
+					"name"			: "%s/ %s/ %s/ %s/ %s/ %s" % (name,finish_product,partner_name,po_no,notes,origin),
 				}
 				stock_card_line.create(cr, uid, data, context=context)
 				qty_start = qty_balance

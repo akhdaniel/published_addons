@@ -15,9 +15,9 @@ class stock_summary(osv.osv):
 	_rec_name = "location_id"
 	_columns = {
 		"ref"				: fields.char("Number"),
-		"date_start"		: fields.date("Date Start"),
-		"date_end"			: fields.date("Date End"),
-		"location_id"		: fields.many2one('stock.location', 'Location'),
+		"date_start"		: fields.date("Date Start", required=True),
+		"date_end"			: fields.date("Date End", required=True),
+		"location_id"		: fields.many2one('stock.location', 'Location', required=True),
 		"line_ids"			: fields.one2many( 'vit.stock_summary_line', 'stock_summary_id','Details', ondelete="cascade"),
 		"breakdown_sn"		: fields.boolean("Breakdown Serial Number?"),
 		"state"				: fields.selection( SC_STATES, 'Status',readonly= True,required=True),
