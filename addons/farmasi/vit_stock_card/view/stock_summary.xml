@@ -61,10 +61,9 @@
 					            <field name="line_ids">
 					            	<tree string="Detail Lines" widget="one2many_list" context="{'group_by':'product_id'}">
 										<field name="product_id" />
-										<!--<field name="name" />-->
 										<field name="lot_id" />
 										<field name="expired_date" />
-							w			<field name="qty_start" />
+										<field name="qty_start" />
 										<field name="qty_in" />		
 										<field name="qty_out" />		
 										<field name="qty_balance" />    
