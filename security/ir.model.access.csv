@@ -4,3 +4,5 @@ access_vit_stock_card_line,access_vit_stock_card_line,model_vit_stock_card_line,
 
 access_vit_stock_summary,access_vit_stock_summary,model_vit_stock_summary,stock.group_stock_user,1,1,1,1
 access_vit_stock_summary_line,access_vit_stock_summary_line,model_vit_stock_summary_line,stock.group_stock_user,1,1,1,1
+
+
