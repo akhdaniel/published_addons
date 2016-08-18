@@ -1,6 +1,8 @@
 {
 	"name": "Stock Card", 
 	"version": "1.0", 
+	'price': 49.99,
+	'currency': 'USD',
 	"depends": [
 		"stock"
 	], 
