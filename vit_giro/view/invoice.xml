@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="account_invoice_form_giro" model="ir.ui.view">
+            <field name="name">account.invoice_form_giro</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+                
+                <notebook position="inside">
+                    <page string="Giro">
+                        <field name="giro_invoice_ids">
+                            <tree string="Giro" editable="bottom">
+                                <field name="giro_id"/>
+                                <field name="amount"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+
+            </field>
+        </record>
+
+        <record id="invoice_supplier_form_giro" model="ir.ui.view">
+            <field name="name">account.invoice_form_giro</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_supplier_form"/>
+            <field name="arch" type="xml">
+
+                <notebook position="inside">
+                    <page string="Giro">
+                        <field name="giro_invoice_ids">
+                            <tree string="Giro" editable="bottom">
+                                <field name="giro_id"/>
+                                <field name="amount"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+
+            </field>
+        </record>
+
+    </data>
+</openerp>

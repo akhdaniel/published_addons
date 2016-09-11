@@ -1,0 +1,22 @@
+<openerp>
+	<data>
+
+		<record id="action_giro_list" model="ir.actions.act_window">
+			<field name="name">List Giro</field>
+			<field name="res_model">vit.giro</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<menuitem id="vit_giro_top_menu"
+			 name="Giro"
+			 sequence="10"
+			 parent="account.menu_finance"/>
+		<menuitem id="vit_giro_menu"
+			 action="action_giro_list"
+			 name="Giro"
+			 sequence="10"
+			 parent="vit_giro_top_menu"/>
+
+
+	</data>
+</openerp>

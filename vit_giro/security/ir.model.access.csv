@@ -1,0 +1,3 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_vit_giro,access_vit_giro,model_vit_giro,,1,0,0,0
+access_vit_giro_invioce,access_vit_giro_invioce,model_vit_giro_invioce,,1,0,0,0

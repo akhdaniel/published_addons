@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+        <record id="vit_giro_list" model="ir.ui.view">
+            <field name="name">vit_giro_list</field>
+            <field name="model">vit.giro</field>
+            <field name="arch" type="xml">
+                <tree string="Giro List">
+                    <field name='name' />
+                    <field name='due_date' />
+                    <field name='journal_id' />
+                    <field name='type' />
+                    <field name='receive_date' />
+                    <field name='clearing_date' />
+                    <field name='amount' />
+                    <field name='partner_id' />
+                    <field name='invoice_names' />
+                    <field name='state' />
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="vit_giro_form" model="ir.ui.view">
+            <field name="name">vit_giro_form</field>
+            <field name="model">vit.giro</field>
+            <field name="arch" type="xml">
+                <form string="Form Giro">
+
+                    <header>
+                        <button string="Confirm" icon="" states="draft" type="object" name="action_confirm" class="oe_highlight"/>
+                        <button string="Clearing" icon="" states="open" type="object" name="action_clearing" class="oe_highlight"/>
+                        <button string="Cancel" icon="" states="open" type="object" name="action_cancel"/>
+                        <button string="Reject" icon="" states="open" type="object" name="action_reject"/>
+
+                        <field name="state" widget="statusbar"/>
+
+                    </header>
+
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name='name' />
+                                <field name='journal_id' />
+                                <field name='type' />
+                                <field name='invoice_type' invisible="1" />
+                                <field name='partner_id' />
+                            </group>
+                            <group>
+                                <field name='due_date' />
+                                <field name='receive_date' />
+                                <field name='clearing_date' />
+                                <field name='amount' />
+                            </group>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Invoices">
+                                <field name="giro_invoice_ids">
+                                    <tree string="Invoices" editable="bottom">
+                                        <field name="invoice_id"
+                                               domain="[('partner_id','=', parent.partner_id),('state','=','open'),
+                                               ('type','=',parent.invoice_type)]"/>
+                                        <field name="amount_invoice"  />
+                                        <field name="amount"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    
+    </data>
+</openerp>
