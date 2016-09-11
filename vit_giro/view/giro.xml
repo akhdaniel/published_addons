@@ -74,7 +74,7 @@
         </record>
 
 
-        <record id="giro_filter" model="ir.ui.view">
+        <record id="vit_giro_filter" model="ir.ui.view">
             <field name="name">giro.filter</field>
             <field name="model">vit.giro</field>
             <field name="arch" type="xml">
@@ -88,15 +88,15 @@
                     <field name='partner_id' />
                     <field name='state' />
 
-                    <filter name="Due Today"
+                    <filter name="due_today" string="Due Today"
                             domain="[('due_date','=', time.strftime('%Y-%m-%d') )]"/>
 
                     <group expand="0" string="Group By">
-                        <filter string="Group by Journal" icon="terp-camera_test"
+                        <filter string="Journal" icon="terp-camera_test"
                                 name="journal_id" context="{'group_by':'journal_id'}"/>
-                        <filter string="Group by Type" icon="terp-camera_test"
+                        <filter string="Type" icon="terp-camera_test"
                                 name="type" context="{'group_by':'type'}"/>
-                        <filter string="Group by Partner" icon="terp-camera_test"
+                        <filter string="Partner" icon="terp-camera_test"
                                 name="partner_id" context="{'group_by':'partner_id'}"/>
                     </group>
                 </search>
