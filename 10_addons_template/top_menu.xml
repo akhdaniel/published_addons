@@ -1,0 +1,12 @@
+<openerp>
+	<data>
+
+		<menuitem id="menu_model"
+		 action="action_model_list"
+		 name="Model"
+		 sequence="20"
+		 />
+
+
+	</data>
+</openerp>
