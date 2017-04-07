@@ -8,9 +8,8 @@
 			<field name="inherit_id" ref="account.invoice_form"/>
 			<field name="arch" type="xml">
 
-				<xpath expr="//field[@name='account_id']" position="after">
-					<!-- Add your fields or attributes here -->
-					<field name="efaktur_id" />
+				<xpath expr="//field[@name='payment_term_id']" position="after">
+					<field name="efaktur_id" domain="[('terpakai','=',False)]"/>
 				</xpath>
 
 			</field>
@@ -24,7 +23,6 @@
 			<field name="arch" type="xml">
 
 				<xpath expr="//field[@name='number']" position="after">
-					<!-- Add your fields or attributes here -->
 					<field name="efaktur_id" />
 				</xpath>
 

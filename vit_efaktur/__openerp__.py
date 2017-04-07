@@ -13,6 +13,7 @@ Manage
 ======================================================================
 
 * Menambahkan master nomor eFaktur di menu accounting
+* Generate nomor efaktur via wizard (start to end)
 * Menambahkan field NPWP di Customer / res.partner
 * Me-link nomor efaktur ke Invoice , batasan hanya yang belum dipakai ynag bisa muncul
 * Export data Customer, Barang, Invoice ke format CSV efaktur
@@ -22,7 +23,8 @@ Manage
 	"data": [
 		"wizard/generate.xml",
 		"view/efaktur.xml",
-		#"view/invoice.xml",
+		"view/partner.xml",
+		"view/invoice.xml",
 	],
 	"installable": True,
 	"auto_install": False,
