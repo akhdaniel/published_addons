@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="product_product_tree_view_efaktur" model="ir.ui.view">
+            <field name="name">product_product_tree_view_efaktur</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_product_tree_view"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='barcode']" position="after">
+                    <!-- Add new fields here -->
+                    <field name="OB" />
+                    <field name="KODE_OBJEK" />
+                    <field name="NAMA" />
+                    <field name="HARGA_SATUAN" />
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</openerp>

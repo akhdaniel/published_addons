@@ -17,7 +17,7 @@ Manage
 * Menambahkan field NPWP di Customer / res.partner
 * Me-link nomor efaktur ke Invoice , batasan hanya yang belum dipakai ynag bisa muncul
 * Export data Customer, Barang, Invoice ke format CSV efaktur
-
+* Syarat: Enable Product Variants dari setting warehouse
 
 """,
 	"data": [
@@ -25,6 +25,7 @@ Manage
 		"view/efaktur.xml",
 		"view/partner.xml",
 		"view/invoice.xml",
+		"view/product.xml",
 	],
 	"installable": True,
 	"application": True,
