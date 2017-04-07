@@ -26,6 +26,8 @@ Manage
 		"view/partner.xml",
 		"view/invoice.xml",
 		"view/product.xml",
+		"view/faktur.xml",
+		"data/context_menu.xml",
 	],
 	"installable": True,
 	"application": True,
