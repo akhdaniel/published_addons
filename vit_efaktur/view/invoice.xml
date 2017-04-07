@@ -1,0 +1,35 @@
+<openerp>
+	<data>
+
+		<!-- Inherit form view to modify it -->
+		<record id= "invoice_efaktur_form" model="ir.ui.view">
+			<field name="name">invoice efaktur</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="arch" type="xml">
+
+				<xpath expr="//field[@name='account_id']" position="after">
+					<!-- Add your fields or attributes here -->
+					<field name="efaktur_id" />
+				</xpath>
+
+			</field>
+		</record>
+
+		<!-- Inherit tree view to modify it -->
+		<record id= "invoice_efaktur_tree" model="ir.ui.view">
+			<field name="name">invoice efaktur</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_tree"/>
+			<field name="arch" type="xml">
+
+				<xpath expr="//field[@name='number']" position="after">
+					<!-- Add your fields or attributes here -->
+					<field name="efaktur_id" />
+				</xpath>
+
+			</field>
+		</record> 
+
+	</data>
+</openerp>

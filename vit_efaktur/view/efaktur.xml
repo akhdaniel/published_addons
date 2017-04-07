@@ -1,0 +1,74 @@
+<openerp>
+    <data>
+
+        <record id="view_vit_efaktur_tree" model="ir.ui.view">
+            <field name="name">vit.efaktur.tree</field>
+            <field name="model">vit.efaktur</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="eFaktur">
+                    <field name="name"/>
+                    <field name="terpakai"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_vit_efaktur_form" model="ir.ui.view">
+            <field name="name">vit.efaktur.form</field>
+            <field name="model">vit.efaktur</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="eFaktur" version="7.0">
+                    <header>
+
+                    </header>
+
+                    <sheet>
+                        <group colspan="4">
+                            <field name="name"/>
+                            <field name="terpakai"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_vit_efaktur_view">
+            <field name="name">Nomor eFaktur</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit.efaktur</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_efaktur_view_form">
+            <field name="act_window_id" ref="act_open_vit_efaktur_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_vit_efaktur_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_efaktur_view_tree">
+            <field name="act_window_id" ref="act_open_vit_efaktur_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_vit_efaktur_tree"/>
+        </record>
+
+        <menuitem id="menu_vit_efaktur"
+                  parent="account.menu_finance_configuration"
+                  sequence="1"
+                  name="e-Faktur"
+                  />
+
+        <menuitem id="menu_vit_efaktur_nomor"
+                  parent="menu_vit_efaktur"
+                  sequence="1"
+                  name="Nomor eFaktur"
+                  action="act_open_vit_efaktur_view"/>
+
+
+    </data>
+</openerp>
