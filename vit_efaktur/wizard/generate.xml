@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="act_open_vit_efaktur_wizard" model="ir.actions.act_window">
+            <field name="name">Generate eFaktur</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit.generate_efaktur</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <record id="view_vit_generate_efaktur_form" model="ir.ui.view">
+            <field name="name">vit.generate_efaktur.form</field>
+            <field name="model">vit.generate_efaktur</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="eFaktur">
+                    <group colspan="4">
+                        <field name="start"/>
+                        <field name="end"/>
+                    </group>
+
+                    <footer>
+                        <button string="Confirm" name="confirm_button" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel" />
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+
+    </data>
+</openerp>
