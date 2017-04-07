@@ -27,5 +27,6 @@ Manage
 		"view/invoice.xml",
 	],
 	"installable": True,
+	"application": True,
 	"auto_install": False,
 }
