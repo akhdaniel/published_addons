@@ -20,14 +20,14 @@
 ##############################################################################
 
 {
-    "name": "MRP Cost",
+    "name": "MRP Production Cost",
     "version": "2.0",
     "author" : "vitraining.com",
     "website": "www.vitraining.com",
     "description": """
     
 Functionalities:
- - Calculates the production price as the actual price of the components
+ - Calculates the production cost price from the actual price of the components
  - Assigns a picking for consumed materials
 
 Based on deltatech_mrp_cost with modifications on the calculation method.
