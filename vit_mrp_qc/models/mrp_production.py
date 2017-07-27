@@ -34,7 +34,6 @@ class MrpProduction(models.Model):
         if the production.location_dest_id == Input
         """
         input_location = self.env.ref('stock.stock_location_company', raise_if_not_found=True)
-        import pdb; pdb.set_trace()
         if self.location_dest_id == input_location:
             move_list = []
             picking_type = self.env.ref('stock.picking_type_qc', raise_if_not_found=True)
