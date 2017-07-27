@@ -12,7 +12,7 @@
 
         <record id="stock.picking_type_qc" model="stock.picking.type">
             <field name="name">QC</field>
-            <field name="code">stock.picking.qc</field>
+            <field name="code">internal</field>
             <field name="sequence_id" ref="seq_picking_qc"/>
             <field name="default_location_src_id" ref="stock.stock_location_company"/>
             <field name="default_location_dest_id" ref="stock.stock_location_stock"/>
