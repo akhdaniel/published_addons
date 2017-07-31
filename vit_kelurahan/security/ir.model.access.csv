@@ -1,0 +1,4 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_vit_kelurahan,access_vit_kelurahan,model_vit_kelurahan,,1,0,0,0
+access_vit_kota,access_vit_kota,model_vit_kota,,1,0,0,0
+access_vit_kecamatan,access_vit_kecamatan,model_vit_kecamatan,,1,0,0,0

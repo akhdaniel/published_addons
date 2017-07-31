@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_kecamatan_tree" model="ir.ui.view">
+            <field name="name">kecamatan.tree</field>
+            <field name="model">vit.kecamatan</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Kecamatan">
+                    <field name="name"/>
+                    <field name="kota_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_kecamatan_form" model="ir.ui.view">
+            <field name="name">kecamatan.form</field>
+            <field name="model">vit.kecamatan</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Kecamatan" version="7.0">
+                    <group colspan="4">
+                        <field name="name"/>
+                        <field name="kota_id"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_kecamatan_view">
+            <field name="name">Kecamatan</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit.kecamatan</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_kecamatan_view_form">
+            <field name="act_window_id" ref="act_open_kecamatan_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_kecamatan_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_kecamatan_view_tree">
+            <field name="act_window_id" ref="act_open_kecamatan_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_kecamatan_tree"/>
+        </record>
+
+        <record id="view_kecamatan_search" model="ir.ui.view">
+            <field name="name">vit.kecamatan.search</field>
+            <field name="model">vit.kecamatan</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Kecamatan">
+                    <field name="name" select="True"/>
+
+                    <group expand="0" string="Group By">
+                        <filter string="Kota/Kab" icon="terp-camera_test"
+                                name="interface" context="{'group_by':'kota_id'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <menuitem id="menu_kecamatan"
+                  parent="sales_team.menu_localisation"
+                  sequence="20"
+                  action="act_open_kecamatan_view"/>
+
+    </data>
+</openerp>
