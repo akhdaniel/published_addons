@@ -1,0 +1,24 @@
+<openerp>
+	<data>
+        <record model="ir.actions.server" id="action_export_efaktur">
+            <field name="name">Export eFaktur</field>
+            <field name="model_id" ref="account.model_account_invoice"/>
+            <field name="code">
+if env.context.get('active_model') == 'account.invoice' and env.context.get('active_ids'):
+    for rec in model.browse(context['active_ids']):
+        rec.export_efaktur()
+            </field>
+        </record>
+
+        <record model="ir.values" id="export_efaktur">
+            <field name="model_id" ref="account.model_account_invoice" />
+            <field name="name">Export eFaktur</field>
+            <field name="key2">client_action_multi</field>
+            <field name="value" eval="'ir.actions.server,' +str(ref('action_export_efaktur'))" />
+            <field name="key">action</field>
+            <field name="model">account.invoice</field>
+        </record>
+
+		
+	</data>
+</openerp>

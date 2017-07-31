@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_partner_npwp_form" model="ir.ui.view">
+            <field name="name">res.partner.npwp.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <field name="property_account_position_id" position="after">
+                    <field name="npwp"/>
+                </field>
+                <field name="website" position="before">
+                    <field name="BLOK" />
+                    <field name="NOMOR" />
+                    <field name="RT" />
+                    <field name="RW" />
+                    <field name="KECAMATAN" />
+                    <field name="KELURAHAN" />
+                </field>
+            </field>
+        </record>
+
+
+        <record id="view_partner_tree_efaktur" model="ir.ui.view">
+            <field name="name">view_partner_tree_efaktur</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='email']" position="after">
+                    <field name="LT" />
+                    <field name="npwp" />
+                    <field name="NAMA" />
+                    <field name="JALAN" />
+                    <field name="BLOK" />
+                    <field name="NOMOR" />
+                    <field name="RT" />
+                    <field name="RW" />
+                    <field name="KECAMATAN" />
+                    <field name="KELURAHAN" />
+                    <field name="KABUPATEN" />
+                    <field name="PROPINSI" />
+                    <field name="KODE_POS" />
+                    <field name="NOMOR_TELEPON" />
+
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</openerp>
