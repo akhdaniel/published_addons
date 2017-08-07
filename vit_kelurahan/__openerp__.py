@@ -13,7 +13,7 @@ this module provide kecamatan, kelurahan, and state data for indonesian
 
 """,
 	"data": [
-		"data/res.country.state.csv",
+		#"data/res.country.state.csv",
 		"data/vit.kota.csv",
 		"data/vit.kecamatan.csv",
 		"data/vit.kelurahan.csv",
