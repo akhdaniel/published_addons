@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- Inherit Form View to Modify it -->
+        <record id="sale_order_with_po" model="ir.ui.view">
+            <field name="name">sale_order_with_po</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='payment_term_id']" position="after">
+                    <!-- Add your fields or attributes here -->
+                    <field name="po_id" invisible="[('state','not in',['draft','sent'])]" />
+                    <field name="margin"/>
+                </xpath>
+
+            </field>
+        </record>
+
+
+        <record id="sale_order_tree_with_po" model="ir.ui.view">
+            <field name="name">sale_order_tree_with_po</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='amount_total']" position="after">
+                    <!-- Add new fields here -->
+                    <field name="po_id"/>
+                    <field name="margin"/>
+                </xpath>
+
+            </field>
+        </record>
+
+
+
+
+    </data>
+</openerp>

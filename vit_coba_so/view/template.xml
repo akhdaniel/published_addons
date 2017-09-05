@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="template_id">
+            <meta charset="utf-8"/>
+            <t t-call="website.layout">
+
+                <t t-set="title"><t t-esc="tab"/>Template</t>
+
+                <div id="rdx_wrap1" class="oe_structure oe_editable"/>
+
+                <div class="container">
+
+                    <t t-if="message_error">
+                        <br />
+                        <div class="alert alert-danger">
+                            <t t-esc="message_error"/>
+                            <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                        </div>
+                    </t>
+                    <t t-if="message_success">
+                        <br />
+                        <div class="alert alert-success">
+                            <t t-esc="message_success"/>
+                            <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                        </div>
+                    </t>
+                    <t t-if="message_info">
+                        <br />
+                        <div class="alert alert-info">
+                            <t t-esc="message_info"/>
+                            <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                        </div>
+                    </t>
+
+                </div>
+
+                <div id="rdx_wrap2" class="oe_structure oe_editable"/>
+
+                <div class="container">
+                    <t t-if="content=='content'" t-call="module.content"></t>
+                </div>
+                <p style="color:white"><t t-raw="content"/></p>
+
+                <div id="rdx_wrap3" class="oe_structure oe_editable"/>
+
+            </t>
+        </template>
+
+        <template id="content">
+            <h2>template content</h2>
+        </template>
+
+    </data>
+</openerp>
