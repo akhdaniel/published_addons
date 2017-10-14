@@ -1,0 +1,16 @@
+<openerp>
+	<data>
+
+		<menuitem id="menu_dms_top"
+				  sequence="20"
+				  name="DMS"/>
+
+		<menuitem id="menu_dms_left"
+				  name="DMS Admin"
+				  parent="menu_dms_top"
+				  sequence="10"
+		 />
+
+
+	</data>
+</openerp>

@@ -1,0 +1,4 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"dms_document_admin","dms_document_admin","model_dms_document","group_dms_admin",1,1,1,1
+"dms_document_type_admin","dms_document_type_admin","model_dms_document_type","group_dms_admin",1,1,1,1
+"dms_directorate_admin","dms_directorate_admin","model_dms_directorate","group_dms_admin",1,1,1,1

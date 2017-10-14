@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- main homepage framework-->
+        <template id="index">
+            <meta charset="utf-8"/>
+            <t t-call="website.layout">
+
+                <t t-set="title"><t t-esc="tab"/>Template</t>
+
+                <div id="rdx_wrap1" class="oe_structure oe_editable"/>
+
+                <div class="container">
+
+                    <t t-if="message_error">
+                        <br />
+                        <div class="alert alert-danger">
+                            <t t-esc="message_error"/>
+                            <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                        </div>
+                    </t>
+                    <t t-if="message_success">
+                        <br />
+                        <div class="alert alert-success">
+                            <t t-esc="message_success"/>
+                            <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                        </div>
+                    </t>
+                    <t t-if="message_info">
+                        <br />
+                        <div class="alert alert-info">
+                            <t t-esc="message_info"/>
+                            <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                        </div>
+                    </t>
+
+                </div>
+
+                <div id="rdx_wrap2" class="oe_structure oe_editable"/>
+
+                <div class="container">
+                    <t t-if="content=='menu'" t-call="vit_dms.menu"></t>
+                    <t t-if="content=='document'" t-call="vit_dms.document"></t>
+                    <t t-if="content=='view'" t-call="vit_dms.view"></t>
+                </div>
+                <p style="color:white"><t t-raw="content"/></p>
+
+                <div id="rdx_wrap3" class="oe_structure oe_editable"/>
+
+            </t>
+        </template>
+
+        <!-- main menu -->
+        <template id="menu">
+
+            <h2>DMS menu</h2>
+
+            <div class="row">
+                <div class="col-md-8" style="min-height:400px">
+                    <div class='selector'>
+                        <ul class="my">
+                            <t t-set="i" t-value="1"/>
+                            <li t-foreach="directorates" t-as="d">
+                                <input t-attf-id='c#{i}' type='checkbox'/>
+                                <label t-attf-for='c#{i}'>
+                                    <a t-attf-href="/dms/document/#{slug(d)}"><t t-esc="d.name"/></a>
+                                </label>
+                                <t t-set="i" t-value="i+1"/>
+                            </li>
+                        </ul>
+                        <button>Click to toggle the menus</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                </div>
+
+            </div>
+
+            <script type="text/javascript">
+                $( function() {
+                    var nbOptions = 8;
+                    var angleStart = -360;
+
+                    // jquery rotate animation
+                    function rotate(li,d) {
+                        $({d:angleStart}).animate({d:d}, {
+                            step: function(now) {
+                                $(li)
+                                   .css({ transform: 'rotate('+now+'deg)' })
+                                   .find('label')
+                                      .css({ transform: 'rotate('+(-now)+'deg)' });
+                            }, duration: 0
+                        });
+                    }
+
+                    // show / hide the options
+                    function toggleOptions(s) {
+                        console.log('tote');
+                        $(s).toggleClass('open');
+                        var li = $(s).find('li');
+                        var deg = $(s).hasClass('half') ? 180/(li.length-1) : 360/li.length;
+                        for(var i=0; i&lt;li.length; i++) {
+                            var d = $(s).hasClass('half') ? (i*deg)-90 : i*deg;
+                            $(s).hasClass('open') ? rotate(li[i],d) : rotate(li[i],angleStart);
+                        }
+                    }
+
+                    $('.selector button').click(function(e) {
+                        toggleOptions($(this).parent());
+                    });
+
+                    setTimeout(function() { toggleOptions('.selector'); }, 100);
+                })
+            </script>
+
+        </template>
+
+        <!-- document list -->
+        <template id="document">
+
+            <div class="row">
+                <form t-attf-action="/dms/document/#{slug(department)}" method="POST">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="col-md-4">
+                        <p style="font-size:24pt;font-weight:bold"><t t-esc="department.name"/> documents list</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>search by
+                            <t t-foreach="document_types" t-as="t">
+                                <input type="radio" name="document_type_id" t-attf-value="#{t.id}" checked="checked" t-if="t.id==document_type_id">
+                                    <t t-esc="t.name"/>
+                                </input>
+                                <input type="radio" name="document_type_id" t-attf-value="#{t.id}" t-if="t.id!=document_type_id">
+                                    <t t-esc="t.name"/>
+                                </input>
+                            </t>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" name="search_key" t-attf-value="#{search_key}" class="form-control" style="width:60%;display:inline" placeholder="search..."></input>
+                        <button type="submit" class="btn btn-small btn-primary" style="width:20%" >Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row">
+                <table class="table table-striped">
+                    <tr>
+                        <th rowspan="2" class="col-md-1">No</th>
+                        <th rowspan="2" class="col-md-3">Nama File</th>
+                        <th colspan="3" class="col-md-4">Date</th>
+                        <th rowspan="2" class="col-md-1">Size</th>
+                        <th rowspan="2" class="col-md-3">Action</th>
+                    </tr>
+
+                    <tr>
+                        <th class="col-md-1">Upload</th>
+                        <th class="col-md-1">Start</th>
+                        <th class="col-md-1">End</th>
+                    </tr>
+
+                    <t t-set="i" t-value="0"/>
+                    <tr t-foreach="documents" t-as="d">
+                        <t t-set="i" t-value="i+1"/>
+                        <td><t t-esc="i"/> </td>
+                        <td><t t-esc="d.name"/> </td>
+                        <td><t t-esc="d.date_upload"/> </td>
+                        <td><t t-esc="d.date_start"/> </td>
+                        <td><t t-esc="d.date_end"/> </td>
+                        <td><t t-esc="d.filesize"/> </td>
+                        <td>
+                            <a class="btn btn-small btn-primary" style="width:30%" t-attf-href="/dms/view/#{slug(d)}">
+                                <i class="fa fa-file-text" aria-hidden="true"></i> VIEW
+                            </a>
+                            <a class="btn btn-small btn-primary" style="width:50%" t-attf-href="/dms/download/#{slug(d)}">
+                                <i class="fa fa-download" aria-hidden="true"></i> DOWNLOAD
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </template>
+
+        <!-- document view -->
+        <template id="view">
+
+            <div class="row">
+                <h2><t t-esc="document.name"/></h2>
+                <a href="/vit_dms/static/src/js/ViewerJS/#/vit_dms/static/sample.pdf"/>
+
+            </div>
+
+
+
+        </template>
+
+    </data>
+</openerp>
