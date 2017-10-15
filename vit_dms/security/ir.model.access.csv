@@ -5,3 +5,4 @@
 
 "dms_document_type_public","dms_document_type_user","model_dms_document_type","",1,0,0,0
 "muk_dms_directory_public","muk_dms_directory_public","muk_dms.model_muk_dms_directory","",1,0,0,0
+"muk_dms_file_public","muk_dms_file_public","muk_dms.model_muk_dms_file","",1,0,0,0
