@@ -20,7 +20,7 @@ class BaseWebsite(http.Controller):
 
     @http.route('/dms', type='http', auth="public", website=True)
     def index(self, **kw):
-        directories = http.request.env['muk_dms.directory'].search([])
+        directories = http.request.env['muk_dms.directory'].search([('is_root_directory','=',False)])
         values = {
             'content'       : 'menu',
             'directories'  : directories,
@@ -34,6 +34,7 @@ class BaseWebsite(http.Controller):
 
         document_type_id = int(kw.get('document_type_id',0))
         search_key = kw.get('search_key','')
+        extensions = ['.pdf','.odt','.ods','.odp']
 
         values = {
             'content'       : 'document',
@@ -42,6 +43,7 @@ class BaseWebsite(http.Controller):
             'document_type_id' : document_type_id,
             'directory'    : directory,
             'search_key'    : search_key,
+            'extensions'    : extensions,
         }
         return request.render('vit_dms.index', values)
 

@@ -167,10 +167,13 @@
                     <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
 
                     <div class="col-md-3">
-                        <p style="font-size:24pt;font-weight:bold"><t t-esc="directory.name"/></p>
+                        <p style="font-size:18pt;font-weight:bold">
+                            <a href="/dms"><i class="fa fa-home" aria-hidden="true"></i></a>
+                            <t t-esc="directory.name"/>
+                        </p>
                     </div>
                     <div class="col-md-5">
-                        <p><b>Search by</b>
+                        <p class="small"><b>Search by:</b><br/>
                             <label class="radio-inline">
                                 <input type="radio" name="document_type_id" value="0" checked="checked" t-if="document_type_id==0">
                                     All
@@ -195,8 +198,16 @@
 
                     <div class="col-md-4">
                         <input type="text" name="search_key" t-attf-value="#{search_key}" class="form-control" style="width:50%;display:inline" placeholder="search..."></input>
-                        <button type="submit" class="btn btn-xs btn-primary" >Search</button>
-                        <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#uploadModal">Upload</button>
+
+                        <button type="submit" class="btn btn-xs btn-primary" >
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            Search
+                        </button>
+
+                        <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#uploadModal">
+                            <i class="fa fa-upload" aria-hidden="true"></i>
+                            Upload
+                        </button>
                     </div>
                 </form>
             </div>
@@ -228,9 +239,16 @@
                         <td><t t-esc="d.date_end"/> </td>
                         <td><t t-esc="d.size"/> </td>
                         <td>
-                            <a class="btn btn-small btn-primary"
+                            <a t-if="d.extension in extensions"
+                               class="btn btn-small btn-primary"
                                data-toggle="modal" data-target="#previewModal"
-                               t-attf-data-url="/vit_dms/static/src/js/ViewerJS/index.html#/vit_dms/static/#{d.path}">
+                               t-attf-data-url="/vit_dms/static/src/js/ViewerJS/index.html#/vit_dms/static#{d.path}">
+                                <i class="fa fa-file-text" aria-hidden="true"></i> VIEW
+                            </a>
+                            <a t-if="d.extension not in extensions"
+                               class="btn btn-small btn-primary"
+                               data-toggle="modal" data-target="#previewModal"
+                               t-attf-data-url="/vit_dms/static#{d.path}">
                                 <i class="fa fa-file-text" aria-hidden="true"></i> VIEW
                             </a>
                         </td>
@@ -246,10 +264,14 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&amp;times;</button>
-                            <h4 class="modal-title">Preview Document</h4>
+                            <h4 class="modal-title">View Document</h4>
                         </div>
                         <div class="modal-body">
                             <iframe id="iframe" style="width:100%;min-height:450px"></iframe>
+                            <a href="#" target="new">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                Download
+                            </a>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -265,13 +287,14 @@
                         //get url attribute of the clicked element
                         var url = $(e.relatedTarget).data('url');
                         $(e.currentTarget).find('iframe').attr('src',url);
+                        $(e.currentTarget).find('a').attr('href',url);
                     });
                 });
             </script>
 
             <!-- upload modal -->
             <div id="uploadModal" class="modal fade" role="dialog">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog">
 
                     <!-- Modal content-->
                     <div class="modal-content">
@@ -280,7 +303,7 @@
                             <h4 class="modal-title">Upload Document</h4>
                         </div>
                         <div class="modal-body">
-                            <form action="/file-upload" class="dropzone">
+                            <form action="/dms/file-upload" class="dropzone">
                                 <div class="fallback">
                                     <input name="file" type="file" multiple="True" />
                                 </div>
