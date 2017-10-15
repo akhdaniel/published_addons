@@ -3,8 +3,8 @@
     <data>
 
         <record id="view_department_tree" model="ir.ui.view">
-            <field name="name">hr.department.tree</field>
-            <field name="model">hr.department</field>
+            <field name="name">dms.directorate.tree</field>
+            <field name="model">dms.directorate</field>
             <field name="type">tree</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
@@ -15,8 +15,8 @@
         </record>
 
         <record id="view_department_form" model="ir.ui.view">
-            <field name="name">hr.department.form</field>
-            <field name="model">hr.department</field>
+            <field name="name">dms.directorate.form</field>
+            <field name="model">dms.directorate</field>
             <field name="type">form</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
@@ -35,8 +35,8 @@
         </record>
 
         <record id="view_department_search" model="ir.ui.view">
-            <field name="name">hr.department.search</field>
-            <field name="model">hr.department</field>
+            <field name="name">dms.directorate.search</field>
+            <field name="model">dms.directorate</field>
             <field name="type">search</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
@@ -53,7 +53,7 @@
         <record model="ir.actions.act_window" id="act_open_department_view">
             <field name="name">Directorate</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">hr.department</field>
+            <field name="res_model">dms.directorate</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="search_view_id" ref="view_department_search"/>

@@ -76,7 +76,7 @@
         </record>
 
         <menuitem id="menu_document_type"
-                  parent="menu_dms_left"
+                  parent="muk_dms.cat_menu_muk_dms_documents"
                   sequence="20"
                   action="act_open_document_type_view"/>
 

@@ -20,17 +20,16 @@ class BaseWebsite(http.Controller):
 
     @http.route('/dms', type='http', auth="public", website=True)
     def index(self, **kw):
-        directorates = http.request.env['hr.department'].search([])
+        directories = http.request.env['muk_dms.directory'].search([])
         values = {
             'content'       : 'menu',
-            'directorates'  : directorates,
+            'directories'  : directories,
         }
         return request.render('vit_dms.index', values)
 
-
-    @http.route('/dms/document/<model("hr.department"):department>', type='http', auth="user", website=True)
-    def document(self, department, **kw):
-        documents = http.request.env['dms.document'].search([('department_id','=',department.id)])
+    @http.route('/dms/document/<model("muk_dms.directory"):directory>', type='http', auth="public", website=True)
+    def document(self, directory, **kw):
+        documents = http.request.env['muk_dms.file'].search([('directory','=',directory.id)])
         document_types = http.request.env['dms.document_type'].search([])
 
         document_type_id = int(kw.get('document_type_id',0))
@@ -41,12 +40,12 @@ class BaseWebsite(http.Controller):
             'documents'     : documents,
             'document_types': document_types,
             'document_type_id' : document_type_id,
-            'department'    : department,
+            'directory'    : directory,
             'search_key'    : search_key,
         }
         return request.render('vit_dms.index', values)
 
-    @http.route('/dms/view/<model("dms.document"):document>', type='http', auth="user", website=True)
+    @http.route('/dms/view/<model("muk_dms.file"):document>', type='http', auth="user", website=True)
     def view(self, document, **kw):
         values = {
             'content'   : 'view',

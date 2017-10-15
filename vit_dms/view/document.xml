@@ -2,83 +2,79 @@
 <openerp>
     <data>
 
-        <record id="view_document_tree" model="ir.ui.view">
+        <!--record id="view_document_tree" model="ir.ui.view">
             <field name="name">document.tree</field>
-            <field name="model">dms.document</field>
+            <field name="model">muk_dms.file</field>
             <field name="type">tree</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <tree string="Document">
+                    <field name="number"/>
                     <field name="name"/>
                     <field name="document_type_id"/>
-                    <field name="department_id"/>
-                    <field name="filename" widget="FieldBinaryFile"/>
+                    <field name="directory"/>
+                    <field name="name" widget="DMSFieldBinaryFile"/>
                     <field name="date_upload"/>
                     <field name="date_start"/>
                     <field name="date_end"/>
+                    <field name="state"/>
                 </tree>
             </field>
-        </record>
+        </record-->
 
-        <record id="view_document_form" model="ir.ui.view">
-            <field name="name">document.form</field>
-            <field name="model">dms.document</field>
-            <field name="type">form</field>
-            <field name="priority" eval="8"/>
+        <!-- Inherit Form View to Modify it -->
+        <record id="view_dms_file_form2" model="ir.ui.view">
+            <field name="name">view_dms_file_form2</field>
+            <field name="model">muk_dms.file</field>
+            <field name="inherit_id" ref="muk_dms.view_dms_file_form"/>
             <field name="arch" type="xml">
-                <form string="Document" version="7.0">
-                    <header>
-                        <button string="Publish" icon="fa-confirm" states="draft" type="object" name="action_publish"/>
-                        <button string="Set to Draft" icon="fa-cancel" states="publihsed" type="object" name="action_draft"/>
-                        <button string="Archive" icon="fa-archive" states="publihsed" type="object" name="action_archive"/>
 
-                        <field name="state" widget="statusbar"/>
-                    </header>
+                <header position="inside">
+                    <button string="Set to Current" icon="fa-check-square-o" states="draft" type="object" name="action_publish"/>
+                    <button string="Set to Draft" icon="fa-ban" states="published,archived" type="object" name="action_draft"/>
+                    <button string="Set to Void" icon="fa-archive" states="published" type="object" name="action_archive"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
 
-                    <sheet>
-                        <div class="oe_title">
-							<label for="name" class="oe_edit_only" string="Name" />
-							<h1>
-								<field name="name" />
-							</h1>
-						</div>
+                <field name="relational_path" position="before">
+                    <field name="title" />
+                    <field name="number" />
+                    <field name="document_type_id"/>
+                    <field name="date_upload"/>
+                    <field name="date_start"/>
+                    <field name="date_end"/>
+                </field>
 
-                        <group colspan="4">
-                            <group>
-                                <field name="document_type_id"/>
-                                <field name="department_id"/>
-                                <field name="filename"/>
-                            </group>
-                            <group>
-                                <field name="date_upload"/>
-                                <field name="date_start"/>
-                                <field name="date_end"/>
-                            </group>
-                        </group>
-                    </sheet>
-                </form>
+                <notebook position="inside">
+                    <page string="Description">
+                        <field name="description"/>
+                    </page>
+                </notebook>
+
             </field>
         </record>
+
 
         <record id="view_document_search" model="ir.ui.view">
             <field name="name">document.search</field>
-            <field name="model">dms.document</field>
+            <field name="model">muk_dms.file</field>
             <field name="type">search</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <search string="Document">
 
-                    <field name="name" select="True"/>
+                    <field name="title" select="True"/>
+                    <field name="number" select="True"/>
                     <field name="document_type_id"  select="True"/>
-                    <field name="department_id"  select="True"/>
+                    <field name="directory"  select="True"/>
                     <field name="date_upload"  select="True"/>
                     <field name="date_start"  select="True"/>
                     <field name="date_end"  select="True"/>
-                    <field name="filename"  select="True"/>
+                    <field name="name"  select="True"/>
 
                     <group expand="0" string="Group By">
                         <filter string="Document Type" icon="terp-camera_test" name="group_by_document_type_id" context="{'group_by':'document_type_id'}"/>
-                        <filter string="Directorate" icon="terp-camera_test" name="group_by_department_id" context="{'group_by':'department_id'}"/>
+                        <filter string="Directorate" icon="terp-camera_test" name="group_by_directory" context="{'group_by':'directory'}"/>
                         <filter string="Date Upload" icon="terp-camera_test" name="group_by_date_upload" context="{'group_by':'date_upload:day'}"/>
                         <filter string="Date Start" icon="terp-camera_test" name="group_by_date_start" context="{'group_by':'date_start:day'}"/>
                         <filter string="Date End" icon="terp-camera_test" name="group_by_date_end" context="{'group_by':'date_end:day'}"/>
@@ -88,35 +84,6 @@
             </field>
         </record>
 
-        <record model="ir.actions.act_window" id="act_open_document_view">
-            <field name="name">Document</field>
-            <field name="type">ir.actions.act_window</field>
-            <field name="res_model">dms.document</field>
-            <field name="view_type">form</field>
-            <field name="view_mode">tree,form</field>
-            <field name="search_view_id" ref="view_document_search"/>
-            <field name="domain">[]</field>
-            <field name="context">{}</field>
-        </record>
-
-        <record model="ir.actions.act_window.view" id="act_open_document_view_form">
-            <field name="act_window_id" ref="act_open_document_view"/>
-            <field name="sequence" eval="20"/>
-            <field name="view_mode">form</field>
-            <field name="view_id" ref="view_document_form"/>
-        </record>
-
-        <record model="ir.actions.act_window.view" id="act_open_document_view_tree">
-            <field name="act_window_id" ref="act_open_document_view"/>
-            <field name="sequence" eval="10"/>
-            <field name="view_mode">tree</field>
-            <field name="view_id" ref="view_document_tree"/>
-        </record>
-
-        <menuitem id="menu_document"
-                  parent="menu_dms_left"
-                  sequence="20"
-                  action="act_open_document_view"/>
 
     </data>
 </openerp>

@@ -4,7 +4,7 @@
 
 		<record id="seq_dms_document" model="ir.sequence">
 			<field name="name">Document</field>
-			<field name="code">dms.document</field>
+			<field name="code">muk_dms.file</field>
 			<field name="suffix">/DOC/%(month)s/%(year)s</field>
 			<field name="padding">3</field>
 			<field name="next_number_actual">1</field>

@@ -6,7 +6,8 @@
         <template id="vit_dms_assets_frontend" name="module web assets_frontend"
                   inherit_id="website.assets_frontend">
             <xpath expr="." position="inside">
-                <link rel="stylesheet" href="/vit_dms/static/src/css/my.css"/>
+                <link rel="stylesheet" href="/vit_dms/static/src/css/menu.css"/>
+                <link rel="stylesheet" href="/vit_dms/static/src/css/running.css"/>
                 <!--script type="text/javascript" src="/vit_dms/static/src/js/my.js"></script-->
             </xpath>
         </template>
