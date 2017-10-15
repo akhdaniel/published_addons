@@ -9,9 +9,10 @@
                 <link rel="stylesheet" href="/vit_dms/static/src/css/menu.css"/>
                 <link rel="stylesheet" href="/vit_dms/static/src/css/running.css"/>
                 <link rel="stylesheet" href="/vit_dms/static/src/css/basic.css"/>
-                <link rel="stylesheet" href="/vit_dms/static/src/css/dropzone-amd-module.css"/>
                 <link rel="stylesheet" href="/vit_dms/static/src/css/dropzone.css"/>
+
                 <script type="text/javascript" src="/vit_dms/static/src/js/dropzone.js"></script>
+                <script type="text/javascript" src="/vit_dms/static/src/js/dropzone-amd-module.js"></script>
             </xpath>
         </template>
     </data>
