@@ -38,7 +38,7 @@ class BaseWebsite(http.Controller):
         extensions = ['.pdf','.odt','.ods','.odp']
 
         is_login = request.env.user != request.website.user_id
-        is_admin = request.env.user == SUPERUSER_ID
+        is_admin = request.env.user.id == SUPERUSER_ID
 
         values = {
             'content'       : 'document',
