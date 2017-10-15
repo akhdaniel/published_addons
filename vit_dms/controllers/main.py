@@ -13,6 +13,7 @@ import werkzeug.wrappers
 import odoo
 from odoo import  http
 from odoo.http import request
+from odoo import SUPERUSER_ID
 
 logger = logging.getLogger(__name__)
 
@@ -36,6 +37,9 @@ class BaseWebsite(http.Controller):
         search_key = kw.get('search_key','')
         extensions = ['.pdf','.odt','.ods','.odp']
 
+        is_login = request.env.user != request.website.user_id
+        is_admin = request.env.user == SUPERUSER_ID
+
         values = {
             'content'       : 'document',
             'documents'     : documents,
@@ -44,6 +48,8 @@ class BaseWebsite(http.Controller):
             'directory'    : directory,
             'search_key'    : search_key,
             'extensions'    : extensions,
+            'is_login'      : is_login,
+            'is_admin'      : is_admin,
         }
         return request.render('vit_dms.index', values)
 

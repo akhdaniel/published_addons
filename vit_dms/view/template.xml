@@ -204,7 +204,7 @@
                             Search
                         </button>
 
-                        <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#uploadModal">
+                        <button t-if="is_admin" type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#uploadModal">
                             <i class="fa fa-upload" aria-hidden="true"></i>
                             Upload
                         </button>
@@ -238,7 +238,7 @@
                         <td><t t-esc="d.date_start"/> </td>
                         <td><t t-esc="d.date_end"/> </td>
                         <td><t t-esc="d.size"/> </td>
-                        <td>
+                        <td t-if="is_login">
                             <a t-if="d.extension in extensions"
                                class="btn btn-small btn-primary"
                                data-toggle="modal" data-target="#previewModal"
@@ -251,6 +251,12 @@
                                t-attf-data-url="/vit_dms/static#{d.path}">
                                 <i class="fa fa-file-text" aria-hidden="true"></i> VIEW
                             </a>
+                        </td>
+                        <td t-if="not is_login">
+                            <a class="btn btn-small btn-primary" onclick="alert('Please Sign in to View!')">
+                                <i class="fa fa-file-text" aria-hidden="true"></i> VIEW
+                            </a>
+
                         </td>
                     </tr>
                 </table>
