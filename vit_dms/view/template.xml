@@ -199,7 +199,7 @@
                     <div class="col-md-4">
                         <input type="text" name="search_key" t-attf-value="#{search_key}" class="form-control" style="width:50%;display:inline" placeholder="search..."></input>
 
-                        <button type="submit" class="btn btn-xs btn-primary" >
+                        <button type="submit" class="btn btn-xs btn-primary" id="search">
                             <i class="fa fa-search" aria-hidden="true"></i>
                             Search
                         </button>
@@ -233,7 +233,10 @@
                     <tr t-foreach="documents" t-as="d">
                         <t t-set="i" t-value="i+1"/>
                         <td><t t-esc="i"/> </td>
-                        <td><t t-esc="d.name"/> </td>
+                        <td>
+                            <t t-esc="d.name"/><br/>
+                            <i class="text-small"><t t-esc="d.document_type_id.name"/></i>
+                        </td>
                         <td><t t-esc="d.date_upload"/> </td>
                         <td><t t-esc="d.date_start"/> </td>
                         <td><t t-esc="d.date_end"/> </td>
@@ -286,17 +289,6 @@
 
                 </div>
             </div>
-            <script type="text/javascript">
-                $( function() {
-                    //triggered when modal is about to be shown
-                    $('#previewModal').on('show.bs.modal', function(e) {
-                        //get url attribute of the clicked element
-                        var url = $(e.relatedTarget).data('url');
-                        $(e.currentTarget).find('iframe').attr('src',url);
-                        $(e.currentTarget).find('a').attr('href',url);
-                    });
-                });
-            </script>
 
             <!-- upload modal -->
             <div id="uploadModal" class="modal fade" role="dialog">
@@ -309,7 +301,7 @@
                             <h4 class="modal-title">Upload Document</h4>
                         </div>
                         <div class="modal-body">
-                            <form action="/dms/file-upload" class="dropzone">
+                            <form action="/dms/upload" class="dropzone" id="myDropzone">
                                 <div class="fallback">
                                     <input name="file" type="file" multiple="True" />
                                 </div>
@@ -322,20 +314,39 @@
 
                 </div>
             </div>
+            <script type="text/javascript">
+                $( function() {
+                    //triggered when modal is about to be shown
+                    $('#previewModal').on('show.bs.modal', function(e) {
+                        //get url attribute of the clicked element
+                        var url = $(e.relatedTarget).data('url');
+                        $(e.currentTarget).find('iframe').attr('src',url);
+                        $(e.currentTarget).find('a').attr('href',url);
+                    });
+
+
+                    Dropzone.options.myDropzone = {
+                        paramName: "file",
+                        init: function() {
+                            this.on('sending',function(file, xhr, formData){
+                                formData.append("filesize", file.size);
+                                formData.append("callback", 'refresh'),
+                                formData.append("directory_id", '<t t-esc="directory.id" />'),
+                                formData.append("document_type_id", '<t t-esc="document_type_id" />'),
+                                formData.append("csrf_token", '<t t-esc="request.csrf_token()"/>')
+                            })
+                        },
+                    }
+
+                });
+
+                function refresh(){
+                    $('#search').click()
+                }
+            </script>
+
         </template>
 
-        <!-- document download -->
-        <template id="view">
-
-            <div class="row">
-                <h2><t t-esc="document.name"/></h2>
-                <div class="col-md-12">
-                    <t t-esc="document.name"/>
-                    <a t-attf-href="/vit_dms/static/src/js/ViewerJS/index.html#/vit_dms/static/#/vit_dms/static/#{document.relational_path}">view</a>
-                </div>
-            </div>
-
-        </template>
 
     </data>
 </openerp>
