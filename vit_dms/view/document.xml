@@ -101,6 +101,7 @@
                     <field name="name"  select="True"/>
 
                     <group expand="0" string="Group By">
+                        <filter string="Classification" icon="terp-camera_test" name="group_by_classification_id" context="{'group_by':'classification_id'}"/>
                         <filter string="Document Type" icon="terp-camera_test" name="group_by_document_type_id" context="{'group_by':'document_type_id'}"/>
                         <filter string="Directorate" icon="terp-camera_test" name="group_by_directory" context="{'group_by':'directory'}"/>
                         <filter string="Date Upload" icon="terp-camera_test" name="group_by_date_upload" context="{'group_by':'date_upload:day'}"/>
