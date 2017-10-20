@@ -30,7 +30,7 @@ Manage
 		"view/web_asset.xml",
 		"data/ir_sequence.xml",
 		#"data/hr.department.csv",
-		#"data/dms.directorate.csv",
+		"data/dms.classification.csv",
 		"data/dms.document_type.csv",
 		"view/document.xml",
 		"view/document_type.xml",

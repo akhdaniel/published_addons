@@ -40,15 +40,42 @@
                     <field name="title" />
                     <field name="number" />
                     <field name="document_type_id"/>
-                    <field name="date_upload"/>
-                    <field name="date_start"/>
-                    <field name="date_end"/>
                 </field>
 
                 <notebook position="inside">
+
+                    <page string="Details">
+                        <group>
+                            <group>
+                                <field name="date_start"/>
+                                <field name="date_end"/>
+                            </group>
+                            <group>
+                                <field name="uploader_id"/>
+                                <field name="write_uid"/>
+                                <field name="create_uid"/>
+                            </group>
+                            <group>
+                                <field name="date_upload"/>
+                                <field name="write_date"/>
+                                <field name="create_date"/>
+                            </group>
+                        </group>
+                    </page>
+
+                    <page string="Contributors">
+                        <field name="contributor_ids">
+                            <tree string="Contributors">
+                                <field name="partner_id"/>
+                                <field name="role"/>
+                            </tree>
+                        </field>
+                    </page>
+
                     <page string="Description">
                         <field name="description"/>
                     </page>
+
                 </notebook>
 
             </field>
