@@ -73,6 +73,14 @@
                         </field>
                     </page>
 
+                    <page string="References">
+                        <group colspan="4">
+                            <field name="reff_id"/>
+                        </group>
+                        <field name="related_ids" widget="many2many_tags"/>
+
+                    </page>
+
                     <page string="Description">
                         <field name="description"/>
                     </page>
