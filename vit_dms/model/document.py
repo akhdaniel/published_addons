@@ -31,7 +31,7 @@ class document(models.Model):
     contributor_ids     = fields.One2many(comodel_name="dms.contributor", inverse_name="file_id", string="Contributors", required=False, )
 
     reff_id             = fields.Many2one(comodel_name="dms.file", string="Reffernce", required=False, )
-    related_ids         = fields.Many2many(comodel_name="dms.file", string="Related Documents", )
+    related_ids         = fields.Many2many(comodel_name="dms.file", relation="dms_ref", column1="file1_id", column2="file2_id", string="Related Documents", )
 
     @api.model
     def create(self, vals):
