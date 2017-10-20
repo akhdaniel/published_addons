@@ -40,6 +40,7 @@
                     <field name="title" />
                     <field name="number" />
                     <field name="document_type_id"/>
+                    <field name="classification_id"/>
                 </field>
 
                 <notebook position="inside">
