@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="email_e0" model="mail.template">
+            <field name="name">Akta Perjanjian Sewa Gedung</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">Akta Perjanjian Sewa Gedung</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e1" model="mail.template">
+            <field name="name">TDP</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">TDP</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e2" model="mail.template">
+            <field name="name">HO</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">HO</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e3" model="mail.template">
+            <field name="name">Izin Reklame</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">Izin Reklame</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e4" model="mail.template">
+            <field name="name">SKDP</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">SKDP</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e5" model="mail.template">
+            <field name="name">WLTK</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">WLTK</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e6" model="mail.template">
+            <field name="name">SITU</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">SITU</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+        <record id="email_e8" model="mail.template">
+            <field name="name">NPWP</field>
+            <field name="model_id" ref="vit_dms.model_dms_legal_document_rule"/>
+            <field name="subject">NPWP</field>
+            <field name="email_from"><![CDATA[System Admin <noreply@womfinance.com>]]></field>
+            <field name="body_html"><![CDATA[content]]></field>
+            <field name="email_to">${object.email|safe}</field>
+        </record>
+
+    </data>
+</openerp>

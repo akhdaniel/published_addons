@@ -18,10 +18,10 @@ class document(models.Model):
     classification_id   = fields.Many2one(comodel_name="dms.classification", string="Classification", required=True, default=_get_default_classification)
 
     date_upload         = fields.Datetime(string="Date Upload", required=False, default=lambda self: time.strftime("%Y-%m-%d %H:%M:%S"))
-    date_start          = fields.Date(string="Date Start", required=True, )
-    date_end            = fields.Date(string="Date End", required=True, )
-    date_published      = fields.Date(string="Date Published", required=True, )
-    date_archived       = fields.Date(string="Date Archived", required=True, )
+    date_start          = fields.Date(string="Date Start", required=False, )
+    date_end            = fields.Date(string="Date End", required=False, )
+    date_published      = fields.Date(string="Date Published", required=False, )
+    date_archived       = fields.Date(string="Date Archived", required=False, )
 
     uploader_id         = fields.Many2one(comodel_name="res.users", string="Uploader", required=False, )
 
@@ -30,7 +30,7 @@ class document(models.Model):
 
     contributor_ids     = fields.One2many(comodel_name="dms.contributor", inverse_name="file_id", string="Contributors", required=False, )
 
-    reff_id             = fields.Many2one(comodel_name="muk_dms.file", string="Reffernce", required=False, )
+    reff_id             = fields.Many2one(comodel_name="muk_dms.file", string="Refference Doc.", required=False, )
     related_ids         = fields.Many2many(comodel_name="muk_dms.file", relation="dms_ref", column1="file1_id", column2="file2_id", string="Related Documents", )
 
     @api.model

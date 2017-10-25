@@ -1,8 +1,8 @@
 id,name
-dms_directorate_1,Operations
-dms_directorate_2,Marketing
-dms_directorate_3,Non Directorate
-dms_directorate_4,Finance
-dms_directorate_5,Risk
-dms_directorate_6,Form
+dms_directorate_1,Operations,TRUE
+dms_directorate_2,Marketing,TRUE
+dms_directorate_3,Non Directorate,TRUE
+dms_directorate_4,Finance,TRUE
+dms_directorate_5,Risk,TRUE
+dms_directorate_6,Form,TRUE
 

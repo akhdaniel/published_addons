@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_legal_branch_tree" model="ir.ui.view">
+            <field name="name">dms.legal_branch.tree</field>
+            <field name="model">dms.legal_branch</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Branch">
+                    <field name="name"/>
+                    <field name="region_id" />
+                    <field name="legal_status_grade_id" />
+                    <field name="legal_status_bisnis_grade_id" />
+                    <field name="legal_hasil_penyesuaian_id" />
+                    <field name="address" />
+                    <field name="state_id" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_legal_branch_form" model="ir.ui.view">
+            <field name="name">dms.legal_branch.form</field>
+            <field name="model">dms.legal_branch</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Branch" version="7.0">
+                    <header>
+
+                    </header>
+
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"
+                                 string="Name" />
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+
+                        <group colspan="4">
+                            <group>
+                                <field name="region_id" />
+                                <field name="address" />
+                                <field name="state_id" />
+                            </group>
+                            <group>
+                                <field name="legal_status_grade_id" />
+                                <field name="legal_status_bisnis_grade_id" />
+                                <field name="legal_hasil_penyesuaian_id" />
+                            </group>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Legal Documents">
+                                <field name="legal_ids">
+                                    <tree string="Legal Documents">
+                                        <field name="jenis_dokumen_id" />
+                                        <field name="name" />
+                                        <field name="tanggal_surat" />
+                                        <field name="alamat_surat" />
+                                        <field name="masa_berlaku" />
+                                        <field name="status" />
+                                        <field name="keterangan" />
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_legal_branch_search" model="ir.ui.view">
+            <field name="name">dms.legal_branch.search</field>
+            <field name="model">dms.legal_branch</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Branch">
+                    <field name="name"/>
+                    <field name="region_id" />
+                    <field name="legal_status_grade_id" />
+                    <field name="legal_status_bisnis_grade_id" />
+                    <field name="legal_hasil_penyesuaian_id" />
+                    <field name="address" />
+                    <field name="state_id" />
+                    <group expand="0" string="Group By">
+                        <filter string="Region" icon="terp-camera_test" name="group_by_region_id" context="{'group_by':'region_id'}"/>
+                        <filter string="Legal Status Grade" icon="terp-camera_test" name="group_by_legal_status_grade_id" context="{'group_by':'legal_status_grade_id'}"/>
+                        <filter string="Legal Status bisnis Grade" icon="terp-camera_test" name="group_by_legal_status_bisnis_grade_id" context="{'group_by':'legal_status_bisnis_grade_id'}"/>
+                        <filter string="Hasil Penyesuaian" icon="terp-camera_test" name="group_by_legal_hasil_penyesuaian_id" context="{'group_by':'legal_hasil_penyesuaian_id'}"/>
+                        <filter string="Provinsi" icon="terp-camera_test" name="group_by_state_id" context="{'group_by':'state_id'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_legal_branch_view">
+            <field name="name">Branch</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">dms.legal_branch</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_legal_branch_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_legal_branch_view_form">
+            <field name="act_window_id" ref="act_open_legal_branch_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_legal_branch_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_legal_branch_view_tree">
+            <field name="act_window_id" ref="act_open_legal_branch_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_legal_branch_tree"/>
+        </record>
+
+        <menuitem id="menu_legal_branch"
+                  parent="muk_dms.cat_menu_muk_dms_documents"
+                  sequence="20"
+                  action="act_open_legal_branch_view"/>
+    
+    </data>
+</openerp>

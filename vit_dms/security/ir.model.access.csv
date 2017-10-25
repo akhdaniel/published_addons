@@ -7,3 +7,13 @@
 "muk_dms_directory_public","muk_dms_directory_public","muk_dms.model_muk_dms_directory","",1,0,0,0
 "muk_dms_file_public","muk_dms_file_public","muk_dms.model_muk_dms_file","",1,0,0,0
 "dms_classification_public","dms_classification_public","model_dms_classification","",1,0,0,0
+access_dms_legal_status_bisnis_grade,access_dms_legal_status_bisnis_grade,model_dms_legal_status_bisnis_grade,,1,0,0,0
+access_dms_legal_status_grade,access_dms_legal_status_grade,model_dms_legal_status_grade,,1,0,0,0
+access_dms_legal_document_type,access_dms_legal_document_type,model_dms_legal_document_type,,1,0,0,0
+access_dms_legal_region,access_dms_legal_region,model_dms_legal_region,,1,0,0,0
+access_dms_legal,access_dms_legal,model_dms_legal,,1,0,0,0
+access_dms_legal_hasil_penyesuaian,access_dms_legal_hasil_penyesuaian,model_dms_legal_hasil_penyesuaian,,1,0,0,0
+access_dms_contributor,access_dms_contributor,model_dms_contributor,,1,0,0,0
+access_dms_legal_branch,access_dms_legal_branch,model_dms_legal_branch,,1,0,0,0
+access_dms_legal_document_rule,access_dms_legal_document_rule,model_dms_legal_document_rule,,1,0,0,0
+access_dms_rule_receiver,access_dms_rule_receiver,model_dms_rule_receiver,,1,0,0,0

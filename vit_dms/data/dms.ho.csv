@@ -1,0 +1,171 @@
+ID,Branch,Jenis Dokumen,Nomor,Masa Berlaku,Keterangan,Status
+ho1,Ciputat,HO,xxxx,,,EXPIRED
+ho2,Daanmogot,HO,xxxx,,,EXPIRED
+ho3,Head Office,HO,xxxx,,,
+ho4,Kemayoran,HO,xxxx,2019-06-07,Ada,VALID
+ho5,Rawamangun,HO,xxxx,,,EXPIRED
+ho6,Cikupa,HO,xxxx,,,EXPIRED
+ho7,Ciledug,HO,xxxx,,,EXPIRED
+ho8,Mauk,HO,xxxx,,,EXPIRED
+ho9,Serang,HO,xxxx,,,EXPIRED
+ho10,Tangerang,HO,xxxx,,,EXPIRED
+ho11,Labuan,HO,xxxx,,,EXPIRED
+ho12,Rangkasbitung,HO,xxxx,,,EXPIRED
+ho13,Balaraja,HO,xxxx,,,EXPIRED
+ho14,Bekasi,HO,xxxx,,,EXPIRED
+ho15,Cikarang,HO,xxxx,,,EXPIRED
+ho16,Karawang ,HO,xxxx,,,EXPIRED
+ho17,Depok,HO,xxxx,,Ada,VALID
+ho18,Bandung 2,HO,xxxx,,Ada,VALID
+ho19,Cirebon,HO,xxxx,2016-05-07,Ada,EXPIRED
+ho20,Jatibarang,HO,xxxx,2020-08-26,Ada,VALID
+ho21,Sukabumi,HO,xxxx,2019-12-23,Ada,VALID
+ho22,Subang,HO,xxxx,2018-12-15,Ada,VALID
+ho23,Sumedang,HO,xxxx,2016-08-21,Ada,EXPIRED
+ho24,Tasikmalaya,HO,xxxx,2017-10-23,Ada,EXPIRED
+ho25,Garut,HO,xxxx,2017-05-06,Ada,EXPIRED
+ho26,Kuningan,HO,xxxx,2020-03-07,Ada,VALID
+ho27,Cimahi,HO,xxxx,,,EXPIRED
+ho28,Cianjur,HO,xxxx,2013-06-10,Ada,EXPIRED
+ho29,Purwakarta,HO,xxxx,,,EXPIRED
+ho30,Majalengka,HO,xxxx,,,EXPIRED
+ho31,Pelabuhan Ratu,HO,xxxx,,,EXPIRED
+ho32,Pamanukan,HO,xxxx,,,EXPIRED
+ho33,Patrol,HO,xxxx,,,EXPIRED
+ho34,Soreang,HO,xxxx,,,EXPIRED
+ho35,Bogor,HO,xxxx,,,EXPIRED
+ho36,Cileungsi,HO,xxxx,,,EXPIRED
+ho37,Leuwiliang,HO,xxxx,,,EXPIRED
+ho38,Jonggol,HO,xxxx,,,EXPIRED
+ho39,Cibinong,HO,xxxx,,,EXPIRED
+ho40,Brebes,HO,xxxx,,,EXPIRED
+ho41,Kudus,HO,xxxx,,,EXPIRED
+ho42,Pekalongan,HO,xxxx,,,EXPIRED
+ho43,Semarang,HO,xxxx,,,EXPIRED
+ho44,Tegal,HO,xxxx,,Ada,EXPIRED
+ho45,Pemalang,HO,xxxx,,,EXPIRED
+ho46,Purwodadi,HO,xxxx,2015-03-08,Ada,EXPIRED
+ho47,Salatiga,HO,xxxx,,,EXPIRED
+ho48,Blora,HO,xxxx,,,EXPIRED
+ho49,Bumi Ayu,HO,xxxx,,,EXPIRED
+ho50,Jepara,HO,xxxx,,,EXPIRED
+ho51,Pati,HO,xxxx,,,EXPIRED
+ho52,Ungaran,HO,xxxx,,,EXPIRED
+ho53,Weleri,HO,xxxx,,,EXPIRED
+ho54,Ambarawa,HO,xxxx,,,EXPIRED
+ho55,Limpung,HO,xxxx,,,EXPIRED
+ho56,Kajen,HO,xxxx,,,EXPIRED
+ho57,Boja,HO,xxxx,,,EXPIRED
+ho58,Cepu,HO,xxxx,,,EXPIRED
+ho59,Randudongkal,HO,xxxx,,,EXPIRED
+ho60,Purwokerto,HO,xxxx,,Ada,EXPIRED
+ho61,Solo,HO,xxxx,,,EXPIRED
+ho62,Yogyakarta,HO,xxxx,,,EXPIRED
+ho63,Cilacap,HO,xxxx,,,EXPIRED
+ho64,Klaten,HO,xxxx,2020-02-17,Ada,VALID
+ho65,Cawas,HO,xxxx,,,EXPIRED
+ho66,Magelang,HO,xxxx,,,EXPIRED
+ho67,Wonogiri,HO,xxxx,,,EXPIRED
+ho68,Banjarnegara,HO,xxxx,,,EXPIRED
+ho69,Gombong,HO,xxxx,,,EXPIRED
+ho70,Kebumen,HO,xxxx,2018-03-11,Ada,VALID
+ho71,Majenang,HO,xxxx,,,EXPIRED
+ho72,Purbalingga,HO,xxxx,,,EXPIRED
+ho73,Purworejo ,HO,xxxx,,,EXPIRED
+ho74,Sragen,HO,xxxx,,,EXPIRED
+ho75,Temanggung,HO,xxxx,,,EXPIRED
+ho76,Wonosari,HO,xxxx,,,EXPIRED
+ho77,Wonosobo,HO,xxxx,,,EXPIRED
+ho78,Bantul,HO,xxxx,,,EXPIRED
+ho79,Boyolali,HO,xxxx,,,EXPIRED
+ho80,Depok - Yogyakarta,HO,xxxx,,,EXPIRED
+ho81,Karanganyar,HO,xxxx,,,EXPIRED
+ho82,Sidareja,HO,xxxx,,,EXPIRED
+ho83,Banyuwangi,HO,xxxx,,,EXPIRED
+ho84,Blitar,HO,xxxx,2020-11-16,Ada,VALID
+ho85,Bojonegoro,HO,xxxx,,,EXPIRED
+ho86,Gresik,HO,xxxx,,,EXPIRED
+ho87,Jombang,HO,xxxx,,Ada,VALID
+ho88,Kediri,HO,xxxx,,,EXPIRED
+ho89,Madiun,HO,xxxx,,,EXPIRED
+ho90,Malang,HO,xxxx,,,EXPIRED
+ho91,Mojokerto,HO,xxxx,,,EXPIRED
+ho92,Sidoarjo,HO,xxxx,,,EXPIRED
+ho93,Surabaya Timur,HO,xxxx,,,EXPIRED
+ho94,Tulung Agung,HO,xxxx,2017-09-19,Ada,EXPIRED
+ho95,Jember,HO,xxxx,,,EXPIRED
+ho96, ,HO,xxxx,,Ada,VALID
+ho97,Pasuruan,HO,xxxx,,,EXPIRED
+ho98,Tuban,HO,xxxx,,,EXPIRED
+ho99,Denpasar,HO,xxxx,,,EXPIRED
+ho100,Mataram,HO,xxxx,,,EXPIRED
+ho101,Benowo-Surabaya,HO,xxxx,,,EXPIRED
+ho102,Genteng,HO,xxxx,,,EXPIRED
+ho103,Kepanjen,HO,xxxx,,,EXPIRED
+ho104,Krian,HO,xxxx,,,EXPIRED
+ho105,Lamongan,HO,xxxx,,,EXPIRED
+ho106,Magetan,HO,xxxx,,,EXPIRED
+ho107,Mojosari,HO,xxxx,,,EXPIRED
+ho108,Ngawi,HO,xxxx,,,EXPIRED
+ho109,Ponorogo,HO,xxxx,,,EXPIRED
+ho110,Babat ,HO,xxxx,,,EXPIRED
+ho111,Singaraja,HO,xxxx,,,EXPIRED
+ho112,Gianyar,HO,xxxx,,,EXPIRED
+ho113,Selong,HO,xxxx,,,EXPIRED
+ho114,Tabanan,HO,xxxx,,,EXPIRED
+ho115,Batam,HO,xxxx,,,EXPIRED
+ho116,Binjai,HO,xxxx,2018-02-23,Ada,VALID
+ho117,Lubuk Pakam,HO,xxxx,,Ada,EXPIRED
+ho118,Medan,HO,xxxx,,,EXPIRED
+ho119,Padang,HO,xxxx,,,EXPIRED
+ho120,Pekanbaru,HO,xxxx,,,EXPIRED
+ho121,Tanjung Pinang,HO,xxxx,,,EXPIRED
+ho122,Perawang,HO,xxxx,,,EXPIRED
+ho123,Dumai,HO,xxxx,2018-02-12,Ada,VALID
+ho124,Duri,HO,xxxx,,,EXPIRED
+ho125,Kerinci,HO,xxxx,,,EXPIRED
+ho126,Padang Sidempuan,HO,xxxx,2018-12-23,Ada,VALID
+ho127,Rantau Prapat,HO,xxxx,,,EXPIRED
+ho128,Tebing Tinggi,HO,xxxx,,,EXPIRED
+ho129,Siak,HO,xxxx,,,EXPIRED
+ho130,Air Molek,HO,xxxx,,,EXPIRED
+ho131,Bangkinang,HO,xxxx,,,EXPIRED
+ho132,Lipat Kain,HO,xxxx,,,EXPIRED
+ho133,Pangkalan Brandan,HO,xxxx,,,EXPIRED
+ho134,Payakumbuh,HO,xxxx,,,EXPIRED
+ho135,Kandis,HO,xxxx,,,EXPIRED
+ho136,Stabat,HO,xxxx,,,EXPIRED
+ho137,Tembung,HO,xxxx,,,EXPIRED
+ho138,Ujung Tanjung,HO,xxxx,,,EXPIRED
+ho139,Bengkulu,HO,xxxx,,,EXPIRED
+ho140,Betung,HO,xxxx,2016-03-28,Ada,EXPIRED
+ho141,Lubuk Linggau,HO,xxxx,,,EXPIRED
+ho142,Lampung,HO,xxxx,2021-08-29,Ada,VALID
+ho143,Prabumulih,HO,xxxx,,,EXPIRED
+ho144,Baturaja,HO,xxxx,,,EXPIRED
+ho145,Kayu Agung,HO,xxxx,,,EXPIRED
+ho146,Jambi,HO,xxxx,,,EXPIRED
+ho147,Palembang,HO,xxxx,,,EXPIRED
+ho148,Arga Makmur,HO,xxxx,,,EXPIRED
+ho149,Belitang,HO,xxxx,,,EXPIRED
+ho150,Curup,HO,xxxx,,,EXPIRED
+ho151,Kuala Tungkal,HO,xxxx,,,EXPIRED
+ho152,Lahat,HO,xxxx,,,EXPIRED
+ho153,Metro,HO,xxxx,,,EXPIRED
+ho154,Muara Enim,HO,xxxx,2021-03-15,Ada,VALID
+ho155,Tembesi,HO,xxxx,,,EXPIRED
+ho156,Tugu Mulyo,HO,xxxx,,,EXPIRED
+ho157,Sei Lilin,HO,xxxx,,,EXPIRED
+ho158,Banjarmasin,HO,xxxx,,,EXPIRED
+ho159,Samarinda,HO,xxxx,,,EXPIRED
+ho160,Tenggarong,HO,xxxx,,,EXPIRED
+ho161,Tanjung Kalsel,HO,xxxx,,,EXPIRED
+ho162,Palopo,HO,xxxx,2018-01-27,Ada,VALID
+ho163,Gorontalo,HO,xxxx,,,EXPIRED
+ho164,Makassar,HO,xxxx,2016-08-11,Ada,EXPIRED
+ho165,Palu,HO,xxxx,,,EXPIRED
+ho166,Pare-pare,HO,xxxx,,,EXPIRED
+ho167,Barabai,HO,xxxx,2017-05-22,Ada,EXPIRED
+ho168,Pangkep,HO,xxxx,,,EXPIRED
+ho169,Pinrang,HO,xxxx,,,EXPIRED
+ho170,Sengkang,HO,xxxx,,,EXPIRED

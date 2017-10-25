@@ -1,4 +1,10 @@
 import document_type
 import document
 import classification
-
+import legal
+import legal_document_type
+import legal_region
+import legal_status_grade
+import legal_hasil_penyesuaian
+import legal_status_bisnis_grade
+import legal_branch

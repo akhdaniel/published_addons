@@ -1,0 +1,171 @@
+ID,Branch,Jenis Dokumen,Nomor,Masa Berlaku,Keterangan,Status,Alamat
+tdp1,Ciputat,TDP,xxxx,2018-08-13,ada,VALID,xxxx
+tdp2,Daanmogot,TDP,xxxx,2018-09-16,ada,VALID,xxxx
+tdp3,Head Office,TDP,xxxx,2021-07-21,Ada,VALID,xxxx
+tdp4,Kemayoran,TDP,xxxx,2020-03-25,Ada,VALID,xxxx
+tdp5,Rawamangun,TDP,xxxx,2018-09-15,Ada,VALID,xxxx
+tdp6,Cikupa,TDP,xxxx,2018-08-07,Ada,VALID,xxxx
+tdp7,Ciledug,TDP,xxxx,2018-09-10,Ada,VALID,xxxx
+tdp8,Mauk,TDP,xxxx,2019-09-30,Ada,VALID,xxxx
+tdp9,Serang,TDP,xxxx,2020-03-17,Ada,VALID,xxxx
+tdp10,Tangerang,TDP,xxxx,2020-04-30,Ada,VALID,xxxx
+tdp11,Labuan,TDP,xxxx,2021-06-17,Ada,VALID,xxxx
+tdp12,Rangkasbitung,TDP,xxxx,2021-10-04,Ada,VALID,xxxx
+tdp13,Balaraja,TDP,xxxx,2021-03-18,Ada,VALID,xxxx
+tdp14,Bekasi,TDP,xxxx,2018-07-18,Ada,VALID,xxxx
+tdp15,Cikarang,TDP,xxxx,2020-08-02,Ada,VALID,xxxx
+tdp16,Karawang ,TDP,xxxx,2017-04-25,Ada,EXPIRED,xxxx
+tdp17,Depok,TDP,xxxx,2020-05-07,Ada,VALID,xxxx
+tdp18,Bandung 2,TDP,xxxx,2019-01-13,Ada,VALID,xxxx
+tdp19,Cirebon,TDP,xxxx,2019-10-01,Ada,VALID,xxxx
+tdp20,Jatibarang,TDP,xxxx,2020-08-27,Ada,VALID,xxxx
+tdp21,Sukabumi,TDP,xxxx,2020-07-22,Ada,VALID,xxxx
+tdp22,Subang,TDP,xxxx,2019-12-02,ada,VALID,xxxx
+tdp23,Sumedang,TDP,xxxx,2020-04-23,Ada,VALID,xxxx
+tdp24,Tasikmalaya,TDP,xxxx,2019-09-29,Ada,VALID,xxxx
+tdp25,Garut,TDP,xxxx,2020-05-11,Ada,VALID,xxxx
+tdp26,Kuningan,TDP,xxxx,2019-12-17,Ada,VALID,xxxx
+tdp27,Cimahi,TDP,xxxx,2018-02-19,Ada,VALID,xxxx
+tdp28,Cianjur,TDP,xxxx,2020-11-30,Ada,VALID,xxxx
+tdp29,Purwakarta,TDP,xxxx,2021-02-14,ada,VALID,xxxx
+tdp30,Majalengka,TDP,xxxx,2018-08-15,Ada,VALID,xxxx
+tdp31,Pelabuhan Ratu,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp32,Pamanukan,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp33,Patrol,TDP,xxxx,2020-08-18,Ada,VALID,xxxx
+tdp34,Soreang,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp35,Bogor,TDP,xxxx,2018-07-24,Ada,VALID,xxxx
+tdp36,Cileungsi,TDP,xxxx,2019-10-14,ada,VALID,xxxx
+tdp37,Leuwiliang,TDP,xxxx,2021-12-28,Ada,VALID,xxxx
+tdp38,Jonggol,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp39,Cibinong,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp40,Brebes,TDP,xxxx,2019-08-31,Ada,VALID,xxxx
+tdp41,Kudus,TDP,xxxx,2019-09-06,Ada,VALID,xxxx
+tdp42,Pekalongan,TDP,xxxx,2020-10-12,Ada,VALID,xxxx
+tdp43,Semarang,TDP,xxxx,2018-07-16,Ada,VALID,xxxx
+tdp44,Tegal,TDP,xxxx,2021-04-07,Ada,VALID,xxxx
+tdp45,Pemalang,TDP,xxxx,2019-09-03,Ada,VALID,xxxx
+tdp46,Purwodadi,TDP,xxxx,2019-10-04,Ada,VALID,xxxx
+tdp47,Salatiga,TDP,xxxx,2020-02-12,Ada,VALID,xxxx
+tdp48,Blora,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp49,Bumi Ayu,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp50,Jepara,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp51,Pati,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp52,Ungaran,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp53,Weleri,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp54,Ambarawa,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp55,Limpung,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp56,Kajen,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp57,Boja,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp58,Cepu,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp59,Randudongkal,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp60,Purwokerto,TDP,xxxx,2018-08-09,Ada,VALID,xxxx
+tdp61,Solo,TDP,xxxx,2018-07-28,Ada,VALID,xxxx
+tdp62,Yogyakarta,TDP,xxxx,2018-07-24,Ada,VALID,xxxx
+tdp63,Cilacap,TDP,xxxx,2021-11-15,Ada,VALID,xxxx
+tdp64,Klaten,TDP,xxxx,2019-09-21,Ada,VALID,xxxx
+tdp65,Cawas,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp66,Magelang,TDP,xxxx,2017-08-23,Ada,EXPIRED,xxxx
+tdp67,Wonogiri,TDP,xxxx,2018-09-20,Ada,VALID,xxxx
+tdp68,Banjarnegara,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp69,Gombong,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp70,Kebumen,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp71,Majenang,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp72,Purbalingga,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp73,Purworejo ,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp74,Sragen,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp75,Temanggung,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp76,Wonosari,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp77,Wonosobo,TDP,xxxx,2017-12-04,Ada,VALID,xxxx
+tdp78,Bantul,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp79,Boyolali,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp80,Depok - Yogyakarta,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp81,Karanganyar,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp82,Sidareja,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp83,Banyuwangi,TDP,xxxx,2020-10-27,Ada,VALID,xxxx
+tdp84,Blitar,TDP,xxxx,2019-08-24,Ada,VALID,xxxx
+tdp85,Bojonegoro,TDP,xxxx,2020-12-02,Ada,VALID,xxxx
+tdp86,Gresik,TDP,xxxx,2018-04-10,Ada,VALID,xxxx
+tdp87,Jombang,TDP,xxxx,2020-11-22,Ada,VALID,xxxx
+tdp88,Kediri,TDP,xxxx,2018-08-05,Ada,VALID,xxxx
+tdp89,Madiun,TDP,xxxx,2018-09-11,Ada,VALID,xxxx
+tdp90,Malang,TDP,xxxx,2021-05-16,Ada,VALID,xxxx
+tdp91,Mojokerto,TDP,xxxx,2018-08-15,Ada,VALID,xxxx
+tdp92,Sidoarjo,TDP,xxxx,2018-08-11,Ada,VALID,xxxx
+tdp93,Surabaya Timur,TDP,xxxx,2018-08-26,Ada,VALID,xxxx
+tdp94,Tulung Agung,TDP,xxxx,2019-08-25,Ada,VALID,xxxx
+tdp95,Jember,TDP,xxxx,2021-10-31,Ada,VALID,xxxx
+tdp96, ,TDP,xxxx,2019-10-27,Ada,VALID,xxxx
+tdp97,Pasuruan,TDP,xxxx,2021-10-24,Ada,VALID,xxxx
+tdp98,Tuban,TDP,xxxx,2021-10-31,Ada,VALID,xxxx
+tdp99,Denpasar,TDP,xxxx,2016-03-14,Ada,EXPIRED,xxxx
+tdp100,Mataram,TDP,xxxx,2020-11-29,Ada,VALID,xxxx
+tdp101,Benowo-Surabaya,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp102,Genteng,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp103,Kepanjen,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp104,Krian,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp105,Lamongan,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp106,Magetan,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp107,Mojosari,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp108,Ngawi,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp109,Ponorogo,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp110,Babat ,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp111,Singaraja,TDP,xxxx,2016-06-12,Ada,EXPIRED,xxxx
+tdp112,Gianyar,TDP,xxxx,2016-01-10,Ada,EXPIRED,xxxx
+tdp113,Selong,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp114,Tabanan,TDP,xxxx,2019-05-28,Ada,VALID,xxxx
+tdp115,Batam,TDP,xxxx,2017-10-19,Ada,EXPIRED,xxxx
+tdp116,Binjai,TDP,xxxx,2019-04-19,Ada,VALID,xxxx
+tdp117,Lubuk Pakam,TDP,xxxx,2019-03-25,Ada,VALID,xxxx
+tdp118,Medan,TDP,xxxx,2018-10-24,Ada,VALID,xxxx
+tdp119,Padang,TDP,xxxx,2018-04-23,Ada,VALID,xxxx
+tdp120,Pekanbaru,TDP,xxxx,2021-07-27,Ada,VALID,xxxx
+tdp121,Tanjung Pinang,TDP,xxxx,2018-04-17,Ada,VALID,xxxx
+tdp122,Perawang,TDP,xxxx,2020-12-08,Ada,VALID,xxxx
+tdp123,Dumai,TDP,xxxx,2020-02-16,Ada,VALID,xxxx
+tdp124,Duri,TDP,xxxx,2017-10-09,Ada,EXPIRED,xxxx
+tdp125,Kerinci,TDP,xxxx,2019-07-17,Ada,VALID,xxxx
+tdp126,Padang Sidempuan,TDP,xxxx,2020-12-23,Ada,VALID,xxxx
+tdp127,Rantau Prapat,TDP,xxxx,2021-11-18,Ada,VALID,xxxx
+tdp128,Tebing Tinggi,TDP,xxxx,2021-03-14,Ada,VALID,xxxx
+tdp129,Siak,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp130,Air Molek,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp131,Bangkinang,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp132,Lipat Kain,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp133,Pangkalan Brandan,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp134,Payakumbuh,TDP,xxxx,2013-04-23,Ada,EXPIRED,xxxx
+tdp135,Kandis,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp136,Stabat,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp137,Tembung,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp138,Ujung Tanjung,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp139,Bengkulu,TDP,xxxx,2020-04-08,Ada,VALID,xxxx
+tdp140,Betung,TDP,xxxx,2017-04-30,Ada,EXPIRED,xxxx
+tdp141,Lubuk Linggau,TDP,xxxx,2019-09-17,Ada,VALID,xxxx
+tdp142,Lampung,TDP,xxxx,2021-08-29,Ada,VALID,xxxx
+tdp143,Prabumulih,TDP,xxxx,2021-06-02,Ada,VALID,xxxx
+tdp144,Baturaja,TDP,xxxx,2018-12-31,Ada,VALID,xxxx
+tdp145,Kayu Agung,TDP,xxxx,2020-12-17,Ada,VALID,xxxx
+tdp146,Jambi,TDP,xxxx,2018-06-21,Ada,VALID,xxxx
+tdp147,Palembang,TDP,xxxx,2018-04-15,Ada,VALID,xxxx
+tdp148,Arga Makmur,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp149,Belitang,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp150,Curup,TDP,xxxx,,,EXPIRED,xxxx
+tdp151,Kuala Tungkal,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp152,Lahat,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp153,Metro,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp154,Muara Enim,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp155,Tembesi,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp156,Tugu Mulyo,TDP,xxxx,2016-09-13,Ada,EXPIRED,xxxx
+tdp157,Sei Lilin,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp158,Banjarmasin,TDP,xxxx,2018-05-13,Ada,VALID,xxxx
+tdp159,Samarinda,TDP,xxxx,2018-08-06,Ada,VALID,xxxx
+tdp160,Tenggarong,TDP,xxxx,2017-01-09,Ada,EXPIRED,xxxx
+tdp161,Tanjung Kalsel,TDP,xxxx,,Tdk ada,EXPIRED,xxxx
+tdp162,Palopo,TDP,xxxx,2020-10-01,Ada,VALID,xxxx
+tdp163,Gorontalo,TDP,xxxx,2021-05-19,Ada,VALID,xxxx
+tdp164,Makassar,TDP,xxxx,2021-10-13,Ada,VALID,xxxx
+tdp165,Palu,TDP,xxxx,2020-08-05,Ada,VALID,xxxx
+tdp166,Pare-pare,TDP,xxxx,2017-10-14,Ada,EXPIRED,xxxx
+tdp167,Barabai,TDP,xxxx,2019-06-16,Ada,VALID,xxxx
+tdp168,Pangkep,TDP,xxxx,,,EXPIRED,xxxx
+tdp169,Pinrang,TDP,xxxx,,,EXPIRED,xxxx
+tdp170,Sengkang,TDP,xxxx,,,EXPIRED,xxxx

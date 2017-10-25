@@ -26,9 +26,15 @@
                     </header>
 
                     <sheet>
-                        <group colspan="4">
-                            <field name="name"/>
-                        </group>
+
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"
+                                 string="Name" />
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+
                     </sheet>
                 </form>
             </field>
@@ -76,7 +82,7 @@
         </record>
 
         <menuitem id="menu_document_type"
-                  parent="muk_dms.cat_menu_muk_dms_documents"
+                  parent="muk_dms.cat_menu_muk_dms_config"
                   sequence="20"
                   action="act_open_document_type_view"/>
 

@@ -11,3 +11,4 @@ class directorate(models.Model):
     _inherit = ['mail.thread', 'ir.needaction_mixin']
 
     name = fields.Char("Name")
+    is_main_menu = fields.Boolean(string="Show in Main Menu", default=True )

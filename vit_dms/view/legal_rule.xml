@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_legal_document_rule_tree" model="ir.ui.view">
+            <field name="name">dms.legal_document_rule.tree</field>
+            <field name="model">dms.legal_document_rule</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="legal_document_rule">
+                    <field name="level"/>
+                    <field name="document_type_id"/>
+                    <field name="notification_start"/>
+                    <field name="notification_end"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_legal_document_rule_form" model="ir.ui.view">
+            <field name="name">dms.legal_document_rule.form</field>
+            <field name="model">dms.legal_document_rule</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="legal_document_rule" version="7.0">
+                    <header>
+
+                    </header>
+
+                    <sheet>
+                        <group colspan="4">
+                            <field name="level"/>
+                            <field name="document_type_id"/>
+                            <field name="notification_start"/>
+                            <field name="notification_end"/>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Receivers">
+                                <field name="receiver_ids">
+                                    <tree string="Receivers">
+                                        <field name="role"/>
+                                        <field name="group_id"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Users">
+                                <separator string="To Users"/>
+                                <field name="to_user_ids"/>
+
+                                <separator string="Cc Users"/>
+                                <field name="cc_user_ids"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_legal_document_rule_search" model="ir.ui.view">
+            <field name="name">dms.legal_document_rule.search</field>
+            <field name="model">dms.legal_document_rule</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="legal_document_rule">
+                    <field name="level" select="True"/>
+                    <field name="document_type_id"/>
+                    <field name="notification_start"/>
+                    <field name="notification_end"/>
+                    <group expand="0" string="Group By">
+                        <filter string="Document Type" icon="terp-camera_test" name="group_by_document_type_id" context="{'group_by':'document_type_id'}"/>
+                        <filter string="Level" icon="terp-camera_test" name="group_by_level" context="{'group_by':'level'}"/>
+                        <filter string="Notification Start" icon="terp-camera_test" name="group_by_notification_start" context="{'group_by':'notification_start'}"/>
+                        <filter string="Notification End" icon="terp-camera_test" name="group_by_notification_end" context="{'group_by':'notification_end'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_legal_document_rule_view">
+            <field name="name">Legal Document Rule</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">dms.legal_document_rule</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_legal_document_rule_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_legal_document_rule_view_form">
+            <field name="act_window_id" ref="act_open_legal_document_rule_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_legal_document_rule_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_legal_document_rule_view_tree">
+            <field name="act_window_id" ref="act_open_legal_document_rule_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_legal_document_rule_tree"/>
+        </record>
+
+        <menuitem id="menu_legal_document_rule"
+                  parent="muk_dms.cat_menu_muk_dms_config"
+                  sequence="20"
+                  action="act_open_legal_document_rule_view"/>
+    
+    </data>
+</openerp>
