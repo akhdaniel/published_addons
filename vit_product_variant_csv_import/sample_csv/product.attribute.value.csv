@@ -1,0 +1,8 @@
+id,attribute_id/id,name
+test.size_33,test.attribute_size,Size 33
+test.size_34,test.attribute_size,Size 34
+test.size_35,test.attribute_size,Size 35
+test.size_36,test.attribute_size,Size 36
+test.size_37,test.attribute_size,Size 37
+test.color_black,test.attribute_color,Black
+test.color_red,test.attribute_color,Red
