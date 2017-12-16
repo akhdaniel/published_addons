@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="accounting_invoice_cron_cancel_setings">
+      <field name="name">accounting_invoice_cron cancell setings</field>
+      <field name="model">account.config.settings</field>
+      <field name="inherit_id" ref="account.view_account_config_settings"/>
+      <field name="arch" type="xml">
+          <xpath expr="separator[1]" position="after">
+            <separator string="Invoice Cron Task Cancellation" groups="account.group_account_user"/>
+               <group groups="account.group_account_user">
+                 <!-- label for="numberOfDaysForCancel"/ -->
+                 <field name="numberOfDaysForCancel" class="oe_inline"/>
+               </group>
+          </xpath>
+      </field>
+    </record>
+
+      <!--record model="ir.ui.view" id="invoice_croncancellation_instance_form">
+          <field name="name">Invoice form instace for cron autocancel</field>
+          <field name="model">account.invoice</field>
+          <field name="inherit_id" ref="account.invoice_form"/>
+          <field name="arch" type="xml">
+              <button name='action_invoice_open' position="after">
+                  <button name="invoice_autocancel" type="object"/>
+              </button>
+          </field>
+      </record-->
+
+  </data>
+</odoo>

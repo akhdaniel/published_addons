@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_accounting_invoice_cron_cancel_accounting_invoice_cron_cancel,accounting_invoice_cron_cancel.accounting_invoice_cron_cancel,model_accounting_invoice_cron_cancel_accounting_invoice_cron_cancel,,1,0,0,0

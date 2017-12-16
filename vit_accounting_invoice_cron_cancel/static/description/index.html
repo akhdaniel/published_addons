@@ -1,0 +1,76 @@
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#875A7B;">Introduction</h2>
+
+        <h3 style="width:80%">
+            Auto Cancel Unpaid Invoice for Certain Days
+        </h3>
+
+        <div class="oe_span10 text-justify">
+
+            <p>
+                Create a cron job that runs every day at 00.00 (cron parameter) to check invoices that:
+            </p>
+
+            <ul>
+                <li>belong to a partner with category "Agent"</li>
+                <li>in state of "Open"</li>
+                <li>date invoice is more than x days from now (x is taken from system parameter "invoice.autocancel")</li>
+            </ul>
+
+            <p>
+                For every invoices found, execute the existing "Cancel invoice" function (assumed that the sales jurnal is set to "allow cancel").
+            </p>
+
+            <p>
+                Also, cancel all related Sale Order for those Invoices
+            </p>
+
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/account.setting.png"/>
+            </div>
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/account.cancel.cron.png"/>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="oe_row oe_spaced">
+
+        <h2 class="oe_slogan" style="color:#875A7B;">Mau Tau Lebih Detail?</h2>
+
+        <div class="oe_span10 text-justify">
+            <p class="oe_mb32" style="margin:8px;">
+                Addons ini bisa anda pelajari lebih detail jika mengikuti TRAINING ODOO TECHNICAL
+                di <a href="http://shop.vitraining.com/page/panduan-membuat-addons-untuk-modifikasi-odoo-odoo-">shop.vitraining.com</a>
+                atau membeli E-BOOK "5 HARI MENGUAK MISTERI ADDON ODOO V10"
+                di <a href="http://shop.vitraining.com">shop.vitraining.com</a>
+                maupun di Google Play.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+
+        <h2  class="oe_slogan" style="width:70%;color:#875A7B;">Contact and Support</h2>
+        <h3 class="oe_span10 oe_slogan">
+            Contact Us: info[at]vitraining.com<br/>
+            Facebook : <a href="https://www.facebook.com/trainingOdoo/">www.facebook.com/trainingOdoo</a><br/>
+            YouTube: <a href="https://www.youtube.com/channel/UCfLiSpb5nKcurnRIZse8zgA">www.youtube.com/channel/UCfLiSpb5nKcurnRIZse8zgA</a><br/>
+            Web: <a href="http://shop.vitraining.com">shop.vitraining.com</a>
+        </h3>
+
+    </div>
+</section>
+
+<section class="oe_container oe_separator">
+</section>
