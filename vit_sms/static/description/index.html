@@ -1,0 +1,106 @@
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#875A7B;">Introduction</h2>
+
+        <h3 style="width:80%">
+            Send SMS from Odoo Applications
+        </h3>
+
+        <div class="oe_span10 text-justify">
+
+            <p>
+                Manage SMS messaging from inside Odoo. User can manually create SMS message and selecting the recipients from partners, group of partners, or enter the number manually.
+            </p>
+            <p>
+                It also provide methods for other module to be able to store message on Outbox to be sent later time, or immediate sending.
+            </p>
+
+            <p>
+                It provides public method for other addons to send SMS through this system:
+                <ul>
+                    <li><b>outbox.send_sms(destination, message, send_datetime=False, is_immediate=False )</b></li>
+                    <li><b>destination</b>: destination phone number</li>
+                    <li><b>message</b>: text message to send</li>
+                    <li><b>send_datetime</b>: when to send the message yyyy-mm-dd HH:MM:SS</li>
+                    <li><b>is_immediate</b>: True/False send the message immediately without outbox</li>
+                </ul>
+            </p>
+
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/outbox.list.png"/>
+            </div>
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/outbox.wizard.png"/>
+            </div>
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/configuration.form.png"/>
+            </div>
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/group.form.png"/>
+            </div>
+
+
+
+            <h2 class="oe_slogan" style="color:#875A7B;">Gateway Specifics Addons</h2>
+
+            <p>
+                The addons is splitted into base SMS module (vit_sms) and Provider Specific Modules.
+                To implement the actual gateway specific sending process, override this method:
+                <ul>
+                    <li>
+                        <b>outbox.send_gateway()</b> and return a tuple of (status, error_message, messageid)
+                    </li>
+                </ul>
+
+            </p>
+
+
+
+
+            <div class="oe_screenshot" style="margin:8px">
+                <img class="img img-responsive" src="images/sent.form.png"/>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="oe_row oe_spaced">
+
+        <h2 class="oe_slogan" style="color:#875A7B;">Mau Tau Lebih Detail?</h2>
+
+        <div class="oe_span10 text-justify">
+            <p class="oe_mb32" style="margin:8px;">
+                Addons ini bisa anda pelajari lebih detail jika mengikuti TRAINING ODOO TECHNICAL
+                di <a href="http://shop.vitraining.com/page/panduan-membuat-addons-untuk-modifikasi-odoo-odoo-">shop.vitraining.com</a>
+                atau membeli E-BOOK "5 HARI MENGUAK MISTERI ADDON ODOO V10"
+                di <a href="http://shop.vitraining.com">shop.vitraining.com</a>
+                maupun di Google Play.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+
+        <h2  class="oe_slogan" style="width:70%;color:#875A7B;">Contact and Support</h2>
+        <h3 class="oe_span10 oe_slogan">
+            Contact Us: info[at]vitraining.com<br/>
+            Facebook : <a href="https://www.facebook.com/trainingOdoo/">www.facebook.com/trainingOdoo</a><br/>
+            YouTube: <a href="https://www.youtube.com/channel/UCfLiSpb5nKcurnRIZse8zgA">www.youtube.com/channel/UCfLiSpb5nKcurnRIZse8zgA</a><br/>
+            Web: <a href="http://shop.vitraining.com">shop.vitraining.com</a>
+        </h3>
+
+    </div>
+</section>
+
+<section class="oe_container oe_separator">
+</section>

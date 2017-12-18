@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="act_open_vit_sms_outbox_wizard" model="ir.actions.act_window">
+            <field name="name">Send SMS</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit_sms.outbox.wizard</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <record id="view_vit_sms_outbox_wizard_form" model="ir.ui.view">
+            <field name="name">view_vit_sms_outbox_wizard_form</field>
+            <field name="model">vit_sms.outbox.wizard</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Send SMS" version="7.0">
+
+                    <group colspan="4">
+                        <field name="group_ids" widget="many2many_tags"/>
+                        <field name="partner_ids" widget="many2many_tags"/>
+                        <field name="additional_destination" />
+                        <field name="destination" />
+                        <field name="message" />
+                        <field name="send_datetime" />
+                    </group>
+
+                    <footer>
+                        <button string="Send" name="confirm_button" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-default" special="cancel" />
+                    </footer>
+
+                </form>
+            </field>
+        </record>
+        
+        <menuitem id="menu_vit_sms_outbox_wizard"
+                  parent="vit_sms_history"
+                  sequence="20"
+                  name="Send Message"
+                  action="act_open_vit_sms_outbox_wizard"/>
+
+        
+
+    </data>
+</openerp>

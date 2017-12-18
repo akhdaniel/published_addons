@@ -1,0 +1,24 @@
+<openerp>
+	<data>
+
+        <record model="ir.actions.server" id="action_find_location">
+            <field name="name">Find Location</field>
+            <field name="model_id" ref="doqar_campaign.model_doqar_campaign_history_detail"/>
+            <field name="code">
+if env.context.get('active_model') == 'doqar.campaign_history_detail' and env.context.get('active_ids'):
+    for rec in model.browse(context['active_ids']):
+        rec.find_address()
+            </field>
+        </record>
+
+        <record model="ir.values" id="find_location">
+            <field name="model_id" ref="doqar_campaign.model_doqar_campaign_history_detail" />
+            <field name="name">Find Location</field>
+            <field name="key2">client_action_multi</field>
+            <field name="value" eval="'ir.actions.server,' +str(ref('action_find_location'))" />
+            <field name="key">action</field>
+            <field name="model">doqar.campaign_history_detail</field>
+        </record>
+
+	</data>
+</openerp>

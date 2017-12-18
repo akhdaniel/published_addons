@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_vit_sms_outbox_tree" model="ir.ui.view">
+            <field name="name">vit_sms.outbox.tree</field>
+            <field name="model">vit_sms.outbox</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Outbox">
+                    <field name="name"/>
+                    <field name="destination" />
+                    <field name="message" />
+                    <field name="send_datetime" />
+                    <field name="retry" />
+                    <field name="config_id" />
+                    <field name="state" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_vit_sms_outbox_form" model="ir.ui.view">
+            <field name="name">vit_sms.outbox.form</field>
+            <field name="model">vit_sms.outbox</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Outbox" version="7.0">
+                    <header>
+                        <button string="Schedule" icon="fa-send" states="draft" type="object" name="action_schedule"/>
+                        <button string="Cancel Schedule" icon="fa-cancel" states="open" type="object" name="action_cancel"/>
+                        <button string="Send Now" icon="fa-send" states="draft" type="object" name="action_send"/>
+                        <button string="Test Send API" icon="fa-send" states="draft" type="object" name="action_test_send" groups="base.group_system"/>
+                        <field name="state" widget="statusbar"/>
+                    </header>
+
+                    <sheet>
+                        <group colspan="4">
+                            <field name="name"/>
+                            <field name="destination" />
+                            <field name="message" />
+                            <field name="send_datetime" />
+                            <field name="retry" />
+                            <field name="error_message" />
+                            <field name="config_id" />
+                            <field name="messageid" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_vit_sms_outbox_search" model="ir.ui.view">
+            <field name="name">vit_sms.outbox.search</field>
+            <field name="model">vit_sms.outbox</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Outbox">
+                    <field name="name" select="True"/>
+                    <group expand="0" string="Group By">
+                        <filter string="State" icon="terp-camera_test" name="group_by_state" context="{'group_by':'state'}"/>
+                        <filter string="Destination" icon="terp-camera_test" name="group_by_destination" context="{'group_by':'destination'}"/>
+                        <filter string="Send Datetime" icon="terp-camera_test" name="group_by_send_datetime" context="{'group_by':'send_datetime:day'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_vit_sms_outbox_view">
+            <field name="name">Outbox</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit_sms.outbox</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_vit_sms_outbox_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_sms_outbox_view_form">
+            <field name="act_window_id" ref="act_open_vit_sms_outbox_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_vit_sms_outbox_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_sms_outbox_view_tree">
+            <field name="act_window_id" ref="act_open_vit_sms_outbox_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_vit_sms_outbox_tree"/>
+        </record>
+
+        <menuitem id="menu_vit_sms_outbox"
+                  parent="vit_sms_history"
+                  sequence="10"
+                  action="act_open_vit_sms_outbox_view"/>
+    
+    </data>
+</openerp>

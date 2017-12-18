@@ -1,0 +1,28 @@
+<openerp>
+	<data>
+
+		<menuitem id="vit_sms_mainmenu"
+				  name="SMS"
+				  sequence="20"
+		 />
+
+		<menuitem id="vit_sms_history"
+				  name="History"
+				  sequence="10"
+				  parent="vit_sms_mainmenu"
+		 />
+
+		<menuitem id="vit_sms_report"
+				  name="Report"
+				  sequence="20"
+				  parent="vit_sms_mainmenu"
+		 />
+
+		<menuitem id="vit_sms_configuration"
+				  name="Configurations"
+				  sequence="20"
+				  parent="vit_sms_mainmenu"
+		 />
+
+	</data>
+</openerp>
