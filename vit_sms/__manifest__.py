@@ -6,7 +6,7 @@
 		"mail"
 	],
 	"author": "Akhmad D. Sembiring [vitraining.com]",
-	"category": "Utility",
+	"category": "Extra Tools",
 	'website': 'http://www.vitraining.com',
 	'images': ['static/description/images/main_screenshot.jpg'],
 	'summary': 'Send SMS from Odoo Applications',

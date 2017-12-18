@@ -5,7 +5,7 @@
 		"vit_sms",
 	],
 	"author": "Akhmad D. Sembiring [vitraining.com]",
-	"category": "Utility",
+	"category": "Extra Tools",
 	'website': 'http://www.vitraining.com',
 	'summary': 'MySMSMasking gateway implementation',
 	"description": """MySMSMasking gateway implementation for vit_sms module. Inheriting methods:

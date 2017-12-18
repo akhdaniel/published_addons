@@ -5,7 +5,7 @@
 		"vit_sms",
 	],
 	"author": "Akhmad D. Sembiring [vitraining.com]",
-	"category": "Utility",
+	"category": "Extra Tools",
 	'website': 'http://www.vitraining.com',
 	'summary': 'NusaSMS gateway implementation',
 	"description": """\NusaSMS gateway implementation for vit_sms addon. Inheriting methods:
