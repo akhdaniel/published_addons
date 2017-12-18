@@ -1,0 +1,2 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"vit_sms_outbox_group_sms_manager","vit_sms_outbox_group_sms_manager","model_vit_sms_outbox","group_sms_manager",1,1,1,1

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="vit_sms_config_mysmsmasking" model="vit_sms.config">
+            <field name="code">MySMSMasking</field>
+            <field name="name">MySMSMasking Configuration</field>
+            <field name="hostname">http://sms.mysmsmasking.com/masking/send_post.php</field>
+            <field name="username">enter your username</field>
+            <field name="password">enter your password</field>
+        </record>
+
+    </data>
+</openerp>
