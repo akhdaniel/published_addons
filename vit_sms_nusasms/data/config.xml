@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="vit_sms_config_nusasms" model="vit_sms.config">
+            <field name="code">NusaSMS</field>
+            <field name="name">NusaSMS</field>
+            <field name="hostname">http://api.nusasms.com/api/v3/sendsms</field>
+            <field name="plain_url">/plain</field>
+            <field name="group_url">/group</field>
+            <field name="username">enter your username</field>
+            <field name="password">enter your password</field>
+        </record>
+
+    </data>
+</openerp>
