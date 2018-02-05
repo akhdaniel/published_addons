@@ -1,0 +1,21 @@
+{
+	"name": "Mail Sending Limit",
+	"version": "1.0", 
+	"depends": [
+		"mail",
+	],
+	"author": "Akhmad D. Sembiring [vitraining.com]",
+	"category": "Marketing",
+	'website': 'http://www.vitraining.com',
+	"description": """
+Add System Parameter/ mail.send_limit eg 100 per hour.
+Inherit mail.process_email_queue() to apply that limit to send email to SMTP provider
+
+""",
+	"data": [
+		"parameters.xml"
+	],
+	"installable": True,
+	"auto_install": False,
+    "application": False,
+}

@@ -1,0 +1,10 @@
+<openerp>
+    <data>
+
+        <record model="ir.config_parameter" id="mail_send_limit">
+        	<field name="key">mail.send_limit</field>
+        	<field name="value">100</field>
+        </record>
+
+    </data>
+</openerp>
