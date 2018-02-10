@@ -1,0 +1,77 @@
+<openerp>
+	<data>
+		<record id="view_kebijakan_tree" model="ir.ui.view">
+		    <field name="name">anggaran_kebijakan_tree</field>
+		    <field name="model">anggaran.kebijakan</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list kebijakan" colors="blue:type=='kebijakan'">
+		            <field name="category_id" invisible="True"/>
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="tridharma_id"/>
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- ini definisi search kebijakan -->
+		<record id="view_kebijakan_filter" model="ir.ui.view">
+		    <field name="name">kebijakan.filter</field>
+		    <field name="model">anggaran.kebijakan</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Kebijakan">
+		            <field name="category_id"/>
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="tridharma_id"/>
+
+		            <group expand="1" string="Group By...">
+		                <filter string="Category" icon="terp-personal" 
+		                    domain="[]" 
+		                	 context="{'group_by':'category_id'}"/>
+		            </group>
+		        </search>
+		    </field>
+		</record>
+
+
+
+
+		<!-- ini definisi form kebijakan -->
+        <record id="view_kebijakan_form" model="ir.ui.view">
+            <field name="name">anggaran_kebijakan_form</field>
+            <field name="model">anggaran.kebijakan</field>
+            <field name="arch" type="xml">
+            	<form string="kebijakan form" version="7.0">
+            		<header>
+						<!--button string="Confirm" type="object" name="action_confirm" class="oe_highlight"
+						 	 states="draft" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" /-->
+            		</header>
+            		<sheet>
+						<!--div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Class Name" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div-->
+			            <group>
+			            	<group>
+				                <field name="code"/>       
+				                <field name="name"/>       
+				            </group>
+				            <group>
+				                <field name="tridharma_id"/>         
+				                <field name="category_id"/>         
+				            </group>
+				        </group>
+
+
+					</sheet>
+			    </form>
+            </field>
+        </record>
+	</data>
+</openerp>

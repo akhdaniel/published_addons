@@ -1,0 +1,496 @@
+id,,unit kerja,nama unit,kebijakan,program,kegiatan,nama kegiatan,cost type,name,kode
+mak_12_23_1,1,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,1,Bahan habis pakai,650.1.1.01.01.1.12.23
+mak_12_23_2,2,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,2,Honor/Upah,650.1.1.01.01.2.12.23
+mak_12_23_3,3,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,3,Sewa,650.1.1.01.01.3.12.23
+mak_12_23_4,4,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,4,Outsourcing,650.1.1.01.01.4.12.23
+mak_12_23_5,5,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,5,Overhead,650.1.1.01.01.5.12.23
+mak_12_23_6,6,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,1,Bahan habis pakai,650.1.1.01.02.1.12.23
+mak_12_23_7,7,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,2,Honor/Upah,650.1.1.01.02.2.12.23
+mak_12_23_8,8,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,3,Sewa,650.1.1.01.02.3.12.23
+mak_12_23_9,9,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,4,Outsourcing,650.1.1.01.02.4.12.23
+mak_12_23_10,10,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,5,Overhead,650.1.1.01.02.5.12.23
+mak_12_23_11,11,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.03,Ketersediaan dosen,1,Bahan habis pakai,650.1.1.01.03.1.12.23
+mak_12_23_12,12,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.03,Ketersediaan dosen,2,Honor/Upah,650.1.1.01.03.2.12.23
+mak_12_23_13,13,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.03,Ketersediaan dosen,3,Sewa,650.1.1.01.03.3.12.23
+mak_12_23_14,14,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.03,Ketersediaan dosen,4,Outsourcing,650.1.1.01.03.4.12.23
+mak_12_23_15,15,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.03,Ketersediaan dosen,5,Overhead,650.1.1.01.03.5.12.23
+mak_12_23_16,16,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.04,Kualifikasi dosen,1,Bahan habis pakai,650.1.1.01.04.1.12.23
+mak_12_23_17,17,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.04,Kualifikasi dosen,2,Honor/Upah,650.1.1.01.04.2.12.23
+mak_12_23_18,18,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.04,Kualifikasi dosen,3,Sewa,650.1.1.01.04.3.12.23
+mak_12_23_19,19,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.04,Kualifikasi dosen,4,Outsourcing,650.1.1.01.04.4.12.23
+mak_12_23_20,20,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.04,Kualifikasi dosen,5,Overhead,650.1.1.01.04.5.12.23
+mak_12_23_21,21,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,1,Bahan habis pakai,650.1.1.01.05.1.12.23
+mak_12_23_22,22,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,2,Honor/Upah,650.1.1.01.05.2.12.23
+mak_12_23_23,23,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,3,Sewa,650.1.1.01.05.3.12.23
+mak_12_23_24,24,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,4,Outsourcing,650.1.1.01.05.4.12.23
+mak_12_23_25,25,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,5,Overhead,650.1.1.01.05.5.12.23
+mak_12_23_26,26,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,1,Bahan habis pakai,650.1.1.01.06.1.12.23
+mak_12_23_27,27,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,2,Honor/Upah,650.1.1.01.06.2.12.23
+mak_12_23_28,28,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,3,Sewa,650.1.1.01.06.3.12.23
+mak_12_23_29,29,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,4,Outsourcing,650.1.1.01.06.4.12.23
+mak_12_23_30,30,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,5,Overhead,650.1.1.01.06.5.12.23
+mak_12_23_31,31,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.07,Jadual kuliah,1,Bahan habis pakai,650.1.1.01.07.1.12.23
+mak_12_23_32,32,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.07,Jadual kuliah,2,Honor/Upah,650.1.1.01.07.2.12.23
+mak_12_23_33,33,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.07,Jadual kuliah,3,Sewa,650.1.1.01.07.3.12.23
+mak_12_23_34,34,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.07,Jadual kuliah,4,Outsourcing,650.1.1.01.07.4.12.23
+mak_12_23_35,35,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.07,Jadual kuliah,5,Overhead,650.1.1.01.07.5.12.23
+mak_12_23_36,36,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,1,Bahan habis pakai,650.1.1.01.08.1.12.23
+mak_12_23_37,37,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,2,Honor/Upah,650.1.1.01.08.2.12.23
+mak_12_23_38,38,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,3,Sewa,650.1.1.01.08.3.12.23
+mak_12_23_39,39,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,4,Outsourcing,650.1.1.01.08.4.12.23
+mak_12_23_40,40,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,5,Overhead,650.1.1.01.08.5.12.23
+mak_12_23_41,41,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,1,Bahan habis pakai,650.1.1.01.09.1.12.23
+mak_12_23_42,42,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,2,Honor/Upah,650.1.1.01.09.2.12.23
+mak_12_23_43,43,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,3,Sewa,650.1.1.01.09.3.12.23
+mak_12_23_44,44,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,4,Outsourcing,650.1.1.01.09.4.12.23
+mak_12_23_45,45,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,5,Overhead,650.1.1.01.09.5.12.23
+mak_12_23_46,46,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,1,Bahan habis pakai,650.1.1.01.10.1.12.23
+mak_12_23_47,47,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,2,Honor/Upah,650.1.1.01.10.2.12.23
+mak_12_23_48,48,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,3,Sewa,650.1.1.01.10.3.12.23
+mak_12_23_49,49,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,4,Outsourcing,650.1.1.01.10.4.12.23
+mak_12_23_50,50,12.23,Prodi Teknik Industri (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,5,Overhead,650.1.1.01.10.5.12.23
+mak_12_23_51,51,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.01,Lembar penyetaraan,1,Bahan habis pakai,650.1.1.02.01.1.12.23
+mak_12_23_52,52,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.01,Lembar penyetaraan,2,Honor/Upah,650.1.1.02.01.2.12.23
+mak_12_23_53,53,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.01,Lembar penyetaraan,3,Sewa,650.1.1.02.01.3.12.23
+mak_12_23_54,54,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.01,Lembar penyetaraan,4,Outsourcing,650.1.1.02.01.4.12.23
+mak_12_23_55,55,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.01,Lembar penyetaraan,5,Overhead,650.1.1.02.01.5.12.23
+mak_12_23_56,56,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,1,Bahan habis pakai,650.1.1.02.02.1.12.23
+mak_12_23_57,57,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,2,Honor/Upah,650.1.1.02.02.2.12.23
+mak_12_23_58,58,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,3,Sewa,650.1.1.02.02.3.12.23
+mak_12_23_59,59,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,4,Outsourcing,650.1.1.02.02.4.12.23
+mak_12_23_60,60,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,5,Overhead,650.1.1.02.02.5.12.23
+mak_12_23_61,61,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.02.03.1.12.23
+mak_12_23_62,62,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.02.03.2.12.23
+mak_12_23_63,63,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.02.03.3.12.23
+mak_12_23_64,64,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.02.03.4.12.23
+mak_12_23_65,65,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.02.03.5.12.23
+mak_12_23_66,66,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.04,Jadwal praktikum,1,Bahan habis pakai,650.1.1.02.04.1.12.23
+mak_12_23_67,67,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.04,Jadwal praktikum,2,Honor/Upah,650.1.1.02.04.2.12.23
+mak_12_23_68,68,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.04,Jadwal praktikum,3,Sewa,650.1.1.02.04.3.12.23
+mak_12_23_69,69,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.04,Jadwal praktikum,4,Outsourcing,650.1.1.02.04.4.12.23
+mak_12_23_70,70,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.04,Jadwal praktikum,5,Overhead,650.1.1.02.04.5.12.23
+mak_12_23_71,71,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.05,Modul / alat praktikum,1,Bahan habis pakai,650.1.1.02.05.1.12.23
+mak_12_23_72,72,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.05,Modul / alat praktikum,2,Honor/Upah,650.1.1.02.05.2.12.23
+mak_12_23_73,73,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.05,Modul / alat praktikum,3,Sewa,650.1.1.02.05.3.12.23
+mak_12_23_74,74,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.05,Modul / alat praktikum,4,Outsourcing,650.1.1.02.05.4.12.23
+mak_12_23_75,75,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.05,Modul / alat praktikum,5,Overhead,650.1.1.02.05.5.12.23
+mak_12_23_76,76,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.06,Bahan habis pakai,1,Bahan habis pakai,650.1.1.02.06.1.12.23
+mak_12_23_77,77,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.06,Bahan habis pakai,2,Honor/Upah,650.1.1.02.06.2.12.23
+mak_12_23_78,78,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.06,Bahan habis pakai,3,Sewa,650.1.1.02.06.3.12.23
+mak_12_23_79,79,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.06,Bahan habis pakai,4,Outsourcing,650.1.1.02.06.4.12.23
+mak_12_23_80,80,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.06,Bahan habis pakai,5,Overhead,650.1.1.02.06.5.12.23
+mak_12_23_81,81,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.07,Dana praktikum,1,Bahan habis pakai,650.1.1.02.07.1.12.23
+mak_12_23_82,82,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.07,Dana praktikum,2,Honor/Upah,650.1.1.02.07.2.12.23
+mak_12_23_83,83,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.07,Dana praktikum,3,Sewa,650.1.1.02.07.3.12.23
+mak_12_23_84,84,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.07,Dana praktikum,4,Outsourcing,650.1.1.02.07.4.12.23
+mak_12_23_85,85,12.23,Prodi Teknik Industri (S1),1,1.02,1.02.07,Dana praktikum,5,Overhead,650.1.1.02.07.5.12.23
+mak_12_23_86,86,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.03.01.1.12.23
+mak_12_23_87,87,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.03.01.2.12.23
+mak_12_23_88,88,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.03.01.3.12.23
+mak_12_23_89,89,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.03.01.4.12.23
+mak_12_23_90,90,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.03.01.5.12.23
+mak_12_23_91,91,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.02,Jadual praktikum,1,Bahan habis pakai,650.1.1.03.02.1.12.23
+mak_12_23_92,92,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.02,Jadual praktikum,2,Honor/Upah,650.1.1.03.02.2.12.23
+mak_12_23_93,93,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.02,Jadual praktikum,3,Sewa,650.1.1.03.02.3.12.23
+mak_12_23_94,94,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.02,Jadual praktikum,4,Outsourcing,650.1.1.03.02.4.12.23
+mak_12_23_95,95,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.02,Jadual praktikum,5,Overhead,650.1.1.03.02.5.12.23
+mak_12_23_96,96,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.03,Modul/alat praktikum,1,Bahan habis pakai,650.1.1.03.03.1.12.23
+mak_12_23_97,97,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.03,Modul/alat praktikum,2,Honor/Upah,650.1.1.03.03.2.12.23
+mak_12_23_98,98,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.03,Modul/alat praktikum,3,Sewa,650.1.1.03.03.3.12.23
+mak_12_23_99,99,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.03,Modul/alat praktikum,4,Outsourcing,650.1.1.03.03.4.12.23
+mak_12_23_100,100,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.03,Modul/alat praktikum,5,Overhead,650.1.1.03.03.5.12.23
+mak_12_23_101,101,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.04,Bahan habis pakai,1,Bahan habis pakai,650.1.1.03.04.1.12.23
+mak_12_23_102,102,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.04,Bahan habis pakai,2,Honor/Upah,650.1.1.03.04.2.12.23
+mak_12_23_103,103,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.04,Bahan habis pakai,3,Sewa,650.1.1.03.04.3.12.23
+mak_12_23_104,104,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.04,Bahan habis pakai,4,Outsourcing,650.1.1.03.04.4.12.23
+mak_12_23_105,105,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.04,Bahan habis pakai,5,Overhead,650.1.1.03.04.5.12.23
+mak_12_23_106,106,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.05,Dana praktikum,1,Bahan habis pakai,650.1.1.03.05.1.12.23
+mak_12_23_107,107,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.05,Dana praktikum,2,Honor/Upah,650.1.1.03.05.2.12.23
+mak_12_23_108,108,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.05,Dana praktikum,3,Sewa,650.1.1.03.05.3.12.23
+mak_12_23_109,109,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.05,Dana praktikum,4,Outsourcing,650.1.1.03.05.4.12.23
+mak_12_23_110,110,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.05,Dana praktikum,5,Overhead,650.1.1.03.05.5.12.23
+mak_12_23_111,111,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.06,Daftar peserta praktikum,1,Bahan habis pakai,650.1.1.03.06.1.12.23
+mak_12_23_112,112,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.06,Daftar peserta praktikum,2,Honor/Upah,650.1.1.03.06.2.12.23
+mak_12_23_113,113,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.06,Daftar peserta praktikum,3,Sewa,650.1.1.03.06.3.12.23
+mak_12_23_114,114,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.06,Daftar peserta praktikum,4,Outsourcing,650.1.1.03.06.4.12.23
+mak_12_23_115,115,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.06,Daftar peserta praktikum,5,Overhead,650.1.1.03.06.5.12.23
+mak_12_23_116,116,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.07,Asisten/instruktur,1,Bahan habis pakai,650.1.1.03.07.1.12.23
+mak_12_23_117,117,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.07,Asisten/instruktur,2,Honor/Upah,650.1.1.03.07.2.12.23
+mak_12_23_118,118,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.07,Asisten/instruktur,3,Sewa,650.1.1.03.07.3.12.23
+mak_12_23_119,119,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.07,Asisten/instruktur,4,Outsourcing,650.1.1.03.07.4.12.23
+mak_12_23_120,120,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.07,Asisten/instruktur,5,Overhead,650.1.1.03.07.5.12.23
+mak_12_23_121,121,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,1,Bahan habis pakai,650.1.1.03.08.1.12.23
+mak_12_23_122,122,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,2,Honor/Upah,650.1.1.03.08.2.12.23
+mak_12_23_123,123,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,3,Sewa,650.1.1.03.08.3.12.23
+mak_12_23_124,124,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,4,Outsourcing,650.1.1.03.08.4.12.23
+mak_12_23_125,125,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,5,Overhead,650.1.1.03.08.5.12.23
+mak_12_23_126,126,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.09,Nilai akhir praktikum,1,Bahan habis pakai,650.1.1.03.09.1.12.23
+mak_12_23_127,127,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.09,Nilai akhir praktikum,2,Honor/Upah,650.1.1.03.09.2.12.23
+mak_12_23_128,128,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.09,Nilai akhir praktikum,3,Sewa,650.1.1.03.09.3.12.23
+mak_12_23_129,129,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.09,Nilai akhir praktikum,4,Outsourcing,650.1.1.03.09.4.12.23
+mak_12_23_130,130,12.23,Prodi Teknik Industri (S1),1,1.03,1.03.09,Nilai akhir praktikum,5,Overhead,650.1.1.03.09.5.12.23
+mak_12_23_131,131,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,1,Bahan habis pakai,650.1.1.04.01.1.12.23
+mak_12_23_132,132,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,2,Honor/Upah,650.1.1.04.01.2.12.23
+mak_12_23_133,133,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,3,Sewa,650.1.1.04.01.3.12.23
+mak_12_23_134,134,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,4,Outsourcing,650.1.1.04.01.4.12.23
+mak_12_23_135,135,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,5,Overhead,650.1.1.04.01.5.12.23
+mak_12_23_136,136,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.02,Presensi mhs,1,Bahan habis pakai,650.1.1.04.02.1.12.23
+mak_12_23_137,137,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.02,Presensi mhs,2,Honor/Upah,650.1.1.04.02.2.12.23
+mak_12_23_138,138,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.02,Presensi mhs,3,Sewa,650.1.1.04.02.3.12.23
+mak_12_23_139,139,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.02,Presensi mhs,4,Outsourcing,650.1.1.04.02.4.12.23
+mak_12_23_140,140,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.02,Presensi mhs,5,Overhead,650.1.1.04.02.5.12.23
+mak_12_23_141,141,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,1,Bahan habis pakai,650.1.1.04.03.1.12.23
+mak_12_23_142,142,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,2,Honor/Upah,650.1.1.04.03.2.12.23
+mak_12_23_143,143,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,3,Sewa,650.1.1.04.03.3.12.23
+mak_12_23_144,144,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,4,Outsourcing,650.1.1.04.03.4.12.23
+mak_12_23_145,145,12.23,Prodi Teknik Industri (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,5,Overhead,650.1.1.04.03.5.12.23
+mak_12_23_146,146,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,1,Bahan habis pakai,650.1.1.05.01.1.12.23
+mak_12_23_147,147,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,2,Honor/Upah,650.1.1.05.01.2.12.23
+mak_12_23_148,148,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,3,Sewa,650.1.1.05.01.3.12.23
+mak_12_23_149,149,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,4,Outsourcing,650.1.1.05.01.4.12.23
+mak_12_23_150,150,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,5,Overhead,650.1.1.05.01.5.12.23
+mak_12_23_151,151,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,1,Bahan habis pakai,650.1.1.05.02.1.12.23
+mak_12_23_152,152,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,2,Honor/Upah,650.1.1.05.02.2.12.23
+mak_12_23_153,153,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,3,Sewa,650.1.1.05.02.3.12.23
+mak_12_23_154,154,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,4,Outsourcing,650.1.1.05.02.4.12.23
+mak_12_23_155,155,12.23,Prodi Teknik Industri (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,5,Overhead,650.1.1.05.02.5.12.23
+mak_12_23_156,156,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.06.01.1.12.23
+mak_12_23_157,157,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.06.01.2.12.23
+mak_12_23_158,158,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.06.01.3.12.23
+mak_12_23_159,159,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.06.01.4.12.23
+mak_12_23_160,160,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.06.01.5.12.23
+mak_12_23_161,161,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.02,Jadual ujian,1,Bahan habis pakai,650.1.1.06.02.1.12.23
+mak_12_23_162,162,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.02,Jadual ujian,2,Honor/Upah,650.1.1.06.02.2.12.23
+mak_12_23_163,163,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.02,Jadual ujian,3,Sewa,650.1.1.06.02.3.12.23
+mak_12_23_164,164,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.02,Jadual ujian,4,Outsourcing,650.1.1.06.02.4.12.23
+mak_12_23_165,165,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.02,Jadual ujian,5,Overhead,650.1.1.06.02.5.12.23
+mak_12_23_166,166,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.03,KPU,1,Bahan habis pakai,650.1.1.06.03.1.12.23
+mak_12_23_167,167,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.03,KPU,2,Honor/Upah,650.1.1.06.03.2.12.23
+mak_12_23_168,168,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.03,KPU,3,Sewa,650.1.1.06.03.3.12.23
+mak_12_23_169,169,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.03,KPU,4,Outsourcing,650.1.1.06.03.4.12.23
+mak_12_23_170,170,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.03,KPU,5,Overhead,650.1.1.06.03.5.12.23
+mak_12_23_171,171,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.06.04.1.12.23
+mak_12_23_172,172,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.06.04.2.12.23
+mak_12_23_173,173,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.06.04.3.12.23
+mak_12_23_174,174,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.06.04.4.12.23
+mak_12_23_175,175,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.06.04.5.12.23
+mak_12_23_176,176,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.06.05.1.12.23
+mak_12_23_177,177,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.06.05.2.12.23
+mak_12_23_178,178,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.06.05.3.12.23
+mak_12_23_179,179,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.06.05.4.12.23
+mak_12_23_180,180,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.06.05.5.12.23
+mak_12_23_181,181,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.06,Nilai akhir,1,Bahan habis pakai,650.1.1.06.06.1.12.23
+mak_12_23_182,182,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.06,Nilai akhir,2,Honor/Upah,650.1.1.06.06.2.12.23
+mak_12_23_183,183,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.06,Nilai akhir,3,Sewa,650.1.1.06.06.3.12.23
+mak_12_23_184,184,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.06,Nilai akhir,4,Outsourcing,650.1.1.06.06.4.12.23
+mak_12_23_185,185,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.06,Nilai akhir,5,Overhead,650.1.1.06.06.5.12.23
+mak_12_23_186,186,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.06.07.1.12.23
+mak_12_23_187,187,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.07,Vakasi ujian,2,Honor/Upah,650.1.1.06.07.2.12.23
+mak_12_23_188,188,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.07,Vakasi ujian,3,Sewa,650.1.1.06.07.3.12.23
+mak_12_23_189,189,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.07,Vakasi ujian,4,Outsourcing,650.1.1.06.07.4.12.23
+mak_12_23_190,190,12.23,Prodi Teknik Industri (S1),1,1.06,1.06.07,Vakasi ujian,5,Overhead,650.1.1.06.07.5.12.23
+mak_12_23_191,191,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.07.01.1.12.23
+mak_12_23_192,192,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.07.01.2.12.23
+mak_12_23_193,193,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.07.01.3.12.23
+mak_12_23_194,194,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.07.01.4.12.23
+mak_12_23_195,195,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.07.01.5.12.23
+mak_12_23_196,196,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.02,Jadual ujian,1,Bahan habis pakai,650.1.1.07.02.1.12.23
+mak_12_23_197,197,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.02,Jadual ujian,2,Honor/Upah,650.1.1.07.02.2.12.23
+mak_12_23_198,198,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.02,Jadual ujian,3,Sewa,650.1.1.07.02.3.12.23
+mak_12_23_199,199,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.02,Jadual ujian,4,Outsourcing,650.1.1.07.02.4.12.23
+mak_12_23_200,200,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.02,Jadual ujian,5,Overhead,650.1.1.07.02.5.12.23
+mak_12_23_201,201,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.03,KPU,1,Bahan habis pakai,650.1.1.07.03.1.12.23
+mak_12_23_202,202,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.03,KPU,2,Honor/Upah,650.1.1.07.03.2.12.23
+mak_12_23_203,203,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.03,KPU,3,Sewa,650.1.1.07.03.3.12.23
+mak_12_23_204,204,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.03,KPU,4,Outsourcing,650.1.1.07.03.4.12.23
+mak_12_23_205,205,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.03,KPU,5,Overhead,650.1.1.07.03.5.12.23
+mak_12_23_206,206,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.07.04.1.12.23
+mak_12_23_207,207,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.07.04.2.12.23
+mak_12_23_208,208,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.07.04.3.12.23
+mak_12_23_209,209,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.07.04.4.12.23
+mak_12_23_210,210,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.07.04.5.12.23
+mak_12_23_211,211,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.07.05.1.12.23
+mak_12_23_212,212,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.07.05.2.12.23
+mak_12_23_213,213,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.07.05.3.12.23
+mak_12_23_214,214,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.07.05.4.12.23
+mak_12_23_215,215,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.07.05.5.12.23
+mak_12_23_216,216,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.06,Nilai akhir,1,Bahan habis pakai,650.1.1.07.06.1.12.23
+mak_12_23_217,217,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.06,Nilai akhir,2,Honor/Upah,650.1.1.07.06.2.12.23
+mak_12_23_218,218,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.06,Nilai akhir,3,Sewa,650.1.1.07.06.3.12.23
+mak_12_23_219,219,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.06,Nilai akhir,4,Outsourcing,650.1.1.07.06.4.12.23
+mak_12_23_220,220,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.06,Nilai akhir,5,Overhead,650.1.1.07.06.5.12.23
+mak_12_23_221,221,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.07.07.1.12.23
+mak_12_23_222,222,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.07,Vakasi ujian,2,Honor/Upah,650.1.1.07.07.2.12.23
+mak_12_23_223,223,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.07,Vakasi ujian,3,Sewa,650.1.1.07.07.3.12.23
+mak_12_23_224,224,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.07,Vakasi ujian,4,Outsourcing,650.1.1.07.07.4.12.23
+mak_12_23_225,225,12.23,Prodi Teknik Industri (S1),1,1.07,1.07.07,Vakasi ujian,5,Overhead,650.1.1.07.07.5.12.23
+mak_12_23_226,226,12.23,Prodi Teknik Industri (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,1,Bahan habis pakai,650.1.1.08.01.1.12.23
+mak_12_23_227,227,12.23,Prodi Teknik Industri (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,2,Honor/Upah,650.1.1.08.01.2.12.23
+mak_12_23_228,228,12.23,Prodi Teknik Industri (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,3,Sewa,650.1.1.08.01.3.12.23
+mak_12_23_229,229,12.23,Prodi Teknik Industri (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,4,Outsourcing,650.1.1.08.01.4.12.23
+mak_12_23_230,230,12.23,Prodi Teknik Industri (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,5,Overhead,650.1.1.08.01.5.12.23
+mak_12_23_231,231,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,1,Bahan habis pakai,650.1.1.09.01.1.12.23
+mak_12_23_232,232,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,2,Honor/Upah,650.1.1.09.01.2.12.23
+mak_12_23_233,233,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,3,Sewa,650.1.1.09.01.3.12.23
+mak_12_23_234,234,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,4,Outsourcing,650.1.1.09.01.4.12.23
+mak_12_23_235,235,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,5,Overhead,650.1.1.09.01.5.12.23
+mak_12_23_236,236,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",1,Bahan habis pakai,650.1.1.09.02.1.12.23
+mak_12_23_237,237,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",2,Honor/Upah,650.1.1.09.02.2.12.23
+mak_12_23_238,238,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",3,Sewa,650.1.1.09.02.3.12.23
+mak_12_23_239,239,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",4,Outsourcing,650.1.1.09.02.4.12.23
+mak_12_23_240,240,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",5,Overhead,650.1.1.09.02.5.12.23
+mak_12_23_241,241,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",1,Bahan habis pakai,650.1.1.09.03.1.12.23
+mak_12_23_242,242,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",2,Honor/Upah,650.1.1.09.03.2.12.23
+mak_12_23_243,243,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",3,Sewa,650.1.1.09.03.3.12.23
+mak_12_23_244,244,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",4,Outsourcing,650.1.1.09.03.4.12.23
+mak_12_23_245,245,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",5,Overhead,650.1.1.09.03.5.12.23
+mak_12_23_246,246,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",1,Bahan habis pakai,650.1.1.09.04.1.12.23
+mak_12_23_247,247,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",2,Honor/Upah,650.1.1.09.04.2.12.23
+mak_12_23_248,248,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",3,Sewa,650.1.1.09.04.3.12.23
+mak_12_23_249,249,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",4,Outsourcing,650.1.1.09.04.4.12.23
+mak_12_23_250,250,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",5,Overhead,650.1.1.09.04.5.12.23
+mak_12_23_251,251,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,1,Bahan habis pakai,650.1.1.09.05.1.12.23
+mak_12_23_252,252,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,2,Honor/Upah,650.1.1.09.05.2.12.23
+mak_12_23_253,253,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,3,Sewa,650.1.1.09.05.3.12.23
+mak_12_23_254,254,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,4,Outsourcing,650.1.1.09.05.4.12.23
+mak_12_23_255,255,12.23,Prodi Teknik Industri (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,5,Overhead,650.1.1.09.05.5.12.23
+mak_12_23_256,256,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.01,Ketepatan waktu mulai,1,Bahan habis pakai,650.1.1.10.01.1.12.23
+mak_12_23_257,257,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.01,Ketepatan waktu mulai,2,Honor/Upah,650.1.1.10.01.2.12.23
+mak_12_23_258,258,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.01,Ketepatan waktu mulai,3,Sewa,650.1.1.10.01.3.12.23
+mak_12_23_259,259,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.01,Ketepatan waktu mulai,4,Outsourcing,650.1.1.10.01.4.12.23
+mak_12_23_260,260,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.01,Ketepatan waktu mulai,5,Overhead,650.1.1.10.01.5.12.23
+mak_12_23_261,261,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.02,Ketepatan waktu selesai,1,Bahan habis pakai,650.1.1.10.02.1.12.23
+mak_12_23_262,262,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.02,Ketepatan waktu selesai,2,Honor/Upah,650.1.1.10.02.2.12.23
+mak_12_23_263,263,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.02,Ketepatan waktu selesai,3,Sewa,650.1.1.10.02.3.12.23
+mak_12_23_264,264,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.02,Ketepatan waktu selesai,4,Outsourcing,650.1.1.10.02.4.12.23
+mak_12_23_265,265,12.23,Prodi Teknik Industri (S1),1,1.10,1.10.02,Ketepatan waktu selesai,5,Overhead,650.1.1.10.02.5.12.23
+mak_12_23_266,266,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.01,Jadual ujian skripsi,1,Bahan habis pakai,650.1.1.11.01.1.12.23
+mak_12_23_267,267,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.01,Jadual ujian skripsi,2,Honor/Upah,650.1.1.11.01.2.12.23
+mak_12_23_268,268,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.01,Jadual ujian skripsi,3,Sewa,650.1.1.11.01.3.12.23
+mak_12_23_269,269,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.01,Jadual ujian skripsi,4,Outsourcing,650.1.1.11.01.4.12.23
+mak_12_23_270,270,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.01,Jadual ujian skripsi,5,Overhead,650.1.1.11.01.5.12.23
+mak_12_23_271,271,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,1,Bahan habis pakai,650.1.1.11.02.1.12.23
+mak_12_23_272,272,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,2,Honor/Upah,650.1.1.11.02.2.12.23
+mak_12_23_273,273,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,3,Sewa,650.1.1.11.02.3.12.23
+mak_12_23_274,274,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,4,Outsourcing,650.1.1.11.02.4.12.23
+mak_12_23_275,275,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,5,Overhead,650.1.1.11.02.5.12.23
+mak_12_23_276,276,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,1,Bahan habis pakai,650.1.1.11.03.1.12.23
+mak_12_23_277,277,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,2,Honor/Upah,650.1.1.11.03.2.12.23
+mak_12_23_278,278,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,3,Sewa,650.1.1.11.03.3.12.23
+mak_12_23_279,279,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,4,Outsourcing,650.1.1.11.03.4.12.23
+mak_12_23_280,280,12.23,Prodi Teknik Industri (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,5,Overhead,650.1.1.11.03.5.12.23
+mak_12_23_281,281,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,1,Bahan habis pakai,650.1.2.01.01.1.12.23
+mak_12_23_282,282,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,2,Honor/Upah,650.1.2.01.01.2.12.23
+mak_12_23_283,283,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,3,Sewa,650.1.2.01.01.3.12.23
+mak_12_23_284,284,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,4,Outsourcing,650.1.2.01.01.4.12.23
+mak_12_23_285,285,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,5,Overhead,650.1.2.01.01.5.12.23
+mak_12_23_286,286,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,1,Bahan habis pakai,650.1.2.01.02.1.12.23
+mak_12_23_287,287,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,2,Honor/Upah,650.1.2.01.02.2.12.23
+mak_12_23_288,288,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,3,Sewa,650.1.2.01.02.3.12.23
+mak_12_23_289,289,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,4,Outsourcing,650.1.2.01.02.4.12.23
+mak_12_23_290,290,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,5,Overhead,650.1.2.01.02.5.12.23
+mak_12_23_291,291,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,1,Bahan habis pakai,650.1.2.01.03.1.12.23
+mak_12_23_292,292,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,2,Honor/Upah,650.1.2.01.03.2.12.23
+mak_12_23_293,293,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,3,Sewa,650.1.2.01.03.3.12.23
+mak_12_23_294,294,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,4,Outsourcing,650.1.2.01.03.4.12.23
+mak_12_23_295,295,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,5,Overhead,650.1.2.01.03.5.12.23
+mak_12_23_296,296,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",1,Bahan habis pakai,650.1.2.01.04.1.12.23
+mak_12_23_297,297,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",2,Honor/Upah,650.1.2.01.04.2.12.23
+mak_12_23_298,298,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",3,Sewa,650.1.2.01.04.3.12.23
+mak_12_23_299,299,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",4,Outsourcing,650.1.2.01.04.4.12.23
+mak_12_23_300,300,12.23,Prodi Teknik Industri (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",5,Overhead,650.1.2.01.04.5.12.23
+mak_12_23_301,301,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,1,Bahan habis pakai,650.1.2.02.01.1.12.23
+mak_12_23_302,302,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,2,Honor/Upah,650.1.2.02.01.2.12.23
+mak_12_23_303,303,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,3,Sewa,650.1.2.02.01.3.12.23
+mak_12_23_304,304,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,4,Outsourcing,650.1.2.02.01.4.12.23
+mak_12_23_305,305,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,5,Overhead,650.1.2.02.01.5.12.23
+mak_12_23_306,306,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.02,Rapat koordinasi,1,Bahan habis pakai,650.1.2.02.02.1.12.23
+mak_12_23_307,307,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.02,Rapat koordinasi,2,Honor/Upah,650.1.2.02.02.2.12.23
+mak_12_23_308,308,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.02,Rapat koordinasi,3,Sewa,650.1.2.02.02.3.12.23
+mak_12_23_309,309,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.02,Rapat koordinasi,4,Outsourcing,650.1.2.02.02.4.12.23
+mak_12_23_310,310,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.02,Rapat koordinasi,5,Overhead,650.1.2.02.02.5.12.23
+mak_12_23_311,311,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.03,Sosialisasi program PP,1,Bahan habis pakai,650.1.2.02.03.1.12.23
+mak_12_23_312,312,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.03,Sosialisasi program PP,2,Honor/Upah,650.1.2.02.03.2.12.23
+mak_12_23_313,313,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.03,Sosialisasi program PP,3,Sewa,650.1.2.02.03.3.12.23
+mak_12_23_314,314,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.03,Sosialisasi program PP,4,Outsourcing,650.1.2.02.03.4.12.23
+mak_12_23_315,315,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.03,Sosialisasi program PP,5,Overhead,650.1.2.02.03.5.12.23
+mak_12_23_316,316,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.04,Penyusunan Company Profile,1,Bahan habis pakai,650.1.2.02.04.1.12.23
+mak_12_23_317,317,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.04,Penyusunan Company Profile,2,Honor/Upah,650.1.2.02.04.2.12.23
+mak_12_23_318,318,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.04,Penyusunan Company Profile,3,Sewa,650.1.2.02.04.3.12.23
+mak_12_23_319,319,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.04,Penyusunan Company Profile,4,Outsourcing,650.1.2.02.04.4.12.23
+mak_12_23_320,320,12.23,Prodi Teknik Industri (S1),2,2.02,2.02.04,Penyusunan Company Profile,5,Overhead,650.1.2.02.04.5.12.23
+mak_12_23_321,321,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,1,Bahan habis pakai,650.1.2.03.01.1.12.23
+mak_12_23_322,322,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,2,Honor/Upah,650.1.2.03.01.2.12.23
+mak_12_23_323,323,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,3,Sewa,650.1.2.03.01.3.12.23
+mak_12_23_324,324,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,4,Outsourcing,650.1.2.03.01.4.12.23
+mak_12_23_325,325,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,5,Overhead,650.1.2.03.01.5.12.23
+mak_12_23_326,326,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,1,Bahan habis pakai,650.1.2.03.10.1.12.23
+mak_12_23_327,327,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,2,Honor/Upah,650.1.2.03.10.2.12.23
+mak_12_23_328,328,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,3,Sewa,650.1.2.03.10.3.12.23
+mak_12_23_329,329,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,4,Outsourcing,650.1.2.03.10.4.12.23
+mak_12_23_330,330,12.23,Prodi Teknik Industri (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,5,Overhead,650.1.2.03.10.5.12.23
+mak_12_23_331,331,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.01,Seminar IPTEK regulair,1,Bahan habis pakai,650.1.2.04.01.1.12.23
+mak_12_23_332,332,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.01,Seminar IPTEK regulair,2,Honor/Upah,650.1.2.04.01.2.12.23
+mak_12_23_333,333,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.01,Seminar IPTEK regulair,3,Sewa,650.1.2.04.01.3.12.23
+mak_12_23_334,334,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.01,Seminar IPTEK regulair,4,Outsourcing,650.1.2.04.01.4.12.23
+mak_12_23_335,335,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.01,Seminar IPTEK regulair,5,Overhead,650.1.2.04.01.5.12.23
+mak_12_23_336,336,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,1,Bahan habis pakai,650.1.2.05.02.1.12.23
+mak_12_23_337,337,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,2,Honor/Upah,650.1.2.05.02.2.12.23
+mak_12_23_338,338,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,3,Sewa,650.1.2.05.02.3.12.23
+mak_12_23_339,339,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,4,Outsourcing,650.1.2.05.02.4.12.23
+mak_12_23_340,340,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,5,Overhead,650.1.2.05.02.5.12.23
+mak_12_23_341,341,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.03,Seminar dan workshop nasional,1,Bahan habis pakai,650.1.2.04.03.1.12.23
+mak_12_23_342,342,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.03,Seminar dan workshop nasional,2,Honor/Upah,650.1.2.04.03.2.12.23
+mak_12_23_343,343,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.03,Seminar dan workshop nasional,3,Sewa,650.1.2.04.03.3.12.23
+mak_12_23_344,344,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.03,Seminar dan workshop nasional,4,Outsourcing,650.1.2.04.03.4.12.23
+mak_12_23_345,345,12.23,Prodi Teknik Industri (S1),2,2.04,2.04.03,Seminar dan workshop nasional,5,Overhead,650.1.2.04.03.5.12.23
+mak_12_23_346,346,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,1,Bahan habis pakai,650.1.2.05.01.1.12.23
+mak_12_23_347,347,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,2,Honor/Upah,650.1.2.05.01.2.12.23
+mak_12_23_348,348,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,3,Sewa,650.1.2.05.01.3.12.23
+mak_12_23_349,349,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,4,Outsourcing,650.1.2.05.01.4.12.23
+mak_12_23_350,350,12.23,Prodi Teknik Industri (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,5,Overhead,650.1.2.05.01.5.12.23
+mak_12_23_351,351,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",1,Bahan habis pakai,650.1.3.01.01.1.12.23
+mak_12_23_352,352,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",2,Honor/Upah,650.1.3.01.01.2.12.23
+mak_12_23_353,353,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",3,Sewa,650.1.3.01.01.3.12.23
+mak_12_23_354,354,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",4,Outsourcing,650.1.3.01.01.4.12.23
+mak_12_23_355,355,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",5,Overhead,650.1.3.01.01.5.12.23
+mak_12_23_356,356,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,1,Bahan habis pakai,650.1.3.01.02.1.12.23
+mak_12_23_357,357,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,2,Honor/Upah,650.1.3.01.02.2.12.23
+mak_12_23_358,358,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,3,Sewa,650.1.3.01.02.3.12.23
+mak_12_23_359,359,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,4,Outsourcing,650.1.3.01.02.4.12.23
+mak_12_23_360,360,12.23,Prodi Teknik Industri (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,5,Overhead,650.1.3.01.02.5.12.23
+mak_12_23_361,361,12.23,Prodi Teknik Industri (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,1,Bahan habis pakai,650.1.3.02.01.1.12.23
+mak_12_23_362,362,12.23,Prodi Teknik Industri (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,2,Honor/Upah,650.1.3.02.01.2.12.23
+mak_12_23_363,363,12.23,Prodi Teknik Industri (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,3,Sewa,650.1.3.02.01.3.12.23
+mak_12_23_364,364,12.23,Prodi Teknik Industri (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,4,Outsourcing,650.1.3.02.01.4.12.23
+mak_12_23_365,365,12.23,Prodi Teknik Industri (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,5,Overhead,650.1.3.02.01.5.12.23
+mak_12_23_366,366,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,1,Bahan habis pakai,650.1.3.03.01.1.12.23
+mak_12_23_367,367,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,2,Honor/Upah,650.1.3.03.01.2.12.23
+mak_12_23_368,368,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,3,Sewa,650.1.3.03.01.3.12.23
+mak_12_23_369,369,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,4,Outsourcing,650.1.3.03.01.4.12.23
+mak_12_23_370,370,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,5,Overhead,650.1.3.03.01.5.12.23
+mak_12_23_371,371,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,1,Bahan habis pakai,650.1.3.03.02.1.12.23
+mak_12_23_372,372,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,2,Honor/Upah,650.1.3.03.02.2.12.23
+mak_12_23_373,373,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,3,Sewa,650.1.3.03.02.3.12.23
+mak_12_23_374,374,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,4,Outsourcing,650.1.3.03.02.4.12.23
+mak_12_23_375,375,12.23,Prodi Teknik Industri (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,5,Overhead,650.1.3.03.02.5.12.23
+mak_12_23_376,376,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,1,Bahan habis pakai,650.1.3.04.01.1.12.23
+mak_12_23_377,377,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,2,Honor/Upah,650.1.3.04.01.2.12.23
+mak_12_23_378,378,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,3,Sewa,650.1.3.04.01.3.12.23
+mak_12_23_379,379,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,4,Outsourcing,650.1.3.04.01.4.12.23
+mak_12_23_380,380,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,5,Overhead,650.1.3.04.01.5.12.23
+mak_12_23_381,381,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,1,Bahan habis pakai,650.1.3.04.02.1.12.23
+mak_12_23_382,382,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,2,Honor/Upah,650.1.3.04.02.2.12.23
+mak_12_23_383,383,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,3,Sewa,650.1.3.04.02.3.12.23
+mak_12_23_384,384,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,4,Outsourcing,650.1.3.04.02.4.12.23
+mak_12_23_385,385,12.23,Prodi Teknik Industri (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,5,Overhead,650.1.3.04.02.5.12.23
+mak_12_23_386,386,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,1,Bahan habis pakai,650.1.3.05.01.1.12.23
+mak_12_23_387,387,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,2,Honor/Upah,650.1.3.05.01.2.12.23
+mak_12_23_388,388,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,3,Sewa,650.1.3.05.01.3.12.23
+mak_12_23_389,389,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,4,Outsourcing,650.1.3.05.01.4.12.23
+mak_12_23_390,390,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,5,Overhead,650.1.3.05.01.5.12.23
+mak_12_23_391,391,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,1,Bahan habis pakai,650.1.3.05.02.1.12.23
+mak_12_23_392,392,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,2,Honor/Upah,650.1.3.05.02.2.12.23
+mak_12_23_393,393,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,3,Sewa,650.1.3.05.02.3.12.23
+mak_12_23_394,394,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,4,Outsourcing,650.1.3.05.02.4.12.23
+mak_12_23_395,395,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,5,Overhead,650.1.3.05.02.5.12.23
+mak_12_23_396,396,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.03,Stimulan kewirausahaan,1,Bahan habis pakai,650.1.3.05.03.1.12.23
+mak_12_23_397,397,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.03,Stimulan kewirausahaan,2,Honor/Upah,650.1.3.05.03.2.12.23
+mak_12_23_398,398,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.03,Stimulan kewirausahaan,3,Sewa,650.1.3.05.03.3.12.23
+mak_12_23_399,399,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.03,Stimulan kewirausahaan,4,Outsourcing,650.1.3.05.03.4.12.23
+mak_12_23_400,400,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.03,Stimulan kewirausahaan,5,Overhead,650.1.3.05.03.5.12.23
+mak_12_23_401,401,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,1,Bahan habis pakai,650.1.3.05.04.1.12.23
+mak_12_23_402,402,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,2,Honor/Upah,650.1.3.05.04.2.12.23
+mak_12_23_403,403,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,3,Sewa,650.1.3.05.04.3.12.23
+mak_12_23_404,404,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,4,Outsourcing,650.1.3.05.04.4.12.23
+mak_12_23_405,405,12.23,Prodi Teknik Industri (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,5,Overhead,650.1.3.05.04.5.12.23
+mak_12_23_406,406,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",1,Bahan habis pakai,650.1.4.01.01.1.12.23
+mak_12_23_407,407,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",2,Honor/Upah,650.1.4.01.01.2.12.23
+mak_12_23_408,408,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",3,Sewa,650.1.4.01.01.3.12.23
+mak_12_23_409,409,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",4,Outsourcing,650.1.4.01.01.4.12.23
+mak_12_23_410,410,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",5,Overhead,650.1.4.01.01.5.12.23
+mak_12_23_411,411,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.02,Pelaksanaan MOU,1,Bahan habis pakai,650.1.4.01.02.1.12.23
+mak_12_23_412,412,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.02,Pelaksanaan MOU,2,Honor/Upah,650.1.4.01.02.2.12.23
+mak_12_23_413,413,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.02,Pelaksanaan MOU,3,Sewa,650.1.4.01.02.3.12.23
+mak_12_23_414,414,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.02,Pelaksanaan MOU,4,Outsourcing,650.1.4.01.02.4.12.23
+mak_12_23_415,415,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.02,Pelaksanaan MOU,5,Overhead,650.1.4.01.02.5.12.23
+mak_12_23_416,416,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.03,Carrier Center,1,Bahan habis pakai,650.1.4.01.03.1.12.23
+mak_12_23_417,417,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.03,Carrier Center,2,Honor/Upah,650.1.4.01.03.2.12.23
+mak_12_23_418,418,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.03,Carrier Center,3,Sewa,650.1.4.01.03.3.12.23
+mak_12_23_419,419,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.03,Carrier Center,4,Outsourcing,650.1.4.01.03.4.12.23
+mak_12_23_420,420,12.23,Prodi Teknik Industri (S1),4,4.01,4.01.03,Carrier Center,5,Overhead,650.1.4.01.03.5.12.23
+mak_12_23_421,421,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,1,Bahan habis pakai,650.1.5.01.01.1.12.23
+mak_12_23_422,422,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,2,Honor/Upah,650.1.5.01.01.2.12.23
+mak_12_23_423,423,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,3,Sewa,650.1.5.01.01.3.12.23
+mak_12_23_424,424,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,4,Outsourcing,650.1.5.01.01.4.12.23
+mak_12_23_425,425,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,5,Overhead,650.1.5.01.01.5.12.23
+mak_12_23_426,426,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,1,Bahan habis pakai,650.1.5.01.02.1.12.23
+mak_12_23_427,427,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,2,Honor/Upah,650.1.5.01.02.2.12.23
+mak_12_23_428,428,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,3,Sewa,650.1.5.01.02.3.12.23
+mak_12_23_429,429,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,4,Outsourcing,650.1.5.01.02.4.12.23
+mak_12_23_430,430,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,5,Overhead,650.1.5.01.02.5.12.23
+mak_12_23_431,431,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,1,Bahan habis pakai,650.1.5.01.03.1.12.23
+mak_12_23_432,432,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,2,Honor/Upah,650.1.5.01.03.2.12.23
+mak_12_23_433,433,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,3,Sewa,650.1.5.01.03.3.12.23
+mak_12_23_434,434,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,4,Outsourcing,650.1.5.01.03.4.12.23
+mak_12_23_435,435,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,5,Overhead,650.1.5.01.03.5.12.23
+mak_12_23_436,436,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,1,Bahan habis pakai,650.1.5.01.04.1.12.23
+mak_12_23_437,437,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,2,Honor/Upah,650.1.5.01.04.2.12.23
+mak_12_23_438,438,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,3,Sewa,650.1.5.01.04.3.12.23
+mak_12_23_439,439,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,4,Outsourcing,650.1.5.01.04.4.12.23
+mak_12_23_440,440,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,5,Overhead,650.1.5.01.04.5.12.23
+mak_12_23_441,441,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,1,Bahan habis pakai,650.1.5.01.05.1.12.23
+mak_12_23_442,442,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,2,Honor/Upah,650.1.5.01.05.2.12.23
+mak_12_23_443,443,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,3,Sewa,650.1.5.01.05.3.12.23
+mak_12_23_444,444,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,4,Outsourcing,650.1.5.01.05.4.12.23
+mak_12_23_445,445,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,5,Overhead,650.1.5.01.05.5.12.23
+mak_12_23_446,446,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.06,Pencetakan company profile,1,Bahan habis pakai,650.1.5.01.06.1.12.23
+mak_12_23_447,447,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.06,Pencetakan company profile,2,Honor/Upah,650.1.5.01.06.2.12.23
+mak_12_23_448,448,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.06,Pencetakan company profile,3,Sewa,650.1.5.01.06.3.12.23
+mak_12_23_449,449,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.06,Pencetakan company profile,4,Outsourcing,650.1.5.01.06.4.12.23
+mak_12_23_450,450,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.06,Pencetakan company profile,5,Overhead,650.1.5.01.06.5.12.23
+mak_12_23_451,451,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.07,Pameran Iptek open campus,1,Bahan habis pakai,650.1.5.01.07.1.12.23
+mak_12_23_452,452,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.07,Pameran Iptek open campus,2,Honor/Upah,650.1.5.01.07.2.12.23
+mak_12_23_453,453,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.07,Pameran Iptek open campus,3,Sewa,650.1.5.01.07.3.12.23
+mak_12_23_454,454,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.07,Pameran Iptek open campus,4,Outsourcing,650.1.5.01.07.4.12.23
+mak_12_23_455,455,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.07,Pameran Iptek open campus,5,Overhead,650.1.5.01.07.5.12.23
+mak_12_23_456,456,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,1,Bahan habis pakai,650.1.5.01.08.1.12.23
+mak_12_23_457,457,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,2,Honor/Upah,650.1.5.01.08.2.12.23
+mak_12_23_458,458,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,3,Sewa,650.1.5.01.08.3.12.23
+mak_12_23_459,459,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,4,Outsourcing,650.1.5.01.08.4.12.23
+mak_12_23_460,460,12.23,Prodi Teknik Industri (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,5,Overhead,650.1.5.01.08.5.12.23
+mak_12_23_461,461,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,1,Bahan habis pakai,650.1.6.01.01.1.12.23
+mak_12_23_462,462,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,2,Honor/Upah,650.1.6.01.01.2.12.23
+mak_12_23_463,463,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,3,Sewa,650.1.6.01.01.3.12.23
+mak_12_23_464,464,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,4,Outsourcing,650.1.6.01.01.4.12.23
+mak_12_23_465,465,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,5,Overhead,650.1.6.01.01.5.12.23
+mak_12_23_466,466,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,1,Bahan habis pakai,650.1.6.01.02.1.12.23
+mak_12_23_467,467,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,2,Honor/Upah,650.1.6.01.02.2.12.23
+mak_12_23_468,468,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,3,Sewa,650.1.6.01.02.3.12.23
+mak_12_23_469,469,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,4,Outsourcing,650.1.6.01.02.4.12.23
+mak_12_23_470,470,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,5,Overhead,650.1.6.01.02.5.12.23
+mak_12_23_471,471,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,1,Bahan habis pakai,650.1.6.01.03.1.12.23
+mak_12_23_472,472,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,2,Honor/Upah,650.1.6.01.03.2.12.23
+mak_12_23_473,473,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,3,Sewa,650.1.6.01.03.3.12.23
+mak_12_23_474,474,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,4,Outsourcing,650.1.6.01.03.4.12.23
+mak_12_23_475,475,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,5,Overhead,650.1.6.01.03.5.12.23
+mak_12_23_476,476,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.04,Pelaporan-pelaporan,1,Bahan habis pakai,650.1.6.01.04.1.12.23
+mak_12_23_477,477,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.04,Pelaporan-pelaporan,2,Honor/Upah,650.1.6.01.04.2.12.23
+mak_12_23_478,478,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.04,Pelaporan-pelaporan,3,Sewa,650.1.6.01.04.3.12.23
+mak_12_23_479,479,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.04,Pelaporan-pelaporan,4,Outsourcing,650.1.6.01.04.4.12.23
+mak_12_23_480,480,12.23,Prodi Teknik Industri (S1),6,6.01,6.01.04,Pelaporan-pelaporan,5,Overhead,650.1.6.01.04.5.12.23
+mak_12_23_481,481,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.01,Pengiriman proposal,1,Bahan habis pakai,650.1.7.01.01.1.12.23
+mak_12_23_482,482,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.01,Pengiriman proposal,2,Honor/Upah,650.1.7.01.01.2.12.23
+mak_12_23_483,483,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.01,Pengiriman proposal,3,Sewa,650.1.7.01.01.3.12.23
+mak_12_23_484,484,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.01,Pengiriman proposal,4,Outsourcing,650.1.7.01.01.4.12.23
+mak_12_23_485,485,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.01,Pengiriman proposal,5,Overhead,650.1.7.01.01.5.12.23
+mak_12_23_486,486,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.02,Pembayaran iuran forum,1,Bahan habis pakai,650.1.7.01.02.1.12.23
+mak_12_23_487,487,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.02,Pembayaran iuran forum,2,Honor/Upah,650.1.7.01.02.2.12.23
+mak_12_23_488,488,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.02,Pembayaran iuran forum,3,Sewa,650.1.7.01.02.3.12.23
+mak_12_23_489,489,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.02,Pembayaran iuran forum,4,Outsourcing,650.1.7.01.02.4.12.23
+mak_12_23_490,490,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.02,Pembayaran iuran forum,5,Overhead,650.1.7.01.02.5.12.23
+mak_12_23_491,491,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.03,Representasi,1,Bahan habis pakai,650.1.7.01.03.1.12.23
+mak_12_23_492,492,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.03,Representasi,2,Honor/Upah,650.1.7.01.03.2.12.23
+mak_12_23_493,493,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.03,Representasi,3,Sewa,650.1.7.01.03.3.12.23
+mak_12_23_494,494,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.03,Representasi,4,Outsourcing,650.1.7.01.03.4.12.23
+mak_12_23_495,495,12.23,Prodi Teknik Industri (S1),7,7.01,7.01.03,Representasi,5,Overhead,650.1.7.01.03.5.12.23

@@ -1,0 +1,32 @@
+<openerp>
+	<data>
+		<!-- action list rka -->
+		<record id="action_rka_list" model="ir.actions.act_window">
+			<field name="name">Rencana Operasional dan Anggaran</field>
+			<field name="res_model">anggaran.rka</field>
+			<field name="view_mode">tree,form,graph</field>
+			<field name="context">{'search_default_group_by_unit': 1}</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage ROA
+		      </p>				
+				<p>Klik tombol create untuk membuat Rencana Operasional dan Anggaran</p>
+			</field>
+		</record>
+
+		<!--  menu_anggaran_master -->
+		<menuitem id="menu_anggaran_anggaran"
+			 name="Anggaran"
+			 sequence="10"
+			 parent="menu_anggaran"/>
+
+		<!-- menu_rka -->
+		<menuitem id="menu_rka"
+			 action="action_rka_list"
+			 name="ROA"
+			 sequence="10"
+			 parent="menu_anggaran_anggaran"/>
+
+
+	</data>
+</openerp>

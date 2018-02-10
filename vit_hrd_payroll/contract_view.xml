@@ -1,0 +1,87 @@
+<openerp>
+	<data>
+
+		<record id="hr_contract_tunjangan_form" model="ir.ui.view">
+        	<field name="name">hr.contract_tunjagan.view.form</field>
+            <field name="model">hr.contract_tunjangan</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+            	<form string="Tunjangan">
+            		<group>
+            			<field name="name"/>
+            			<field name="tunj_jabatan"/>
+            		</group>
+            		<group>
+            			<field name="tunj_transport"/>
+            			<field name="tunj_makan"/>
+                        <field name="tunj_komunikasi"/>
+            		</group>
+            	</form>
+            </field>
+        </record>
+		
+		<record id="hr_contract_view_form2" model="ir.ui.view">
+            <field name="name">hr.contract.view.form</field>
+            <field name="model">hr.contract</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="hr_contract.hr_contract_view_form"/>
+            <field name="arch" type="xml">
+            	
+                <field name="wage" position="after">
+            		<field name="jenis_tunjangan"/>
+                    <field name="zakat"/>
+            	</field>
+
+                <page string="Information" name="information" position="after">
+                    <page string="Tunjangan Khusus" name="tunjangan_khusus">
+                        <group>
+                            <field name="tunj_jabatan"/>
+                            <field name="tunj_makan"/>
+                            <field name="tunj_transport"/>
+                            <field name="tunj_komunikasi"/>
+                        </group>
+                    </page>
+                </page>
+            </field>
+        </record>
+
+
+         <record id="hr_contract_type_view_form2" model="ir.ui.view">
+            <field name="name">hr.contract.type.view.form2</field>
+            <field name="model">hr.contract.type</field>
+            <field name="inherit_id" ref="hr_contract.hr_contract_type_view_form"/>
+            <field name="arch" type="xml">
+                  <field name="name" position="after">
+                    <!--field name="pajak"/-->
+                    <group colspan="4">
+                        <group string="BPJS Ketenagakerjaan">
+                            <field name="jams1"/>
+                            <field name="jams2"/>
+                        </group>
+                        <group string="BPJS Kesehatan">
+                            <field name="jams3"/>
+                            <field name="jams4"/>
+                        </group>
+                        <group string="Reimburse" >
+                            <field name="reimburse_pengobatan" />
+                            <field name="range_pengobatan" />
+                        </group>
+                        <group string="Biaya Jabatan">
+                            <field name="biaya_jabatan"/>
+                            <field name="max_biaya_jabatan"/>
+                        </group>
+                        <group string="THT">
+                            <field name="tht"/>
+                            <field name="ttht"/>
+                            <field name="max_tht"/>
+                        </group>
+                        <group string="Type Perhitungan Pajak">
+                            <field name="type_perhitungan_pajak"/>
+                        </group>
+                    </group>
+                  </field>
+            </field>
+        </record>
+
+    </data>
+</openerp>

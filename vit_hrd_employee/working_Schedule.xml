@@ -1,0 +1,90 @@
+<openerp>
+	<data>
+<!-- working Schedule Indonesian Companies -->
+	    <record model="resource.calendar" id="working_schedule" >
+	    	<field name="name">Workig Schedule</field>
+	    </record>
+
+    <!-- detail working Schedule -->
+	    <record model="resource.calendar.attendance" id="working_schedule1" >
+	    	<field name="name">mon</field>
+	    	<field name="dayofweek">0</field>
+	    	<field name="hour_from">8</field>
+	    	<field name="hour_to">12</field>
+	    	<field name="calendar_id" ref="working_schedule" />
+	    </record>
+
+	    <record model="resource.calendar.attendance" id="working_schedule2" >
+	    	<field name="name">mon</field>
+	    	<field name="dayofweek">0</field>
+	    	<field name="hour_from">13</field>
+	    	<field name="hour_to">17</field>
+	    	<field name="calendar_id" ref="working_schedule" />
+	    </record>
+	    
+	    <record model="resource.calendar.attendance" id="working_schedule3" >
+	    	<field name="name">tue</field>
+	    	<field name="dayofweek">1</field>
+	    	<field name="hour_from">8</field>
+	    	<field name="hour_to">12</field>
+	    	<field name="calendar_id" ref="working_schedule"/>
+	    </record>	  
+
+	    <record model="resource.calendar.attendance" id="working_schedule4" >
+	    	<field name="name">tue</field>
+	    	<field name="dayofweek">1</field>
+	    	<field name="hour_from">13</field>
+	    	<field name="hour_to">17</field>
+	    	<field name="calendar_id" ref="working_schedule"/>
+	    </record>	  
+
+	    <record model="resource.calendar.attendance" id="working_schedule5" >
+	    	<field name="name">wed</field>
+	    	<field name="dayofweek">2</field>
+	    	<field name="hour_from">8</field>
+	    	<field name="hour_to">12</field>
+	    	<field name="calendar_id" ref="working_schedule"/>
+	    </record>
+
+	    <record model="resource.calendar.attendance" id="working_schedule6" >
+	    	<field name="name">wed</field>
+	    	<field name="dayofweek">2</field>
+	    	<field name="hour_from">13</field>
+	    	<field name="hour_to">17</field>
+	    	<field name="calendar_id" ref="working_schedule"/>
+	    </record>
+
+	    <record model="resource.calendar.attendance" id="working_schedule7" >
+	    	<field name="name">thu</field>
+	    	<field name="dayofweek">3</field>
+	    	<field name="hour_from">8</field>
+	    	<field name="hour_to">12</field>
+	    	<field name="calendar_id" ref="working_schedule"/>
+	    </record>
+
+	    <record model="resource.calendar.attendance" id="working_schedule8" >
+	    	<field name="name">thu</field>
+	    	<field name="dayofweek">3</field>
+	    	<field name="hour_from">13</field>
+	    	<field name="hour_to">17</field>
+	    	<field name="calendar_id" ref="working_schedule"/>
+	    </record>
+
+	    <record model="resource.calendar.attendance" id="working_schedule9" >
+	    	<field name="name">fri</field>
+	    	<field name="dayofweek">4</field>
+	    	<field name="hour_from">8</field>
+	    	<field name="hour_to">11.5</field>
+	    	<field name="calendar_id" ref="working_schedule" />
+	    </record>
+
+	    <record model="resource.calendar.attendance" id="working_schedule10" >
+	    	<field name="name">fri</field>
+	    	<field name="dayofweek">4</field>
+	    	<field name="hour_from">13.5</field>
+	    	<field name="hour_to">17</field>
+	    	<field name="calendar_id" ref="working_schedule" />
+	    </record>
+
+	</data>
+</openerp>

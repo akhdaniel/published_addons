@@ -1,0 +1,496 @@
+id,,unit kerja,nama unit,kebijakan,program,kegiatan,nama kegiatan,cost type,name,kode
+mak_12_22_1,1,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,1,Bahan habis pakai,650.1.1.01.01.1.12.22
+mak_12_22_2,2,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,2,Honor/Upah,650.1.1.01.01.2.12.22
+mak_12_22_3,3,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,3,Sewa,650.1.1.01.01.3.12.22
+mak_12_22_4,4,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,4,Outsourcing,650.1.1.01.01.4.12.22
+mak_12_22_5,5,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,5,Overhead,650.1.1.01.01.5.12.22
+mak_12_22_6,6,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,1,Bahan habis pakai,650.1.1.01.02.1.12.22
+mak_12_22_7,7,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,2,Honor/Upah,650.1.1.01.02.2.12.22
+mak_12_22_8,8,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,3,Sewa,650.1.1.01.02.3.12.22
+mak_12_22_9,9,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,4,Outsourcing,650.1.1.01.02.4.12.22
+mak_12_22_10,10,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,5,Overhead,650.1.1.01.02.5.12.22
+mak_12_22_11,11,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.03,Ketersediaan dosen,1,Bahan habis pakai,650.1.1.01.03.1.12.22
+mak_12_22_12,12,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.03,Ketersediaan dosen,2,Honor/Upah,650.1.1.01.03.2.12.22
+mak_12_22_13,13,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.03,Ketersediaan dosen,3,Sewa,650.1.1.01.03.3.12.22
+mak_12_22_14,14,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.03,Ketersediaan dosen,4,Outsourcing,650.1.1.01.03.4.12.22
+mak_12_22_15,15,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.03,Ketersediaan dosen,5,Overhead,650.1.1.01.03.5.12.22
+mak_12_22_16,16,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.04,Kualifikasi dosen,1,Bahan habis pakai,650.1.1.01.04.1.12.22
+mak_12_22_17,17,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.04,Kualifikasi dosen,2,Honor/Upah,650.1.1.01.04.2.12.22
+mak_12_22_18,18,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.04,Kualifikasi dosen,3,Sewa,650.1.1.01.04.3.12.22
+mak_12_22_19,19,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.04,Kualifikasi dosen,4,Outsourcing,650.1.1.01.04.4.12.22
+mak_12_22_20,20,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.04,Kualifikasi dosen,5,Overhead,650.1.1.01.04.5.12.22
+mak_12_22_21,21,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,1,Bahan habis pakai,650.1.1.01.05.1.12.22
+mak_12_22_22,22,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,2,Honor/Upah,650.1.1.01.05.2.12.22
+mak_12_22_23,23,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,3,Sewa,650.1.1.01.05.3.12.22
+mak_12_22_24,24,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,4,Outsourcing,650.1.1.01.05.4.12.22
+mak_12_22_25,25,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,5,Overhead,650.1.1.01.05.5.12.22
+mak_12_22_26,26,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,1,Bahan habis pakai,650.1.1.01.06.1.12.22
+mak_12_22_27,27,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,2,Honor/Upah,650.1.1.01.06.2.12.22
+mak_12_22_28,28,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,3,Sewa,650.1.1.01.06.3.12.22
+mak_12_22_29,29,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,4,Outsourcing,650.1.1.01.06.4.12.22
+mak_12_22_30,30,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,5,Overhead,650.1.1.01.06.5.12.22
+mak_12_22_31,31,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.07,Jadual kuliah,1,Bahan habis pakai,650.1.1.01.07.1.12.22
+mak_12_22_32,32,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.07,Jadual kuliah,2,Honor/Upah,650.1.1.01.07.2.12.22
+mak_12_22_33,33,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.07,Jadual kuliah,3,Sewa,650.1.1.01.07.3.12.22
+mak_12_22_34,34,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.07,Jadual kuliah,4,Outsourcing,650.1.1.01.07.4.12.22
+mak_12_22_35,35,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.07,Jadual kuliah,5,Overhead,650.1.1.01.07.5.12.22
+mak_12_22_36,36,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,1,Bahan habis pakai,650.1.1.01.08.1.12.22
+mak_12_22_37,37,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,2,Honor/Upah,650.1.1.01.08.2.12.22
+mak_12_22_38,38,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,3,Sewa,650.1.1.01.08.3.12.22
+mak_12_22_39,39,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,4,Outsourcing,650.1.1.01.08.4.12.22
+mak_12_22_40,40,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,5,Overhead,650.1.1.01.08.5.12.22
+mak_12_22_41,41,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,1,Bahan habis pakai,650.1.1.01.09.1.12.22
+mak_12_22_42,42,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,2,Honor/Upah,650.1.1.01.09.2.12.22
+mak_12_22_43,43,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,3,Sewa,650.1.1.01.09.3.12.22
+mak_12_22_44,44,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,4,Outsourcing,650.1.1.01.09.4.12.22
+mak_12_22_45,45,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,5,Overhead,650.1.1.01.09.5.12.22
+mak_12_22_46,46,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,1,Bahan habis pakai,650.1.1.01.10.1.12.22
+mak_12_22_47,47,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,2,Honor/Upah,650.1.1.01.10.2.12.22
+mak_12_22_48,48,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,3,Sewa,650.1.1.01.10.3.12.22
+mak_12_22_49,49,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,4,Outsourcing,650.1.1.01.10.4.12.22
+mak_12_22_50,50,12.22,Prodi Teknik Elektro (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,5,Overhead,650.1.1.01.10.5.12.22
+mak_12_22_51,51,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.01,Lembar penyetaraan,1,Bahan habis pakai,650.1.1.02.01.1.12.22
+mak_12_22_52,52,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.01,Lembar penyetaraan,2,Honor/Upah,650.1.1.02.01.2.12.22
+mak_12_22_53,53,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.01,Lembar penyetaraan,3,Sewa,650.1.1.02.01.3.12.22
+mak_12_22_54,54,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.01,Lembar penyetaraan,4,Outsourcing,650.1.1.02.01.4.12.22
+mak_12_22_55,55,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.01,Lembar penyetaraan,5,Overhead,650.1.1.02.01.5.12.22
+mak_12_22_56,56,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,1,Bahan habis pakai,650.1.1.02.02.1.12.22
+mak_12_22_57,57,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,2,Honor/Upah,650.1.1.02.02.2.12.22
+mak_12_22_58,58,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,3,Sewa,650.1.1.02.02.3.12.22
+mak_12_22_59,59,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,4,Outsourcing,650.1.1.02.02.4.12.22
+mak_12_22_60,60,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,5,Overhead,650.1.1.02.02.5.12.22
+mak_12_22_61,61,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.02.03.1.12.22
+mak_12_22_62,62,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.02.03.2.12.22
+mak_12_22_63,63,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.02.03.3.12.22
+mak_12_22_64,64,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.02.03.4.12.22
+mak_12_22_65,65,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.02.03.5.12.22
+mak_12_22_66,66,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.04,Jadwal praktikum,1,Bahan habis pakai,650.1.1.02.04.1.12.22
+mak_12_22_67,67,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.04,Jadwal praktikum,2,Honor/Upah,650.1.1.02.04.2.12.22
+mak_12_22_68,68,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.04,Jadwal praktikum,3,Sewa,650.1.1.02.04.3.12.22
+mak_12_22_69,69,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.04,Jadwal praktikum,4,Outsourcing,650.1.1.02.04.4.12.22
+mak_12_22_70,70,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.04,Jadwal praktikum,5,Overhead,650.1.1.02.04.5.12.22
+mak_12_22_71,71,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.05,Modul / alat praktikum,1,Bahan habis pakai,650.1.1.02.05.1.12.22
+mak_12_22_72,72,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.05,Modul / alat praktikum,2,Honor/Upah,650.1.1.02.05.2.12.22
+mak_12_22_73,73,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.05,Modul / alat praktikum,3,Sewa,650.1.1.02.05.3.12.22
+mak_12_22_74,74,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.05,Modul / alat praktikum,4,Outsourcing,650.1.1.02.05.4.12.22
+mak_12_22_75,75,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.05,Modul / alat praktikum,5,Overhead,650.1.1.02.05.5.12.22
+mak_12_22_76,76,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.06,Bahan habis pakai,1,Bahan habis pakai,650.1.1.02.06.1.12.22
+mak_12_22_77,77,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.06,Bahan habis pakai,2,Honor/Upah,650.1.1.02.06.2.12.22
+mak_12_22_78,78,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.06,Bahan habis pakai,3,Sewa,650.1.1.02.06.3.12.22
+mak_12_22_79,79,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.06,Bahan habis pakai,4,Outsourcing,650.1.1.02.06.4.12.22
+mak_12_22_80,80,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.06,Bahan habis pakai,5,Overhead,650.1.1.02.06.5.12.22
+mak_12_22_81,81,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.07,Dana praktikum,1,Bahan habis pakai,650.1.1.02.07.1.12.22
+mak_12_22_82,82,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.07,Dana praktikum,2,Honor/Upah,650.1.1.02.07.2.12.22
+mak_12_22_83,83,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.07,Dana praktikum,3,Sewa,650.1.1.02.07.3.12.22
+mak_12_22_84,84,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.07,Dana praktikum,4,Outsourcing,650.1.1.02.07.4.12.22
+mak_12_22_85,85,12.22,Prodi Teknik Elektro (S1),1,1.02,1.02.07,Dana praktikum,5,Overhead,650.1.1.02.07.5.12.22
+mak_12_22_86,86,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.03.01.1.12.22
+mak_12_22_87,87,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.03.01.2.12.22
+mak_12_22_88,88,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.03.01.3.12.22
+mak_12_22_89,89,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.03.01.4.12.22
+mak_12_22_90,90,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.03.01.5.12.22
+mak_12_22_91,91,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.02,Jadual praktikum,1,Bahan habis pakai,650.1.1.03.02.1.12.22
+mak_12_22_92,92,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.02,Jadual praktikum,2,Honor/Upah,650.1.1.03.02.2.12.22
+mak_12_22_93,93,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.02,Jadual praktikum,3,Sewa,650.1.1.03.02.3.12.22
+mak_12_22_94,94,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.02,Jadual praktikum,4,Outsourcing,650.1.1.03.02.4.12.22
+mak_12_22_95,95,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.02,Jadual praktikum,5,Overhead,650.1.1.03.02.5.12.22
+mak_12_22_96,96,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.03,Modul/alat praktikum,1,Bahan habis pakai,650.1.1.03.03.1.12.22
+mak_12_22_97,97,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.03,Modul/alat praktikum,2,Honor/Upah,650.1.1.03.03.2.12.22
+mak_12_22_98,98,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.03,Modul/alat praktikum,3,Sewa,650.1.1.03.03.3.12.22
+mak_12_22_99,99,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.03,Modul/alat praktikum,4,Outsourcing,650.1.1.03.03.4.12.22
+mak_12_22_100,100,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.03,Modul/alat praktikum,5,Overhead,650.1.1.03.03.5.12.22
+mak_12_22_101,101,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.04,Bahan habis pakai,1,Bahan habis pakai,650.1.1.03.04.1.12.22
+mak_12_22_102,102,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.04,Bahan habis pakai,2,Honor/Upah,650.1.1.03.04.2.12.22
+mak_12_22_103,103,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.04,Bahan habis pakai,3,Sewa,650.1.1.03.04.3.12.22
+mak_12_22_104,104,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.04,Bahan habis pakai,4,Outsourcing,650.1.1.03.04.4.12.22
+mak_12_22_105,105,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.04,Bahan habis pakai,5,Overhead,650.1.1.03.04.5.12.22
+mak_12_22_106,106,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.05,Dana praktikum,1,Bahan habis pakai,650.1.1.03.05.1.12.22
+mak_12_22_107,107,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.05,Dana praktikum,2,Honor/Upah,650.1.1.03.05.2.12.22
+mak_12_22_108,108,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.05,Dana praktikum,3,Sewa,650.1.1.03.05.3.12.22
+mak_12_22_109,109,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.05,Dana praktikum,4,Outsourcing,650.1.1.03.05.4.12.22
+mak_12_22_110,110,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.05,Dana praktikum,5,Overhead,650.1.1.03.05.5.12.22
+mak_12_22_111,111,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.06,Daftar peserta praktikum,1,Bahan habis pakai,650.1.1.03.06.1.12.22
+mak_12_22_112,112,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.06,Daftar peserta praktikum,2,Honor/Upah,650.1.1.03.06.2.12.22
+mak_12_22_113,113,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.06,Daftar peserta praktikum,3,Sewa,650.1.1.03.06.3.12.22
+mak_12_22_114,114,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.06,Daftar peserta praktikum,4,Outsourcing,650.1.1.03.06.4.12.22
+mak_12_22_115,115,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.06,Daftar peserta praktikum,5,Overhead,650.1.1.03.06.5.12.22
+mak_12_22_116,116,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.07,Asisten/instruktur,1,Bahan habis pakai,650.1.1.03.07.1.12.22
+mak_12_22_117,117,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.07,Asisten/instruktur,2,Honor/Upah,650.1.1.03.07.2.12.22
+mak_12_22_118,118,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.07,Asisten/instruktur,3,Sewa,650.1.1.03.07.3.12.22
+mak_12_22_119,119,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.07,Asisten/instruktur,4,Outsourcing,650.1.1.03.07.4.12.22
+mak_12_22_120,120,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.07,Asisten/instruktur,5,Overhead,650.1.1.03.07.5.12.22
+mak_12_22_121,121,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,1,Bahan habis pakai,650.1.1.03.08.1.12.22
+mak_12_22_122,122,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,2,Honor/Upah,650.1.1.03.08.2.12.22
+mak_12_22_123,123,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,3,Sewa,650.1.1.03.08.3.12.22
+mak_12_22_124,124,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,4,Outsourcing,650.1.1.03.08.4.12.22
+mak_12_22_125,125,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,5,Overhead,650.1.1.03.08.5.12.22
+mak_12_22_126,126,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.09,Nilai akhir praktikum,1,Bahan habis pakai,650.1.1.03.09.1.12.22
+mak_12_22_127,127,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.09,Nilai akhir praktikum,2,Honor/Upah,650.1.1.03.09.2.12.22
+mak_12_22_128,128,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.09,Nilai akhir praktikum,3,Sewa,650.1.1.03.09.3.12.22
+mak_12_22_129,129,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.09,Nilai akhir praktikum,4,Outsourcing,650.1.1.03.09.4.12.22
+mak_12_22_130,130,12.22,Prodi Teknik Elektro (S1),1,1.03,1.03.09,Nilai akhir praktikum,5,Overhead,650.1.1.03.09.5.12.22
+mak_12_22_131,131,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,1,Bahan habis pakai,650.1.1.04.01.1.12.22
+mak_12_22_132,132,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,2,Honor/Upah,650.1.1.04.01.2.12.22
+mak_12_22_133,133,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,3,Sewa,650.1.1.04.01.3.12.22
+mak_12_22_134,134,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,4,Outsourcing,650.1.1.04.01.4.12.22
+mak_12_22_135,135,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,5,Overhead,650.1.1.04.01.5.12.22
+mak_12_22_136,136,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.02,Presensi mhs,1,Bahan habis pakai,650.1.1.04.02.1.12.22
+mak_12_22_137,137,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.02,Presensi mhs,2,Honor/Upah,650.1.1.04.02.2.12.22
+mak_12_22_138,138,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.02,Presensi mhs,3,Sewa,650.1.1.04.02.3.12.22
+mak_12_22_139,139,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.02,Presensi mhs,4,Outsourcing,650.1.1.04.02.4.12.22
+mak_12_22_140,140,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.02,Presensi mhs,5,Overhead,650.1.1.04.02.5.12.22
+mak_12_22_141,141,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,1,Bahan habis pakai,650.1.1.04.03.1.12.22
+mak_12_22_142,142,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,2,Honor/Upah,650.1.1.04.03.2.12.22
+mak_12_22_143,143,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,3,Sewa,650.1.1.04.03.3.12.22
+mak_12_22_144,144,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,4,Outsourcing,650.1.1.04.03.4.12.22
+mak_12_22_145,145,12.22,Prodi Teknik Elektro (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,5,Overhead,650.1.1.04.03.5.12.22
+mak_12_22_146,146,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,1,Bahan habis pakai,650.1.1.05.01.1.12.22
+mak_12_22_147,147,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,2,Honor/Upah,650.1.1.05.01.2.12.22
+mak_12_22_148,148,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,3,Sewa,650.1.1.05.01.3.12.22
+mak_12_22_149,149,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,4,Outsourcing,650.1.1.05.01.4.12.22
+mak_12_22_150,150,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,5,Overhead,650.1.1.05.01.5.12.22
+mak_12_22_151,151,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,1,Bahan habis pakai,650.1.1.05.02.1.12.22
+mak_12_22_152,152,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,2,Honor/Upah,650.1.1.05.02.2.12.22
+mak_12_22_153,153,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,3,Sewa,650.1.1.05.02.3.12.22
+mak_12_22_154,154,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,4,Outsourcing,650.1.1.05.02.4.12.22
+mak_12_22_155,155,12.22,Prodi Teknik Elektro (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,5,Overhead,650.1.1.05.02.5.12.22
+mak_12_22_156,156,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.06.01.1.12.22
+mak_12_22_157,157,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.06.01.2.12.22
+mak_12_22_158,158,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.06.01.3.12.22
+mak_12_22_159,159,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.06.01.4.12.22
+mak_12_22_160,160,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.06.01.5.12.22
+mak_12_22_161,161,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.02,Jadual ujian,1,Bahan habis pakai,650.1.1.06.02.1.12.22
+mak_12_22_162,162,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.02,Jadual ujian,2,Honor/Upah,650.1.1.06.02.2.12.22
+mak_12_22_163,163,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.02,Jadual ujian,3,Sewa,650.1.1.06.02.3.12.22
+mak_12_22_164,164,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.02,Jadual ujian,4,Outsourcing,650.1.1.06.02.4.12.22
+mak_12_22_165,165,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.02,Jadual ujian,5,Overhead,650.1.1.06.02.5.12.22
+mak_12_22_166,166,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.03,KPU,1,Bahan habis pakai,650.1.1.06.03.1.12.22
+mak_12_22_167,167,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.03,KPU,2,Honor/Upah,650.1.1.06.03.2.12.22
+mak_12_22_168,168,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.03,KPU,3,Sewa,650.1.1.06.03.3.12.22
+mak_12_22_169,169,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.03,KPU,4,Outsourcing,650.1.1.06.03.4.12.22
+mak_12_22_170,170,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.03,KPU,5,Overhead,650.1.1.06.03.5.12.22
+mak_12_22_171,171,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.06.04.1.12.22
+mak_12_22_172,172,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.06.04.2.12.22
+mak_12_22_173,173,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.06.04.3.12.22
+mak_12_22_174,174,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.06.04.4.12.22
+mak_12_22_175,175,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.06.04.5.12.22
+mak_12_22_176,176,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.06.05.1.12.22
+mak_12_22_177,177,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.06.05.2.12.22
+mak_12_22_178,178,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.06.05.3.12.22
+mak_12_22_179,179,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.06.05.4.12.22
+mak_12_22_180,180,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.06.05.5.12.22
+mak_12_22_181,181,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.06,Nilai akhir,1,Bahan habis pakai,650.1.1.06.06.1.12.22
+mak_12_22_182,182,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.06,Nilai akhir,2,Honor/Upah,650.1.1.06.06.2.12.22
+mak_12_22_183,183,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.06,Nilai akhir,3,Sewa,650.1.1.06.06.3.12.22
+mak_12_22_184,184,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.06,Nilai akhir,4,Outsourcing,650.1.1.06.06.4.12.22
+mak_12_22_185,185,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.06,Nilai akhir,5,Overhead,650.1.1.06.06.5.12.22
+mak_12_22_186,186,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.06.07.1.12.22
+mak_12_22_187,187,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.07,Vakasi ujian,2,Honor/Upah,650.1.1.06.07.2.12.22
+mak_12_22_188,188,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.07,Vakasi ujian,3,Sewa,650.1.1.06.07.3.12.22
+mak_12_22_189,189,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.07,Vakasi ujian,4,Outsourcing,650.1.1.06.07.4.12.22
+mak_12_22_190,190,12.22,Prodi Teknik Elektro (S1),1,1.06,1.06.07,Vakasi ujian,5,Overhead,650.1.1.06.07.5.12.22
+mak_12_22_191,191,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.07.01.1.12.22
+mak_12_22_192,192,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.07.01.2.12.22
+mak_12_22_193,193,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.07.01.3.12.22
+mak_12_22_194,194,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.07.01.4.12.22
+mak_12_22_195,195,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.07.01.5.12.22
+mak_12_22_196,196,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.02,Jadual ujian,1,Bahan habis pakai,650.1.1.07.02.1.12.22
+mak_12_22_197,197,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.02,Jadual ujian,2,Honor/Upah,650.1.1.07.02.2.12.22
+mak_12_22_198,198,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.02,Jadual ujian,3,Sewa,650.1.1.07.02.3.12.22
+mak_12_22_199,199,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.02,Jadual ujian,4,Outsourcing,650.1.1.07.02.4.12.22
+mak_12_22_200,200,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.02,Jadual ujian,5,Overhead,650.1.1.07.02.5.12.22
+mak_12_22_201,201,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.03,KPU,1,Bahan habis pakai,650.1.1.07.03.1.12.22
+mak_12_22_202,202,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.03,KPU,2,Honor/Upah,650.1.1.07.03.2.12.22
+mak_12_22_203,203,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.03,KPU,3,Sewa,650.1.1.07.03.3.12.22
+mak_12_22_204,204,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.03,KPU,4,Outsourcing,650.1.1.07.03.4.12.22
+mak_12_22_205,205,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.03,KPU,5,Overhead,650.1.1.07.03.5.12.22
+mak_12_22_206,206,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.07.04.1.12.22
+mak_12_22_207,207,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.07.04.2.12.22
+mak_12_22_208,208,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.07.04.3.12.22
+mak_12_22_209,209,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.07.04.4.12.22
+mak_12_22_210,210,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.07.04.5.12.22
+mak_12_22_211,211,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.07.05.1.12.22
+mak_12_22_212,212,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.07.05.2.12.22
+mak_12_22_213,213,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.07.05.3.12.22
+mak_12_22_214,214,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.07.05.4.12.22
+mak_12_22_215,215,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.07.05.5.12.22
+mak_12_22_216,216,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.06,Nilai akhir,1,Bahan habis pakai,650.1.1.07.06.1.12.22
+mak_12_22_217,217,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.06,Nilai akhir,2,Honor/Upah,650.1.1.07.06.2.12.22
+mak_12_22_218,218,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.06,Nilai akhir,3,Sewa,650.1.1.07.06.3.12.22
+mak_12_22_219,219,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.06,Nilai akhir,4,Outsourcing,650.1.1.07.06.4.12.22
+mak_12_22_220,220,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.06,Nilai akhir,5,Overhead,650.1.1.07.06.5.12.22
+mak_12_22_221,221,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.07.07.1.12.22
+mak_12_22_222,222,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.07,Vakasi ujian,2,Honor/Upah,650.1.1.07.07.2.12.22
+mak_12_22_223,223,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.07,Vakasi ujian,3,Sewa,650.1.1.07.07.3.12.22
+mak_12_22_224,224,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.07,Vakasi ujian,4,Outsourcing,650.1.1.07.07.4.12.22
+mak_12_22_225,225,12.22,Prodi Teknik Elektro (S1),1,1.07,1.07.07,Vakasi ujian,5,Overhead,650.1.1.07.07.5.12.22
+mak_12_22_226,226,12.22,Prodi Teknik Elektro (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,1,Bahan habis pakai,650.1.1.08.01.1.12.22
+mak_12_22_227,227,12.22,Prodi Teknik Elektro (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,2,Honor/Upah,650.1.1.08.01.2.12.22
+mak_12_22_228,228,12.22,Prodi Teknik Elektro (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,3,Sewa,650.1.1.08.01.3.12.22
+mak_12_22_229,229,12.22,Prodi Teknik Elektro (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,4,Outsourcing,650.1.1.08.01.4.12.22
+mak_12_22_230,230,12.22,Prodi Teknik Elektro (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,5,Overhead,650.1.1.08.01.5.12.22
+mak_12_22_231,231,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,1,Bahan habis pakai,650.1.1.09.01.1.12.22
+mak_12_22_232,232,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,2,Honor/Upah,650.1.1.09.01.2.12.22
+mak_12_22_233,233,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,3,Sewa,650.1.1.09.01.3.12.22
+mak_12_22_234,234,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,4,Outsourcing,650.1.1.09.01.4.12.22
+mak_12_22_235,235,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,5,Overhead,650.1.1.09.01.5.12.22
+mak_12_22_236,236,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",1,Bahan habis pakai,650.1.1.09.02.1.12.22
+mak_12_22_237,237,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",2,Honor/Upah,650.1.1.09.02.2.12.22
+mak_12_22_238,238,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",3,Sewa,650.1.1.09.02.3.12.22
+mak_12_22_239,239,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",4,Outsourcing,650.1.1.09.02.4.12.22
+mak_12_22_240,240,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",5,Overhead,650.1.1.09.02.5.12.22
+mak_12_22_241,241,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",1,Bahan habis pakai,650.1.1.09.03.1.12.22
+mak_12_22_242,242,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",2,Honor/Upah,650.1.1.09.03.2.12.22
+mak_12_22_243,243,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",3,Sewa,650.1.1.09.03.3.12.22
+mak_12_22_244,244,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",4,Outsourcing,650.1.1.09.03.4.12.22
+mak_12_22_245,245,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",5,Overhead,650.1.1.09.03.5.12.22
+mak_12_22_246,246,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",1,Bahan habis pakai,650.1.1.09.04.1.12.22
+mak_12_22_247,247,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",2,Honor/Upah,650.1.1.09.04.2.12.22
+mak_12_22_248,248,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",3,Sewa,650.1.1.09.04.3.12.22
+mak_12_22_249,249,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",4,Outsourcing,650.1.1.09.04.4.12.22
+mak_12_22_250,250,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",5,Overhead,650.1.1.09.04.5.12.22
+mak_12_22_251,251,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,1,Bahan habis pakai,650.1.1.09.05.1.12.22
+mak_12_22_252,252,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,2,Honor/Upah,650.1.1.09.05.2.12.22
+mak_12_22_253,253,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,3,Sewa,650.1.1.09.05.3.12.22
+mak_12_22_254,254,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,4,Outsourcing,650.1.1.09.05.4.12.22
+mak_12_22_255,255,12.22,Prodi Teknik Elektro (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,5,Overhead,650.1.1.09.05.5.12.22
+mak_12_22_256,256,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.01,Ketepatan waktu mulai,1,Bahan habis pakai,650.1.1.10.01.1.12.22
+mak_12_22_257,257,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.01,Ketepatan waktu mulai,2,Honor/Upah,650.1.1.10.01.2.12.22
+mak_12_22_258,258,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.01,Ketepatan waktu mulai,3,Sewa,650.1.1.10.01.3.12.22
+mak_12_22_259,259,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.01,Ketepatan waktu mulai,4,Outsourcing,650.1.1.10.01.4.12.22
+mak_12_22_260,260,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.01,Ketepatan waktu mulai,5,Overhead,650.1.1.10.01.5.12.22
+mak_12_22_261,261,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.02,Ketepatan waktu selesai,1,Bahan habis pakai,650.1.1.10.02.1.12.22
+mak_12_22_262,262,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.02,Ketepatan waktu selesai,2,Honor/Upah,650.1.1.10.02.2.12.22
+mak_12_22_263,263,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.02,Ketepatan waktu selesai,3,Sewa,650.1.1.10.02.3.12.22
+mak_12_22_264,264,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.02,Ketepatan waktu selesai,4,Outsourcing,650.1.1.10.02.4.12.22
+mak_12_22_265,265,12.22,Prodi Teknik Elektro (S1),1,1.10,1.10.02,Ketepatan waktu selesai,5,Overhead,650.1.1.10.02.5.12.22
+mak_12_22_266,266,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.01,Jadual ujian skripsi,1,Bahan habis pakai,650.1.1.11.01.1.12.22
+mak_12_22_267,267,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.01,Jadual ujian skripsi,2,Honor/Upah,650.1.1.11.01.2.12.22
+mak_12_22_268,268,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.01,Jadual ujian skripsi,3,Sewa,650.1.1.11.01.3.12.22
+mak_12_22_269,269,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.01,Jadual ujian skripsi,4,Outsourcing,650.1.1.11.01.4.12.22
+mak_12_22_270,270,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.01,Jadual ujian skripsi,5,Overhead,650.1.1.11.01.5.12.22
+mak_12_22_271,271,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,1,Bahan habis pakai,650.1.1.11.02.1.12.22
+mak_12_22_272,272,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,2,Honor/Upah,650.1.1.11.02.2.12.22
+mak_12_22_273,273,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,3,Sewa,650.1.1.11.02.3.12.22
+mak_12_22_274,274,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,4,Outsourcing,650.1.1.11.02.4.12.22
+mak_12_22_275,275,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,5,Overhead,650.1.1.11.02.5.12.22
+mak_12_22_276,276,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,1,Bahan habis pakai,650.1.1.11.03.1.12.22
+mak_12_22_277,277,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,2,Honor/Upah,650.1.1.11.03.2.12.22
+mak_12_22_278,278,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,3,Sewa,650.1.1.11.03.3.12.22
+mak_12_22_279,279,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,4,Outsourcing,650.1.1.11.03.4.12.22
+mak_12_22_280,280,12.22,Prodi Teknik Elektro (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,5,Overhead,650.1.1.11.03.5.12.22
+mak_12_22_281,281,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,1,Bahan habis pakai,650.1.2.01.01.1.12.22
+mak_12_22_282,282,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,2,Honor/Upah,650.1.2.01.01.2.12.22
+mak_12_22_283,283,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,3,Sewa,650.1.2.01.01.3.12.22
+mak_12_22_284,284,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,4,Outsourcing,650.1.2.01.01.4.12.22
+mak_12_22_285,285,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,5,Overhead,650.1.2.01.01.5.12.22
+mak_12_22_286,286,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,1,Bahan habis pakai,650.1.2.01.02.1.12.22
+mak_12_22_287,287,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,2,Honor/Upah,650.1.2.01.02.2.12.22
+mak_12_22_288,288,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,3,Sewa,650.1.2.01.02.3.12.22
+mak_12_22_289,289,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,4,Outsourcing,650.1.2.01.02.4.12.22
+mak_12_22_290,290,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,5,Overhead,650.1.2.01.02.5.12.22
+mak_12_22_291,291,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,1,Bahan habis pakai,650.1.2.01.03.1.12.22
+mak_12_22_292,292,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,2,Honor/Upah,650.1.2.01.03.2.12.22
+mak_12_22_293,293,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,3,Sewa,650.1.2.01.03.3.12.22
+mak_12_22_294,294,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,4,Outsourcing,650.1.2.01.03.4.12.22
+mak_12_22_295,295,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,5,Overhead,650.1.2.01.03.5.12.22
+mak_12_22_296,296,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",1,Bahan habis pakai,650.1.2.01.04.1.12.22
+mak_12_22_297,297,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",2,Honor/Upah,650.1.2.01.04.2.12.22
+mak_12_22_298,298,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",3,Sewa,650.1.2.01.04.3.12.22
+mak_12_22_299,299,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",4,Outsourcing,650.1.2.01.04.4.12.22
+mak_12_22_300,300,12.22,Prodi Teknik Elektro (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",5,Overhead,650.1.2.01.04.5.12.22
+mak_12_22_301,301,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,1,Bahan habis pakai,650.1.2.02.01.1.12.22
+mak_12_22_302,302,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,2,Honor/Upah,650.1.2.02.01.2.12.22
+mak_12_22_303,303,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,3,Sewa,650.1.2.02.01.3.12.22
+mak_12_22_304,304,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,4,Outsourcing,650.1.2.02.01.4.12.22
+mak_12_22_305,305,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,5,Overhead,650.1.2.02.01.5.12.22
+mak_12_22_306,306,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.02,Rapat koordinasi,1,Bahan habis pakai,650.1.2.02.02.1.12.22
+mak_12_22_307,307,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.02,Rapat koordinasi,2,Honor/Upah,650.1.2.02.02.2.12.22
+mak_12_22_308,308,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.02,Rapat koordinasi,3,Sewa,650.1.2.02.02.3.12.22
+mak_12_22_309,309,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.02,Rapat koordinasi,4,Outsourcing,650.1.2.02.02.4.12.22
+mak_12_22_310,310,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.02,Rapat koordinasi,5,Overhead,650.1.2.02.02.5.12.22
+mak_12_22_311,311,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.03,Sosialisasi program PP,1,Bahan habis pakai,650.1.2.02.03.1.12.22
+mak_12_22_312,312,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.03,Sosialisasi program PP,2,Honor/Upah,650.1.2.02.03.2.12.22
+mak_12_22_313,313,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.03,Sosialisasi program PP,3,Sewa,650.1.2.02.03.3.12.22
+mak_12_22_314,314,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.03,Sosialisasi program PP,4,Outsourcing,650.1.2.02.03.4.12.22
+mak_12_22_315,315,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.03,Sosialisasi program PP,5,Overhead,650.1.2.02.03.5.12.22
+mak_12_22_316,316,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.04,Penyusunan Company Profile,1,Bahan habis pakai,650.1.2.02.04.1.12.22
+mak_12_22_317,317,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.04,Penyusunan Company Profile,2,Honor/Upah,650.1.2.02.04.2.12.22
+mak_12_22_318,318,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.04,Penyusunan Company Profile,3,Sewa,650.1.2.02.04.3.12.22
+mak_12_22_319,319,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.04,Penyusunan Company Profile,4,Outsourcing,650.1.2.02.04.4.12.22
+mak_12_22_320,320,12.22,Prodi Teknik Elektro (S1),2,2.02,2.02.04,Penyusunan Company Profile,5,Overhead,650.1.2.02.04.5.12.22
+mak_12_22_321,321,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,1,Bahan habis pakai,650.1.2.03.01.1.12.22
+mak_12_22_322,322,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,2,Honor/Upah,650.1.2.03.01.2.12.22
+mak_12_22_323,323,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,3,Sewa,650.1.2.03.01.3.12.22
+mak_12_22_324,324,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,4,Outsourcing,650.1.2.03.01.4.12.22
+mak_12_22_325,325,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,5,Overhead,650.1.2.03.01.5.12.22
+mak_12_22_326,326,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,1,Bahan habis pakai,650.1.2.03.10.1.12.22
+mak_12_22_327,327,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,2,Honor/Upah,650.1.2.03.10.2.12.22
+mak_12_22_328,328,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,3,Sewa,650.1.2.03.10.3.12.22
+mak_12_22_329,329,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,4,Outsourcing,650.1.2.03.10.4.12.22
+mak_12_22_330,330,12.22,Prodi Teknik Elektro (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,5,Overhead,650.1.2.03.10.5.12.22
+mak_12_22_331,331,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.01,Seminar IPTEK regulair,1,Bahan habis pakai,650.1.2.04.01.1.12.22
+mak_12_22_332,332,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.01,Seminar IPTEK regulair,2,Honor/Upah,650.1.2.04.01.2.12.22
+mak_12_22_333,333,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.01,Seminar IPTEK regulair,3,Sewa,650.1.2.04.01.3.12.22
+mak_12_22_334,334,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.01,Seminar IPTEK regulair,4,Outsourcing,650.1.2.04.01.4.12.22
+mak_12_22_335,335,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.01,Seminar IPTEK regulair,5,Overhead,650.1.2.04.01.5.12.22
+mak_12_22_336,336,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,1,Bahan habis pakai,650.1.2.05.02.1.12.22
+mak_12_22_337,337,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,2,Honor/Upah,650.1.2.05.02.2.12.22
+mak_12_22_338,338,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,3,Sewa,650.1.2.05.02.3.12.22
+mak_12_22_339,339,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,4,Outsourcing,650.1.2.05.02.4.12.22
+mak_12_22_340,340,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,5,Overhead,650.1.2.05.02.5.12.22
+mak_12_22_341,341,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.03,Seminar dan workshop nasional,1,Bahan habis pakai,650.1.2.04.03.1.12.22
+mak_12_22_342,342,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.03,Seminar dan workshop nasional,2,Honor/Upah,650.1.2.04.03.2.12.22
+mak_12_22_343,343,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.03,Seminar dan workshop nasional,3,Sewa,650.1.2.04.03.3.12.22
+mak_12_22_344,344,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.03,Seminar dan workshop nasional,4,Outsourcing,650.1.2.04.03.4.12.22
+mak_12_22_345,345,12.22,Prodi Teknik Elektro (S1),2,2.04,2.04.03,Seminar dan workshop nasional,5,Overhead,650.1.2.04.03.5.12.22
+mak_12_22_346,346,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,1,Bahan habis pakai,650.1.2.05.01.1.12.22
+mak_12_22_347,347,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,2,Honor/Upah,650.1.2.05.01.2.12.22
+mak_12_22_348,348,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,3,Sewa,650.1.2.05.01.3.12.22
+mak_12_22_349,349,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,4,Outsourcing,650.1.2.05.01.4.12.22
+mak_12_22_350,350,12.22,Prodi Teknik Elektro (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,5,Overhead,650.1.2.05.01.5.12.22
+mak_12_22_351,351,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",1,Bahan habis pakai,650.1.3.01.01.1.12.22
+mak_12_22_352,352,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",2,Honor/Upah,650.1.3.01.01.2.12.22
+mak_12_22_353,353,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",3,Sewa,650.1.3.01.01.3.12.22
+mak_12_22_354,354,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",4,Outsourcing,650.1.3.01.01.4.12.22
+mak_12_22_355,355,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",5,Overhead,650.1.3.01.01.5.12.22
+mak_12_22_356,356,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,1,Bahan habis pakai,650.1.3.01.02.1.12.22
+mak_12_22_357,357,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,2,Honor/Upah,650.1.3.01.02.2.12.22
+mak_12_22_358,358,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,3,Sewa,650.1.3.01.02.3.12.22
+mak_12_22_359,359,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,4,Outsourcing,650.1.3.01.02.4.12.22
+mak_12_22_360,360,12.22,Prodi Teknik Elektro (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,5,Overhead,650.1.3.01.02.5.12.22
+mak_12_22_361,361,12.22,Prodi Teknik Elektro (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,1,Bahan habis pakai,650.1.3.02.01.1.12.22
+mak_12_22_362,362,12.22,Prodi Teknik Elektro (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,2,Honor/Upah,650.1.3.02.01.2.12.22
+mak_12_22_363,363,12.22,Prodi Teknik Elektro (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,3,Sewa,650.1.3.02.01.3.12.22
+mak_12_22_364,364,12.22,Prodi Teknik Elektro (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,4,Outsourcing,650.1.3.02.01.4.12.22
+mak_12_22_365,365,12.22,Prodi Teknik Elektro (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,5,Overhead,650.1.3.02.01.5.12.22
+mak_12_22_366,366,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,1,Bahan habis pakai,650.1.3.03.01.1.12.22
+mak_12_22_367,367,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,2,Honor/Upah,650.1.3.03.01.2.12.22
+mak_12_22_368,368,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,3,Sewa,650.1.3.03.01.3.12.22
+mak_12_22_369,369,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,4,Outsourcing,650.1.3.03.01.4.12.22
+mak_12_22_370,370,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,5,Overhead,650.1.3.03.01.5.12.22
+mak_12_22_371,371,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,1,Bahan habis pakai,650.1.3.03.02.1.12.22
+mak_12_22_372,372,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,2,Honor/Upah,650.1.3.03.02.2.12.22
+mak_12_22_373,373,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,3,Sewa,650.1.3.03.02.3.12.22
+mak_12_22_374,374,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,4,Outsourcing,650.1.3.03.02.4.12.22
+mak_12_22_375,375,12.22,Prodi Teknik Elektro (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,5,Overhead,650.1.3.03.02.5.12.22
+mak_12_22_376,376,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,1,Bahan habis pakai,650.1.3.04.01.1.12.22
+mak_12_22_377,377,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,2,Honor/Upah,650.1.3.04.01.2.12.22
+mak_12_22_378,378,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,3,Sewa,650.1.3.04.01.3.12.22
+mak_12_22_379,379,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,4,Outsourcing,650.1.3.04.01.4.12.22
+mak_12_22_380,380,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,5,Overhead,650.1.3.04.01.5.12.22
+mak_12_22_381,381,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,1,Bahan habis pakai,650.1.3.04.02.1.12.22
+mak_12_22_382,382,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,2,Honor/Upah,650.1.3.04.02.2.12.22
+mak_12_22_383,383,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,3,Sewa,650.1.3.04.02.3.12.22
+mak_12_22_384,384,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,4,Outsourcing,650.1.3.04.02.4.12.22
+mak_12_22_385,385,12.22,Prodi Teknik Elektro (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,5,Overhead,650.1.3.04.02.5.12.22
+mak_12_22_386,386,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,1,Bahan habis pakai,650.1.3.05.01.1.12.22
+mak_12_22_387,387,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,2,Honor/Upah,650.1.3.05.01.2.12.22
+mak_12_22_388,388,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,3,Sewa,650.1.3.05.01.3.12.22
+mak_12_22_389,389,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,4,Outsourcing,650.1.3.05.01.4.12.22
+mak_12_22_390,390,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,5,Overhead,650.1.3.05.01.5.12.22
+mak_12_22_391,391,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,1,Bahan habis pakai,650.1.3.05.02.1.12.22
+mak_12_22_392,392,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,2,Honor/Upah,650.1.3.05.02.2.12.22
+mak_12_22_393,393,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,3,Sewa,650.1.3.05.02.3.12.22
+mak_12_22_394,394,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,4,Outsourcing,650.1.3.05.02.4.12.22
+mak_12_22_395,395,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,5,Overhead,650.1.3.05.02.5.12.22
+mak_12_22_396,396,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.03,Stimulan kewirausahaan,1,Bahan habis pakai,650.1.3.05.03.1.12.22
+mak_12_22_397,397,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.03,Stimulan kewirausahaan,2,Honor/Upah,650.1.3.05.03.2.12.22
+mak_12_22_398,398,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.03,Stimulan kewirausahaan,3,Sewa,650.1.3.05.03.3.12.22
+mak_12_22_399,399,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.03,Stimulan kewirausahaan,4,Outsourcing,650.1.3.05.03.4.12.22
+mak_12_22_400,400,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.03,Stimulan kewirausahaan,5,Overhead,650.1.3.05.03.5.12.22
+mak_12_22_401,401,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,1,Bahan habis pakai,650.1.3.05.04.1.12.22
+mak_12_22_402,402,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,2,Honor/Upah,650.1.3.05.04.2.12.22
+mak_12_22_403,403,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,3,Sewa,650.1.3.05.04.3.12.22
+mak_12_22_404,404,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,4,Outsourcing,650.1.3.05.04.4.12.22
+mak_12_22_405,405,12.22,Prodi Teknik Elektro (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,5,Overhead,650.1.3.05.04.5.12.22
+mak_12_22_406,406,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",1,Bahan habis pakai,650.1.4.01.01.1.12.22
+mak_12_22_407,407,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",2,Honor/Upah,650.1.4.01.01.2.12.22
+mak_12_22_408,408,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",3,Sewa,650.1.4.01.01.3.12.22
+mak_12_22_409,409,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",4,Outsourcing,650.1.4.01.01.4.12.22
+mak_12_22_410,410,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",5,Overhead,650.1.4.01.01.5.12.22
+mak_12_22_411,411,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.02,Pelaksanaan MOU,1,Bahan habis pakai,650.1.4.01.02.1.12.22
+mak_12_22_412,412,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.02,Pelaksanaan MOU,2,Honor/Upah,650.1.4.01.02.2.12.22
+mak_12_22_413,413,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.02,Pelaksanaan MOU,3,Sewa,650.1.4.01.02.3.12.22
+mak_12_22_414,414,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.02,Pelaksanaan MOU,4,Outsourcing,650.1.4.01.02.4.12.22
+mak_12_22_415,415,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.02,Pelaksanaan MOU,5,Overhead,650.1.4.01.02.5.12.22
+mak_12_22_416,416,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.03,Carrier Center,1,Bahan habis pakai,650.1.4.01.03.1.12.22
+mak_12_22_417,417,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.03,Carrier Center,2,Honor/Upah,650.1.4.01.03.2.12.22
+mak_12_22_418,418,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.03,Carrier Center,3,Sewa,650.1.4.01.03.3.12.22
+mak_12_22_419,419,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.03,Carrier Center,4,Outsourcing,650.1.4.01.03.4.12.22
+mak_12_22_420,420,12.22,Prodi Teknik Elektro (S1),4,4.01,4.01.03,Carrier Center,5,Overhead,650.1.4.01.03.5.12.22
+mak_12_22_421,421,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,1,Bahan habis pakai,650.1.5.01.01.1.12.22
+mak_12_22_422,422,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,2,Honor/Upah,650.1.5.01.01.2.12.22
+mak_12_22_423,423,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,3,Sewa,650.1.5.01.01.3.12.22
+mak_12_22_424,424,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,4,Outsourcing,650.1.5.01.01.4.12.22
+mak_12_22_425,425,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,5,Overhead,650.1.5.01.01.5.12.22
+mak_12_22_426,426,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,1,Bahan habis pakai,650.1.5.01.02.1.12.22
+mak_12_22_427,427,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,2,Honor/Upah,650.1.5.01.02.2.12.22
+mak_12_22_428,428,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,3,Sewa,650.1.5.01.02.3.12.22
+mak_12_22_429,429,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,4,Outsourcing,650.1.5.01.02.4.12.22
+mak_12_22_430,430,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,5,Overhead,650.1.5.01.02.5.12.22
+mak_12_22_431,431,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,1,Bahan habis pakai,650.1.5.01.03.1.12.22
+mak_12_22_432,432,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,2,Honor/Upah,650.1.5.01.03.2.12.22
+mak_12_22_433,433,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,3,Sewa,650.1.5.01.03.3.12.22
+mak_12_22_434,434,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,4,Outsourcing,650.1.5.01.03.4.12.22
+mak_12_22_435,435,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,5,Overhead,650.1.5.01.03.5.12.22
+mak_12_22_436,436,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,1,Bahan habis pakai,650.1.5.01.04.1.12.22
+mak_12_22_437,437,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,2,Honor/Upah,650.1.5.01.04.2.12.22
+mak_12_22_438,438,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,3,Sewa,650.1.5.01.04.3.12.22
+mak_12_22_439,439,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,4,Outsourcing,650.1.5.01.04.4.12.22
+mak_12_22_440,440,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,5,Overhead,650.1.5.01.04.5.12.22
+mak_12_22_441,441,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,1,Bahan habis pakai,650.1.5.01.05.1.12.22
+mak_12_22_442,442,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,2,Honor/Upah,650.1.5.01.05.2.12.22
+mak_12_22_443,443,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,3,Sewa,650.1.5.01.05.3.12.22
+mak_12_22_444,444,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,4,Outsourcing,650.1.5.01.05.4.12.22
+mak_12_22_445,445,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,5,Overhead,650.1.5.01.05.5.12.22
+mak_12_22_446,446,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.06,Pencetakan company profile,1,Bahan habis pakai,650.1.5.01.06.1.12.22
+mak_12_22_447,447,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.06,Pencetakan company profile,2,Honor/Upah,650.1.5.01.06.2.12.22
+mak_12_22_448,448,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.06,Pencetakan company profile,3,Sewa,650.1.5.01.06.3.12.22
+mak_12_22_449,449,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.06,Pencetakan company profile,4,Outsourcing,650.1.5.01.06.4.12.22
+mak_12_22_450,450,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.06,Pencetakan company profile,5,Overhead,650.1.5.01.06.5.12.22
+mak_12_22_451,451,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.07,Pameran Iptek open campus,1,Bahan habis pakai,650.1.5.01.07.1.12.22
+mak_12_22_452,452,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.07,Pameran Iptek open campus,2,Honor/Upah,650.1.5.01.07.2.12.22
+mak_12_22_453,453,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.07,Pameran Iptek open campus,3,Sewa,650.1.5.01.07.3.12.22
+mak_12_22_454,454,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.07,Pameran Iptek open campus,4,Outsourcing,650.1.5.01.07.4.12.22
+mak_12_22_455,455,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.07,Pameran Iptek open campus,5,Overhead,650.1.5.01.07.5.12.22
+mak_12_22_456,456,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,1,Bahan habis pakai,650.1.5.01.08.1.12.22
+mak_12_22_457,457,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,2,Honor/Upah,650.1.5.01.08.2.12.22
+mak_12_22_458,458,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,3,Sewa,650.1.5.01.08.3.12.22
+mak_12_22_459,459,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,4,Outsourcing,650.1.5.01.08.4.12.22
+mak_12_22_460,460,12.22,Prodi Teknik Elektro (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,5,Overhead,650.1.5.01.08.5.12.22
+mak_12_22_461,461,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,1,Bahan habis pakai,650.1.6.01.01.1.12.22
+mak_12_22_462,462,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,2,Honor/Upah,650.1.6.01.01.2.12.22
+mak_12_22_463,463,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,3,Sewa,650.1.6.01.01.3.12.22
+mak_12_22_464,464,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,4,Outsourcing,650.1.6.01.01.4.12.22
+mak_12_22_465,465,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,5,Overhead,650.1.6.01.01.5.12.22
+mak_12_22_466,466,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,1,Bahan habis pakai,650.1.6.01.02.1.12.22
+mak_12_22_467,467,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,2,Honor/Upah,650.1.6.01.02.2.12.22
+mak_12_22_468,468,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,3,Sewa,650.1.6.01.02.3.12.22
+mak_12_22_469,469,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,4,Outsourcing,650.1.6.01.02.4.12.22
+mak_12_22_470,470,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,5,Overhead,650.1.6.01.02.5.12.22
+mak_12_22_471,471,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,1,Bahan habis pakai,650.1.6.01.03.1.12.22
+mak_12_22_472,472,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,2,Honor/Upah,650.1.6.01.03.2.12.22
+mak_12_22_473,473,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,3,Sewa,650.1.6.01.03.3.12.22
+mak_12_22_474,474,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,4,Outsourcing,650.1.6.01.03.4.12.22
+mak_12_22_475,475,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,5,Overhead,650.1.6.01.03.5.12.22
+mak_12_22_476,476,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.04,Pelaporan-pelaporan,1,Bahan habis pakai,650.1.6.01.04.1.12.22
+mak_12_22_477,477,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.04,Pelaporan-pelaporan,2,Honor/Upah,650.1.6.01.04.2.12.22
+mak_12_22_478,478,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.04,Pelaporan-pelaporan,3,Sewa,650.1.6.01.04.3.12.22
+mak_12_22_479,479,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.04,Pelaporan-pelaporan,4,Outsourcing,650.1.6.01.04.4.12.22
+mak_12_22_480,480,12.22,Prodi Teknik Elektro (S1),6,6.01,6.01.04,Pelaporan-pelaporan,5,Overhead,650.1.6.01.04.5.12.22
+mak_12_22_481,481,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.01,Pengiriman proposal,1,Bahan habis pakai,650.1.7.01.01.1.12.22
+mak_12_22_482,482,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.01,Pengiriman proposal,2,Honor/Upah,650.1.7.01.01.2.12.22
+mak_12_22_483,483,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.01,Pengiriman proposal,3,Sewa,650.1.7.01.01.3.12.22
+mak_12_22_484,484,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.01,Pengiriman proposal,4,Outsourcing,650.1.7.01.01.4.12.22
+mak_12_22_485,485,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.01,Pengiriman proposal,5,Overhead,650.1.7.01.01.5.12.22
+mak_12_22_486,486,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.02,Pembayaran iuran forum,1,Bahan habis pakai,650.1.7.01.02.1.12.22
+mak_12_22_487,487,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.02,Pembayaran iuran forum,2,Honor/Upah,650.1.7.01.02.2.12.22
+mak_12_22_488,488,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.02,Pembayaran iuran forum,3,Sewa,650.1.7.01.02.3.12.22
+mak_12_22_489,489,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.02,Pembayaran iuran forum,4,Outsourcing,650.1.7.01.02.4.12.22
+mak_12_22_490,490,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.02,Pembayaran iuran forum,5,Overhead,650.1.7.01.02.5.12.22
+mak_12_22_491,491,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.03,Representasi,1,Bahan habis pakai,650.1.7.01.03.1.12.22
+mak_12_22_492,492,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.03,Representasi,2,Honor/Upah,650.1.7.01.03.2.12.22
+mak_12_22_493,493,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.03,Representasi,3,Sewa,650.1.7.01.03.3.12.22
+mak_12_22_494,494,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.03,Representasi,4,Outsourcing,650.1.7.01.03.4.12.22
+mak_12_22_495,495,12.22,Prodi Teknik Elektro (S1),7,7.01,7.01.03,Representasi,5,Overhead,650.1.7.01.03.5.12.22

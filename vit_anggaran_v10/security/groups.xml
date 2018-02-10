@@ -1,0 +1,10 @@
+<openerp>
+	<data>
+    <record id="group_anggaran_manager" model="res.groups">
+        <field name="name">Budget Management/ Manager</field>
+    </record>
+    <record id="group_anggaran_user" model="res.groups">
+        <field name="name">Budget Management / User</field>
+    </record>		
+	</data>
+</openerp>

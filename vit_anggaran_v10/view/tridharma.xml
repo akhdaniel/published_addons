@@ -1,0 +1,26 @@
+<openerp>
+	<data>
+		<record id="view_tridharma_tree" model="ir.ui.view">
+		    <field name="name">anggaran_tridharma_tree</field>
+		    <field name="model">anggaran.tridharma</field>
+		    <field name="arch" type="xml">
+		    	<tree string="List Tri Dharma" >
+		            <field name="code"/>
+		            <field name="name"/>
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- ini definisi search tridharma -->
+		<record id="view_tridharma_filter" model="ir.ui.view">
+		    <field name="name">tridharma.filter</field>
+		    <field name="model">anggaran.tridharma</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Tri Dharma">
+		            <field name="code"/>
+		            <field name="name"/>            
+		        </search>
+		    </field>
+		</record>
+	</data>
+</openerp>

@@ -1,0 +1,20 @@
+<openerp>
+	<data>
+		<record id="paperformat_a4_landscape" model="report.paperformat">
+		    <field name="name">A4 landscape</field>
+		    <field name="default" eval="True"/>
+		    <field name="format">A4</field>
+
+		    <field name="orientation">Landscape</field>
+		    <field name="margin_top">35</field>
+		    <field name="margin_bottom">10</field>
+		    <field name="margin_left">3</field>
+		    <field name="margin_right">3</field>
+		    <field name="header_line" eval="False"/>
+		    <field name="header_spacing">20</field>
+		    <field name="dpi">90</field>
+		    <!-- <field name="report_ids">[(0,0,anggaran.report_rka_menu),(0,0,anggaran.report_cashflow_menu)]</field> -->
+
+		</record>		
+	</data>
+</openerp>

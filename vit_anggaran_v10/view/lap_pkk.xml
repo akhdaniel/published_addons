@@ -1,0 +1,74 @@
+<openerp>
+	<data>
+		<!-- tree -->
+		<record id="view_lap_pkk_tree" model="ir.ui.view">
+		    <field name="name">anggaran_lap_pkk_tree</field>
+		    <field name="model">anggaran.lap_pkk</field>
+		    <field name="arch" type="xml">
+		    	<tree string="lap pencapaian kinerja kegiatan">
+					<field name="unit_id" />  				
+					<field name="tahun_id" />  			
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- form -->
+        <record id="view_lap_pkk_form" model="ir.ui.view">
+            <field name="name">anggaran_lap_pkk_form</field>
+            <field name="model">anggaran.lap_pkk</field>
+            <field name="arch" type="xml">
+            	<form string="lap_pkk form" version="7.0">
+            		<header>
+						<button string="Confirm" type="object" name="action_confirm" class="oe_highlight"
+						 	 states="draft" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" />
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="unit_id" class="oe_edit_only" 
+								 string="Name" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+
+			            <group>
+			            	<group>		            		
+								<field name="unit_id" />
+				                <field name="tahun_id"/>       
+				                <field name="rka_kegiatan_id"/>       
+				            </group>
+				            <group>
+				                <field name="kebijakan_id"/>       
+				                <field name="program_id"/>       
+				            </group>
+				        </group>
+
+			            <notebook>
+			            	<page string="Lines">
+					            <field name="lap_pkk_line_ids">
+					            	<tree string="Lines">
+										<field name="input_rencana" />			
+										<field name="input_realisasi" />		
+										<field name="proses_rencana" />		
+										<field name="proses_realisasi" />		
+										<field name="output_rencana" />		
+										<field name="output_realisasi" />		
+										<field name="cap_thn_lalu_rencana" /> 
+										<field name="cap_thn_lalu_realisasi" />
+										<field name="pct_capaian_target" /> 	
+										<field name="outcome" /> 
+						            </tree>
+						        </field>
+						    </page>
+						</notebook>
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+
+	</data>
+</openerp>

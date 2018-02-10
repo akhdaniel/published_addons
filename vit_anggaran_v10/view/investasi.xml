@@ -1,0 +1,100 @@
+<openerp>
+	<data>
+		<!-- Investasi from -->
+        <record id="view_investasi_form" model="ir.ui.view">
+            <field name="name">anggaran_investasi_form</field>
+            <field name="model">anggaran.investasi</field>
+            <field name="arch" type="xml">
+            	<form string="investasi form" version="7.0">
+            		<header>
+						<button string="Kirim" type="object" name="action_confirm" 
+							 class="oe_highlight"
+						 	 states="draft" />
+
+						<button string="Setuju" type="object" name="action_done"
+							 class="oe_highlight"
+						 	 states="open" />
+
+						<button string="Tolak" type="object" name="action_reject"
+						 	 states="open" />
+
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" />
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Nomor" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+
+			            <group>
+			                <field name="keperluan"/>       			            	
+			            </group>
+
+			            <group>
+			            	<group>
+				                <field name="tanggal"/>       
+				                <field name="tahun_id" />
+				                <field name="period_id" />
+				                <field name="total" />
+			            	</group>
+			            	<group>
+				                <field name="unit_id"/>       
+				                <field name="kepada_partner_id" />
+				            </group>
+				        </group>
+
+			            <notebook>
+
+			            	<!-- <page string="Rincian Penjelasan">
+					            <field name="investasi_line_ids">
+					            	<tree string="Rincian Investasi" editable="bottom">
+										<field name="rka_coa_id" />  
+										<field name="uraian"/>
+										<field name="investasi_ini"/>
+										<field name="sudah_sptb"/>
+						            </tree>
+						        </field>
+						    </page> -->
+				            
+				            <page string="Persetujuan">
+				            	<group>
+				            		<group>
+						                <field name="pumkc_id"/>       
+						                <field name="nip_pumkc"/>       
+						            </group>
+						            <group>
+						                <field name="atasan_pumkc_id"/>       
+						                <field name="nip_atasan_pumkc"/>       
+						            </group>
+					            </group>
+				            </page>
+
+						</notebook>				        
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+		<!-- Investasi from -->
+        <record id="view_investasi_tree" model="ir.ui.view">
+            <field name="name">anggaran_investasi_tree</field>
+            <field name="model">anggaran.investasi</field>
+            <field name="arch" type="xml">
+            	<tree string="list investasi" colors="grey:state=='done'; blue:state=='draft'">
+                    <field name="name"/>
+	                <field name="tanggal"/>         
+	                <field name="tahun_id"/>       
+	                <field name="period_id"/>       
+	                <field name="unit_id"/>       
+	                <field name="kepada_partner_id"/>       
+	                <field name="state"/>    	                    
+                </tree>    
+            </field>
+        </record>
+	</data>
+</openerp>

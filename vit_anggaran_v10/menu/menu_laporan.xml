@@ -1,0 +1,76 @@
+<openerp>
+	<data>
+
+
+		<!-- action list rka detail -->
+		<record id="action_rka_detail_list" model="ir.actions.act_window">
+			<field name="name">Rencana Operasional dan Anggaran Detail</field>
+			<field name="res_model">anggaran.rka_detail</field>
+			<field name="view_mode">tree,form,graph</field>
+			<field name="context">{'search_default_group_by_unit_id': 1,}</field>
+			<!-- 'search_default_group_by_period_id': 1,
+				'search_default_group_by_kebijakan_id': 1,
+				'search_default_group_by_program_id': 1,
+				'search_default_group_by_kegiatan_id': 1,
+				'search_default_group_by_rka_coa_id': 1 -->
+		</record>
+
+		<!-- action list cashflow -->
+		<record id="action_cashflow_list" model="ir.actions.act_window">
+			<field name="name">Cashflow</field>
+			<field name="res_model">anggaran.cashflow</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<!-- action list pkk -->
+		<record id="action_pkk_list" model="ir.actions.act_window">
+			<field name="name">Pencapaian Kinerja Kegiatan</field>
+			<field name="res_model">anggaran.lap_pkk</field>
+			<field name="view_mode">tree,graph</field>
+		</record>
+
+
+		<!-- action list pdana -->
+		<record id="action_pdana_list" model="ir.actions.act_window">
+			<field name="name">Penggunaan Dana</field>
+			<field name="res_model">anggaran.lap_pdana</field>
+			<field name="view_mode">tree,graph</field>
+		</record>
+
+
+		<!--  menu_anggaran_laporan -->
+		<menuitem id="menu_anggaran_laporan"
+			 name="Laporan"
+			 sequence="150"
+			 parent="anggaran.menu_anggaran"/>
+
+		<!-- menu_cashflow -->
+		<menuitem id="menu_cashflow"
+			 action="action_cashflow_list"
+			 name="Cashflow Jurusan"
+			 sequence="10"
+			 parent="menu_anggaran_laporan"/>
+
+		<!-- menu_pkk -->
+		<menuitem id="menu_pkk"
+			 action="action_pkk_list"
+			 name="Pencapaian Kinerja Kegiatan"
+			 sequence="20"
+			 parent="menu_anggaran_laporan"/>
+		<!-- menu_pdana -->
+		<menuitem id="menu_pdana"
+			 action="action_pdana_list"
+			 name="Penggunaan Dana"
+			 sequence="30"
+			 parent="menu_anggaran_laporan"/>
+
+		<!-- menu_rka -->
+		<menuitem id="menu_rka_detail"
+			 action="action_rka_detail_list"
+			 name="ROA Detail"
+			 sequence="20"
+			 parent="menu_anggaran_anggaran"/>
+
+ 
+	</data>
+</openerp>

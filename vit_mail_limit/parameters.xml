@@ -5,6 +5,10 @@
         	<field name="key">mail.send_limit</field>
         	<field name="value">100</field>
         </record>
+        <record model="ir.config_parameter" id="mail_batch_size">
+        	<field name="key">mail.batch_size</field>
+        	<field name="value">100</field>
+        </record>
 
     </data>
 </openerp>

@@ -1,0 +1,283 @@
+<openerp>
+	<data>
+		<!-- action list kategori kebijakan -->
+		<record id="action_kategori_kebijakan_list" model="ir.actions.act_window">
+			<field name="name">List Kategori Kebijakan</field>
+			<field name="res_model">anggaran.category</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		<!-- action list kebijakan -->
+		<record id="action_kebijakan_list" model="ir.actions.act_window">
+			<field name="name">List Kebijakan</field>
+			<field name="res_model">anggaran.kebijakan</field>
+			<field name="view_mode">tree,form</field>
+			<field name="context">{
+				'search_default_group_category': 1,
+				}</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master kebijakan 
+		      </p>				
+				<p>Klik tombol create untuk membuat Kebijakan</p>
+			</field>
+		</record>
+
+		<!-- action list program -->
+		<record id="action_program_list" model="ir.actions.act_window">
+			<field name="name">List Komponen dan Tahapan</field>
+			<field name="res_model">anggaran.program</field>
+			<field name="view_mode">tree,form</field>
+			<field name="context">{'search_default_group_kebijakan': 1}</field>
+
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master program
+		      </p>				
+				<p>Klik tombol create untuk membuat Program</p>
+			</field>
+		</record>
+
+		<!-- action list Kegiatan -->
+		<record id="action_kegiatan_list" model="ir.actions.act_window">
+			<field name="name">List Kegiatan</field>
+			<field name="res_model">anggaran.kegiatan</field>
+			<field name="view_mode">tree,form</field>
+			<field name="context">{'search_default_group_kebijakan': 1,'search_default_group_program': 1,  }</field>
+
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master kegiatan
+		      </p>				
+				<p>Klik tombol create untuk membuat Kegiatan</p>
+			</field>
+		</record>
+
+		<!-- action list Cost Type -->
+		<record id="action_cost_type_list" model="ir.actions.act_window">
+			<field name="name">List Cost Type</field>
+			<field name="res_model">anggaran.cost_type</field>
+			<field name="view_mode">tree,form</field>
+			
+
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master Cost Type 
+		      </p>				
+				<p>Klik tombol create untuk membuat Cost Type </p>
+			</field>
+		</record>
+
+		<!-- action list Tri Dharma -->
+		<record id="action_tridharma_list" model="ir.actions.act_window">
+			<field name="name">List Tri Dharma</field>
+			<field name="res_model">anggaran.tridharma</field>
+			<field name="view_mode">tree,form</field>
+			
+
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master Tri Dharma 
+		      </p>				
+				<p>Klik tombol create untuk membuat Tri Dharma PT</p>
+			</field>
+		</record>
+
+		<!-- action list Mata Anggran Kegiatan -->
+		<record id="action_mata_kegiatan_list" model="ir.actions.act_window">
+			<field name="name">List MAK</field>
+			<field name="res_model">anggaran.mata_anggaran_kegiatan</field>
+			<field name="view_mode">tree,form</field>
+			<field name="context">{
+				'search_default_group_category': 1,
+				'search_default_group_kebijakan': 1,
+				'search_default_group_program': 1,
+				'search_default_group_kegiatan': 1,
+				'search_default_group_unit': 1
+				}</field>
+
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master MAK
+		      </p>				
+				<p>Klik tombol create untuk membuat MAK</p>
+			</field>
+		</record>
+
+		<!-- action list Fakultas -->
+		<record id="action_fakultas_list" model="ir.actions.act_window">
+			<field name="name">List Fakultas</field>
+			<field name="res_model">anggaran.fakultas</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master Fakultas
+		      </p>				
+				<p>Klik tombol create untuk membuat Fakultas</p>
+			</field>
+		</record>
+
+		<!-- action list Jurusan dan Prodi -->
+		<record id="action_jurusan_list" model="ir.actions.act_window">
+			<field name="name">List Jurusan dan Prodi</field>
+			<field name="res_model">anggaran.jurusan</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master Jurusan dan Prodi
+		      </p>				
+				<p>Klik tombol create untuk membuat Jurusan dan Prodi</p>
+			</field>
+		</record>
+
+
+		<!-- action list Unit -->
+		<record id="action_unit_list" model="ir.actions.act_window">
+			<field name="name">List Unit</field>
+			<field name="res_model">anggaran.unit</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master Unit
+		      </p>				
+				<p>Klik tombol create untuk membuat Unit</p>
+			</field>
+		</record>
+
+
+		<!-- action list Sumber Dana -->
+		<record id="action_sumber_dana_list" model="ir.actions.act_window">
+			<field name="name">List Sumber Dana</field>
+			<field name="res_model">anggaran.sumber_dana</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage master Sumber Dana
+		      </p>				
+				<p>Klik tombol create untuk membuat Sumber Dana</p>
+			</field>
+		</record>
+
+		
+
+		<!-- action list cashflow_coa -->
+		<record id="action_cashflow_coa_list" model="ir.actions.act_window">
+			<field name="name">List Cashflow COA</field>
+			<field name="res_model">anggaran.cashflow.coa</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+
+		<!-- action list COA -->
+		<record id="action_coa_list" model="ir.actions.act_window">
+			<field name="name">List COA</field>
+			<field name="res_model">account.account</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+		
+		<menuitem id="menu_anggaran"
+			 name="Anggaran dan Realisasi"
+			 sequence="10"
+			 />
+
+		<!--  menu_anggaran_master -->
+		<menuitem id="menu_anggaran_master"
+			 name="Master Data"
+			 sequence="210"
+			 parent="menu_anggaran"/>
+
+		<!-- menu_kebijakan -->
+		<menuitem id="menu_kebijakan"
+			 action="action_kebijakan_list"
+			 name="Kebijakan"
+			 sequence="10"
+			 parent="menu_anggaran_master"/>
+
+		<!-- menu_kategory_kebijakan -->
+		<menuitem id="menu_kategori_kebijakan"
+			 action="action_kategori_kebijakan_list"
+			 name="Kategori Kebijakan"
+			 sequence="5"
+			 parent="menu_anggaran_master"/>
+
+		<!-- menu_program -->
+		<menuitem id="menu_program"
+			 action="action_program_list"
+			 name="Komponen/Tahapan"
+			 sequence="15"
+			 parent="menu_anggaran_master"/>
+
+		<!-- menu_kegiatan -->
+		<menuitem id="menu_kegiatan"
+			 action="action_kegiatan_list"
+			 name="Kegiatan"
+			 sequence="20"
+			 parent="menu_anggaran_master"/>			 
+
+		<!-- menu_cost_type -->
+		<menuitem id="menu_cost_type"
+			 action="action_cost_type_list"
+			 name="Cost Type"
+			 sequence="22"
+			 parent="menu_anggaran_master"/>	
+
+		<!-- menu_jurusan -->
+		<menuitem id="menu_jurusan"
+			 action="action_jurusan_list"
+			 name="Jurusan/Prodi"
+			 sequence="30"
+			 parent="menu_anggaran_master"/>	
+
+		<!-- menu_fakultas-->
+		<menuitem id="menu_fakultas"
+			 action="action_fakultas_list"
+			 name="Fakultas"
+			 sequence="40"
+			 parent="menu_anggaran_master"/>		
+
+		<!-- menu_unit -->
+		<menuitem id="menu_unit"
+			 action="action_unit_list"
+			 name="Unit Kerja"
+			 sequence="50"
+			 parent="menu_anggaran_master"/>	
+
+
+		<!-- menu_kegiatan -->
+		<menuitem id="menu_mata_kegiatan"
+			 action="action_mata_kegiatan_list"
+			 name="MAK"
+			 sequence="60"
+			 parent="menu_anggaran_master"/>			 	 
+
+		<!-- menu_tridharma -->
+		<menuitem id="menu_tridharma"
+			 action="action_tridharma_list"
+			 name="Tri Dharma PT"
+			 sequence="100"
+			 parent="menu_anggaran_master"/>			 	 
+
+		<!-- menu_coa -->
+		<menuitem id="menu_coa"
+			 action="action_coa_list"
+			 name="COA"
+			 sequence="120"
+			 parent="menu_anggaran_master"/>	
+
+		<!-- menu_coa -->
+		<menuitem id="menu_cashflow_coa"
+			 action="action_cashflow_coa_list"
+			 name="Cashflow COA"
+			 sequence="130"
+			 parent="menu_anggaran_master"/>	
+
+		<!-- menu_sumber_dana -->
+		<menuitem id="menu_sumber_dana"
+			 action="action_sumber_dana_list"
+			 name="Sumber Dana"
+			 sequence="150"
+			 parent="menu_anggaran_master"/>	
+
+	</data>
+</openerp>

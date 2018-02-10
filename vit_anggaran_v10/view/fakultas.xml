@@ -1,0 +1,29 @@
+<openerp>
+	<data>
+		<record id="view_fakultas_tree" model="ir.ui.view">
+		    <field name="name">anggaran_fakultas_tree</field>
+		    <field name="model">anggaran.fakultas</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list fakultas" >
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="alamat"/>
+		            <field name="nama_bank"/>
+		            <field name="nomor_rek"/>
+		        </tree>    
+		    </field>
+		</record>
+		<!-- ini definisi search fakultas -->
+		<record id="view_fakultas_filter" model="ir.ui.view">
+		    <field name="name">fakultas.filter</field>
+		    <field name="model">anggaran.fakultas</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Fakultas">
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="alamat"/>
+		        </search>
+		    </field>
+		</record>
+	</data>
+</openerp>

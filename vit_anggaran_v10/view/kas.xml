@@ -1,0 +1,168 @@
+<openerp>
+	<data>
+		<!-- kas from -->
+        <record id="view_kas_form" model="ir.ui.view">
+            <field name="name">anggaran_kas_form</field>
+            <field name="model">anggaran.kas</field>
+            <field name="arch" type="xml">
+            	<form string="kas form" version="7.0">
+            		<header>
+						<button string="Kirim" type="object" name="action_confirm" 
+							 class="oe_highlight"
+						 	 states="draft" />
+
+						<button string="Setuju" type="object" name="action_done"
+							 class="oe_highlight"
+						 	 states="open" />
+
+						<button string="Tolak" type="object" name="action_reject"
+						 	 states="open" />
+
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+
+						<button string="Catat Biaya" type="object" name="action_create_biaya"
+							 class="oe_highlight"
+                             attrs="{'invisible': ['|','|','|', ('biaya_exists', '=', True) ,('type','=','in'), ('kepada_partner_id','=',False), ('state','&lt;&gt;','done')]}" />
+
+						<button string="View Biaya" type="object" name="action_view_biaya"
+                             attrs="{'invisible': ['|','|',('biaya_exists', '=', False),('type','=','in'), ('state','&lt;&gt;','done')]}" />
+
+            			<field name="state" widget="statusbar" 
+            				 statusbar_visible="draft,open,done"/>
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Nomor" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+			            <group>
+			            	<group>
+				                <field name="tanggal"/>       
+				                <field name="tahun_id"/>       
+				                <field name="unit_id"/>       
+				            </group>
+			            	<group >
+				                <field name="type"/>       
+				                <field name="jenis_item"/>       
+				                <field name="journal_id"/>       
+				            </group>
+				        </group>
+
+			            <notebook>
+			            	<page string="Rincian">
+			            		<group>
+			            			<group>
+						                <field name="kepada_unit_id" attrs="{'invisible' : [('type','=','in')] }"/>       
+						                <field name="kepada_partner_id" attrs="{'invisible' : [('type','=','in')] }"/>       
+						                <field name="dari_unit_id" attrs="{'invisible' : [('type','=','out')] }"/>       
+						                <field name="jumlah"/>       
+						                <field name="cheque_nomor"/>       
+						                <field name="rek_nomor"/>       
+						            </group>
+						            <group>
+						                <field name="sumber_uang"/>       
+						                <field name="kegiatan_id"/>       
+						                <field name="dasar_pembayaran"/>       
+						            </group>
+								</group>
+						    </page>
+				            
+				            <page string="Persetujuan">
+				            	<group>
+				            		<group>
+						                <field name="bendahara_id"/>       
+						                <field name="nip_bendahara"/>       
+						            </group>
+						            <group>
+						                <field name="kadiv_anggaran_id"/>       
+						                <field name="nip_kadiv_anggaran"/>       
+						            </group>
+						            <group>
+						                <field name="kadiv_akuntansi_id"/>       
+						                <field name="nip_kadiv_akuntansi"/>       
+						            </group>
+						            <group>
+						                <field name="dirkeu_id"/>       
+						                <field name="nip_dirkeu_id"/>       
+						            </group>
+					            </group>
+				            </page>
+				            <page string="Other Info">
+			            		<group>
+				            		<group>
+					                	<field name="spm_id"/>       
+						            </group>
+				            		<group>
+					               	 	<field name="biaya_exists"/>       
+						            </group>
+					            </group>
+				            </page>	
+						</notebook>				        
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+		<!-- kas tree -->
+        <record id="view_kas_tree" model="ir.ui.view">
+            <field name="name">anggaran_kas_tree</field>
+            <field name="model">anggaran.kas</field>
+            <field name="arch" type="xml">
+            	<tree string="list kas" colors="grey:state=='done'; blue:state=='draft'">
+                    <field name="name"/>
+	                <field name="tanggal"/>         
+	                <field name="type"/>       
+	                <field name="jenis_item"/>       
+	                <field name="kepada_unit_id" attrs="{'invisible' : [('type','=','in')] }"/>       
+	                <field name="dari_unit_id" attrs="{'invisible' : [('type','=','out')] }"/>       
+	                <field name="jumlah"/>       
+	                <field name="kegiatan_id"/>       
+	                <field name="biaya_exists" attrs="{'invisible' : [('type','=','in')] }"/><field name="state"/>    	                    
+                </tree>    
+            </field>
+        </record>
+
+        <!-- ini definisi search kas -->
+        <record id="view_kas_filter" model="ir.ui.view">
+            <field name="name">kas.filter</field>
+            <field name="model">anggaran.kas</field>
+            <field name="arch" type="xml">
+                <search string="Search Kas">
+
+		            <filter icon="terp-mail-message-new" 
+		                string="Kas Keluar" 
+		            	 name="out" domain="[('type','=','out')]"/>
+		            <filter icon="terp-mail-message-new" 
+		                string="Kas Masuk" 
+		            	 name="in" domain="[('type','=','in')]"/>
+
+		            <separator/>
+        
+                    <field name="tanggal"/>
+                    <field name="name"/>
+                    <field name="kegiatan_id"/>
+                    
+                    <group expand="1" string="Group By...">
+                        <filter string="Course" icon="terp-personal" 
+                            domain="[]" name="group_type"
+                        	 context="{'group_by':'type'}"/>
+
+                        <filter string="Tanggal" 
+                            icon="terp-personal" domain="[]" name="group_tanggal"
+                        	 context="{'group_by':'tanggal'}"/>
+        
+                        <filter string="State" 
+                            icon="terp-personal" domain="[]" name="group_state"
+                        	 context="{'group_by':'state'}"/>
+        
+                    </group>                                        
+        
+                </search>
+            </field>
+        </record>
+	</data>
+</openerp>

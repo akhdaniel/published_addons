@@ -1,0 +1,25 @@
+import time
+import pprint
+from datetime import date
+from datetime import datetime
+from datetime import timedelta
+from dateutil import relativedelta
+
+from openerp import api, tools
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
+import openerp.addons.decimal_precision as dp
+
+from openerp.tools.safe_eval import safe_eval as eval
+
+class res_partner(osv.osv):
+
+    _name = 'res.partner'
+    _inherit = 'res.partner'
+    
+    _columns = {
+    	"gapok" : fields.float("Jumlah"),
+    	"tunj_jabatan" : fields.float("Jumlah"),
+    	"tunj_resiko" : fields.float("Jumlah"),
+    	
+    }

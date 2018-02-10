@@ -1,0 +1,120 @@
+<openerp>
+	<data>
+		<!-- SPM from -->
+        <record id="view_spm_form" model="ir.ui.view">
+            <field name="name">anggaran_spm_form</field>
+            <field name="model">anggaran.spm</field>
+            <field name="arch" type="xml">
+            	<form string="spm form" version="7.0">
+            		<header>
+						<button string="Kirim" type="object" name="action_confirm" 
+							 class="oe_highlight" states="draft" />
+
+						<button string="Setuju" type="object" name="action_done" 
+							 class="oe_highlight" states="open" />
+
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+
+						<button string="Tolak" type="object" name="action_reject"
+						 	 states="open" />
+
+						<button string="Catat Kas Keluar" type="object" 
+							 name="action_create_kas_keluar"
+							 class="oe_highlight"
+                             attrs="{'invisible': ['|', ('kas_exists', '=', True), ('state','&lt;&gt;','done')]}" />
+
+						<button string="View Kas Keluar" type="object" name="action_view_kas"
+                             attrs="{'invisible': ['|', ('kas_exists', '=', False), ('state','&lt;&gt;','done')]}" />
+
+            			<field name="state" widget="statusbar" />
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Nomor" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+			            <group>
+			            	<group>
+				                <field name="tanggal"/>   
+								<field name="tahun_id" />			       	            	
+				            </group>
+			            	<group>
+				                <field name="cara_bayar"/>       
+								<field name="unit_id" />
+			            	</group>
+				        </group>
+
+			            <notebook>
+			            	<page string="Rincian Penjelasan">
+					            <field name="spm_line_ids">
+					            	<tree string="Rincian Penjelasan">
+										<field name="kebijakan_id" />  
+										<field name="pagu" />   
+										<field name="up_sd_lalu" />     
+										<field name="up_ini" />
+										<field name="jumlah_up" />
+										<field name="sisa_dana" />      
+						            </tree>
+						        </field>
+		  			            <group>
+									<field name="jumlah" />
+									<field name="sisa" />			            	
+				            	</group>						        
+						    </page>
+				            
+				            <page string="Persetujuan">
+				            	<group>
+				            		<group>
+						                <field name="pengguna_id"/>       
+						                <field name="nip_pengguna"/>       
+						            </group>
+						            <group>
+						                <field name="dirkeu_id"/>       
+						                <field name="nip_dirkeu"/>       
+						            </group>
+					            </group>
+				            </page>
+				            <page string="Other Info">
+				            	<group>
+				            		<group>
+										<field name="sup_id" />			            	
+										<field name="tup_id" />			            	
+										<field name="spp_id" />
+									</group>
+									<group>
+										<field name="kas_exists" />		
+									</group>
+					            </group>
+				            </page>
+						</notebook>	
+
+
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+		<!-- SPM from -->
+        <record id="view_spm_tree" model="ir.ui.view">
+            <field name="name">anggaran_spm_tree</field>
+            <field name="model">anggaran.spm</field>
+            <field name="arch" type="xml">
+            	<tree string="list spm" colors="grey:state=='done'; blue:state=='draft'">
+                    <field name="name"/>
+	                <field name="tanggal"/>         
+	                <field name="jumlah"/>       
+	                <field name="sisa"/>       
+	                <field name="cara_bayar"/>       
+	                <field name="pengguna_id"/>	                    
+	                <field name="unit_id"/>	                    
+	                <field name="kas_exists"/>	                    
+	                <field name="state"/>    	                    
+                </tree>    
+            </field>
+        </record>
+	</data>
+</openerp>

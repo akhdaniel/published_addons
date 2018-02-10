@@ -1,0 +1,57 @@
+<openerp>
+	<data>
+		<record id="view_payslip_form2" model="ir.ui.view">
+            <field name="name">hr.payslip.form2</field>
+            <field name="model">hr.payslip</field>
+            <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form"/>
+            <field name="arch" type="xml">
+            	<button string="Confirm" position="after">
+                    <button string="Send By Mail" name="confirm_email" type="object"/>
+                </button>
+                <field name="employee_id" position="after">
+                    
+                </field>
+                <!--notebook position="after">
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </notebook-->
+            </field>
+        </record>
+
+         <record id="view_hr_payslip_tree2" model="ir.ui.view">
+            <field name="name">hr.payslip.tree2</field>
+            <field name="model">hr.payslip</field>
+            <field name="inherit_id" ref="hr_payroll.view_hr_payslip_tree"/>
+            <field name="arch" type="xml">
+                <field name="date_to" position="after">
+                    <field name="net" sum="Total"/>
+                    <button name="hr_verify_sheet"
+                        string="Approve" type="workflow"
+                        icon="gtk-apply"
+                        states="draft,verfy"/>
+
+                </field>
+            </field>
+        </record>
+
+    </data>
+
+    <data noupdate="1">
+        <record id="email_template_edi_payslip" model="email.template">
+            <field name="name">Payslip 2- Send by Email</field>
+            <field name="email_from">${(object.user_id.email or '')|safe}</field>
+            <field name="subject">${object.name}</field>
+            <field name="email_to">${object.employee_id.work_email}</field>
+            <field name="model_id" ref="hr_payroll.model_hr_payslip"/>
+            <field name="auto_delete" eval="True"/>
+            <!-- <field name="report_template" ref="report_sale_order"/> -->
+            <field name="report_name">${object.name}</field>
+            <field name="lang">${object.partner_id.lang}</field>
+            <field name="body_html"><![CDATA[
+                
+            ]]></field>
+        </record>
+    </data>
+</openerp>

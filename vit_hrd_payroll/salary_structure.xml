@@ -1,0 +1,417 @@
+<openerp>
+	<data>
+        <!-- CATEGORY -->
+
+        <record id="ZAKAT" model="hr.salary.rule.category">
+            <field name="name">Zakat</field>
+            <field name="code">ZAKAT</field>
+        </record>
+
+        <record id="IGNORE" model="hr.salary.rule.category">
+            <field name="name">Ignore</field>
+            <field name="code">IGNORE</field>
+        </record>
+
+		<!--Allowance-->
+		<record id="hr_rule_basic" model="hr.salary.rule">
+            <field name="name">Basic</field>
+            <field name="sequence" eval="1"/>
+            <field name="code">BASIC</field>
+            <field name="category_id" ref="hr_payroll.GROSS"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = contract.wage</field>
+        </record>
+
+        <record id="hr_rule_tunj_jabatan" model="hr.salary.rule">
+            <field name="name">Tunjangan Jabatan</field>
+            <field name="sequence" eval="2"/>
+            <field name="code">TJB</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = contract.tunj_jabatan+contract.tunj_jabatan </field>
+        </record>
+
+        <record id="hr_rule_tunj_makan" model="hr.salary.rule">
+            <field name="name">Tunjangan Makan</field>
+            <field name="sequence" eval="3"/>
+            <field name="code">TJM</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = contract.tunj_makan</field>
+        </record>
+
+        <record id="hr_rule_tunj_transport" model="hr.salary.rule">
+            <field name="name">Tunjangan transport</field>
+            <field name="sequence" eval="4"/>
+            <field name="code">TJT</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = contract.tunj_transport</field>
+        </record>
+
+        <record id="hr_rule_tunj_komunikasi" model="hr.salary.rule">
+            <field name="name">Tunjangan Komunikasi</field>
+            <field name="sequence" eval="5"/>
+            <field name="code">TK</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="amount_python_compute">result = contract.tunj_komunikasi</field>
+        </record>
+
+        <record id="hr_payroll_rules_overtime" model="hr.salary.rule">
+	        <field name="name">OVERTIME</field>
+	        <field name="sequence" eval="6"/>
+	        <field name="code">OVERTIME</field>
+	        <field name="category_id" ref="hr_payroll.ALW"/>
+	        <field name="condition_select">none</field>
+	        <field name="amount_select">code</field>
+			<field name="sequence">4</field>
+	        <field name="amount_python_compute">result = (worked_days.LEMBUR.number_of_hours/173)*contract.wage </field>
+	    </record>
+
+        <record id="hr_payroll_rules_thr" model="hr.salary.rule">
+            <field name="name">THR</field>
+            <field name="code">THR</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">7</field>
+            <field name="amount_python_compute">result = inputs.THR.amount </field>
+        </record>
+
+        <record id="hr_payroll_rules_bonus" model="hr.salary.rule">
+            <field name="name">BONUS</field>
+            <field name="code">BONUS</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">8</field>
+            <field name="amount_python_compute">result = inputs.BONUS.amount </field>
+        </record>
+
+
+        <!-- tunj bpjs kesehatan -->
+        <record id="hr_payroll_tunj_bpjs_kes" model="hr.salary.rule">
+            <field name="name">Tunj. BPJS Kesehatan</field>
+            <field name="code">BPJS_KESEHATAN</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">10</field>
+            <field name="amount_python_compute">result = (contract.type_id.jams3*2356000)/100 if contract.employee_id.manager == False else (contract.type_id.jams3*3600000)/100</field>
+        </record>
+
+        <!-- tunj bpjs ketenagakerjaan -->
+        <record id="hr_payroll_tunj_bpjs_ket" model="hr.salary.rule">
+            <field name="name">Tunj. BPJS Ketenagakerjaan</field>
+            <field name="code">BPJS_KETENAGAKERJAAN</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">20</field>
+            <field name="amount_python_compute">result = ( (contract.type_id.jams1*(TOT_GP_MAK_JAB))/100.0 if (TOT_GP_MAK_JAB) >= 2626940 else (contract.type_id.jams1*2626940)/100.0 ) + ( 7335300 * contract.type_id.tht/100.0 if (TOT_GP_MAK_JAB)>7335300 else ( (contract.type_id.tht*(TOT_GP_MAK_JAB))/100.0 if (TOT_GP_MAK_JAB) >= 2626940 else (contract.type_id.tht*2626940)/100.0   ))</field>
+        </record>
+
+        <!-- tunj bpjs ketenagakerjaan: child rule: TOT_GP_MAK_JAB-->
+        <record id="hr_payroll_tunj_bpjs_TOT_GP_MAK_JAB" model="hr.salary.rule">
+            <field name="name">Total GP,Tunj Makan dan Jabatan</field>
+            <field name="code">TOT_GP_MAK_JAB</field>
+            <field name="category_id" ref="IGNORE"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">10</field>
+            <field name="appears_on_payslip">False</field>
+            <field name="parent_rule_id" ref="hr_payroll_tunj_bpjs_ket"/>
+            <field name="amount_python_compute">result = contract.wage + contract.tunj_makan + contract.tunj_jabatan</field>
+        </record>
+
+        <!-- tunj pajak -->
+        <record id="hr_payroll_tunj_pajak" model="hr.salary.rule">
+            <field name="name">Tunj. Pajak</field>
+            <field name="code">T_PAJAK</field>
+            <field name="category_id" ref="hr_payroll.ALW"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">10</field>
+            <field name="amount_python_compute">result = inputs.BONUS.amount </field>
+        </record>
+
+	    <!--deduction-->
+
+	    <record id="hr_payroll_rules_pot_absen" model="hr.salary.rule">
+	        <field name="name">Ketidkhadiran</field>
+	        <field name="code">PKH</field>
+	        <field name="category_id" ref="hr_payroll.DED"/>
+	        <field name="condition_select">none</field>
+			<field name="sequence">101</field>
+	        <field name="amount_select">code</field>
+	        <field name="amount_python_compute">result = (payslip.tk+payslip.izin)*((contract.tunj_makan + contract.tunj_transport)/(payslip.jum_harikerja1+payslip.izin))</field>
+	    </record>
+
+	    <record id="hr_payroll_rules_jht" model="hr.salary.rule">
+	        <field name="name">Iuran JHT</field>
+	        <field name="code">IJHT</field>
+	        <field name="category_id" ref="hr_payroll.DED"/>
+	        <field name="condition_select">none</field>
+			<field name="sequence">102</field>
+	        <field name="amount_select">code</field>
+	        <field name="amount_python_compute">result = 0</field>
+	    </record>
+
+	    <record id="hr_payroll_rules_kasbon" model="hr.salary.rule">
+	        <field name="name">Kasbon</field>
+	        <field name="code">KSBN</field>
+	        <field name="category_id" ref="hr_payroll.DED"/>
+	        <field name="condition_select">none</field>
+	        <field name="amount_select">code</field>
+			<field name="sequence">103</field>
+	        <field name="amount_python_compute">result = inputs.KASBON.amount </field>
+	    </record>
+
+        <record id="hr_payroll_rules_cicilan" model="hr.salary.rule">
+            <field name="name">Cicilan</field>
+            <field name="code">CICILAN</field>
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">104</field>
+            <field name="amount_python_compute">result = inputs.CICILAN.amount </field>
+        </record>
+
+
+        <!-- pot bpjs kesehatan -->
+        <record id="hr_payroll_pot_bpjs_kes" model="hr.salary.rule">
+            <field name="name">Pot. BPJS Kesehatan</field>
+            <field name="code">POT_BPJS_KESEHATAN</field>
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">180</field>
+            <field name="amount_python_compute">result = -((contract.type_id.jams3+contract.type_id.jams4)*2626940)/100 if contract.employee_id.manager == False else -((contract.type_id.jams3+contract.type_id.jams4)*3600000)/100</field>
+        </record>
+
+        <!-- pot bpjs ketenagakerjaan -->
+        <record id="hr_payroll_pot_bpjs_ket" model="hr.salary.rule">
+            <field name="name">Pot. BPJS Ketenagakerjaan</field>
+            <field name="code">POT_BPJS_KETENAGAKERJAAN</field>
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">210</field>
+            <field name="amount_python_compute">result = -( (contract.type_id.jams2*(TOT_GP_MAK_JAB2))/100.0 if (TOT_GP_MAK_JAB2) >= 2626940 else (contract.type_id.jams2*2626940)/100.0 ) - ( 7335300 * contract.type_id.ttht/100.0 if (TOT_GP_MAK_JAB2)>7335300 else ( (contract.type_id.ttht*(TOT_GP_MAK_JAB2))/100.0 if (TOT_GP_MAK_JAB2) >= 2626940 else (contract.type_id.ttht*2626940)/100.0   ))</field>
+        </record>
+
+        <!-- pot bpjs ketenagakerjaan: child rule: TOT_GP_MAK_JAB2-->
+        <record id="hr_payroll_tunj_bpjs_TOT_GP_MAK_JAB2_2" model="hr.salary.rule">
+            <field name="name">Total GP,Tunj Makan dan Jabatan</field>
+            <field name="code">TOT_GP_MAK_JAB2</field>
+            <field name="category_id" ref="IGNORE"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">20</field>
+            <field name="appears_on_payslip" eval="False"/>
+            <field name="parent_rule_id" ref="hr_payroll_pot_bpjs_ket"/>
+            <field name="amount_python_compute">result = contract.wage + contract.tunj_makan + contract.tunj_jabatan</field>
+        </record>
+
+        <!-- pot pajak -->
+        <record id="hr_payroll_pot_pajak" model="hr.salary.rule">
+            <field name="name">Pot. Pajak</field>
+            <field name="code">P_PAJAK</field>
+            <field name="category_id" ref="hr_payroll.DED"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">190</field>
+            <field name="amount_python_compute">result = -PPH21_BLN</field>
+        </record>
+
+
+            <!-- pot pajak: child rule: PTKP-->
+            <record id="hr_payroll_pot_pajak_ptkp" model="hr.salary.rule">
+                <field name="name">PTKP</field>
+                <field name="code">PTKP</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">20</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = employee.ptkp_id.nominal_tahun</field>
+            </record>
+
+            <!-- pot pajak: child rule: PTKP-->
+            <record id="hr_payroll_pot_pajak_BRUTO" model="hr.salary.rule">
+                <field name="name">BRUTO</field>
+                <field name="code">BRUTO</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">21</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = 12 * (BASIC + payslip.TJM + payslip.TJB + payslip.TK + payslip.TJT - payslip.PKH )</field>
+            </record>
+
+            <!-- pot pajak: child rule: BJAB-->
+            <record id="hr_payroll_pot_pajak_BJAB" model="hr.salary.rule">
+                <field name="name">Biaya Jabatan</field>
+                <field name="code">BJAB</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">22</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = min(0.05 * BRUTO ,  6000000)</field>
+            </record>
+
+            <!-- pot pajak: child rule: NETTO-->
+            <record id="hr_payroll_pot_pajak_NETTO" model="hr.salary.rule">
+                <field name="name">NETTO</field>
+                <field name="code">NETTO</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">23</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = BRUTO - BJAB - 12*(payslip.BPJS_KETENAGAKERJAAN-payslip.POT_BPJS_KETENAGAKERJAAN) - 12*(payslip.BPJS_KESEHATAN-payslip.POT_BPJS_KESEHATAN)</field>
+            </record>
+
+            <!-- pot pajak: child rule: PKP-->
+            <record id="hr_payroll_pot_pajak_PKP" model="hr.salary.rule">
+                <field name="name">PKP</field>  
+                <field name="code">PKP</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">24</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = NETTO-PTKP if NETTO-PTKP>0 else 0</field>
+            </record>
+
+            <!-- pot pajak: child rule: PPH21_THN-->
+            <record id="hr_payroll_pot_pajak_PPH21_THN" model="hr.salary.rule">
+                <field name="name">PPH21 Setahun</field>
+                <field name="code">PPH21_THN</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">25</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = (50000000*0.05 + (PKP-50000000) * 0.15) if PKP>50000000 else 50000000*0.05</field>
+            </record>
+
+            <!-- pot pajak: child rule: NON_NPWP-->
+            <record id="hr_payroll_pot_pajak_NON_NPWP" model="hr.salary.rule">
+                <field name="name">Pot. PPH21 per bulan Non NPWP</field>
+                <field name="code">NON_NPWP</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">26</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = PPH21_THN * 0.2 if employee.npwp == False else 0</field>
+            </record>
+
+            <!-- pot pajak: child rule: PPH21_BLN-->
+            <record id="hr_payroll_pot_pajak_PPH21_BLN" model="hr.salary.rule">
+                <field name="name">Pot. PPH21 per bulan</field>
+                <field name="code">PPH21_BLN</field>
+                <field name="category_id" ref="IGNORE"/>
+                <field name="condition_select">none</field>
+                <field name="amount_select">code</field>
+                <field name="sequence">27</field>
+                <field name="appears_on_payslip" eval="False"/>
+                <field name="parent_rule_id" ref="hr_payroll_pot_pajak"/>
+                <field name="amount_python_compute">result = (PPH21_THN + NON_NPWP ) / 12</field>
+            </record>
+
+        <!-- ZAKAT -->
+
+        <record id="hr_payroll_rules_zakat" model="hr.salary.rule">
+            <field name="name">Zakat</field>
+            <field name="code">ZAKAT</field>
+            <field name="category_id" ref="ZAKAT"/>
+            <field name="condition_select">none</field>
+            <field name="amount_select">code</field>
+            <field name="sequence">500</field>
+            <field name="amount_python_compute">result = (categories.BASIC + categories.ALW - categories.DED)*0.025 if contract.zakat == True else 0 </field>
+        </record>
+
+	    <!-- salary rule input -->
+
+        <record id="hr_payroll_rules_input_thr" model="hr.rule.input">
+            <field name="name">THR</field>
+            <field name="code">THR</field>
+            <field name="sequence">20</field>   
+            <field name="input_id" ref="hr_payroll_rules_thr"/>          
+        </record>   
+
+        <record id="hr_payroll_rules_input_bonus" model="hr.rule.input">
+            <field name="name">BONUS</field>
+            <field name="code">BONUS</field>
+            <field name="sequence">21</field>   
+            <field name="input_id" ref="hr_payroll_rules_bonus"/>          
+        </record> 
+	    
+        <record id="hr_payroll_rules_input_kasbon" model="hr.rule.input">
+	        <field name="name">KASBON</field>
+	        <field name="code">KASBON</field>
+			<field name="sequence">22</field>	
+	        <field name="input_id" ref="hr_payroll_rules_kasbon"/>	    	
+		</record>	  
+
+        <record id="hr_payroll_rules_input_cicilan" model="hr.rule.input">
+            <field name="name">Cicilan</field>
+            <field name="code">CICILAN</field>
+            <field name="sequence">22</field>   
+            <field name="input_id" ref="hr_payroll_rules_cicilan"/>          
+        </record>
+
+
+
+
+
+
+        <!-- pph 21 -->
+
+
+
+		<!-- Salary Structure -->
+
+		<record model="hr.payroll.structure" id="structure_Indonesian Companies" >
+	    	<field name="name">Indonesian Companies Salary Structure</field>
+	    	<field name="code">Indonesian Companies</field>
+        	<field name="parent_id" ref="hr_payroll.structure_base"/>
+	        <field name="company_id" ref="base.main_company"/>
+            <field eval="[(6, 0, [ref('hr_rule_tunj_jabatan'), 
+            ref('hr_rule_tunj_makan'), 
+            ref('hr_rule_tunj_transport'),
+            ref('hr_rule_tunj_komunikasi'), 
+            ref('hr_payroll_rules_overtime'), 
+            ref('hr_payroll_rules_pot_absen'), 
+            ref('hr_payroll_rules_jht'), 
+            ref('hr_payroll_rules_kasbon'),
+            ref('hr_payroll_rules_thr'),
+            ref('hr_payroll_rules_bonus'),
+            ref('hr_payroll_tunj_bpjs_kes'),
+            ref('hr_payroll_tunj_bpjs_ket'),
+            ref('hr_payroll_rules_cicilan'),
+            ref('hr_payroll_pot_bpjs_kes'),
+            ref('hr_payroll_pot_bpjs_ket'),
+            ref('hr_payroll_pot_pajak'),
+            ref('hr_payroll_rules_zakat'),
+             ])]" name="rule_ids"/>
+	    </record>
+
+	</data>
+</openerp>

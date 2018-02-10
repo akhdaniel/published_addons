@@ -1,0 +1,878 @@
+<?xml version="1.0"?>
+<document filename="test.pdf">
+  <template pageSize="(595.0,842.0)" title="Test" author="Martin Simon" allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="57.0" y1="57.0" width="481" height="728"/>
+    </pageTemplate>
+  </template>
+  <stylesheet>
+    <blockTableStyle id="Standard_Outline">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table1">
+      <blockTopPadding value="0"/>
+      <blockBottomPadding value="0"/>
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="22,-1" stop="22,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <blockBackground colorName="#ffffff" start="1,1" stop="1,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table2">
+      <blockTopPadding value="0"/>
+      <blockBottomPadding value="0"/>
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <blockBackground colorName="#ffffff" start="1,0" stop="1,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table5">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table3">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table4">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table6">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table7">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table8">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table9">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table10">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table11">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <initialize>
+      <paraStyle name="all" alignment="justify"/>
+    </initialize>
+    <paraStyle name="P1" fontName="Helvetica-Bold"/>
+    <paraStyle name="P2" fontName="Helvetica" fontSize="10.0" leading="13"/>
+    <paraStyle name="P3" fontName="Helvetica-Bold" fontSize="11.0" leading="14"/>
+    <paraStyle name="P4" fontName="Helvetica" fontSize="11.0" leading="14"/>
+    <paraStyle name="P5" fontName="Helvetica" fontSize="11.0" leading="14" alignment="CENTER"/>
+    <paraStyle name="P6" fontName="Helvetica" textColor="#ffffff"/>
+    <paraStyle name="P7" fontName="Helvetica" fontSize="11.0" leading="14" textColor="#ffffff"/>
+    <paraStyle name="P8" fontName="Helvetica" fontSize="11.0" leading="14"/>
+    <paraStyle name="P9" fontName="Helvetica" fontSize="11.0" leading="14"/>
+    <paraStyle name="Standard" fontName="Helvetica"/>
+    <paraStyle name="Heading" fontName="Helvetica" fontSize="14.0" leading="17" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="Text body" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="List" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="Caption" fontName="Helvetica" fontSize="12.0" leading="15" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="Index" fontName="Helvetica"/>
+    <paraStyle name="Table Contents" fontName="Helvetica"/>
+    <paraStyle name="Table Heading" fontName="Helvetica" alignment="CENTER"/>
+    <images>
+      <image name="10000000000000E1000000E11FE554D2.png">iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAz1BMVEX///8/dav///3//v/9////
+//w/dapeibLd6fA7c6pAdaw/dqpBdar///s/dqlAda34+Pjl7vPq9vptl7mGpsZTg7BDeKbp6em+
+0d47cKny8vLf39+SkJHAvr84cKbH1+jOzs6vra5/fn+3yt1vbW6joqOrwta4t7fHxsbU1NR4d3WK
+iImhvNRqkbiWlpbV4OyJqMRgXl9Mfq6YtNDa4u+lv9lplbewyeBljrd1nbtbia9Zhrdylr64x9hl
+ZGOqqaZWVFSBpL5OfqeJrcuPp71IHjaXAAAWnklEQVR4nO1cCVfjuLL2qniLl+zO4ux7SCB5twdo
+bncD8/9/0/tKthM5AXoIM3POPUdfAwOOrVKp9pI8iiIhISEhISEhISEhISEhISEhISEhISEhISEh
+ISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEh8T8Nw7i8pmmK/nfS0N6kQtf/JRgGTcBI
+/9GXZiq68QXyuqLxMWms9PsdwkpKj+7QCfS39rfzrWk0agEZ0S8MSRyKA7417TOadEv+/bdCS6dT
+QHrpgweO03r/jvMBL+59g+4/IUBOSD+nk07y6iGJoXJZKwxomtr5khU55Fqqf4XsvwhDOzc+LkXx
+ln+PD6MSWbt+q4h+q7+zoqjylqIakVVA9KYrDnfFEXcVsJjeaZzo7s7p9lucLicMb3ftOmA9uTZo
+SqW/ea6W6nu/CBff+3q9dPNwu2mBAzielJSpa0pUqxdQC42LwKIrVslvNNLRGj5rJE+YdJkIk6kp
+oTW7rT7W928Q3tdLoPt8GFuGqevlC83+S9CgRJi2bs2q9Yaf2Daz1TPYuAjYrPFS2kTkytMnIYB+
+CU/kwJOHNz1Sq5GPaftqwOIDaJbJ7nTFrLSeS+CeSLxHmLn7+uvuXLP/OofEoFLZPNJUmeswj50T
+IjDVUx1bTdgDFyOBPN1/9sI9rrpvKbp5uYYHFuSj+r5quy1aV4pK5bBfbcS2HQSB47pv0nWY7wSq
+HZd28D7XyVAzTG1XazBHZUTEdd4ipDqOEzi4hfmHyCznHFZqtjgv+yZ6I35plaodePmMwWHdIu5M
+3Blt9mCdqS5zwOSbhIk2LXDybadcxyFswdzdJAwUoPvQiLepgL6jOsz1bX+cMQHZW/cFzUqew7cS
+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
+/zD+Hxas6MdXQnmiAAAAAElFTkSuQmCC
+</image>
+    </images>
+  </stylesheet>
+  <story>
+    <para style="Standard">[[ repeatIn(objects,'payslip') ]]</para>
+    <blockTable colWidths="482.0" style="Table1">
+      <tr>
+        <td>
+          <blockTable colWidths="230.0,230.0" style="Table2">
+            <tr>
+              <td>
+                <illustration height="98.0" width="140.0">
+                  <image x="0" y="0" file="10000000000000E1000000E11FE554D2.png" height="98.0" width="140.0"/>
+                </illustration>
+              </td>
+              <td>
+                <para style="P6">Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</para>
+                <para style="P6">a</para>
+                <para style="P6">a</para>
+                <para style="P6">a</para>
+                <para style="P1">Slip Gaji Karyawan April 2015</para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="476.0" style="Table5">
+            <tr>
+              <td>
+                <para style="P6">aaaa</para>
+              </td>
+            </tr>
+          </blockTable>
+          <para style="Table Contents">
+            <font color="white"> </font>
+          </para>
+          <blockTable colWidths="152.0,13.0,296.0" style="Table3">
+            <tr>
+              <td>
+                <para style="P2">Nia</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P2">Nama</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P2">Status Karyawan</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P2">Grade</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P2">Pangkat</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P2">Jabatan</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="461.0" style="Table4">
+            <tr>
+              <td>
+                <para style="P6">aaaaaaaaaaaaaaaa</para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="142.0,12.0,57.0,27.0,142.0,9.0,72.0" style="Table6">
+            <tr>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">PENDAPATAN</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">POTONGAN</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Gaji Pokok</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Hari Kerja</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Tunjangan Jabatan</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Tidak Masuk dg Izin</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Tunjangan U. Makan</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Tidak Masuk Tnpa Izin</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Tunjangan U. Transport</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Terlambat</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Lembur</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Cashbon</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Bonus/THR</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Cicilan</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Reward</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">Lain-lain</para>
+              </td>
+              <td>
+                <para style="Table Contents">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">Koreksi</para>
+              </td>
+              <td>
+                <para style="P4">:</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="140.0,16.0,41.0,68.0,68.0,50.0,78.0" style="Table7">
+            <tr>
+              <td>
+                <para style="P4">Lain-lain</para>
+              </td>
+              <td>
+                <para style="P9">:</para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="462.0" style="Table8">
+            <tr>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="143.0,11.0,76.0,11.0,133.0,11.0,76.0" style="Table9">
+            <tr>
+              <td>
+                <para style="P3">TOTAL PENERIMAAN</para>
+              </td>
+              <td>
+                <para style="P3">:</para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P3">TOTAL POTONGAN</para>
+              </td>
+              <td>
+                <para style="P8">:</para>
+              </td>
+              <td>
+                <para style="P8">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P3">Take Home Pay</para>
+              </td>
+              <td>
+                <para style="P3">:</para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P3">Di Transfer Ke</para>
+              </td>
+              <td>
+                <para style="P3">:</para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="Table Contents">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="144.0,9.0,88.0" style="Table10">
+            <tr>
+              <td>
+                <para style="P3">No. Re</para>
+              </td>
+              <td>
+                <para style="P3">:</para>
+              </td>
+              <td>
+                <para style="P3">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+          </blockTable>
+          <blockTable colWidths="167.0,146.0,139.0" style="Table11">
+            <tr>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P5">Bandung, 26 April 2015</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P5">Dibuat Oleh,</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P5">Diterima Oleh,</para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P7">A</para>
+                <para style="P7">a</para>
+                <para style="P7">a</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <para style="P5">Moch, Rauby Febriansyah</para>
+              </td>
+              <td>
+                <para style="P4">
+                  <font color="white"> </font>
+                </para>
+              </td>
+              <td>
+                <para style="P5">Kusnandar</para>
+              </td>
+            </tr>
+          </blockTable>
+          <para style="Table Contents"/>
+          <para style="Table Contents">
+            <font color="white"> </font>
+          </para>
+          <para style="Table Contents">
+            <font color="white"> </font>
+          </para>
+          <para style="Table Contents">
+            <font color="white"> </font>
+          </para>
+        </td>
+      </tr>
+    </blockTable>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+    <para style="Standard"/>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+    <para style="Standard">
+      <font color="white"> </font>
+    </para>
+  </story>
+</document>

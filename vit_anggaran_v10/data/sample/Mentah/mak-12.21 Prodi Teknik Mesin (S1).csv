@@ -1,0 +1,496 @@
+id,,unit kerja,nama unit,kebijakan,program,kegiatan,nama kegiatan,cost type,name,kode
+mak_12_21_1,1,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,1,Bahan habis pakai,650.1.1.01.01.1.12.21
+mak_12_21_2,2,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,2,Honor/Upah,650.1.1.01.01.2.12.21
+mak_12_21_3,3,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,3,Sewa,650.1.1.01.01.3.12.21
+mak_12_21_4,4,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,4,Outsourcing,650.1.1.01.01.4.12.21
+mak_12_21_5,5,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.01,Rapat koordinasi dgn dosen,5,Overhead,650.1.1.01.01.5.12.21
+mak_12_21_6,6,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,1,Bahan habis pakai,650.1.1.01.02.1.12.21
+mak_12_21_7,7,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,2,Honor/Upah,650.1.1.01.02.2.12.21
+mak_12_21_8,8,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,3,Sewa,650.1.1.01.02.3.12.21
+mak_12_21_9,9,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,4,Outsourcing,650.1.1.01.02.4.12.21
+mak_12_21_10,10,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.02,Ketersediaan rancangan pembelajaran,5,Overhead,650.1.1.01.02.5.12.21
+mak_12_21_11,11,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.03,Ketersediaan dosen,1,Bahan habis pakai,650.1.1.01.03.1.12.21
+mak_12_21_12,12,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.03,Ketersediaan dosen,2,Honor/Upah,650.1.1.01.03.2.12.21
+mak_12_21_13,13,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.03,Ketersediaan dosen,3,Sewa,650.1.1.01.03.3.12.21
+mak_12_21_14,14,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.03,Ketersediaan dosen,4,Outsourcing,650.1.1.01.03.4.12.21
+mak_12_21_15,15,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.03,Ketersediaan dosen,5,Overhead,650.1.1.01.03.5.12.21
+mak_12_21_16,16,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.04,Kualifikasi dosen,1,Bahan habis pakai,650.1.1.01.04.1.12.21
+mak_12_21_17,17,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.04,Kualifikasi dosen,2,Honor/Upah,650.1.1.01.04.2.12.21
+mak_12_21_18,18,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.04,Kualifikasi dosen,3,Sewa,650.1.1.01.04.3.12.21
+mak_12_21_19,19,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.04,Kualifikasi dosen,4,Outsourcing,650.1.1.01.04.4.12.21
+mak_12_21_20,20,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.04,Kualifikasi dosen,5,Overhead,650.1.1.01.04.5.12.21
+mak_12_21_21,21,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,1,Bahan habis pakai,650.1.1.01.05.1.12.21
+mak_12_21_22,22,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,2,Honor/Upah,650.1.1.01.05.2.12.21
+mak_12_21_23,23,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,3,Sewa,650.1.1.01.05.3.12.21
+mak_12_21_24,24,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,4,Outsourcing,650.1.1.01.05.4.12.21
+mak_12_21_25,25,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.05,Ketersediaan fasilitas kuliah,5,Overhead,650.1.1.01.05.5.12.21
+mak_12_21_26,26,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,1,Bahan habis pakai,650.1.1.01.06.1.12.21
+mak_12_21_27,27,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,2,Honor/Upah,650.1.1.01.06.2.12.21
+mak_12_21_28,28,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,3,Sewa,650.1.1.01.06.3.12.21
+mak_12_21_29,29,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,4,Outsourcing,650.1.1.01.06.4.12.21
+mak_12_21_30,30,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,5,Overhead,650.1.1.01.06.5.12.21
+mak_12_21_31,31,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.07,Jadual kuliah,1,Bahan habis pakai,650.1.1.01.07.1.12.21
+mak_12_21_32,32,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.07,Jadual kuliah,2,Honor/Upah,650.1.1.01.07.2.12.21
+mak_12_21_33,33,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.07,Jadual kuliah,3,Sewa,650.1.1.01.07.3.12.21
+mak_12_21_34,34,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.07,Jadual kuliah,4,Outsourcing,650.1.1.01.07.4.12.21
+mak_12_21_35,35,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.07,Jadual kuliah,5,Overhead,650.1.1.01.07.5.12.21
+mak_12_21_36,36,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,1,Bahan habis pakai,650.1.1.01.08.1.12.21
+mak_12_21_37,37,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,2,Honor/Upah,650.1.1.01.08.2.12.21
+mak_12_21_38,38,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,3,Sewa,650.1.1.01.08.3.12.21
+mak_12_21_39,39,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,4,Outsourcing,650.1.1.01.08.4.12.21
+mak_12_21_40,40,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.08,Pengisian KRS oleh mhs,5,Overhead,650.1.1.01.08.5.12.21
+mak_12_21_41,41,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,1,Bahan habis pakai,650.1.1.01.09.1.12.21
+mak_12_21_42,42,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,2,Honor/Upah,650.1.1.01.09.2.12.21
+mak_12_21_43,43,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,3,Sewa,650.1.1.01.09.3.12.21
+mak_12_21_44,44,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,4,Outsourcing,650.1.1.01.09.4.12.21
+mak_12_21_45,45,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,5,Overhead,650.1.1.01.09.5.12.21
+mak_12_21_46,46,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,1,Bahan habis pakai,650.1.1.01.10.1.12.21
+mak_12_21_47,47,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,2,Honor/Upah,650.1.1.01.10.2.12.21
+mak_12_21_48,48,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,3,Sewa,650.1.1.01.10.3.12.21
+mak_12_21_49,49,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,4,Outsourcing,650.1.1.01.10.4.12.21
+mak_12_21_50,50,12.21,Prodi Teknik Mesin (S1),1,1.01,1.01.10,Daftar hadir dosen/mata kuliah,5,Overhead,650.1.1.01.10.5.12.21
+mak_12_21_51,51,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.01,Lembar penyetaraan,1,Bahan habis pakai,650.1.1.02.01.1.12.21
+mak_12_21_52,52,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.01,Lembar penyetaraan,2,Honor/Upah,650.1.1.02.01.2.12.21
+mak_12_21_53,53,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.01,Lembar penyetaraan,3,Sewa,650.1.1.02.01.3.12.21
+mak_12_21_54,54,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.01,Lembar penyetaraan,4,Outsourcing,650.1.1.02.01.4.12.21
+mak_12_21_55,55,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.01,Lembar penyetaraan,5,Overhead,650.1.1.02.01.5.12.21
+mak_12_21_56,56,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,1,Bahan habis pakai,650.1.1.02.02.1.12.21
+mak_12_21_57,57,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,2,Honor/Upah,650.1.1.02.02.2.12.21
+mak_12_21_58,58,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,3,Sewa,650.1.1.02.02.3.12.21
+mak_12_21_59,59,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,4,Outsourcing,650.1.1.02.02.4.12.21
+mak_12_21_60,60,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,5,Overhead,650.1.1.02.02.5.12.21
+mak_12_21_61,61,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.02.03.1.12.21
+mak_12_21_62,62,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.02.03.2.12.21
+mak_12_21_63,63,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.02.03.3.12.21
+mak_12_21_64,64,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.02.03.4.12.21
+mak_12_21_65,65,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.03,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.02.03.5.12.21
+mak_12_21_66,66,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.04,Jadwal praktikum,1,Bahan habis pakai,650.1.1.02.04.1.12.21
+mak_12_21_67,67,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.04,Jadwal praktikum,2,Honor/Upah,650.1.1.02.04.2.12.21
+mak_12_21_68,68,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.04,Jadwal praktikum,3,Sewa,650.1.1.02.04.3.12.21
+mak_12_21_69,69,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.04,Jadwal praktikum,4,Outsourcing,650.1.1.02.04.4.12.21
+mak_12_21_70,70,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.04,Jadwal praktikum,5,Overhead,650.1.1.02.04.5.12.21
+mak_12_21_71,71,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.05,Modul / alat praktikum,1,Bahan habis pakai,650.1.1.02.05.1.12.21
+mak_12_21_72,72,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.05,Modul / alat praktikum,2,Honor/Upah,650.1.1.02.05.2.12.21
+mak_12_21_73,73,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.05,Modul / alat praktikum,3,Sewa,650.1.1.02.05.3.12.21
+mak_12_21_74,74,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.05,Modul / alat praktikum,4,Outsourcing,650.1.1.02.05.4.12.21
+mak_12_21_75,75,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.05,Modul / alat praktikum,5,Overhead,650.1.1.02.05.5.12.21
+mak_12_21_76,76,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.06,Bahan habis pakai,1,Bahan habis pakai,650.1.1.02.06.1.12.21
+mak_12_21_77,77,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.06,Bahan habis pakai,2,Honor/Upah,650.1.1.02.06.2.12.21
+mak_12_21_78,78,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.06,Bahan habis pakai,3,Sewa,650.1.1.02.06.3.12.21
+mak_12_21_79,79,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.06,Bahan habis pakai,4,Outsourcing,650.1.1.02.06.4.12.21
+mak_12_21_80,80,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.06,Bahan habis pakai,5,Overhead,650.1.1.02.06.5.12.21
+mak_12_21_81,81,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.07,Dana praktikum,1,Bahan habis pakai,650.1.1.02.07.1.12.21
+mak_12_21_82,82,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.07,Dana praktikum,2,Honor/Upah,650.1.1.02.07.2.12.21
+mak_12_21_83,83,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.07,Dana praktikum,3,Sewa,650.1.1.02.07.3.12.21
+mak_12_21_84,84,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.07,Dana praktikum,4,Outsourcing,650.1.1.02.07.4.12.21
+mak_12_21_85,85,12.21,Prodi Teknik Mesin (S1),1,1.02,1.02.07,Dana praktikum,5,Overhead,650.1.1.02.07.5.12.21
+mak_12_21_86,86,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.03.01.1.12.21
+mak_12_21_87,87,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.03.01.2.12.21
+mak_12_21_88,88,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.03.01.3.12.21
+mak_12_21_89,89,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.03.01.4.12.21
+mak_12_21_90,90,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.01,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.03.01.5.12.21
+mak_12_21_91,91,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.02,Jadual praktikum,1,Bahan habis pakai,650.1.1.03.02.1.12.21
+mak_12_21_92,92,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.02,Jadual praktikum,2,Honor/Upah,650.1.1.03.02.2.12.21
+mak_12_21_93,93,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.02,Jadual praktikum,3,Sewa,650.1.1.03.02.3.12.21
+mak_12_21_94,94,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.02,Jadual praktikum,4,Outsourcing,650.1.1.03.02.4.12.21
+mak_12_21_95,95,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.02,Jadual praktikum,5,Overhead,650.1.1.03.02.5.12.21
+mak_12_21_96,96,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.03,Modul/alat praktikum,1,Bahan habis pakai,650.1.1.03.03.1.12.21
+mak_12_21_97,97,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.03,Modul/alat praktikum,2,Honor/Upah,650.1.1.03.03.2.12.21
+mak_12_21_98,98,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.03,Modul/alat praktikum,3,Sewa,650.1.1.03.03.3.12.21
+mak_12_21_99,99,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.03,Modul/alat praktikum,4,Outsourcing,650.1.1.03.03.4.12.21
+mak_12_21_100,100,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.03,Modul/alat praktikum,5,Overhead,650.1.1.03.03.5.12.21
+mak_12_21_101,101,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.04,Bahan habis pakai,1,Bahan habis pakai,650.1.1.03.04.1.12.21
+mak_12_21_102,102,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.04,Bahan habis pakai,2,Honor/Upah,650.1.1.03.04.2.12.21
+mak_12_21_103,103,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.04,Bahan habis pakai,3,Sewa,650.1.1.03.04.3.12.21
+mak_12_21_104,104,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.04,Bahan habis pakai,4,Outsourcing,650.1.1.03.04.4.12.21
+mak_12_21_105,105,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.04,Bahan habis pakai,5,Overhead,650.1.1.03.04.5.12.21
+mak_12_21_106,106,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.05,Dana praktikum,1,Bahan habis pakai,650.1.1.03.05.1.12.21
+mak_12_21_107,107,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.05,Dana praktikum,2,Honor/Upah,650.1.1.03.05.2.12.21
+mak_12_21_108,108,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.05,Dana praktikum,3,Sewa,650.1.1.03.05.3.12.21
+mak_12_21_109,109,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.05,Dana praktikum,4,Outsourcing,650.1.1.03.05.4.12.21
+mak_12_21_110,110,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.05,Dana praktikum,5,Overhead,650.1.1.03.05.5.12.21
+mak_12_21_111,111,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.06,Daftar peserta praktikum,1,Bahan habis pakai,650.1.1.03.06.1.12.21
+mak_12_21_112,112,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.06,Daftar peserta praktikum,2,Honor/Upah,650.1.1.03.06.2.12.21
+mak_12_21_113,113,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.06,Daftar peserta praktikum,3,Sewa,650.1.1.03.06.3.12.21
+mak_12_21_114,114,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.06,Daftar peserta praktikum,4,Outsourcing,650.1.1.03.06.4.12.21
+mak_12_21_115,115,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.06,Daftar peserta praktikum,5,Overhead,650.1.1.03.06.5.12.21
+mak_12_21_116,116,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.07,Asisten/instruktur,1,Bahan habis pakai,650.1.1.03.07.1.12.21
+mak_12_21_117,117,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.07,Asisten/instruktur,2,Honor/Upah,650.1.1.03.07.2.12.21
+mak_12_21_118,118,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.07,Asisten/instruktur,3,Sewa,650.1.1.03.07.3.12.21
+mak_12_21_119,119,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.07,Asisten/instruktur,4,Outsourcing,650.1.1.03.07.4.12.21
+mak_12_21_120,120,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.07,Asisten/instruktur,5,Overhead,650.1.1.03.07.5.12.21
+mak_12_21_121,121,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,1,Bahan habis pakai,650.1.1.03.08.1.12.21
+mak_12_21_122,122,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,2,Honor/Upah,650.1.1.03.08.2.12.21
+mak_12_21_123,123,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,3,Sewa,650.1.1.03.08.3.12.21
+mak_12_21_124,124,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,4,Outsourcing,650.1.1.03.08.4.12.21
+mak_12_21_125,125,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.08,Penugasan asisten/instruktur,5,Overhead,650.1.1.03.08.5.12.21
+mak_12_21_126,126,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.09,Nilai akhir praktikum,1,Bahan habis pakai,650.1.1.03.09.1.12.21
+mak_12_21_127,127,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.09,Nilai akhir praktikum,2,Honor/Upah,650.1.1.03.09.2.12.21
+mak_12_21_128,128,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.09,Nilai akhir praktikum,3,Sewa,650.1.1.03.09.3.12.21
+mak_12_21_129,129,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.09,Nilai akhir praktikum,4,Outsourcing,650.1.1.03.09.4.12.21
+mak_12_21_130,130,12.21,Prodi Teknik Mesin (S1),1,1.03,1.03.09,Nilai akhir praktikum,5,Overhead,650.1.1.03.09.5.12.21
+mak_12_21_131,131,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,1,Bahan habis pakai,650.1.1.04.01.1.12.21
+mak_12_21_132,132,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,2,Honor/Upah,650.1.1.04.01.2.12.21
+mak_12_21_133,133,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,3,Sewa,650.1.1.04.01.3.12.21
+mak_12_21_134,134,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,4,Outsourcing,650.1.1.04.01.4.12.21
+mak_12_21_135,135,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.01,Jumlah kehadiran dosen,5,Overhead,650.1.1.04.01.5.12.21
+mak_12_21_136,136,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.02,Presensi mhs,1,Bahan habis pakai,650.1.1.04.02.1.12.21
+mak_12_21_137,137,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.02,Presensi mhs,2,Honor/Upah,650.1.1.04.02.2.12.21
+mak_12_21_138,138,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.02,Presensi mhs,3,Sewa,650.1.1.04.02.3.12.21
+mak_12_21_139,139,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.02,Presensi mhs,4,Outsourcing,650.1.1.04.02.4.12.21
+mak_12_21_140,140,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.02,Presensi mhs,5,Overhead,650.1.1.04.02.5.12.21
+mak_12_21_141,141,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,1,Bahan habis pakai,650.1.1.04.03.1.12.21
+mak_12_21_142,142,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,2,Honor/Upah,650.1.1.04.03.2.12.21
+mak_12_21_143,143,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,3,Sewa,650.1.1.04.03.3.12.21
+mak_12_21_144,144,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,4,Outsourcing,650.1.1.04.03.4.12.21
+mak_12_21_145,145,12.21,Prodi Teknik Mesin (S1),1,1.04,1.04.03,Mahasiswa pindahan/melanjutkan,5,Overhead,650.1.1.04.03.5.12.21
+mak_12_21_146,146,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,1,Bahan habis pakai,650.1.1.05.01.1.12.21
+mak_12_21_147,147,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,2,Honor/Upah,650.1.1.05.01.2.12.21
+mak_12_21_148,148,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,3,Sewa,650.1.1.05.01.3.12.21
+mak_12_21_149,149,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,4,Outsourcing,650.1.1.05.01.4.12.21
+mak_12_21_150,150,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.01,Jumlah kehadiran asisten/instruktur,5,Overhead,650.1.1.05.01.5.12.21
+mak_12_21_151,151,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,1,Bahan habis pakai,650.1.1.05.02.1.12.21
+mak_12_21_152,152,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,2,Honor/Upah,650.1.1.05.02.2.12.21
+mak_12_21_153,153,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,3,Sewa,650.1.1.05.02.3.12.21
+mak_12_21_154,154,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,4,Outsourcing,650.1.1.05.02.4.12.21
+mak_12_21_155,155,12.21,Prodi Teknik Mesin (S1),1,1.05,1.05.02,Presensi mhs peserta praktikum,5,Overhead,650.1.1.05.02.5.12.21
+mak_12_21_156,156,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.06.01.1.12.21
+mak_12_21_157,157,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.06.01.2.12.21
+mak_12_21_158,158,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.06.01.3.12.21
+mak_12_21_159,159,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.06.01.4.12.21
+mak_12_21_160,160,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.06.01.5.12.21
+mak_12_21_161,161,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.02,Jadual ujian,1,Bahan habis pakai,650.1.1.06.02.1.12.21
+mak_12_21_162,162,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.02,Jadual ujian,2,Honor/Upah,650.1.1.06.02.2.12.21
+mak_12_21_163,163,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.02,Jadual ujian,3,Sewa,650.1.1.06.02.3.12.21
+mak_12_21_164,164,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.02,Jadual ujian,4,Outsourcing,650.1.1.06.02.4.12.21
+mak_12_21_165,165,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.02,Jadual ujian,5,Overhead,650.1.1.06.02.5.12.21
+mak_12_21_166,166,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.03,KPU,1,Bahan habis pakai,650.1.1.06.03.1.12.21
+mak_12_21_167,167,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.03,KPU,2,Honor/Upah,650.1.1.06.03.2.12.21
+mak_12_21_168,168,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.03,KPU,3,Sewa,650.1.1.06.03.3.12.21
+mak_12_21_169,169,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.03,KPU,4,Outsourcing,650.1.1.06.03.4.12.21
+mak_12_21_170,170,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.03,KPU,5,Overhead,650.1.1.06.03.5.12.21
+mak_12_21_171,171,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.06.04.1.12.21
+mak_12_21_172,172,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.06.04.2.12.21
+mak_12_21_173,173,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.06.04.3.12.21
+mak_12_21_174,174,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.06.04.4.12.21
+mak_12_21_175,175,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.06.04.5.12.21
+mak_12_21_176,176,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.06.05.1.12.21
+mak_12_21_177,177,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.06.05.2.12.21
+mak_12_21_178,178,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.06.05.3.12.21
+mak_12_21_179,179,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.06.05.4.12.21
+mak_12_21_180,180,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.06.05.5.12.21
+mak_12_21_181,181,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.06,Nilai akhir,1,Bahan habis pakai,650.1.1.06.06.1.12.21
+mak_12_21_182,182,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.06,Nilai akhir,2,Honor/Upah,650.1.1.06.06.2.12.21
+mak_12_21_183,183,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.06,Nilai akhir,3,Sewa,650.1.1.06.06.3.12.21
+mak_12_21_184,184,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.06,Nilai akhir,4,Outsourcing,650.1.1.06.06.4.12.21
+mak_12_21_185,185,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.06,Nilai akhir,5,Overhead,650.1.1.06.06.5.12.21
+mak_12_21_186,186,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.06.07.1.12.21
+mak_12_21_187,187,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.07,Vakasi ujian,2,Honor/Upah,650.1.1.06.07.2.12.21
+mak_12_21_188,188,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.07,Vakasi ujian,3,Sewa,650.1.1.06.07.3.12.21
+mak_12_21_189,189,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.07,Vakasi ujian,4,Outsourcing,650.1.1.06.07.4.12.21
+mak_12_21_190,190,12.21,Prodi Teknik Mesin (S1),1,1.06,1.06.07,Vakasi ujian,5,Overhead,650.1.1.06.07.5.12.21
+mak_12_21_191,191,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.07.01.1.12.21
+mak_12_21_192,192,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.07.01.2.12.21
+mak_12_21_193,193,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.07.01.3.12.21
+mak_12_21_194,194,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.07.01.4.12.21
+mak_12_21_195,195,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.07.01.5.12.21
+mak_12_21_196,196,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.02,Jadual ujian,1,Bahan habis pakai,650.1.1.07.02.1.12.21
+mak_12_21_197,197,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.02,Jadual ujian,2,Honor/Upah,650.1.1.07.02.2.12.21
+mak_12_21_198,198,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.02,Jadual ujian,3,Sewa,650.1.1.07.02.3.12.21
+mak_12_21_199,199,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.02,Jadual ujian,4,Outsourcing,650.1.1.07.02.4.12.21
+mak_12_21_200,200,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.02,Jadual ujian,5,Overhead,650.1.1.07.02.5.12.21
+mak_12_21_201,201,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.03,KPU,1,Bahan habis pakai,650.1.1.07.03.1.12.21
+mak_12_21_202,202,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.03,KPU,2,Honor/Upah,650.1.1.07.03.2.12.21
+mak_12_21_203,203,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.03,KPU,3,Sewa,650.1.1.07.03.3.12.21
+mak_12_21_204,204,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.03,KPU,4,Outsourcing,650.1.1.07.03.4.12.21
+mak_12_21_205,205,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.03,KPU,5,Overhead,650.1.1.07.03.5.12.21
+mak_12_21_206,206,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.07.04.1.12.21
+mak_12_21_207,207,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.07.04.2.12.21
+mak_12_21_208,208,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.07.04.3.12.21
+mak_12_21_209,209,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.07.04.4.12.21
+mak_12_21_210,210,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.07.04.5.12.21
+mak_12_21_211,211,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.07.05.1.12.21
+mak_12_21_212,212,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.07.05.2.12.21
+mak_12_21_213,213,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.07.05.3.12.21
+mak_12_21_214,214,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.07.05.4.12.21
+mak_12_21_215,215,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.07.05.5.12.21
+mak_12_21_216,216,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.06,Nilai akhir,1,Bahan habis pakai,650.1.1.07.06.1.12.21
+mak_12_21_217,217,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.06,Nilai akhir,2,Honor/Upah,650.1.1.07.06.2.12.21
+mak_12_21_218,218,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.06,Nilai akhir,3,Sewa,650.1.1.07.06.3.12.21
+mak_12_21_219,219,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.06,Nilai akhir,4,Outsourcing,650.1.1.07.06.4.12.21
+mak_12_21_220,220,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.06,Nilai akhir,5,Overhead,650.1.1.07.06.5.12.21
+mak_12_21_221,221,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.07.07.1.12.21
+mak_12_21_222,222,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.07,Vakasi ujian,2,Honor/Upah,650.1.1.07.07.2.12.21
+mak_12_21_223,223,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.07,Vakasi ujian,3,Sewa,650.1.1.07.07.3.12.21
+mak_12_21_224,224,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.07,Vakasi ujian,4,Outsourcing,650.1.1.07.07.4.12.21
+mak_12_21_225,225,12.21,Prodi Teknik Mesin (S1),1,1.07,1.07.07,Vakasi ujian,5,Overhead,650.1.1.07.07.5.12.21
+mak_12_21_226,226,12.21,Prodi Teknik Mesin (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,1,Bahan habis pakai,650.1.1.08.01.1.12.21
+mak_12_21_227,227,12.21,Prodi Teknik Mesin (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,2,Honor/Upah,650.1.1.08.01.2.12.21
+mak_12_21_228,228,12.21,Prodi Teknik Mesin (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,3,Sewa,650.1.1.08.01.3.12.21
+mak_12_21_229,229,12.21,Prodi Teknik Mesin (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,4,Outsourcing,650.1.1.08.01.4.12.21
+mak_12_21_230,230,12.21,Prodi Teknik Mesin (S1),1,1.08,1.08.01,Tersedia perush tempat mhs praktek,5,Overhead,650.1.1.08.01.5.12.21
+mak_12_21_231,231,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,1,Bahan habis pakai,650.1.1.09.01.1.12.21
+mak_12_21_232,232,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,2,Honor/Upah,650.1.1.09.01.2.12.21
+mak_12_21_233,233,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,3,Sewa,650.1.1.09.01.3.12.21
+mak_12_21_234,234,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,4,Outsourcing,650.1.1.09.01.4.12.21
+mak_12_21_235,235,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.01,Jumlah IPK/IPS <2,5,Overhead,650.1.1.09.01.5.12.21
+mak_12_21_236,236,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",1,Bahan habis pakai,650.1.1.09.02.1.12.21
+mak_12_21_237,237,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",2,Honor/Upah,650.1.1.09.02.2.12.21
+mak_12_21_238,238,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",3,Sewa,650.1.1.09.02.3.12.21
+mak_12_21_239,239,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",4,Outsourcing,650.1.1.09.02.4.12.21
+mak_12_21_240,240,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.02,"Jumlah IPK/IPS 2,02,5",5,Overhead,650.1.1.09.02.5.12.21
+mak_12_21_241,241,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",1,Bahan habis pakai,650.1.1.09.03.1.12.21
+mak_12_21_242,242,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",2,Honor/Upah,650.1.1.09.03.2.12.21
+mak_12_21_243,243,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",3,Sewa,650.1.1.09.03.3.12.21
+mak_12_21_244,244,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",4,Outsourcing,650.1.1.09.03.4.12.21
+mak_12_21_245,245,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.03,"Jumlah IPK/IPS 2,53,0",5,Overhead,650.1.1.09.03.5.12.21
+mak_12_21_246,246,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",1,Bahan habis pakai,650.1.1.09.04.1.12.21
+mak_12_21_247,247,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",2,Honor/Upah,650.1.1.09.04.2.12.21
+mak_12_21_248,248,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",3,Sewa,650.1.1.09.04.3.12.21
+mak_12_21_249,249,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",4,Outsourcing,650.1.1.09.04.4.12.21
+mak_12_21_250,250,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.04,"Jumlah IPK/IPS 3,04,0",5,Overhead,650.1.1.09.04.5.12.21
+mak_12_21_251,251,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,1,Bahan habis pakai,650.1.1.09.05.1.12.21
+mak_12_21_252,252,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,2,Honor/Upah,650.1.1.09.05.2.12.21
+mak_12_21_253,253,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,3,Sewa,650.1.1.09.05.3.12.21
+mak_12_21_254,254,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,4,Outsourcing,650.1.1.09.05.4.12.21
+mak_12_21_255,255,12.21,Prodi Teknik Mesin (S1),1,1.09,1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,5,Overhead,650.1.1.09.05.5.12.21
+mak_12_21_256,256,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.01,Ketepatan waktu mulai,1,Bahan habis pakai,650.1.1.10.01.1.12.21
+mak_12_21_257,257,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.01,Ketepatan waktu mulai,2,Honor/Upah,650.1.1.10.01.2.12.21
+mak_12_21_258,258,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.01,Ketepatan waktu mulai,3,Sewa,650.1.1.10.01.3.12.21
+mak_12_21_259,259,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.01,Ketepatan waktu mulai,4,Outsourcing,650.1.1.10.01.4.12.21
+mak_12_21_260,260,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.01,Ketepatan waktu mulai,5,Overhead,650.1.1.10.01.5.12.21
+mak_12_21_261,261,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.02,Ketepatan waktu selesai,1,Bahan habis pakai,650.1.1.10.02.1.12.21
+mak_12_21_262,262,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.02,Ketepatan waktu selesai,2,Honor/Upah,650.1.1.10.02.2.12.21
+mak_12_21_263,263,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.02,Ketepatan waktu selesai,3,Sewa,650.1.1.10.02.3.12.21
+mak_12_21_264,264,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.02,Ketepatan waktu selesai,4,Outsourcing,650.1.1.10.02.4.12.21
+mak_12_21_265,265,12.21,Prodi Teknik Mesin (S1),1,1.10,1.10.02,Ketepatan waktu selesai,5,Overhead,650.1.1.10.02.5.12.21
+mak_12_21_266,266,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.01,Jadual ujian skripsi,1,Bahan habis pakai,650.1.1.11.01.1.12.21
+mak_12_21_267,267,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.01,Jadual ujian skripsi,2,Honor/Upah,650.1.1.11.01.2.12.21
+mak_12_21_268,268,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.01,Jadual ujian skripsi,3,Sewa,650.1.1.11.01.3.12.21
+mak_12_21_269,269,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.01,Jadual ujian skripsi,4,Outsourcing,650.1.1.11.01.4.12.21
+mak_12_21_270,270,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.01,Jadual ujian skripsi,5,Overhead,650.1.1.11.01.5.12.21
+mak_12_21_271,271,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,1,Bahan habis pakai,650.1.1.11.02.1.12.21
+mak_12_21_272,272,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,2,Honor/Upah,650.1.1.11.02.2.12.21
+mak_12_21_273,273,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,3,Sewa,650.1.1.11.02.3.12.21
+mak_12_21_274,274,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,4,Outsourcing,650.1.1.11.02.4.12.21
+mak_12_21_275,275,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.02,Kehadiran pembimbing & penguji,5,Overhead,650.1.1.11.02.5.12.21
+mak_12_21_276,276,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,1,Bahan habis pakai,650.1.1.11.03.1.12.21
+mak_12_21_277,277,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,2,Honor/Upah,650.1.1.11.03.2.12.21
+mak_12_21_278,278,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,3,Sewa,650.1.1.11.03.3.12.21
+mak_12_21_279,279,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,4,Outsourcing,650.1.1.11.03.4.12.21
+mak_12_21_280,280,12.21,Prodi Teknik Mesin (S1),1,1.11,1.11.03,Jumlah mhs yg lulus,5,Overhead,650.1.1.11.03.5.12.21
+mak_12_21_281,281,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,1,Bahan habis pakai,650.1.2.01.01.1.12.21
+mak_12_21_282,282,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,2,Honor/Upah,650.1.2.01.01.2.12.21
+mak_12_21_283,283,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,3,Sewa,650.1.2.01.01.3.12.21
+mak_12_21_284,284,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,4,Outsourcing,650.1.2.01.01.4.12.21
+mak_12_21_285,285,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.01,Persiapan draft RIP & study banding,5,Overhead,650.1.2.01.01.5.12.21
+mak_12_21_286,286,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,1,Bahan habis pakai,650.1.2.01.02.1.12.21
+mak_12_21_287,287,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,2,Honor/Upah,650.1.2.01.02.2.12.21
+mak_12_21_288,288,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,3,Sewa,650.1.2.01.02.3.12.21
+mak_12_21_289,289,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,4,Outsourcing,650.1.2.01.02.4.12.21
+mak_12_21_290,290,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.02,Pengumpulan data dari unit terkait,5,Overhead,650.1.2.01.02.5.12.21
+mak_12_21_291,291,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,1,Bahan habis pakai,650.1.2.01.03.1.12.21
+mak_12_21_292,292,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,2,Honor/Upah,650.1.2.01.03.2.12.21
+mak_12_21_293,293,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,3,Sewa,650.1.2.01.03.3.12.21
+mak_12_21_294,294,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,4,Outsourcing,650.1.2.01.03.4.12.21
+mak_12_21_295,295,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.03,Rapat pendahuluan SC & OC,5,Overhead,650.1.2.01.03.5.12.21
+mak_12_21_296,296,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",1,Bahan habis pakai,650.1.2.01.04.1.12.21
+mak_12_21_297,297,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",2,Honor/Upah,650.1.2.01.04.2.12.21
+mak_12_21_298,298,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",3,Sewa,650.1.2.01.04.3.12.21
+mak_12_21_299,299,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",4,Outsourcing,650.1.2.01.04.4.12.21
+mak_12_21_300,300,12.21,Prodi Teknik Mesin (S1),2,2.01,2.01.04,"Raker penyususnan RIP, Panduan dan SOP",5,Overhead,650.1.2.01.04.5.12.21
+mak_12_21_301,301,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,1,Bahan habis pakai,650.1.2.02.01.1.12.21
+mak_12_21_302,302,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,2,Honor/Upah,650.1.2.02.01.2.12.21
+mak_12_21_303,303,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,3,Sewa,650.1.2.02.01.3.12.21
+mak_12_21_304,304,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,4,Outsourcing,650.1.2.02.01.4.12.21
+mak_12_21_305,305,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,5,Overhead,650.1.2.02.01.5.12.21
+mak_12_21_306,306,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.02,Rapat koordinasi,1,Bahan habis pakai,650.1.2.02.02.1.12.21
+mak_12_21_307,307,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.02,Rapat koordinasi,2,Honor/Upah,650.1.2.02.02.2.12.21
+mak_12_21_308,308,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.02,Rapat koordinasi,3,Sewa,650.1.2.02.02.3.12.21
+mak_12_21_309,309,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.02,Rapat koordinasi,4,Outsourcing,650.1.2.02.02.4.12.21
+mak_12_21_310,310,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.02,Rapat koordinasi,5,Overhead,650.1.2.02.02.5.12.21
+mak_12_21_311,311,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.03,Sosialisasi program PP,1,Bahan habis pakai,650.1.2.02.03.1.12.21
+mak_12_21_312,312,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.03,Sosialisasi program PP,2,Honor/Upah,650.1.2.02.03.2.12.21
+mak_12_21_313,313,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.03,Sosialisasi program PP,3,Sewa,650.1.2.02.03.3.12.21
+mak_12_21_314,314,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.03,Sosialisasi program PP,4,Outsourcing,650.1.2.02.03.4.12.21
+mak_12_21_315,315,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.03,Sosialisasi program PP,5,Overhead,650.1.2.02.03.5.12.21
+mak_12_21_316,316,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.04,Penyusunan Company Profile,1,Bahan habis pakai,650.1.2.02.04.1.12.21
+mak_12_21_317,317,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.04,Penyusunan Company Profile,2,Honor/Upah,650.1.2.02.04.2.12.21
+mak_12_21_318,318,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.04,Penyusunan Company Profile,3,Sewa,650.1.2.02.04.3.12.21
+mak_12_21_319,319,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.04,Penyusunan Company Profile,4,Outsourcing,650.1.2.02.04.4.12.21
+mak_12_21_320,320,12.21,Prodi Teknik Mesin (S1),2,2.02,2.02.04,Penyusunan Company Profile,5,Overhead,650.1.2.02.04.5.12.21
+mak_12_21_321,321,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,1,Bahan habis pakai,650.1.2.03.01.1.12.21
+mak_12_21_322,322,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,2,Honor/Upah,650.1.2.03.01.2.12.21
+mak_12_21_323,323,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,3,Sewa,650.1.2.03.01.3.12.21
+mak_12_21_324,324,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,4,Outsourcing,650.1.2.03.01.4.12.21
+mak_12_21_325,325,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.01,Pelatihan pembuatan proposal Penelitian,5,Overhead,650.1.2.03.01.5.12.21
+mak_12_21_326,326,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,1,Bahan habis pakai,650.1.2.03.10.1.12.21
+mak_12_21_327,327,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,2,Honor/Upah,650.1.2.03.10.2.12.21
+mak_12_21_328,328,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,3,Sewa,650.1.2.03.10.3.12.21
+mak_12_21_329,329,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,4,Outsourcing,650.1.2.03.10.4.12.21
+mak_12_21_330,330,12.21,Prodi Teknik Mesin (S1),2,2.03,2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,5,Overhead,650.1.2.03.10.5.12.21
+mak_12_21_331,331,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.01,Seminar IPTEK regulair,1,Bahan habis pakai,650.1.2.04.01.1.12.21
+mak_12_21_332,332,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.01,Seminar IPTEK regulair,2,Honor/Upah,650.1.2.04.01.2.12.21
+mak_12_21_333,333,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.01,Seminar IPTEK regulair,3,Sewa,650.1.2.04.01.3.12.21
+mak_12_21_334,334,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.01,Seminar IPTEK regulair,4,Outsourcing,650.1.2.04.01.4.12.21
+mak_12_21_335,335,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.01,Seminar IPTEK regulair,5,Overhead,650.1.2.04.01.5.12.21
+mak_12_21_336,336,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,1,Bahan habis pakai,650.1.2.05.02.1.12.21
+mak_12_21_337,337,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,2,Honor/Upah,650.1.2.05.02.2.12.21
+mak_12_21_338,338,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,3,Sewa,650.1.2.05.02.3.12.21
+mak_12_21_339,339,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,4,Outsourcing,650.1.2.05.02.4.12.21
+mak_12_21_340,340,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.02,Presentasi seminar ilmiah dosen,5,Overhead,650.1.2.05.02.5.12.21
+mak_12_21_341,341,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.03,Seminar dan workshop nasional,1,Bahan habis pakai,650.1.2.04.03.1.12.21
+mak_12_21_342,342,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.03,Seminar dan workshop nasional,2,Honor/Upah,650.1.2.04.03.2.12.21
+mak_12_21_343,343,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.03,Seminar dan workshop nasional,3,Sewa,650.1.2.04.03.3.12.21
+mak_12_21_344,344,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.03,Seminar dan workshop nasional,4,Outsourcing,650.1.2.04.03.4.12.21
+mak_12_21_345,345,12.21,Prodi Teknik Mesin (S1),2,2.04,2.04.03,Seminar dan workshop nasional,5,Overhead,650.1.2.04.03.5.12.21
+mak_12_21_346,346,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,1,Bahan habis pakai,650.1.2.05.01.1.12.21
+mak_12_21_347,347,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,2,Honor/Upah,650.1.2.05.01.2.12.21
+mak_12_21_348,348,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,3,Sewa,650.1.2.05.01.3.12.21
+mak_12_21_349,349,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,4,Outsourcing,650.1.2.05.01.4.12.21
+mak_12_21_350,350,12.21,Prodi Teknik Mesin (S1),2,2.05,2.05.01,Stimulan penelitian bagi dosen,5,Overhead,650.1.2.05.01.5.12.21
+mak_12_21_351,351,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",1,Bahan habis pakai,650.1.3.01.01.1.12.21
+mak_12_21_352,352,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",2,Honor/Upah,650.1.3.01.01.2.12.21
+mak_12_21_353,353,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",3,Sewa,650.1.3.01.01.3.12.21
+mak_12_21_354,354,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",4,Outsourcing,650.1.3.01.01.4.12.21
+mak_12_21_355,355,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",5,Overhead,650.1.3.01.01.5.12.21
+mak_12_21_356,356,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,1,Bahan habis pakai,650.1.3.01.02.1.12.21
+mak_12_21_357,357,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,2,Honor/Upah,650.1.3.01.02.2.12.21
+mak_12_21_358,358,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,3,Sewa,650.1.3.01.02.3.12.21
+mak_12_21_359,359,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,4,Outsourcing,650.1.3.01.02.4.12.21
+mak_12_21_360,360,12.21,Prodi Teknik Mesin (S1),3,3.01,3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,5,Overhead,650.1.3.01.02.5.12.21
+mak_12_21_361,361,12.21,Prodi Teknik Mesin (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,1,Bahan habis pakai,650.1.3.02.01.1.12.21
+mak_12_21_362,362,12.21,Prodi Teknik Mesin (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,2,Honor/Upah,650.1.3.02.01.2.12.21
+mak_12_21_363,363,12.21,Prodi Teknik Mesin (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,3,Sewa,650.1.3.02.01.3.12.21
+mak_12_21_364,364,12.21,Prodi Teknik Mesin (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,4,Outsourcing,650.1.3.02.01.4.12.21
+mak_12_21_365,365,12.21,Prodi Teknik Mesin (S1),3,3.02,3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,5,Overhead,650.1.3.02.01.5.12.21
+mak_12_21_366,366,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,1,Bahan habis pakai,650.1.3.03.01.1.12.21
+mak_12_21_367,367,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,2,Honor/Upah,650.1.3.03.01.2.12.21
+mak_12_21_368,368,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,3,Sewa,650.1.3.03.01.3.12.21
+mak_12_21_369,369,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,4,Outsourcing,650.1.3.03.01.4.12.21
+mak_12_21_370,370,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,5,Overhead,650.1.3.03.01.5.12.21
+mak_12_21_371,371,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,1,Bahan habis pakai,650.1.3.03.02.1.12.21
+mak_12_21_372,372,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,2,Honor/Upah,650.1.3.03.02.2.12.21
+mak_12_21_373,373,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,3,Sewa,650.1.3.03.02.3.12.21
+mak_12_21_374,374,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,4,Outsourcing,650.1.3.03.02.4.12.21
+mak_12_21_375,375,12.21,Prodi Teknik Mesin (S1),3,3.03,3.03.02,Pelatiahan kewirausahaan mhs,5,Overhead,650.1.3.03.02.5.12.21
+mak_12_21_376,376,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,1,Bahan habis pakai,650.1.3.04.01.1.12.21
+mak_12_21_377,377,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,2,Honor/Upah,650.1.3.04.01.2.12.21
+mak_12_21_378,378,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,3,Sewa,650.1.3.04.01.3.12.21
+mak_12_21_379,379,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,4,Outsourcing,650.1.3.04.01.4.12.21
+mak_12_21_380,380,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,5,Overhead,650.1.3.04.01.5.12.21
+mak_12_21_381,381,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,1,Bahan habis pakai,650.1.3.04.02.1.12.21
+mak_12_21_382,382,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,2,Honor/Upah,650.1.3.04.02.2.12.21
+mak_12_21_383,383,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,3,Sewa,650.1.3.04.02.3.12.21
+mak_12_21_384,384,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,4,Outsourcing,650.1.3.04.02.4.12.21
+mak_12_21_385,385,12.21,Prodi Teknik Mesin (S1),3,3.04,3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,5,Overhead,650.1.3.04.02.5.12.21
+mak_12_21_386,386,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,1,Bahan habis pakai,650.1.3.05.01.1.12.21
+mak_12_21_387,387,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,2,Honor/Upah,650.1.3.05.01.2.12.21
+mak_12_21_388,388,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,3,Sewa,650.1.3.05.01.3.12.21
+mak_12_21_389,389,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,4,Outsourcing,650.1.3.05.01.4.12.21
+mak_12_21_390,390,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.01,Kegiatan pengabdian masyarakat,5,Overhead,650.1.3.05.01.5.12.21
+mak_12_21_391,391,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,1,Bahan habis pakai,650.1.3.05.02.1.12.21
+mak_12_21_392,392,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,2,Honor/Upah,650.1.3.05.02.2.12.21
+mak_12_21_393,393,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,3,Sewa,650.1.3.05.02.3.12.21
+mak_12_21_394,394,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,4,Outsourcing,650.1.3.05.02.4.12.21
+mak_12_21_395,395,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,5,Overhead,650.1.3.05.02.5.12.21
+mak_12_21_396,396,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.03,Stimulan kewirausahaan,1,Bahan habis pakai,650.1.3.05.03.1.12.21
+mak_12_21_397,397,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.03,Stimulan kewirausahaan,2,Honor/Upah,650.1.3.05.03.2.12.21
+mak_12_21_398,398,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.03,Stimulan kewirausahaan,3,Sewa,650.1.3.05.03.3.12.21
+mak_12_21_399,399,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.03,Stimulan kewirausahaan,4,Outsourcing,650.1.3.05.03.4.12.21
+mak_12_21_400,400,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.03,Stimulan kewirausahaan,5,Overhead,650.1.3.05.03.5.12.21
+mak_12_21_401,401,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,1,Bahan habis pakai,650.1.3.05.04.1.12.21
+mak_12_21_402,402,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,2,Honor/Upah,650.1.3.05.04.2.12.21
+mak_12_21_403,403,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,3,Sewa,650.1.3.05.04.3.12.21
+mak_12_21_404,404,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,4,Outsourcing,650.1.3.05.04.4.12.21
+mak_12_21_405,405,12.21,Prodi Teknik Mesin (S1),3,3.05,3.05.04,Pengabdian institut/fakultas/prodi,5,Overhead,650.1.3.05.04.5.12.21
+mak_12_21_406,406,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",1,Bahan habis pakai,650.1.4.01.01.1.12.21
+mak_12_21_407,407,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",2,Honor/Upah,650.1.4.01.01.2.12.21
+mak_12_21_408,408,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",3,Sewa,650.1.4.01.01.3.12.21
+mak_12_21_409,409,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",4,Outsourcing,650.1.4.01.01.4.12.21
+mak_12_21_410,410,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",5,Overhead,650.1.4.01.01.5.12.21
+mak_12_21_411,411,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.02,Pelaksanaan MOU,1,Bahan habis pakai,650.1.4.01.02.1.12.21
+mak_12_21_412,412,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.02,Pelaksanaan MOU,2,Honor/Upah,650.1.4.01.02.2.12.21
+mak_12_21_413,413,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.02,Pelaksanaan MOU,3,Sewa,650.1.4.01.02.3.12.21
+mak_12_21_414,414,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.02,Pelaksanaan MOU,4,Outsourcing,650.1.4.01.02.4.12.21
+mak_12_21_415,415,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.02,Pelaksanaan MOU,5,Overhead,650.1.4.01.02.5.12.21
+mak_12_21_416,416,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.03,Carrier Center,1,Bahan habis pakai,650.1.4.01.03.1.12.21
+mak_12_21_417,417,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.03,Carrier Center,2,Honor/Upah,650.1.4.01.03.2.12.21
+mak_12_21_418,418,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.03,Carrier Center,3,Sewa,650.1.4.01.03.3.12.21
+mak_12_21_419,419,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.03,Carrier Center,4,Outsourcing,650.1.4.01.03.4.12.21
+mak_12_21_420,420,12.21,Prodi Teknik Mesin (S1),4,4.01,4.01.03,Carrier Center,5,Overhead,650.1.4.01.03.5.12.21
+mak_12_21_421,421,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,1,Bahan habis pakai,650.1.5.01.01.1.12.21
+mak_12_21_422,422,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,2,Honor/Upah,650.1.5.01.01.2.12.21
+mak_12_21_423,423,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,3,Sewa,650.1.5.01.01.3.12.21
+mak_12_21_424,424,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,4,Outsourcing,650.1.5.01.01.4.12.21
+mak_12_21_425,425,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.01,Penerbitan jurnal scientech,5,Overhead,650.1.5.01.01.5.12.21
+mak_12_21_426,426,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,1,Bahan habis pakai,650.1.5.01.02.1.12.21
+mak_12_21_427,427,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,2,Honor/Upah,650.1.5.01.02.2.12.21
+mak_12_21_428,428,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,3,Sewa,650.1.5.01.02.3.12.21
+mak_12_21_429,429,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,4,Outsourcing,650.1.5.01.02.4.12.21
+mak_12_21_430,430,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.02,Penerbitan karya pengabdian,5,Overhead,650.1.5.01.02.5.12.21
+mak_12_21_431,431,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,1,Bahan habis pakai,650.1.5.01.03.1.12.21
+mak_12_21_432,432,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,2,Honor/Upah,650.1.5.01.03.2.12.21
+mak_12_21_433,433,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,3,Sewa,650.1.5.01.03.3.12.21
+mak_12_21_434,434,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,4,Outsourcing,650.1.5.01.03.4.12.21
+mak_12_21_435,435,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.03,Penerbitan proceeding/ karya unggulan,5,Overhead,650.1.5.01.03.5.12.21
+mak_12_21_436,436,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,1,Bahan habis pakai,650.1.5.01.04.1.12.21
+mak_12_21_437,437,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,2,Honor/Upah,650.1.5.01.04.2.12.21
+mak_12_21_438,438,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,3,Sewa,650.1.5.01.04.3.12.21
+mak_12_21_439,439,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,4,Outsourcing,650.1.5.01.04.4.12.21
+mak_12_21_440,440,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.04,Proses akreditasi jurnal scientech,5,Overhead,650.1.5.01.04.5.12.21
+mak_12_21_441,441,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,1,Bahan habis pakai,650.1.5.01.05.1.12.21
+mak_12_21_442,442,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,2,Honor/Upah,650.1.5.01.05.2.12.21
+mak_12_21_443,443,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,3,Sewa,650.1.5.01.05.3.12.21
+mak_12_21_444,444,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,4,Outsourcing,650.1.5.01.05.4.12.21
+mak_12_21_445,445,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.05,Proses portal & web karya ilmih,5,Overhead,650.1.5.01.05.5.12.21
+mak_12_21_446,446,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.06,Pencetakan company profile,1,Bahan habis pakai,650.1.5.01.06.1.12.21
+mak_12_21_447,447,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.06,Pencetakan company profile,2,Honor/Upah,650.1.5.01.06.2.12.21
+mak_12_21_448,448,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.06,Pencetakan company profile,3,Sewa,650.1.5.01.06.3.12.21
+mak_12_21_449,449,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.06,Pencetakan company profile,4,Outsourcing,650.1.5.01.06.4.12.21
+mak_12_21_450,450,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.06,Pencetakan company profile,5,Overhead,650.1.5.01.06.5.12.21
+mak_12_21_451,451,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.07,Pameran Iptek open campus,1,Bahan habis pakai,650.1.5.01.07.1.12.21
+mak_12_21_452,452,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.07,Pameran Iptek open campus,2,Honor/Upah,650.1.5.01.07.2.12.21
+mak_12_21_453,453,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.07,Pameran Iptek open campus,3,Sewa,650.1.5.01.07.3.12.21
+mak_12_21_454,454,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.07,Pameran Iptek open campus,4,Outsourcing,650.1.5.01.07.4.12.21
+mak_12_21_455,455,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.07,Pameran Iptek open campus,5,Overhead,650.1.5.01.07.5.12.21
+mak_12_21_456,456,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,1,Bahan habis pakai,650.1.5.01.08.1.12.21
+mak_12_21_457,457,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,2,Honor/Upah,650.1.5.01.08.2.12.21
+mak_12_21_458,458,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,3,Sewa,650.1.5.01.08.3.12.21
+mak_12_21_459,459,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,4,Outsourcing,650.1.5.01.08.4.12.21
+mak_12_21_460,460,12.21,Prodi Teknik Mesin (S1),5,5.01,5.01.08,Membangun pusat penerbitan ISTN Press,5,Overhead,650.1.5.01.08.5.12.21
+mak_12_21_461,461,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,1,Bahan habis pakai,650.1.6.01.01.1.12.21
+mak_12_21_462,462,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,2,Honor/Upah,650.1.6.01.01.2.12.21
+mak_12_21_463,463,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,3,Sewa,650.1.6.01.01.3.12.21
+mak_12_21_464,464,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,4,Outsourcing,650.1.6.01.01.4.12.21
+mak_12_21_465,465,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,5,Overhead,650.1.6.01.01.5.12.21
+mak_12_21_466,466,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,1,Bahan habis pakai,650.1.6.01.02.1.12.21
+mak_12_21_467,467,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,2,Honor/Upah,650.1.6.01.02.2.12.21
+mak_12_21_468,468,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,3,Sewa,650.1.6.01.02.3.12.21
+mak_12_21_469,469,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,4,Outsourcing,650.1.6.01.02.4.12.21
+mak_12_21_470,470,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,5,Overhead,650.1.6.01.02.5.12.21
+mak_12_21_471,471,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,1,Bahan habis pakai,650.1.6.01.03.1.12.21
+mak_12_21_472,472,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,2,Honor/Upah,650.1.6.01.03.2.12.21
+mak_12_21_473,473,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,3,Sewa,650.1.6.01.03.3.12.21
+mak_12_21_474,474,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,4,Outsourcing,650.1.6.01.03.4.12.21
+mak_12_21_475,475,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.03,Monevin penelitian & pengab. Masyarakat,5,Overhead,650.1.6.01.03.5.12.21
+mak_12_21_476,476,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.04,Pelaporan-pelaporan,1,Bahan habis pakai,650.1.6.01.04.1.12.21
+mak_12_21_477,477,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.04,Pelaporan-pelaporan,2,Honor/Upah,650.1.6.01.04.2.12.21
+mak_12_21_478,478,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.04,Pelaporan-pelaporan,3,Sewa,650.1.6.01.04.3.12.21
+mak_12_21_479,479,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.04,Pelaporan-pelaporan,4,Outsourcing,650.1.6.01.04.4.12.21
+mak_12_21_480,480,12.21,Prodi Teknik Mesin (S1),6,6.01,6.01.04,Pelaporan-pelaporan,5,Overhead,650.1.6.01.04.5.12.21
+mak_12_21_481,481,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.01,Pengiriman proposal,1,Bahan habis pakai,650.1.7.01.01.1.12.21
+mak_12_21_482,482,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.01,Pengiriman proposal,2,Honor/Upah,650.1.7.01.01.2.12.21
+mak_12_21_483,483,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.01,Pengiriman proposal,3,Sewa,650.1.7.01.01.3.12.21
+mak_12_21_484,484,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.01,Pengiriman proposal,4,Outsourcing,650.1.7.01.01.4.12.21
+mak_12_21_485,485,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.01,Pengiriman proposal,5,Overhead,650.1.7.01.01.5.12.21
+mak_12_21_486,486,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.02,Pembayaran iuran forum,1,Bahan habis pakai,650.1.7.01.02.1.12.21
+mak_12_21_487,487,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.02,Pembayaran iuran forum,2,Honor/Upah,650.1.7.01.02.2.12.21
+mak_12_21_488,488,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.02,Pembayaran iuran forum,3,Sewa,650.1.7.01.02.3.12.21
+mak_12_21_489,489,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.02,Pembayaran iuran forum,4,Outsourcing,650.1.7.01.02.4.12.21
+mak_12_21_490,490,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.02,Pembayaran iuran forum,5,Overhead,650.1.7.01.02.5.12.21
+mak_12_21_491,491,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.03,Representasi,1,Bahan habis pakai,650.1.7.01.03.1.12.21
+mak_12_21_492,492,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.03,Representasi,2,Honor/Upah,650.1.7.01.03.2.12.21
+mak_12_21_493,493,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.03,Representasi,3,Sewa,650.1.7.01.03.3.12.21
+mak_12_21_494,494,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.03,Representasi,4,Outsourcing,650.1.7.01.03.4.12.21
+mak_12_21_495,495,12.21,Prodi Teknik Mesin (S1),7,7.01,7.01.03,Representasi,5,Overhead,650.1.7.01.03.5.12.21

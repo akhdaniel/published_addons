@@ -1,0 +1,175 @@
+<openerp>
+	<data>
+		<!-- contoh RKA header -->
+
+		<record id="rka_1" model="anggaran.rka">
+			<field name="tahun" search="[('name','=','2015')]" 
+				 model="account.fiscalyear" />
+			<field name="unit_id" ref="anggaran.unit_FPEB"/>
+		</record>		
+
+		<!-- contoh RKA kegiatan 1 -->
+
+		<record id="rka_kegiatan_1" model="anggaran.rka_kegiatan">
+			<field name="rka_id" ref="anggaran.rka_1"/>
+			<field name="kegiatan_id" ref="anggaran.kegiatan1"/>
+			<field name="indikator">Terlaksananya kegiatan persiapan BAN PT</field>
+			<field name="anggaran">10000000</field>
+			<field name="target_capaian">1</field>
+			<field name="target_capaian_uom" ref="anggaran.uom_keg"/>
+		</record>	
+		
+		<!-- contoh RKA coa 1 -->
+
+		<record id="rka_coa_1" model="anggaran.rka_coa">
+			<field name="rka_kegiatan_id" ref="anggaran.rka_kegiatan_1"/>
+			<field name="kegiatan_id" ref="anggaran.kegiatan1"/>
+			<field name="coa_id" ref="anggaran.coa_521211"/>
+			<field name="total">5000000</field>
+			<field name="sumber_dana_id" ref="anggaran.sumber_dana_non_pnbp"/>
+			<field name="bulan" search="[('name','=','06/2014')]" model="account.period" />
+		</record>
+
+		<record id="rka_coa_2" model="anggaran.rka_coa">
+			<field name="rka_kegiatan_id" ref="anggaran.rka_kegiatan_1"/>
+			<field name="kegiatan_id" ref="anggaran.kegiatan1"/>
+			<field name="coa_id" ref="anggaran.coa_521219"/>
+			<field name="total">5000000</field>
+			<field name="sumber_dana_id" ref="anggaran.sumber_dana_non_pnbp"/>
+			<field name="bulan" search="[('name','=','06/2014')]" model="account.period" />
+		</record>		
+
+		<!-- contoh RKA detail -->		
+		<record id="rka_detail_1" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_1"/>
+			<field name="keterangan">Belanja bahan</field>
+			<field name="tarif">5000000</field>
+			<field name="jumlah">5000000</field>
+			<field name="volume_total">1</field>
+		</record>	
+
+		<record id="rka_detail_2" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_2"/>
+			<field name="keterangan">Belanja barang non operasional</field>
+			<field name="tarif">5000000</field>
+			<field name="jumlah">5000000</field>
+			<field name="volume_total">1</field>
+		</record>		
+
+		<!-- contoh RKA volume -->		
+		<record id="rka_volume_1" model="anggaran.rka_volume">
+			<field name="rka_detail_id" ref="anggaran.rka_detail_1"/>
+			<field name="volume" >1</field>
+			<field name="volume_uom" ref="anggaran.uom_pkt" /> 
+		</record>	
+		<record id="rka_volume_2" model="anggaran.rka_volume">
+			<field name="rka_detail_id" ref="anggaran.rka_detail_2"/>
+			<field name="volume" >1</field>
+			<field name="volume_uom" ref="anggaran.uom_pkt" /> 
+		</record>		
+
+
+		<!-- rka kegiaran 2 -->
+		<record id="rka_kegiatan_2" model="anggaran.rka_kegiatan">
+			<field name="rka_id" ref="anggaran.rka_1"/>
+			<field name="kegiatan_id" ref="anggaran.kegiatan2"/>
+			<field name="indikator">Persiapan dan Pelaksanaan Sertifikasi ISO (BOPTN)</field>
+			<field name="anggaran">26500000</field>
+			<field name="target_capaian">1</field>
+			<field name="target_capaian_uom" ref="anggaran.uom_keg"/>
+		</record>		
+		<!-- contoh RKA coa  2-->
+		<record id="rka_coa_21" model="anggaran.rka_coa">
+			<field name="rka_kegiatan_id" ref="anggaran.rka_kegiatan_2"/>
+			<field name="kegiatan_id" ref="anggaran.kegiatan1"/>
+			<field name="coa_id" ref="anggaran.coa_521211"/>
+			<field name="total">6500000</field>
+			<field name="sumber_dana_id" ref="anggaran.sumber_dana_non_pnbp"/>
+			<field name="bulan" search="[('name','=','08/2014')]" model="account.period" />
+		</record>	
+		<record id="rka_coa_22" model="anggaran.rka_coa">
+			<field name="rka_kegiatan_id" ref="anggaran.rka_kegiatan_2"/>
+			<field name="kegiatan_id" ref="anggaran.kegiatan1"/>
+			<field name="coa_id" ref="anggaran.coa_521213"/>
+			<field name="total">10000000</field>
+			<field name="sumber_dana_id" ref="anggaran.sumber_dana_non_pnbp"/>
+			<field name="bulan" search="[('name','=','08/2014')]" model="account.period" />
+		</record>	
+
+		<!-- contoh RKA detail coa 21 -->		
+		<record id="rka_detail_211" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_21"/>
+			<field name="keterangan">Bahan habis pakai</field>
+			<field name="tarif">1300000</field>
+			<field name="jumlah">6500000</field>
+			<field name="volume_total">5</field>
+		</record>	
+
+		<record id="rka_detail_221" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_22"/>
+			<field name="keterangan">Honorarium Penanggung jawab</field>
+			<field name="tarif">1400000</field>
+			<field name="jumlah">1400000</field>
+			<field name="volume_total">1</field>
+		</record>	
+		<record id="rka_detail_222" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_22"/>
+			<field name="keterangan">Honorarium Pembina</field>
+			<field name="tarif">1200000</field>
+			<field name="jumlah">1200000</field>
+			<field name="volume_total">1</field>
+		</record>		
+		<record id="rka_detail_223" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_22"/>
+			<field name="keterangan">Honorarium Ketua</field>
+			<field name="tarif">1000000</field>
+			<field name="jumlah">1000000</field>
+			<field name="volume_total">1</field>
+		</record>	
+		<record id="rka_detail_224" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_22"/>
+			<field name="keterangan">Honorarium Sekretaris</field>
+			<field name="tarif">600000</field>
+			<field name="jumlah">600000</field>
+			<field name="volume_total">1</field>
+		</record>	
+		<record id="rka_detail_225" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_22"/>
+			<field name="keterangan">Honorarium Bendahara</field>
+			<field name="tarif">600000</field>
+			<field name="jumlah">600000</field>
+			<field name="volume_total">1</field>
+		</record>			
+		<record id="rka_detail_225" model="anggaran.rka_detail">
+			<field name="rka_coa_id" ref="anggaran.rka_coa_22"/>
+			<field name="keterangan">Honorarium Anggota Panitia</field>
+			<field name="tarif">400000</field>
+			<field name="jumlah">5200000</field>
+			<field name="volume_total">13</field>
+		</record>	
+
+		<!-- contoh RKA volume -->		
+		<record id="rka_volume_225_1" model="anggaran.rka_volume">
+			<field name="rka_detail_id" ref="anggaran.rka_detail_225"/>
+			<field name="volume" >1</field>
+			<field name="volume_uom" ref="anggaran.uom_keg" /> 
+		</record>	
+		<record id="rka_volume_225_2" model="anggaran.rka_volume">
+			<field name="rka_detail_id" ref="anggaran.rka_detail_225"/>
+			<field name="volume" >13</field>
+			<field name="volume_uom" ref="anggaran.uom_org" /> 
+		</record>		
+
+
+		<record id="rka_volume_211_1" model="anggaran.rka_volume">
+			<field name="rka_detail_id" ref="anggaran.rka_detail_211"/>
+			<field name="volume" >1</field>
+			<field name="volume_uom" ref="anggaran.uom_keg" /> 
+		</record>	
+		<record id="rka_volume_211_2" model="anggaran.rka_volume">
+			<field name="rka_detail_id" ref="anggaran.rka_detail_211"/>
+			<field name="volume" >5</field>
+			<field name="volume_uom" ref="anggaran.uom_pkt" /> 
+		</record>
+	</data>
+</openerp>

@@ -1,0 +1,17 @@
+<openerp>
+    <data>
+        <!-- scheduler : process daily  -->
+        <record forcecreate="True" model="ir.cron" id="process_sprint_burndown">
+            <field name="name">Sprint Burndown</field>
+            <field name="active">True</field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="doall" eval="False"/>
+            <field name="model" eval="'vit_scrum.sprint_burndown'"/>
+            <field name="function" eval="'cron_daily'"/>
+            <field name="args" eval="'()'"/>
+        </record>
+    </data>
+</openerp>

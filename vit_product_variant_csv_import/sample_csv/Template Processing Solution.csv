@@ -1,0 +1,39 @@
+"id","name","description","type","category_id","uom_id","brand_id","class_id","group_id","jenis_id","product_variant_ids/default_code","product_variant_ids/attribute_value_ids/id","product_variant_ids/lst_price","product_variant_ids/standard_price","attribute_line_ids/attribute_id/id","attribute_line_ids/value_ids/id"
+"product1","ALIA M QUANDARY","ALIA M QUANDARY","product","BARANG JADI","PIECES","Zoya Fashion","WD","BERGO","BERGO","ZWD3.TC.HK26M0","sizeM,color0",11139,39900,,
+,,,,,,,,,,,,,,"attribute_size","sizeM"
+,,,,,,,,,,,,,,"attribute_color","color0"
+"product2","INNER INES","INNER INES","product","BARANG JADI","PIECES","Zoya Fashion","TT","PLKP BUSANA WANITA","INNER","ZTT3.B8.1015X0","sizeX,color0",19143.08,59000,,
+,,,,,,,,,,"ZTT3.B8.1015S0","sizeS,color0",19143.08,59000,,
+,,,,,,,,,,"ZTT3.B8.1015M0","sizeM,color0",19143.08,59000,,
+,,,,,,,,,,"ZTT3.B8.1015L0","sizeL,color0",19143.08,59000,,
+,,,,,,,,,,"ZTT3.B8.1015D0","sizeD,color0",19143.08,59000,,
+,,,,,,,,,,,,,,"attribute_size","sizeX,sizeS,sizeM,sizeL,sizeD"
+,,,,,,,,,,,,,,"attribute_color","color0"
+"product3","INNER AURA","INNER AURA","product","BARANG JADI","PIECES","Zoya Fashion","TT","PLKP BUSANA WANITA","INNER","ZTT3.B8.1009X0","sizeX,color0",22829.46,89000,,
+,,,,,,,,,,"ZTT3.B8.1009S0","sizeS,color0",22829.46,89000,,
+,,,,,,,,,,"ZTT3.B8.1009M0","sizeM,color0",22829.46,89000,,
+,,,,,,,,,,"ZTT3.B8.1009L0","sizeL,color0",22829.46,89000,,
+,,,,,,,,,,"ZTT3.B8.1009D0","sizeD,color0",22829.46,89000,,
+,,,,,,,,,,,,,,"attribute_size","sizeX,sizeS,sizeM,sizeL,sizeD"
+,,,,,,,,,,,,,,"attribute_color","color0"
+"product4","INNER INES","INNER INES","product","BARANG JADI","PIECES","Zoya Fashion","TT","PLKP BUSANA WANITA","INNER","ZTT3.B8.1004XX7","sizeX,colorX7",24581,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XX3","sizeX,colorX3",18365,55000,,
+,,,,,,,,,,"ZTT3.B8.1004XX2","sizeX,colorX2",18365,55000,,
+,,,,,,,,,,"ZTT3.B8.1004XW9","sizeX,colorW9",24581,55000,,
+,,,,,,,,,,"ZTT3.B8.1004XW7","sizeX,colorW7",24581,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XW6","sizeX,colorW6",24581,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XV9","sizeX,colorV9",24581,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XU8","sizeX,colorU8",24581,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XU6","sizeX,colorU6",24581,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XU5","sizeX,colorU5",18365,55000,,
+,,,,,,,,,,"ZTT3.B8.1004XU0","sizeX,colorU0",24581,55000,,
+,,,,,,,,,,"ZTT3.B8.1004XS2","sizeX,colorS2",18365,55000,,
+,,,,,,,,,,"ZTT3.B8.1004XS0","sizeX,colorS0",16515,58000,,
+,,,,,,,,,,"ZTT3.B8.1004XR3","sizeX,colorR3",18365,55000,,
+,,,,,,,,,,,,,,"attribute_size","sizeX"
+,,,,,,,,,,,,,,"attribute_color2","colorX7,colorX3,colorX2,colorW9,colorW7,colorW6,colorV9,colorU8,colorU6,colorU5,colorU0,colorS2,colorS0,colorR3"
+"product5","NECKLET SCARF MAGNIFICENT","NECKLET SCARF MAGNIFICENT","product","BARANG JADI","PIECES","Zoya Fashion","RK","BERGO","BERGO","ZRK3.TK.3013LS","sizeL,colorS",90813.13,299000,,
+,,,,,,,,,,"ZRK3.TK.3013LM","sizeL,colorM",90813.13,299000,,
+,,,,,,,,,,"ZRK3.TK.3013LL","sizeL,colorL",90813.13,299000,,
+,,,,,,,,,,,,,,"attribute_size","sizeL"
+,,,,,,,,,,,,,,"attribute_color","colorS,colorM,colorL"

@@ -1,0 +1,6 @@
+id,code,name
+costtype1,1,Biaya Habis Pakai
+costtype2,2,Honor
+costtype3,3,Sewa
+costtype4,4,Outsource
+costtype5,5,Overhead

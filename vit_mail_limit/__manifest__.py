@@ -3,6 +3,7 @@
 	"version": "1.0", 
 	"depends": [
 		"mail",
+		"mass_mailing",
 	],
 	"author": "Akhmad D. Sembiring [vitraining.com]",
 	"category": "Marketing",

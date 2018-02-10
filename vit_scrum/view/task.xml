@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_task_scrum_form" model="ir.ui.view">
+            <field name="name">task_scrum_form</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_form2"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <field name="project_id" position="after">
+                    <field name="backlog_id"/>
+                </field>
+            </field>
+        </record>
+
+
+        <record id="view_task_scrum_search" model="ir.ui.view">
+            <field name="name">vit_scrum.task.search</field>
+            <field name="model">project.task</field>
+            <field name="type">search</field>
+            <field name="inherit_id" ref="project.view_task_search_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <filter name="project" position="after">
+                    <filter string="Backlog" name="backlog" context="{'group_by':'backlog_id'}"/>
+                </filter>
+            </field>
+        </record>
+
+    </data>
+</openerp>

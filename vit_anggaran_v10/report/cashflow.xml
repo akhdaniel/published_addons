@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report 
+            id="report_cashflow_menu"
+            string="Cashflow"
+            model="anggaran.cashflow" 
+            report_type="qweb-pdf"
+            file="anggaran.cashflow" 
+            name="anggaran.cashflow_report" 
+            
+        />
+
+        <!-- paper_format="paperformat_a4_landscape"  -->
+        
+        <template id="report_cashflow_document">
+            <t t-call="report.external_layout">
+                <div class="page">
+                    
+                    <div class="oe_structure"/>
+                    <br/>
+                    <br/>
+                    <h2>
+                        CASHFLOW <span t-field="o.name"/>
+                        <br/><span t-field="o.unit_id.code"/> - <span t-field="o.unit_id.name"/>
+                    </h2>
+
+                    <br/>
+
+                    <table style="width:100%">
+                        <tr>
+                            <td>Tahun Anggaran</td><td style="width:50%"><span t-field="o.tahun_id.name"/></td>
+                            <td>Fakultas</td><td class="text-right"><span t-field="o.fakultas_id.name"/></td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal</td><td><span t-field="o.tanggal"/></td>
+                            <td>Prodi</td><td class="text-right"><span t-field="o.jurusan_id.name"/></td>
+                        </tr>
+                    </table>
+
+                    <br/>
+                    <br/>
+
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Rincian</th>
+                                <th>Type</th>
+                                <th class="text-right">Sep</th>
+                                <th class="text-right">Oct</th>
+                                <th class="text-right">Nov</th>
+                                <th class="text-right">Dec</th>
+                                <th class="text-right">Jan</th>
+                                <th class="text-right">Feb</th>
+                                <th class="text-right">Mar</th>
+                                <th class="text-right">Apr</th>
+                                <th class="text-right">May</th>
+                                <th class="text-right">Jun</th>
+                                <th class="text-right">Jul</th>
+                                <th class="text-right">Aug</th>
+                            </tr>
+                       </thead>
+
+                       <tbody class="anggaran_tbody">
+                            <t t-foreach="o.cashflow_line_ids" t-as="l">
+                                <tr>
+                                    <td class="small">
+                                       <span t-field="l.cashflow_coa_id.code"/>
+                                       <span t-field="l.cashflow_coa_id.name"/>
+                                    </td>
+
+                                    <td class="text-right small">
+                                        <span t-field="l.type" />
+                                    </td>
+
+                                    <td class="text-right small">
+                                        <span t-field="l.m1" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m2" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m3" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m4" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m5" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m6" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m7" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m8" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m9" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m10" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m11" />
+                                    </td>
+                                    <td class="text-right small">
+                                        <span t-field="l.m12" />
+                                    </td>
+                                </tr>
+                            </t>
+                        </tbody>
+                    </table>
+
+
+                    <div class="oe_structure"/>
+                </div>
+            </t>
+        </template>
+
+        <template id="cashflow_report">
+            <t t-call="report.html_container">
+                <t t-foreach="doc_ids" t-as="doc_id">
+                    <t t-raw="translate_doc(doc_id, doc_model, 'unit_id.company_id.partner_id.lang', 'anggaran.report_cashflow_document')"/>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</openerp>

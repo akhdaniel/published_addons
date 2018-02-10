@@ -1,0 +1,90 @@
+<openerp>
+	<data>
+		<record id="view_mata_kegiatan_tree" model="ir.ui.view">
+		    <field name="name">mata_anggaran_kegiatan_tree</field>
+		    <field name="model">anggaran.mata_anggaran_kegiatan</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list mata_anggaran_kegiatan" >
+		            <field name="kegiatan_id" invisible="True"/>
+		            <!--field name="unit_id"  invisible="True"/-->
+		            <field name="cost_type_id" invisible="True"/>
+		           	<field name="name"/>
+		            <field name="code"/>
+		            <field name="coa_id"/>
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- ini definisi search kegiatan -->
+		<record id="view_mata_anggaran_kegiatan_filter" model="ir.ui.view">
+		    <field name="name">mata_anggaran_kegiatan.filter</field>
+		    <field name="model">anggaran.mata_anggaran_kegiatan</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Kegiatan">
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="kebijakan_id"/>
+		            <field name="program_id"/>
+		            <field name="kegiatan_id"/>
+		            <group expand="1" string="Group By...">
+
+		                <!--filter string="Kategori Kebijakan" icon="terp-personal" name="group_category"
+		                    domain="[]" context="{'group_by':'category_id'}"/-->
+
+		                <filter string="Kebijakan" icon="terp-personal" name="group_kebijakan"
+		                    domain="[]" context="{'group_by':'kebijakan_id'}"/>
+
+		                <filter string="Komponen" icon="terp-personal" name="group_program"
+		                    domain="[]" context="{'group_by':'program_id'}"/>
+
+		                <filter string="Kegiatan" icon="terp-personal" name="group_kegiatan"
+		                    domain="[]" context="{'group_by':'kegiatan_id'}"/>
+
+		                <filter string="Cost Type" icon="terp-personal" name="group_cost_type"
+		                    domain="[]" context="{'group_by':'cost_type_id'}"/>
+		            </group>
+		        </search>
+		    </field>
+		</record>
+
+		<!-- ini definisi form mata_anggaran_kegiatan -->
+        <record id="view_mata_anggaran_kegiatan_form" model="ir.ui.view">
+            <field name="name">anggaran_mata_anggaran_kegiatan_form</field>
+            <field name="model">anggaran.mata_anggaran_kegiatan</field>
+            <field name="arch" type="xml">
+            	<form string="mata_anggaran_kegiatan form" version="7.0">
+            		<header>
+						<!--button string="Confirm" type="object" name="action_confirm" class="oe_highlight"
+						 	 states="draft" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" /-->
+            		</header>
+            		<sheet>
+						<!--div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Class Name" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div-->
+		            	
+		            	<group>
+			                <!--field name="unit_id"/-->
+			                <field name="kebijakan_id"/>       
+			                <field name="program_id" domain="[('kebijakan_id','=', kebijakan_id)]"/>       
+			                <field name="kegiatan_id" domain="[('program_id','=', program_id)]"/>       
+			                <field name="cost_type_id"/> 
+			                <field name="code"/>       
+			                <field name="name"/>       
+			                <field name="coa_id"/> 
+			            </group>
+
+
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+	</data>
+</openerp>

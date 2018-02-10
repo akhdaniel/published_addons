@@ -1,0 +1,25 @@
+<openerp>
+	<data>
+
+		<!-- contoh kegiatan -->
+		<record id="kegiatan1" model="anggaran.kegiatan">
+			<field name="name">Persiapan Akreditasi (BOPTN)</field>
+			<field name="code">111</field>
+			<field name="program_id" ref="anggaran.program1"/>
+			<field name="coa_id" ref="anggaran.coa_521211"/>
+		</record>
+		<record id="kegiatan2" model="anggaran.kegiatan">
+			<field name="name">Audit dari SPM</field>
+			<field name="code">112</field>
+			<field name="program_id" ref="anggaran.program1"/>
+			<field name="coa_id" ref="anggaran.coa_521211"/>
+		</record>
+		<record id="kegiatan3" model="anggaran.kegiatan">
+			<field name="name">Persiapan dan Pelaksanaan Sertifikasi ISO (BOPTN)</field>
+			<field name="code">112</field>
+			<field name="program_id" ref="anggaran.program1"/>
+			<field name="coa_id" ref="anggaran.coa_521211"/>
+		</record>
+
+	</data>
+</openerp>

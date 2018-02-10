@@ -1,0 +1,25 @@
+<openerp>
+	<data>
+		<record id="view_cost_type_tree" model="ir.ui.view">
+		    <field name="name">anggaran_cost_type_tree</field>
+		    <field name="model">anggaran.cost_type</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list cost_type" >
+		            <field name="code"/>
+		            <field name="name"/>
+		        </tree>    
+		    </field>
+		</record>
+		<!-- ini definisi search fakultas -->
+		<record id="view_cost_type_filter" model="ir.ui.view">
+		    <field name="name">cost_type.filter</field>
+		    <field name="model">anggaran.cost_type</field>
+		    <field name="arch" type="xml">
+		        <search string="Search cost_type">
+		            <field name="code"/>
+		            <field name="name"/>		            
+		        </search>
+		    </field>
+		</record>
+	</data>
+</openerp>

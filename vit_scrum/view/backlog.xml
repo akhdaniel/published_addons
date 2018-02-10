@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_vit_scrum_backlog_tree" model="ir.ui.view">
+            <field name="name">vit_scrum.backlog.tree</field>
+            <field name="model">vit_scrum.backlog</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Backlogs">
+                    <field name="project_id" />
+                    <field name="epic_id" />
+                    <field name="feature_id" />
+                    <field name="name" />
+                    <field name="description" />
+                    <field name="date_plan_start" />
+                    <field name="date_plan_end" />
+                    <field name="plan_duration" />
+
+                    <field name="release_id" />
+                    <field name="sprint_id" />
+
+                    <field name="is_ready" />
+                    <field name="is_waiting" />
+                    <field name="is_impended" />
+                    <field name="state" />
+                </tree>
+
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_backlog_form" model="ir.ui.view">
+            <field name="name">vit_scrum.backlog.form</field>
+            <field name="model">vit_scrum.backlog</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Backlogs" version="7.0">
+                    <header>
+                        <button string="Confirm" icon="fa-confirm" states="draft" type="object" name="action_open"/>
+                        <button string="Cancel" icon="fa-cancel" states="open" type="object" name="action_draft"/>
+                        <button string="Done" icon="fa-done" states="open" type="object" name="action_done"/>
+                        <button string="Reset to Draft" icon="fa-cancel" states="done" type="object" name="action_draft"/>
+                        <field name="state" widget="statusbar"/>
+                    </header>
+
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"
+                                 string="Name" />
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+
+                        <group>
+                            <group>
+                                <field name="project_id" />
+                                <field name="epic_id" domain="[('project_id','=', project_id)]"/>
+                                <field name="feature_id" domain="[('epic_id','=',epic_id)]"/>
+                                <field name="attachment" />
+                            </group>
+
+                            <group>
+                                <field name="effort" />
+                                <field name="value" />
+                                <field name="risk" />
+                                <field name="moscow" />
+                                <field name="kano" />
+                                <field name="tag_ids" widget="many2many_tags"/>
+                            </group>
+                        </group>
+
+                        <group>
+                            <group string="Status">
+                                <field name="is_ready" />
+                                <field name="is_waiting" />
+                                <field name="is_impended" />
+                            </group>
+                            <group string="Planning">
+                                <field name="date_plan_start" />
+                                <field name="date_plan_end" />
+                                <field name="plan_duration" />
+                                <field name="release_id" domain="[('project_id','=', project_id)]"/>
+                                <field name="sprint_id" domain="[('release_id','=',release_id)]"/>
+                            </group>
+                            <group string="Actual">
+                                <field name="date_actual_start" />
+                                <field name="date_actual_end" />
+                                <field name="actual_duration" />
+                                <field name="addon_id"/>
+                            </group>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Description">
+                                <field name="description" />
+                            </page>
+
+                            <page string="Tasks">
+                                <field name="task_ids">
+                                    <tree string="Tasks">
+                                        <field name="name" />
+                                        <field name="user_id" />
+                                        <field name="date_deadline" />
+                                        <field name="stage_id" />
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+
+                    </sheet>
+
+                </form>
+
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_backlog_search" model="ir.ui.view">
+            <field name="name">vit_scrum.backlog.search</field>
+            <field name="model">vit_scrum.backlog</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Backlogs">
+                    <field name="name" select="True"/>
+                    <field name="project_id" select="True"/>
+                    <field name="epic_id" select="True"/>
+                    <field name="feature_id" select="True"/>
+                    <field name="description" select="True"/>
+                    <field name="date_plan_start" select="True"/>
+                    <field name="date_plan_end" select="True"/>
+                    <field name="release_id" select="True"/>
+                    <field name="sprint_id" select="True"/>
+                    <field name="state"  select="True"/>
+
+                    <group expand="0" string="Group By">
+                        <filter string="Project" icon="terp-camera_test" name="group_by_project_id" context="{'group_by':'project_id'}"/>
+                        <filter string="Epic" icon="terp-camera_test" name="group_by_epic_id" context="{'group_by':'epic_id'}"/>
+                        <filter string="Feature" icon="terp-camera_test" name="group_by_feature_id" context="{'group_by':'feature_id'}"/>
+                        <separator/>
+                        <filter string="Release" icon="terp-camera_test" name="group_by_release_id" context="{'group_by':'release_id'}"/>
+                        <filter string="Sprint" icon="terp-camera_test" name="group_by_sprint_id" context="{'group_by':'sprint_id'}"/>
+                        <filter string="Date plan start" icon="terp-camera_test" name="group_by_date_plan_start" context="{'group_by':'date_plan_start:day'}"/>
+                        <filter string="Date plan end" icon="terp-camera_test" name="group_by_date_plan_end" context="{'group_by':'date_plan_end:day'}"/>
+                        <separator/>
+                        <filter string="Date actual start" icon="terp-camera_test" name="group_by_date_actual_start" context="{'group_by':'date_actual_start:day'}"/>
+                        <filter string="Date actual end" icon="terp-camera_test" name="group_by_date_actal_end" context="{'group_by':'date_actual_end:day'}"/>
+
+                        <filter string="State" icon="terp-camera_test" name="group_by_state" context="{'group_by':'state'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+        
+        <record id="view_vit_scrum_backlog_calendar" model="ir.ui.view">
+            <field name="name">vit_scrum_backlog</field>
+            <field name="model">vit_scrum.backlog</field>
+            <field name="arch" type="xml">
+                <calendar string="Backlog" date_start="date_plan_start" date_delay="plan_duration"  mode="month"
+                     color="feature_id">
+                    <field name="name" />
+                </calendar>
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_backlog_kanban" model="ir.ui.view">
+            <field name="name">vit_scrum_backlog</field>
+            <field name="model">vit_scrum.backlog</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="name"/>
+                    <field name="project_id"/>
+                    <field name="epic_id"/>
+                    <field name="feature_id"/>
+                    <field name="release_id"/>
+                    <field name="sprint_id"/>
+
+                    <field name="date_plan_start"/>
+                    <field name="date_plan_end"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <span><t t-esc="record.name.value"/></span>
+                                    </div>
+                                    <div class="col-xs-6 pull-right text-right">
+                                        <strong><t t-esc="record.release_id.value"/></strong>/
+                                        <strong><t t-esc="record.sprint_id.value"/></strong>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <strong>
+                                            <span><t t-esc="record.project_id.value"/></span>/
+                                            <span><t t-esc="record.epic_id.value"/></span>/
+                                            <span><t t-esc="record.feature_id.value"/></span>
+                                        </strong>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <span class="pull-right text-right">
+                                            <field name="state" widget="kanban_label_selection" options="{'classes': {'draft': 'default', 'cancel': 'default', 'done': 'success', 'approved': 'warning'}}"/>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_vit_scrum_backlog_view">
+            <field name="name">Backlogs</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit_scrum.backlog</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,kanban</field>
+            <field name="search_view_id" ref="view_vit_scrum_backlog_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_scrum_backlog_view_form">
+            <field name="act_window_id" ref="act_open_vit_scrum_backlog_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_vit_scrum_backlog_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_scrum_backlog_view_tree">
+            <field name="act_window_id" ref="act_open_vit_scrum_backlog_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_vit_scrum_backlog_tree"/>
+        </record>
+
+        <menuitem id="menu_vit_scrum_backlog"
+                  parent="menu_scrum"
+                  sequence="40"
+                  action="act_open_vit_scrum_backlog_view"/>
+    
+    </data>
+</openerp>

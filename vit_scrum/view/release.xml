@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_vit_scrum_release_tree" model="ir.ui.view">
+            <field name="name">vit_scrum.release.tree</field>
+            <field name="model">vit_scrum.release</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Releases">
+                    <field name="project_id" />
+                    <field name="name" />
+                    <field name="description" />
+                    <field name="date_start" />
+                    <field name="date_end" />
+                    <field name="date_start_notes" />
+                    <field name="date_end_notes" />
+                    <field name="sprint_ids" />
+                    <field name="state" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_release_form" model="ir.ui.view">
+            <field name="name">vit_scrum.release.form</field>
+            <field name="model">vit_scrum.release</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Releases" version="7.0">
+                    <header>
+                         <field name="state" widget="statusbar"/>
+                    </header>
+
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"
+                                 string="Name" />
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+
+                        <group colspan="4">
+                            <group>
+                                <field name="project_id" />
+                            </group>
+                            <group>
+                                <field name="date_start" readonly="1" />
+                                <field name="date_start_notes" readonly="1"/>
+
+                                <field name="date_end" readonly="1"/>
+                                <field name="date_end_notes" readonly="1"/>
+                                <field name="tag_ids" widget="many2many_tags"/>
+                            </group>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Description">
+                                <field name="description" />
+                            </page>
+                            <page string="Sprints">
+                                <field name="sprint_ids">
+                                    <tree string="Sprints">
+                                        <field name="name"></field>
+                                        <field name="description"></field>
+                                        <field name="date_start" />
+                                        <field name="date_end" />
+                                        <field name="backlog_ids" />
+                                        <field name="state" />
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_release_search" model="ir.ui.view">
+            <field name="name">vit_scrum.release.search</field>
+            <field name="model">vit_scrum.release</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Releases">
+
+                    <field name="name" select="True"/>
+                    <field name="description"  select="True"/>
+                    <field name="date_start"  select="True"/>
+                    <field name="date_end"  select="True"/>
+                    <field name="date_start_notes"  select="True"/>
+                    <field name="date_end_notes"  select="True"/>
+                    <field name="project_id"  select="True"/>
+                    <field name="state"  select="True"/>
+
+                    <group expand="0" string="Group By">
+                        <filter string="Project" icon="terp-camera_test" name="group_by_project_id" context="{'group_by':'project_id'}"/>
+                        <filter string="State" icon="terp-camera_test" name="group_by_state" context="{'group_by':'state'}"/>
+                        <filter string="Date Start" icon="terp-camera_test" name="group_by_date_start" context="{'group_by':'date_start:day'}"/>
+                        <filter string="Date End" icon="terp-camera_test" name="group_by_date_end" context="{'group_by':'date_end:day'}"/>
+                        <filter string="State" icon="terp-camera_test" name="group_by_state" context="{'group_by':'state'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+
+        <record id="view_vit_scrum_release_calendar" model="ir.ui.view">
+            <field name="name">vit_scrum_release</field>
+            <field name="model">vit_scrum.release</field>
+            <field name="arch" type="xml">
+                <calendar string="Release" date_start="date_start" date_delay="duration" mode="month"
+                     color="project_id">
+                    <field name="name" />
+                </calendar>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_vit_scrum_release_view">
+            <field name="name">Releases</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit_scrum.release</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="search_view_id" ref="view_vit_scrum_release_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_scrum_release_view_form">
+            <field name="act_window_id" ref="act_open_vit_scrum_release_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_vit_scrum_release_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_scrum_release_view_tree">
+            <field name="act_window_id" ref="act_open_vit_scrum_release_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_vit_scrum_release_tree"/>
+        </record>
+
+        <menuitem id="menu_vit_scrum_release"
+                  parent="menu_scrum"
+                  sequence="50"
+                  action="act_open_vit_scrum_release_view"/>
+    
+    </data>
+</openerp>

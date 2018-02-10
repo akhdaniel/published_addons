@@ -1,0 +1,13 @@
+<openerp>
+    <data>
+
+		<report id="spp_report_webkit" 
+			 model="anggaran.spp" 
+			 name="anggaran.spp.report" 
+			 file="anggaran/report/spp.mako" 
+			 string="Permintaan Pembayaran"
+			 report_type="webkit"
+		/>
+    </data>
+</openerp>
+

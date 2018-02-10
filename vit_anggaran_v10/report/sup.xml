@@ -1,0 +1,19 @@
+<openerp>
+    <data>
+		<!--report id="session_report" 
+			 string="Print Session Report" 
+			 model="academic.session" 
+			 name="session.report" 
+			 rml="academic/report/session.rml" 
+		/-->
+		
+		<report id="sup_report_webkit" 
+			 model="anggaran.sup" 
+			 name="anggaran.sup.report" 
+			 file="anggaran/report/sup.mako" 
+			 string="Permohonan UP"
+			 report_type="webkit"
+		/>
+    </data>
+</openerp>
+

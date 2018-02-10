@@ -1,0 +1,13 @@
+<openerp>
+    <data>
+
+		<report id="sptb_report_webkit" 
+			 model="anggaran.sptb" 
+			 name="anggaran.sptb.report" 
+			 file="anggaran/report/sptb.mako" 
+			 string="SPTB"
+			 report_type="webkit"
+		/>
+    </data>
+</openerp>
+

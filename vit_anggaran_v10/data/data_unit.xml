@@ -1,0 +1,397 @@
+<openerp>
+	<data>
+		<!-- fakultas -->
+		<record id="fakultas_FIP" model="anggaran.fakultas">
+			<field name="name">Fakultas Ilmu Pendidikan</field>
+			<field name="code">FIP</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+		<record id="fakultas_FPIPS" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Ilmu Pengetahuan Sosial</field>
+			<field name="code">FPIPS</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+		<record id="fakultas_FPBS" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Bahasa dan Seni</field>
+			<field name="code">FPBS</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+		<record id="fakultas_FPMIPA" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam</field>
+			<field name="code">FPMIPA</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+
+		<record id="fakultas_FPTK" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Teknologi dan Kejuruan</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+			<field name="code">FPTK</field>
+		</record>
+
+		<record id="fakultas_FPOK" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Olahraga dan Kesehatan</field>
+			<field name="code">FPOK</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+
+		<record id="fakultas_FPEB" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Ekonomi dan Bisnis</field>
+			<field name="code">FPEB</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+
+		<!-- jurusan / prodi -->
+
+		<record id="jurusan_KTP" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Kurikulum dan Teknologi Pendidikan
+			</field>
+			<field name="code">KTP</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+		<record id="jurusan_AP" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Administrasi Pendidikan
+			</field>
+			<field name="code">AP</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+		<record id="jurusan_PPB" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Psikologi Pendidikan dan Bimbingan
+			</field>
+			<field name="code">PPB</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+		<record id="jurusan_PLS" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Pendidikan Luar Sekolah
+			</field>
+			<field name="code">PLS</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+		<record id="jurusan_PLB" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Pendidikan Luar Biasa
+			</field>
+			<field name="code">PLB</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+		<record id="jurusan_PSI" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Psikologi
+			</field>
+			<field name="code">PSI</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+		<record id="jurusan_PDG" model="anggaran.jurusan">
+			<field name="name">Jurusan Pedagogik
+			</field>
+			<field name="code">PDG</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FIP"/>
+		</record>
+
+		<record id="jurusan_PK" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Pendidikan Kewarganegaraan 
+			</field>
+			<field name="code">1</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+		<record id="jurusan_PS" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Pendidikan Sejarah
+			</field>
+			<field name="code">2</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+		<record id="jurusan_GEO" model="anggaran.jurusan">
+			<field name="name">Jurusan/Program Studi Pendidikan Geografi
+			</field>
+			<field name="code">3</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+
+		<record id="jurusan_SPIG" model="anggaran.jurusan">
+			<field name="name">Program Studi Survey Pemetaan dan Informasi Geografi (SPIG)
+			</field>
+			<field name="code">4</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+		<record id="jurusan_IPS" model="anggaran.jurusan">
+			<field name="name">Program Studi Pendidikan IPS
+			</field>
+			<field name="code">5</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+
+		<record id="jurusan_MRL" model="anggaran.jurusan">
+			<field name="name">Program Studi Manajemen Resort &amp; Leisure
+			</field>
+			<field name="code">6</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+		<record id="jurusan_PAR" model="anggaran.jurusan">
+			<field name="name">Program Studi Kepariwisataan
+			</field>
+			<field name="code">7</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+		<record id="jurusan_MKDU" model="anggaran.jurusan">
+			<field name="name">Jurusan  Mata Kuliah  Dasar Umum (MKDU)
+			</field>
+			<field name="code">8</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+		<record id="jurusan_PAI" model="anggaran.jurusan">
+			<field name="name">Program Studi Ilmu Pendidikan Agama Islam
+			</field>
+			<field name="code">9</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPIPS"/>
+		</record>
+
+		<!-- jurusan di fakultas FPEB -->
+		<record id="jurusan_pek" model="anggaran.jurusan">
+			<field name="name">Pendidikan Ekonomi dan Koperasi</field>
+			<field name="code">A1</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+		<record id="jurusan_pmb" model="anggaran.jurusan">
+			<field name="name">Pendidikan Manajemen Bisnis</field>
+			<field name="code">A2</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+		<record id="jurusan_pmk" model="anggaran.jurusan">
+			<field name="name">Pendidikan Manajemen Perkantoran</field>
+			<field name="code">A3</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+		<record id="jurusan_pa" model="anggaran.jurusan">
+			<field name="name">Pendidikan Akuntansi</field>
+			<field name="code">A4</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+		<record id="jurusan_ak" model="anggaran.jurusan">
+			<field name="name">Akuntansi</field>
+			<field name="code">B1</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+		<record id="jurusan_mnj" model="anggaran.jurusan">
+			<field name="name">Manajemen</field>
+			<field name="code">B2</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+		<record id="jurusan_ieks" model="anggaran.jurusan">
+			<field name="name">Ilmu Ekonomi dan Keuangan Islam</field>
+			<field name="code">B3</field>
+			<field name="fakultas_id" ref="anggaran.fakultas_FPEB"/>
+		</record>
+
+
+		<!-- unit kerja Fakultas -->
+		
+		<record id="unit_fip" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Ilmu Pendidikan</field>
+			<field name="code">FIP</field>
+			<field name="fakultas_id" ref="fakultas_FIP"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_fpips" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Pendidikan Ilmu Pengetahuan Sosial</field>
+			<field name="code">FPIPS</field>
+			<field name="fakultas_id" ref="fakultas_FPIPS"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_fpbs" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Pendidikan Bahasa dan Seni</field>
+			<field name="fakultas_id" ref="fakultas_FPBS"/>
+			<field name="code">FPBS</field>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_fpmipa" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam</field>
+			<field name="code">FPMIPA</field>
+			<field name="fakultas_id" ref="fakultas_FPMIPA"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_fptk" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Pendidikan Teknologi dan Kejuruan</field>
+			<field name="fakultas_id" ref="fakultas_FPTK"/>
+			<field name="code">FPTK</field>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_fpok" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Pendidikan Olahraga dan Kesehatan</field>
+			<field name="fakultas_id" ref="fakultas_FPOK"/>
+			<field name="code">FPOK</field>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_FPEB" model="anggaran.unit">
+			<field name="name">Unit Kerja Fakultas Pendidikan Ekonomi dan Bisnis</field>
+			<field name="fakultas_id" ref="fakultas_FPEB"/>
+			<field name="code">FPEB</field>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_pusat" model="anggaran.unit">
+			<field name="name">Unit Kerja Pusat</field>
+			<field name="code">PUSAT</field>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+		<record id="unit_lppm" model="anggaran.unit">
+			<field name="name">Unit Kerja LPPM</field>
+			<field name="code">LPPM</field>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>
+
+
+
+		<!-- unit kerja jurusan-->
+
+		<!--record id="unit_jurusan_KTP" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Kurikulum dan Teknologi Pendidikan
+			</field>
+			<field name="code">KTP</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_KTP"/>
+		</record>
+
+		<record id="unit_jurusan_AP" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Administrasi Pendidikan
+			</field>
+			<field name="code">AP</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_AP"/>
+		</record>
+
+		<record id="unit_jurusan_PPB" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Psikologi Pendidikan dan Bimbingan
+			</field>
+			<field name="code">PPB</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PPB"/>
+		</record>
+
+		<record id="unit_jurusan_PLS" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Pendidikan Luar Sekolah
+			</field>
+			<field name="code">PLS</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PLS"/>
+		</record>
+
+
+		<record id="unit_jurusan_PLB" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Pendidikan Luar Biasa
+			</field>
+			<field name="code">PLB</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PLB"/>
+		</record>
+
+		<record id="unit_jurusan_PSI" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Psikologi
+			</field>
+			<field name="code">PSI</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PSI"/>
+		</record>
+
+
+		<record id="unit_jurusan_PDG" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan Pedagogik
+			</field>
+			<field name="code">PDG</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PDG"/>
+		</record>
+
+
+
+		<record id="unit_jurusan_PK" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Pendidikan Kewarganegaraan 
+			</field>
+			<field name="code">PK</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PK"/>
+		</record>
+		<record id="unit_jurusan_PS" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Pendidikan Sejarah
+			</field>
+			<field name="code">PS</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PS"/>
+		</record>
+		<record id="unit_jurusan_GEO" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan/Program Studi Pendidikan Geografi
+			</field>
+			<field name="code">GEO</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_GEO"/>
+		</record>
+
+
+		<record id="unit_jurusan_SPIG" model="anggaran.unit">
+			<field name="name">Unit Kerja Program Studi Survey Pemetaan dan Informasi Geografi (SPIG)
+			</field>
+			<field name="code">SPIG</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_SPIG"/>
+		</record>
+		<record id="unit_jurusan_IPS" model="anggaran.unit">
+			<field name="name">Unit Kerja Program Studi Pendidikan IPS
+			</field>
+			<field name="code">IPS</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_IPS"/>
+		</record>
+
+
+		<record id="unit_jurusan_MRL" model="anggaran.unit">
+			<field name="name">Unit Kerja Program Studi Manajemen Resort &amp; Leisure
+			</field>
+			<field name="code">MRL</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_MRL"/>
+		</record>
+
+
+		<record id="unit_jurusan_PAR" model="anggaran.unit">
+			<field name="name">Unit Kerja Program Studi Kepariwisataan
+			</field>
+			<field name="code">PAR</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PAR"/>
+		</record>
+
+		<record id="unit_jurusan_MKDU" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan Mata Kuliah  Dasar Umum (MKDU)
+			</field>
+			<field name="code">MKDU</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_MKDU"/>
+		</record>
+
+		<record id="unit_jurusan_PAI" model="anggaran.unit">
+			<field name="name">Unit Kerja Program Studi Ilmu Pendidikan Agama Islam
+			</field>
+			<field name="code">PAI</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_PAI"/>
+		</record-->
+
+		<record id="unit_jurusan_pek" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan Pendidikan Ekonomi dan Koperasi</field>
+			<field name="code">A1</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_pek"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>		
+		<record id="unit_jurusan_pmb" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan Pendidikan Manajemen Bisnis</field>
+			<field name="code">A2</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_pmb"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>	
+		<record id="unit_jurusan_pa" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan Pendidikan Akuntansi</field>
+			<field name="code">A3</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_pa"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>	
+		<record id="unit_jurusan_pmk" model="anggaran.unit">
+			<field name="name">Unit Kerja Jurusan Pendidikan Manajemen Perkantoran</field>
+			<field name="code">A4</field>
+			<field name="jurusan_id" ref="anggaran.jurusan_pmk"/>
+			<field name="company_id" ref="base.main_partner"/>
+		</record>	
+
+
+		<!-- sumber dana -->
+		<record id="sumber_dana_dipa" model="anggaran.sumber_dana">
+			<field name="name">DIPA</field>
+			<field name="code">DIPA</field>
+		</record>
+		<record id="sumber_dana_non_pnbp" model="anggaran.sumber_dana">
+			<field name="name">NON-PNBP</field>
+			<field name="code">NON-PNBP</field>
+		</record>
+
+
+
+	</data>
+</openerp>

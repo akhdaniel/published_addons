@@ -1,0 +1,11 @@
+<openerp>
+    <data>
+		<report id="payslip_report_bijb" 
+			 string="Pay Slip Indonesian Companies"
+			 model="hr.payslip" 
+			 name="payslip_report" 
+			 rml="addons/hrd_payroll/report/payslip_bijb.rml" 
+			 header="False"/>
+    </data>
+</openerp>
+

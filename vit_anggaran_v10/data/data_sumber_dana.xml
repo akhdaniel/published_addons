@@ -1,0 +1,13 @@
+<openerp>
+	<data>
+		<record id="sumber_dana_dipa" model="anggaran.sumber_dana">
+			<field name="name">DIPA</field>
+			<field name="code">DIPA</field>
+		</record>
+		<record id="sumber_dana_non_pnbp" model="anggaran.sumber_dana">
+			<field name="name">NON-PNBP</field>
+			<field name="code">NON-PNBP</field>
+		</record>
+
+	</data>
+</openerp>

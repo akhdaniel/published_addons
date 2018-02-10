@@ -1,0 +1,103 @@
+<openerp>
+	<data>
+		<!-- SUP from -->
+        <record id="view_sup_form" model="ir.ui.view">
+            <field name="name">anggaran_sup_form</field>
+            <field name="model">anggaran.sup</field>
+            <field name="arch" type="xml">
+            	<form string="sup form" version="7.0">
+            		<header>
+						<button string="Kirim" type="object" name="action_confirm" 
+							 class="oe_highlight"
+						 	 states="draft" />
+						<button string="Setuju" type="object" name="action_done" 
+							 class="oe_highlight"
+						 	 states="open" />
+						<button string="Tolak" type="object" name="action_reject"
+						 	 states="open" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+
+						<button string="Catat SPM" type="object" name="action_create_spm"
+							 class="oe_highlight"
+                             attrs="{'invisible': ['|', ('spm_exists', '=', True), ('state','&lt;&gt;','done')]}" />
+
+						<button string="View SPM" type="object" name="action_view_spm"
+                             attrs="{'invisible': ['|', ('spm_exists', '=', False), ('state','&lt;&gt;','done')]}" />
+                             
+            			<field name="state" widget="statusbar" />
+
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Nomor" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+						<group>
+				            <group>
+				                <field name="tanggal"/>       
+				                <field name="tahun_id"/>    
+				                <field name="period_id"/>    
+				            </group>
+				            <group>   
+				                <field name="lampiran"/>       
+				                <field name="perihal"/>       
+				                <field name="kepada"/>       
+				            </group>
+				        </group>
+
+			            <notebook>
+			            	<page string="Isi Surat">
+					            <group >
+					                <field name="unit_id"/>       
+					                <field name="dasar_rkat" domain="[('unit_id','=',unit_id)]"/>       
+					                <field name="jumlah"/>    
+					                <field name="nomor_rek"/>       
+					                <field name="nama_bank"/>       
+					            </group>
+					        </page>
+					        <page string="Persetujuan">
+					            <group >
+					                <field name="pumkc_id"/>       
+					                <field name="nip_pumkc"/>       
+					                <field name="atasan_pumkc_id"/>       
+					                <field name="nip_atasan_pumkc"/>       
+					            </group>
+				           </page>
+				            <page string="Other Info">
+			            		<group>
+				                	<field name="spm_exists"/>    
+					            </group>
+				            </page>				           
+				       </notebook>
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+		<!-- SUP from -->
+        <record id="view_sup_tree" model="ir.ui.view">
+            <field name="name">anggaran_sup_tree</field>
+            <field name="model">anggaran.sup</field>
+            <field name="arch" type="xml">
+            	<tree string="list sup" colors="grey:state=='done'; blue:state=='draft'">
+                    <field name="name"/>
+	                <field name="tanggal"/>       
+	                <!-- field name="lampiran"/-->       
+	                <!-- field name="perihal"/-->       
+	                <!-- field name="kepada"/-->   
+	                <!--field name="dasar_rkat"/-->       
+	                <field name="jumlah"/>       
+	                <field name="unit_id"/>       
+	                <field name="nomor_rek"/>       
+	                <field name="nama_bank"/>    	                    
+	                <field name="spm_exists"/>    	                    
+	                <field name="state"/>    	                    
+                </tree>    
+            </field>
+        </record>
+	</data>
+</openerp>

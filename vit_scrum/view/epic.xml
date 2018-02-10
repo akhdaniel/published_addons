@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_vit_scrum_epic_tree" model="ir.ui.view">
+            <field name="name">vit_scrum.epic.tree</field>
+            <field name="model">vit_scrum.epic</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Epics">
+                    <field name="project_id" />
+                    <field name="name" />
+                    <field name="description" />
+                    <field name="date_plan_start" />
+                    <field name="date_plan_end" />
+                    <field name="plan_duration" />
+                    <field name="is_ready" />
+                    <field name="is_waiting" />
+                    <field name="is_impended" />
+                    <field name="state" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_epic_form" model="ir.ui.view">
+            <field name="name">vit_scrum.epic.form</field>
+            <field name="model">vit_scrum.epic</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Epics" version="7.0">
+                    <header>
+                        <field name="state" widget="statusbar"/>
+                    </header>
+
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"
+                                 string="Name" />
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+
+                        <group>
+                            <group>
+                                <field name="project_id" />
+                                <field name="attachment" />
+                            </group>
+
+                            <group>
+                                <field name="effort" />
+                                <field name="value" />
+                                <field name="risk" />
+                                <field name="moscow" />
+                                <field name="kano" />
+                                <field name="tag_ids" widget="many2many_tags"/>
+                            </group>
+                        </group>
+
+                        <group>
+                            <group string="Status">
+                                <field name="is_ready" />
+                                <field name="is_waiting" />
+                                <field name="is_impended" />
+                            </group>
+                            <group string="Planning">
+                                <field name="date_plan_start" readonly="1" />
+                                <field name="date_plan_end" readonly="1"/>
+                                <field name="plan_duration" readonly="1"/>
+                            </group>
+                            <group string="Actual">
+                                <field name="date_actual_start" readonly="1"/>
+                                <field name="date_actual_end" readonly="1"/>
+                                <field name="actual_duration" readonly="1"/>
+                            </group>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Description">
+                                <field name="description" />
+                            </page>
+                            <page string="Features">
+                                <field name="feature_ids">
+                                    <tree string="Features">
+                                        <field name="name"/>
+                                        <field name="backlog_ids"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_epic_search" model="ir.ui.view">
+            <field name="name">vit_scrum.epic.search</field>
+            <field name="model">vit_scrum.epic</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Epics">
+                    <field name="name" select="True"/>
+                    <field name="project_id" select="True"/>
+                    <field name="description" select="True"/>
+                    <field name="date_plan_start" select="True"/>
+                    <field name="date_plan_end" select="True"/>
+                    <field name="state"  select="True"/>
+
+                    <group expand="0" string="Group By">
+                        <filter string="Project" icon="terp-camera_test" name="group_by_project_id" context="{'group_by':'project_id'}"/>
+                        <filter string="Date plan start" icon="terp-camera_test" name="group_by_date_plan_start" context="{'group_by':'date_plan_start:day'}"/>
+                        <filter string="Date plan end" icon="terp-camera_test" name="group_by_date_plan_end" context="{'group_by':'date_plan_end:day'}"/>
+                        <filter string="State" icon="terp-camera_test" name="group_by_state" context="{'group_by':'state'}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <record id="view_vit_scrum_epic_calendar" model="ir.ui.view">
+            <field name="name">vit_scrum_epic</field>
+            <field name="model">vit_scrum.epic</field>
+            <field name="arch" type="xml">
+                <calendar string="Epic" date_start="date_plan_start" date_delay="plan_duration"  mode="month"
+                     color="project_id">
+                    <field name="name" />
+                </calendar>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_vit_scrum_epic_view">
+            <field name="name">Epics</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit_scrum.epic</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar</field>
+            <field name="search_view_id" ref="view_vit_scrum_epic_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_scrum_epic_view_form">
+            <field name="act_window_id" ref="act_open_vit_scrum_epic_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_vit_scrum_epic_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_scrum_epic_view_tree">
+            <field name="act_window_id" ref="act_open_vit_scrum_epic_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_vit_scrum_epic_tree"/>
+        </record>
+
+        <menuitem id="menu_vit_scrum_epic"
+                  parent="menu_scrum"
+                  sequence="20"
+                  action="act_open_vit_scrum_epic_view"/>
+
+    </data>
+</openerp>

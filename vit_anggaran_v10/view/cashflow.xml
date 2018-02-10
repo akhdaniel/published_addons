@@ -1,0 +1,158 @@
+<openerp>
+	<data>
+		<!-- Cashflow from -->
+        <record id="view_cashflow_form" model="ir.ui.view">
+            <field name="name">anggaran_cashflow_form</field>
+            <field name="model">anggaran.cashflow</field>
+            <field name="arch" type="xml">
+            	<form string="cashflow form" version="7.0">
+            		<header>
+						<button string="Kirim" type="object" name="action_confirm" 
+							 class="oe_highlight"
+						 	 states="draft" />
+
+						<button string="Recalculate" type="object" name="action_recalculate"
+						 	 states="draft" />
+
+						<button string="Setuju" type="object" name="action_done"
+							 class="oe_highlight"
+						 	 states="open" />
+
+						<button string="Tolak" type="object" name="action_reject"
+						 	 states="open" />
+
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" />
+            		</header>
+
+					<div class="oe_title">
+						<label for="name" class="oe_edit_only" 
+							 string="Nomor" />
+						<h1>
+							<field name="name" />
+						</h1>
+					</div>
+		            <group>
+		            	<group>
+							<field name="tahun_id" />
+			                <field name="fakultas_id"/>       
+			                <field name="jurusan_id" />
+			                <field name="unit_id"/>
+			            </group>
+			            <group>
+			                <field name="show_actual"/>
+			                <field name="show_deviasi"/>
+			                <field name="revision"/>
+			                <field name="write_date"/>
+		            	</group>
+			        </group>
+
+		            <notebook>
+
+		            	<page string="Rincian">
+				            <field name="cashflow_line_ids">
+				            	<tree string="Rincian Cashflow" editable="bottom">
+									<field name="code" />  
+									<field name="cashflow_coa_id" />  
+									<field name="type"/>
+									<field name="m1"/>
+									<!-- <field name="m1a" invisible="'parent.show_actual'==0"/> -->
+									<!-- <field name="m1s"/> -->
+
+									<field name="m2"/>
+									<!-- <field name="m2a" /> -->
+									<!-- <field name="m2s"/> -->
+									
+									<field name="m3"/>
+									<!-- <field name="m3a"/> -->
+									<!-- <field name="m3s"/> -->
+									
+									<field name="m4"/>
+									<!-- <field name="m4a"/> -->
+									<!-- <field name="m4s"/> -->
+									
+									<field name="m5"/>
+									<!-- <field name="m5a"/> -->
+									<!-- <field name="m5s"/> -->
+									
+									<field name="m6"/>
+									<!-- <field name="m6a"/> -->
+									<!-- <field name="m6s"/> -->
+									
+									<field name="m7"/>
+									<!-- <field name="m7a"/> -->
+									<!-- <field name="m7s"/> -->
+									
+									<field name="m8"/>
+									<!-- <field name="m8a"/> -->
+									<!-- <field name="m8s"/> -->
+									
+									<field name="m9"/>
+									<!-- <field name="m9a"/> -->
+									<!-- <field name="m9s"/> -->
+									
+									<field name="m10"/>
+									<!-- <field name="m10a"/> -->
+									<!-- <field name="m10s"/> -->
+									
+									<field name="m11"/>
+									<!-- <field name="m11a"/> -->
+									<!-- <field name="m11s"/> -->
+									
+									<field name="m12"/>
+									<!-- <field name="m12a"/> -->
+									<!-- <field name="m12s"/> -->
+					            </tree>
+					        </field>
+					    </page>
+			            
+			            <!-- <page string="Persetujuan">
+			            	<group>
+			            		<group>
+					                <field name="pumkc_id"/>       
+					                <field name="nip_pumkc"/>       
+					            </group>
+					            <group>
+					                <field name="atasan_pumkc_id"/>       
+					                <field name="nip_atasan_pumkc"/>       
+					            </group>
+				            </group>
+			            </page> -->
+
+					</notebook>				        
+
+			    </form>
+            </field>
+        </record>
+
+		<!-- Cashflow from -->
+        <record id="view_cashflow_tree" model="ir.ui.view">
+            <field name="name">anggaran_cashflow_tree</field>
+            <field name="model">anggaran.cashflow</field>
+            <field name="arch" type="xml">
+            	<tree string="list cashflow" colors="grey:state=='done'; blue:state=='draft'">
+	                <field name="name"/>       
+	                <field name="tahun_id"/>       
+	                <field name="fakultas_id"/>       
+	                <field name="jurusan_id"/>       
+	                <field name="unit_id"/>       
+	                <field name="state"/>    	                    
+                </tree>    
+            </field>
+        </record>
+        
+		<!-- Cashflow COA tre -->
+        <record id="view_cashflow_coa_tree" model="ir.ui.view">
+            <field name="name">anggaran_cashflow_coa_tree</field>
+            <field name="model">anggaran.cashflow.coa</field>
+            <field name="arch" type="xml">
+            	<tree string="list cashflow_coa" >
+	                <field name="code"/>       
+	                <field name="name"/>       
+                </tree>    
+            </field>
+        </record>
+        
+	</data>
+</openerp>

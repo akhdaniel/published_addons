@@ -1,0 +1,93 @@
+<openerp>
+	<data>
+
+		<!-- tree rka_detail -->
+		<record id="view_rka_detail_tree" model="ir.ui.view">
+		    <field name="name">anggaran_rka_detail_tree</field>
+		    <field name="model">anggaran.rka_detail</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list rka_detail" >
+					<field name='unit_id' invisible="1"/>
+					<field name='kebijakan_id'  invisible="1"/>
+					<field name='program_id'  invisible="1"/>
+					<field name='kegiatan_id'  invisible="1"/>
+
+					<field name='rka_coa_id' />
+					<field name='keterangan' />
+					<field name='tarif'	/>
+					<field name='jumlah' />		
+					<field name='volume_total' />
+					<field name='realisasi' />
+					<field name='sisa' />
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- search rka_detail -->
+		<record id="view_rka_detail_filter" model="ir.ui.view">
+		    <field name="name">rka_detail.filter</field>
+		    <field name="model">anggaran.rka_detail</field>
+		    <field name="arch" type="xml">
+		        <search string="Search rka_detail">
+					<field name='unit_id' />
+					<field name='kebijakan_id' />
+					<field name='program_id' />
+					<field name='kegiatan_id' />
+					<field name='rka_coa_id' />
+					<field name='keterangan' />
+					<field name='volume_total' />
+
+		            <group expand="1" string="Group By...">
+
+		                	 
+		                <filter string="Unit" icon="terp-personal" 
+		                    domain="[]"  name="group_by_unit_id"
+		                	 context="{'group_by':'unit_id'}"/>
+
+		                <filter string="Period" icon="terp-personal" 
+		                    domain="[]"  name="group_by_period_id"
+		                	 context="{'group_by':'period_id'}"/>
+
+		                <!-- <filter string="Tahun" icon="terp-personal" 
+		                    domain="[]"  name="group_by_tahun"
+		                	 context="{'group_by':'tahun'}"/> -->
+
+		                <filter string="Kebijakan" icon="terp-personal" 
+		                    domain="[]"  name="group_by_kebijakan_id"
+		                	 context="{'group_by':'kebijakan_id'}"/>
+
+		                <filter string="Program" icon="terp-personal" 
+		                    domain="[]"  name="group_by_program_id"
+		                	 context="{'group_by':'program_id'}"/>
+
+		                <filter string="Kegiatan" icon="terp-personal" 
+		                    domain="[]"  name="group_by_kegiatan_id"
+		                	 context="{'group_by':'kegiatan_id'}"/>
+
+		                <filter string="MAK" icon="terp-personal" 
+		                    domain="[]"  name="group_by_rka_coa_id"
+		                	 context="{'group_by':'rka_coa_id'}"/>
+
+		            </group>                                        
+		
+		        </search>
+		    </field>
+		</record>
+
+        <!-- graph -->
+        <record id="view_anggaran_rka_per_unit_graph" model="ir.ui.view">
+            <field name="name">anggaran_rka_detail_per_unit_graph</field>
+            <field name="model">anggaran.rka_detail</field>
+            <field name="arch" type="xml">
+                <graph string="rka_detail graph" type="bar">
+                    <field name="period_id"/>
+                    <field name="unit_id"/>
+                    <field name="volume_total" operator="+"/>
+                    <field name="realisasi" operator="+"/>
+                    <field name="sisa" operator="+"/>
+                </graph>
+            </field>
+        </record>
+
+	</data>
+</openerp>

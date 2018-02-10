@@ -1,0 +1,65 @@
+<openerp>
+	<data>
+		<record id="view_unit_tree" model="ir.ui.view">
+		    <field name="name">anggaran_unit_tree</field>
+		    <field name="model">anggaran.unit</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list unit" >
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="fakultas_id"/>
+		            <field name="jurusan_id"/>
+		            <field name="company_id"/>
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- form -->
+        <record id="view_unit_form" model="ir.ui.view">
+            <field name="name">anggaran_unit_form</field>
+            <field name="model">anggaran.unit</field>
+            <field name="arch" type="xml">
+            	<form string="Unit form" version="7.0">
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Unit Name" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+			            <group>
+			            	<group>
+				                <field name="code"/>       
+				                <field name="fakultas_id"/>       
+				                <field name="jurusan_id" domain="[('fakultas_id','=', fakultas_id)]"/>       
+				            </group>
+				            <group>
+				                <field name="company_id"/>       
+				            </group>
+				        </group>
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+		<!-- ini definisi search unit -->
+		<record id="view_unit_filter" model="ir.ui.view">
+		    <field name="name">unit.filter</field>
+		    <field name="model">anggaran.unit</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Unit Kerja">
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="fakultas_id"/>
+		            <field name="jurusan_id" />
+		            <group expand="1" string="Group By...">
+		                <filter string="Fakultas" icon="terp-personal" name="group_program"
+		                    domain="[]" context="{'group_by':'fakultas_id'}"/>
+		            </group>
+
+		        </search>
+		    </field>
+		</record>
+	</data>
+</openerp>

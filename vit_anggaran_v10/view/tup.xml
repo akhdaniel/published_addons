@@ -1,0 +1,89 @@
+<openerp>
+	<data>
+		<!-- TUP from -->
+        <record id="view_tup_form" model="ir.ui.view">
+            <field name="name">anggaran_tup_form</field>
+            <field name="model">anggaran.tup</field>
+            <field name="arch" type="xml">
+            	<form string="tup form" version="7.0">
+            		<header>
+						<button string="Kirim" type="object" name="action_confirm" 
+							 class="oe_highlight"
+						 	 states="draft" />
+						<button string="Setuju" type="object" name="action_done" 
+							 class="oe_highlight"
+						 	 states="open" />
+						<button string="Tolak" type="object" name="action_reject"
+						 	 states="open" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+						<button string="Buat SPM" type="object" name="action_create_spm"
+						 	 states="done" />
+            			<field name="state" widget="statusbar" />
+            		</header>
+            		<sheet>
+						<div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Nomor" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div>
+						<group>
+				            <group>
+				                <field name="tanggal"/>       
+				                <field name="tahun_id"/>    
+				            </group>
+				            <group>   
+				                <field name="lampiran"/>       
+				                <field name="perihal"/>       
+				                <field name="kepada"/>       
+				            </group>
+				        </group>
+
+			            <notebook>
+			            	<page string="Isi Surat">
+					            <group >
+					                <field name="dasar_rkat"/>       
+					                <field name="jumlah"/>    
+					                <field name="unit_id"/>       
+					                <field name="nomor_rek"/>       
+					                <field name="nama_bank"/>       
+					            </group>
+					        </page>
+					        <page string="Persetujuan">
+					            <group >
+					                <field name="pumkc_id"/>       
+					                <field name="nip_pumkc"/>       
+					                <field name="atasan_pumkc_id"/>       
+					                <field name="nip_atasan_pumkc"/>       
+					            </group>
+				           </page>
+				       </notebook>
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+		<!-- TUP from -->
+        <record id="view_tup_tree" model="ir.ui.view">
+            <field name="name">anggaran_tup_tree</field>
+            <field name="model">anggaran.tup</field>
+            <field name="arch" type="xml">
+            	<tree string="list tup" colors="grey:state=='done'; blue:state=='draft'">
+                    <field name="name"/>
+	                <field name="tanggal"/>       
+	                <!-- field name="lampiran"/-->       
+	                <!-- field name="perihal"/-->       
+	                <!-- field name="kepada"/-->   
+	                <!--field name="dasar_rkat"/-->       
+	                <field name="jumlah"/>       
+	                <field name="unit_id"/>       
+	                <field name="nomor_rek"/>       
+	                <field name="nama_bank"/>    	                    
+	                <field name="state"/>    	                    
+                </tree>    
+            </field>
+        </record>
+	</data>
+</openerp>

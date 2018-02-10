@@ -1,0 +1,7 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_vit_scrum_addon,access_vit_scrum_addon,model_vit_scrum_addon,,1,0,0,0
+access_vit_scrum_epic,access_vit_scrum_epic,model_vit_scrum_epic,,1,0,0,0
+access_vit_scrum_feature,access_vit_scrum_feature,model_vit_scrum_feature,,1,0,0,0
+access_vit_scrum_backlog,access_vit_scrum_backlog,model_vit_scrum_backlog,,1,0,0,0
+access_vit_scrum_release,access_vit_scrum_release,model_vit_scrum_release,,1,0,0,0
+access_vit_scrum_sprint,access_vit_scrum_sprint,model_vit_scrum_sprint,,1,0,0,0

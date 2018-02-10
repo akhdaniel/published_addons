@@ -1,0 +1,75 @@
+<openerp>
+	<data>
+		<record id="view_kegiatan_tree" model="ir.ui.view">
+		    <field name="name">anggaran_kegiatan_tree</field>
+		    <field name="model">anggaran.kegiatan</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list kegiatan" >
+		            <field name="category_id" invisible="True"/>
+		            <field name="kebijakan_id" invisible="True"/>
+		            <field name="program_id"  invisible="True"/>
+		            <field name="code"/>
+		            <field name="name"/>
+		        </tree>    
+		    </field>
+		</record>
+
+		<!-- ini definisi search kegiatan -->
+		<record id="view_kegiatan_filter" model="ir.ui.view">
+		    <field name="name">kegiatan.filter</field>
+		    <field name="model">anggaran.kegiatan</field>
+		    <field name="arch" type="xml">
+		        <search string="Search Kegiatan">
+		            <field name="code"/>
+		            <field name="name"/>
+		            <field name="program_id"/>
+		            <field name="kebijakan_id"/>
+		            <group expand="1" string="Group By...">
+		                <filter string="Kategori Kebijakan" icon="terp-personal" name="group_category"
+		                    domain="[]" context="{'group_by':'category_id'}"/>
+		                <filter string="Kebijakan" icon="terp-personal" name="group_kebijakan"
+		                    domain="[]" context="{'group_by':'kebijakan_id'}"/>
+		                <filter string="Program" icon="terp-personal" name="group_program"
+		                    domain="[]" context="{'group_by':'program_id'}"/>
+		            </group>
+		        </search>
+		    </field>
+		</record>
+
+
+		<!-- ini definisi form kegiatan -->
+        <record id="view_kegiatan_form" model="ir.ui.view">
+            <field name="name">anggaran_kegiatan_form</field>
+            <field name="model">anggaran.kegiatan</field>
+            <field name="arch" type="xml">
+            	<form string="kegiatan form" version="7.0">
+            		<header>
+						<!--button string="Confirm" type="object" name="action_confirm" class="oe_highlight"
+						 	 states="draft" />
+						<button string="Cancel" type="object" name="action_draft"
+						 	 states="open" />
+            			<field name="state" widget="statusbar" /-->
+            		</header>
+            		<sheet>
+						<!--div class="oe_title">
+							<label for="name" class="oe_edit_only" 
+								 string="Class Name" />
+							<h1>
+								<field name="name" />
+							</h1>
+						</div-->
+		            	<group>
+				            <field name="kebijakan_id"/>
+				            <field name="program_id" domain="[('kebijakan_id','=', kebijakan_id)]"/>
+			                <field name="code"/>       
+			                <field name="name"/>       
+			            </group>
+
+
+					</sheet>
+			    </form>
+            </field>
+        </record>
+
+	</data>
+</openerp>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report 
+            id="report_rka_menu"
+            string="ROA"
+            model="anggaran.rka" 
+            report_type="qweb-pdf"
+            file="anggaran.rka" 
+            name="anggaran.rka_report" 
+            
+        />
+
+        <!-- paper_format="paperformat_a4_landscape"  -->
+        
+        <template id="report_rka_document">
+            <t t-call="report.external_layout">
+                <div class="page">
+                    <div class="oe_structure"/>
+                    <br/>
+                    <br/>
+                    
+                    <h2>
+                        RENCANA KEGIATAN ANGGARAN
+                        <br/><span t-field="o.unit_id.code"/> - <span t-field="o.unit_id.name"/>
+                    </h2>
+
+                    <table style="width:100%">
+                        <tr>
+                            <td>Tahun Anggaran</td><td style="width:50%"><span t-field="o.tahun.name"/></td>
+                            <td>Alokasi</td><td class="text-right"><span t-field="o.alokasi"/></td>
+                        </tr>
+                        <tr>
+                            <td>Perioda</td><td><span t-field="o.period_id.name"/></td>
+                            <td>Total Anggaran</td><td class="text-right"><span t-field="o.anggaran"/></td>
+                        </tr>
+                        <tr>
+                            <td></td><td></td>
+                            <td>Realisasi</td><td class="text-right"><span t-field="o.realisasi"/></td>
+                        </tr>
+                        <tr>
+                            <td></td><td></td>
+                            <td>Sisa</td><td class="text-right"><span t-field="o.sisa"/></td>
+                        </tr>
+                        <tr>
+                            <td></td><td></td>
+                            <td>Definitif</td><td class="text-right"><span t-field="o.definitif"/></td>
+                        </tr>
+                    </table>
+
+                    <div class="oe_structure"/>
+                    <h2>Pendidikan</h2>
+
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Kegiatan</th>
+                                <th class="text-right">Total Anggaran</th>
+                                <th class="text-right">Realisasi</th>
+                                <th class="text-right">Sisa</th>
+                                <th class="text-right">Definitif</th>
+                            </tr>
+                       </thead>
+
+                       <tbody class="anggaran_tbody">
+                            <t t-foreach="o.rka_kegiatan_ids" t-as="l">
+                                <tr>
+                                    <td>
+                                       <span t-field="l.kegiatan_id.code"/>
+                                       <span t-field="l.kegiatan_id.name"/>
+                                    </td>
+                                    <td class="text-right">
+                                        <span t-field="l.anggaran" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.realisasi" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.sisa" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.definitif" />
+                                    </td>
+                                </tr>
+
+                                <t t-foreach="l.rka_coa_ids" t-as="coa">
+                                    <tr>
+                                        <td colspan="">
+                                            <span style="padding-left:50px" t-field="coa.mak_id.code"/>
+                                            <span t-field="coa.mak_id.name" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.total" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.realisasi" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.sisa" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.definitif" />
+                                        </td>
+                                    </tr>
+
+                                    <t t-foreach="coa.rka_detail_ids" t-as="detail">
+                                        <tr>
+                                            <td>
+                                                <span style="padding-left:100px" t-field="detail.keterangan"/>
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.volume_total" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.realisasi" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.sisa" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.definitif" />
+                                            </td>
+                                        </tr>                                        
+                                    </t>
+
+                                </t>
+                            </t>
+                        </tbody>
+                    </table>
+
+                    <div class="oe_structure"/>
+                    <p style="page-break-after:always;">   </p>
+                    <h2>Pemasaran</h2>
+
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Kegiatan</th>
+                                <th class="text-right">Total Anggaran</th>
+                                <th class="text-right">Realisasi</th>
+                                <th class="text-right">Sisa</th>
+                                <th class="text-right">Definitif</th>
+                            </tr>
+                       </thead>
+
+                       <tbody class="anggaran_tbody">
+                            <t t-foreach="o.rka_kegiatan_ids2" t-as="l">
+                                <tr>
+                                    <td>
+                                       <span t-field="l.kegiatan_id.code"/>
+                                       <span t-field="l.kegiatan_id.name"/>
+                                    </td>
+                                    <td class="text-right">
+                                        <span t-field="l.anggaran" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.realisasi" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.sisa" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.definitif" />
+                                    </td>
+                                </tr>
+
+                                <t t-foreach="l.rka_coa_ids" t-as="coa">
+                                    <tr>
+                                        <td colspan="">
+                                            <span style="padding-left:50px" t-field="coa.mak_id.code"/>
+                                            <span t-field="coa.mak_id.name" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.total" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.realisasi" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.sisa" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.definitif" />
+                                        </td>
+                                    </tr>
+
+                                    <t t-foreach="coa.rka_detail_ids" t-as="detail">
+                                        <tr>
+                                            <td>
+                                                <span style="padding-left:100px" t-field="detail.keterangan"/>
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.volume_total" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.realisasi" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.sisa" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.definitif" />
+                                            </td>
+                                        </tr>                                        
+                                    </t>
+
+                                </t>
+                            </t>
+                        </tbody>
+                    </table>
+
+
+                    <div class="oe_structure"/>
+                    <p style="page-break-after:always;">   </p>
+                    <h2>Investasi</h2>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Kegiatan</th>
+                                <th class="text-right">Total Anggaran</th>
+                                <th class="text-right">Realisasi</th>
+                                <th class="text-right">Sisa</th>
+                                <th class="text-right">Definitif</th>
+                            </tr>
+                       </thead>
+
+                       <tbody class="anggaran_tbody">
+                            <t t-foreach="o.rka_kegiatan_ids3" t-as="l">
+                                <tr>
+                                    <td>
+                                       <span t-field="l.kegiatan_id.code"/>
+                                       <span t-field="l.kegiatan_id.name"/>
+                                    </td>
+                                    <td class="text-right">
+                                        <span t-field="l.anggaran" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.realisasi" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.sisa" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.definitif" />
+                                    </td>
+                                </tr>
+
+                                <t t-foreach="l.rka_coa_ids" t-as="coa">
+                                    <tr>
+                                        <td colspan="">
+                                            <span style="padding-left:50px" t-field="coa.mak_id.code"/>
+                                            <span t-field="coa.mak_id.name" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.total" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.realisasi" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.sisa" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.definitif" />
+                                        </td>
+                                    </tr>
+
+                                    <t t-foreach="coa.rka_detail_ids" t-as="detail">
+                                        <tr>
+                                            <td>
+                                                <span style="padding-left:100px" t-field="detail.keterangan"/>
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.volume_total" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.realisasi" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.sisa" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.definitif" />
+                                            </td>
+                                        </tr>                                        
+                                    </t>
+
+                                </t>
+                            </t>
+                        </tbody>
+                    </table>
+
+
+
+                    <div class="oe_structure"/>
+                    <p style="page-break-after:always;">   </p>                    
+                    <h2>Overhead</h2>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Kegiatan</th>
+                                <th class="text-right">Total Anggaran</th>
+                                <th class="text-right">Realisasi</th>
+                                <th class="text-right">Sisa</th>
+                                <th class="text-right">Definitif</th>
+                            </tr>
+                       </thead>
+
+                       <tbody class="anggaran_tbody">
+                            <t t-foreach="o.rka_kegiatan_ids4" t-as="l">
+                                <tr>
+                                    <td>
+                                       <span t-field="l.kegiatan_id.code"/>
+                                       <span t-field="l.kegiatan_id.name"/>
+                                    </td>
+                                    <td class="text-right">
+                                        <span t-field="l.anggaran" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.realisasi" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.sisa" />
+                                    </td>
+
+                                    <td class="text-right">
+                                        <span t-field="l.definitif" />
+                                    </td>
+                                </tr>
+
+                                <t t-foreach="l.rka_coa_ids" t-as="coa">
+                                    <tr>
+                                        <td colspan="">
+                                            <span style="padding-left:50px" t-field="coa.mak_id.code"/>
+                                            <span t-field="coa.mak_id.name" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.total" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.realisasi" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.sisa" />
+                                        </td>
+
+                                        <td class="text-right">
+                                            <span t-field="coa.definitif" />
+                                        </td>
+                                    </tr>
+
+                                    <t t-foreach="coa.rka_detail_ids" t-as="detail">
+                                        <tr>
+                                            <td>
+                                                <span style="padding-left:100px" t-field="detail.keterangan"/>
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.volume_total" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.realisasi" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.sisa" />
+                                            </td>
+
+                                            <td class="text-right">
+                                                <span t-field="detail.definitif" />
+                                            </td>
+                                        </tr>                                        
+                                    </t>
+
+                                </t>
+                            </t>
+                        </tbody>
+                    </table>
+
+                    <div class="oe_structure"/>
+                </div>
+            </t>
+        </template>
+
+        <template id="rka_report">
+            <t t-call="report.html_container">
+                <t t-foreach="doc_ids" t-as="doc_id">
+                    <t t-raw="translate_doc(doc_id, doc_model, 'unit_id.company_id.partner_id.lang', 'anggaran.report_rka_document')"/>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</openerp>

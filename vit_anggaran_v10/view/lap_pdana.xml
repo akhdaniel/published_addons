@@ -1,0 +1,19 @@
+<openerp>
+	<data>
+		<record id="view_lap_pdana_tree" model="ir.ui.view">
+		    <field name="name">anggaran_lap_pdana_tree</field>
+		    <field name="model">anggaran.lap_pdana</field>
+		    <field name="arch" type="xml">
+		    	<tree string="list lap penggunaan dana">
+					<field name="unit_id" />  			
+					<field name="tahun_id" />  		
+					<field name="rka_coa_id" /> 		
+					<field name="kebijakan_id" />		
+					<field name="anggaran" />  		
+					<field name="realisasi_bln_ini" /> 
+					<field name="realisasi_sd_bln_ini" />
+		        </tree>    
+		    </field>
+		</record>
+</data>
+</openerp>

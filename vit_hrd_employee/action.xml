@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+<data>
+
+    <!-- ACTION WINDOWS -->
+
+    <record model="ir.actions.act_window" id="employee_non_aktif">
+        <field name="name">Karyawan Tidak Aktif</field>
+        <field name="res_model">hr.employee</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('active','=',False)]</field>
+        <field name="view_id" ref="hr.view_employee_tree"/>
+        <field name="search_view_id" ref="hr.view_employee_filter"/>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_hr_department">
+        <field name="name">Master Department</field>
+        <field name="res_model">hr.department</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_hr_recruit_pend">
+        <field name="name">Master Pendidikan</field>
+        <field name="res_model">hr.recruitment.degree</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="action_hr_recruit_jur">
+        <field name="name">Master Jurusan</field>
+        <field name="res_model">hr_recruit.jurusan_detail</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="action_hr_recruit_class">
+        <field name="name">Master Class</field>
+        <field name="res_model">hr_employs.clas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="action_hr_recruit_bid_krj">
+        <field name="name">Master Bidang Pekerjaan</field>
+        <field name="res_model">hr_employs.wfield</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="action_hr_recruit_kota">
+        <field name="name">Master Kota</field>
+        <field name="res_model">hr_recruit.kota</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_gelar">
+        <field name="name">Master Gelar</field>
+        <field name="res_model">hr_recruit.gelar</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    
+    <record model="ir.actions.act_window" id="action_hr_recruit_agama">
+        <field name="name">Master Agama</field>
+        <field name="res_model">hr_recruit.agama</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="action_hr_recruit_issued">
+        <field name="name">Master Kecamatan</field>
+        <field name="res_model">hr_recruit.issued</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record model="ir.actions.act_window" id="action_gol">
+        <field name="name">Master golongan</field>
+        <field name="res_model">hr_employs.gol</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+	<record model="ir.actions.act_window" id="action_fasilitas">
+        <field name="name">Master Fasilitas</field>
+        <field name="res_model">hr.fasilitas3</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+	
+	<record model="ir.actions.act_window" id="action_kota">
+        <field name="name">Master Kota</field>
+        <field name="res_model">hr_recruit.kota</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_level">
+        <field name="name">Master Level</field>
+        <field name="res_model">hr_employs.clas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_prov">
+        <field name="name">Master Provinsi</field>
+        <field name="res_model">hr_recruit.prov</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+     <record model="ir.actions.act_window" id="action_crm_case_categ0_act_job1">
+        <field name="name">Applications</field>
+        <field name="res_model">hr.applicant</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>    
+    
+	<record id="kec_form_view" model="ir.ui.view">
+            <field name="name">Master Kecamatan</field>
+            <field name="model">hr_recruit.issued</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Kota">
+                    <field name="name"/>
+                    <field name="kota_id"/>
+                </tree>
+            </field>
+    </record>
+	
+    <record id="kota_form_view" model="ir.ui.view">
+            <field name="name">Master Kota</field>
+            <field name="model">hr_recruit.kota</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Kota">
+                    <field name="name"/>
+                    <field name="provinsi_id"/>
+                </tree>
+            </field>
+    </record>
+    
+    <record id="prov_form_view" model="ir.ui.view">
+            <field name="name">Master Provinsi</field>
+            <field name="model">hr_recruit.prov</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Kota">
+                    <field name="name"/>
+                    <field name="country_id"/>
+                </tree>
+            </field>
+    </record>
+	<record id="fasilitas_form_view" model="ir.ui.view">
+            <field name="name">Master Fasilitas</field>
+            <field name="model">hr.fasilitas3</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Kurikulum">
+                    <field name="name"/>
+                </form>
+            </field>
+    </record>
+	<record model="ir.actions.act_window" id="action_fasilitas3">
+        <field name="name">Master Fasilitas</field>
+        <field name="res_model">hr.fasilitas</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+	<record id="fasilitas3_form_view" model="ir.ui.view">
+            <field name="name">Master Fasilitas</field>
+            <field name="model">hr.fasilitas</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Kurikulum">
+                    <field name="fasilitas"/>
+                </form>
+            </field>
+    </record>
+	<record model="ir.actions.act_window" id="action_fasilitas2">
+        <field name="name">Master Fasilitas</field>
+        <field name="res_model">hr.fasilitas2</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+	<record id="fasilitas2_form_view" model="ir.ui.view">
+            <field name="name">Master Fasilitas</field>
+            <field name="model">hr.fasilitas2</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Kurikulum">
+                    <field name="fasilitas"/>
+                </form>
+            </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_pt">
+        <field name="name">Master Perguruan Tinggi</field>
+        <field name="res_model">hr_recruit.pt</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_working_schedule">
+        <field name="name">Working Schedule</field>
+        <field name="res_model">resource.calendar</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>   
+
+    <menuitem parent="hr.menu_hr_configuration" name="Tools" id="base.menu_tools" sequence="120" />  
+    <menuitem action="action_hr_recruit_pend" parent="base.menu_tools" name="Master Pendidikan" id="master_hr_type" sequence="140" />
+    <menuitem action="action_hr_recruit_jur" parent="base.menu_tools" name="Master Jurusan" id="master_hr_jurusan" sequence="150" />
+    <menuitem action="action_hr_recruit_class" parent="base.menu_tools" name="Master Class" id="master_hr_class" sequence="160" />
+    <menuitem action="action_hr_recruit_bid_krj" parent="base.menu_tools" name="Master Bidang Pekerjaan" id="master_hr_bid_krj" sequence="170"/>
+    <!--menuitem action="action_hr_recruit_kota" parent="base.menu_tools" name="Master Kota" id="master_hr_kota" sequence="180" groups="base.group_tool_user"/-->
+    <menuitem action="action_hr_recruit_agama" parent="base.menu_tools" name="Master Agama" id="master_hr_agama" sequence="190" />
+    <menuitem action="action_pt" parent="base.menu_tools" name="Master Perguruan Tinggi" id="master_pt" sequence="195"/>
+    
+    <menuitem action="action_gol" parent="base.menu_tools" name="Master Golongan" id="master_gol" sequence="201"/>
+	<menuitem action="action_fasilitas" parent="base.menu_tools" name="Master Fasilitas" id="master_fasilitas" sequence="202" />
+    <menuitem action="action_prov" parent="base.menu_tools" name="Master Provinsi" id="master_prov" sequence="203"/>
+	<menuitem action="action_kota" parent="base.menu_tools" name="Master Kota" id="master_Kota" sequence="204"/>
+    <menuitem action="action_hr_recruit_issued" parent="base.menu_tools" name="Master Kecamatan" id="master_hr_issued" sequence="205"/>
+    <menuitem action="action_level" parent="base.menu_tools" name="Master Level" id="master_level" sequence="300"/>
+    <menuitem action="action_gelar" parent="base.menu_tools" name="Master Gelar" id="master_gelar" sequence="400"/>
+	
+    <menuitem name="Reporting" id="hrd_ppi_main_reporting" parent="hr.menu_hr_root" sequence="30"/>
+    <menuitem action="action_hr_department" id="hr_menu_department" parent="base.menu_tools" name="Master Department" sequence="40"/>   
+
+    <menuitem action="employee_non_aktif" id="hr_employee_nonactive" parent="hr.menu_hr_main" name="Karyawan Tidak Aktif" sequence="3" groups="base.group_hr_manager"/>
+
+    <menuitem action="action_working_schedule" name="Working Schedule" id="action_working_schedule_1" parent="base.menu_tools" sequence="40"/>
+</data>
+</openerp>

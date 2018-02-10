@@ -1,0 +1,38 @@
+<openerp>
+	<data>
+		<!-- kebijakan -->
+
+		<record id="kebijakan1" model="anggaran.kebijakan">
+			<field name="name">Peningkatan Mutu Kinerja Akademik, Reset dan Pengabdian kepada Masyarakat</field>
+			<field name="code">1</field>
+		</record>
+
+		<record id="kebijakan2" model="anggaran.kebijakan">
+			<field name="name">Pemantapan pendidikan profesional guru dan profesi lainnya</field>
+			<field name="code">2</field>
+		</record>
+
+		<record id="kebijakan3" model="anggaran.kebijakan">
+			<field name="name">Peningkatan Mutu Manajemen dan Sumber Daya</field>
+			<field name="code">3</field>
+		</record>
+
+		<record id="kebijakan4" model="anggaran.kebijakan">
+			<field name="name">Penataan kelembagaan</field>
+			<field name="code">4</field>
+		</record>
+
+		<record id="kebijakan5" model="anggaran.kebijakan">
+			<field name="name">Peningkatan citra, kemitraan, dan internasionalisasi</field>
+			<field name="code">5</field>
+		</record>
+
+
+		<record id="kebijakan6" model="anggaran.kebijakan">
+			<field name="name">Peningkatan Mutu Pembinaan Kemahasiswaan</field>
+			<field name="code">6</field>
+		</record>
+
+
+	</data>
+</openerp>

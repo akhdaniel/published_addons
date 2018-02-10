@@ -1,0 +1,20 @@
+rka
+rka_kegiatan
+
+rka_coa
+	mak_id
+	total
+	realisasi
+	sisa
+
+rka_detail
+	rka_coa_id
+	volume_total
+	realisasi
+	sisa
+
+
+spp
+spp_line
+spp_line_mak
+	rka_coa_id

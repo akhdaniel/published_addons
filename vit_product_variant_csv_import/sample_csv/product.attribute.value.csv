@@ -1,8 +1,24 @@
-id,attribute_id/id,name
-test.size_33,test.attribute_size,Size 33
-test.size_34,test.attribute_size,Size 34
-test.size_35,test.attribute_size,Size 35
-test.size_36,test.attribute_size,Size 36
-test.size_37,test.attribute_size,Size 37
-test.color_black,test.attribute_color,Black
-test.color_red,test.attribute_color,Red
+"id","attribute_id/id","name"
+"sizeX","attribute_size","sizeX"
+"sizeS","attribute_size","sizeS"
+"sizeM","attribute_size","sizeM"
+"sizeL","attribute_size","sizeL"
+"sizeD","attribute_size","sizeD"
+"colorX7","attribute_color2","colorX7"
+"colorX3","attribute_color2","colorX3"
+"colorX2","attribute_color2","colorX2"
+"colorW9","attribute_color2","colorW9"
+"colorW7","attribute_color2","colorW7"
+"colorW6","attribute_color2","colorW6"
+"colorV9","attribute_color2","colorV9"
+"colorU8","attribute_color2","colorU8"
+"colorU6","attribute_color2","colorU6"
+"colorU5","attribute_color2","colorU5"
+"colorU0","attribute_color2","colorU0"
+"colorS2","attribute_color2","colorS2"
+"colorS0","attribute_color2","colorS0"
+"colorR3","attribute_color2","colorR3"
+"color0","attribute_color","color0"
+"colorS","attribute_color","colorS"
+"colorM","attribute_color","colorM"
+"colorL","attribute_color","colorL"

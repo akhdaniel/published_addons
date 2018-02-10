@@ -1,0 +1,58 @@
+<openerp>
+	<data>
+		<!-- program -->
+
+		<record id="program1" model="anggaran.program">
+			<field name="name">Peningkatan layanan dan penjaminan mutu akademik baik secara internal maupun external</field>
+			<field name="code">1</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan1"/>
+		</record>
+
+		<record id="program2" model="anggaran.program">
+			<field name="name">Pengembangan kultur akademik</field>
+			<field name="code">2</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan1"/>
+		</record>
+		
+		<record id="program3" model="anggaran.program">
+			<field name="name">Peningkatan relevansi dan daya saing kurikulum</field>
+			<field name="code">3</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan1"/>
+		</record>
+
+		<record id="program5" model="anggaran.program">
+			<field name="name">Peningkatan kompetensi dosen dan tenaga pendukung akademik</field>
+			<field name="code">5</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan1"/>
+		</record>
+	
+		<record id="program6" model="anggaran.program">
+			<field name="name">Pengembangan pembelajaran berbasis TIK</field>
+			<field name="code">6</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan1"/>
+		</record>
+
+		<record id="program7" model="anggaran.program">
+			<field name="name">Pengembangan arah kebijakan penelitian universitas</field>
+			<field name="code">7</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan1"/>
+		</record>
+
+		<record id="program3_1" model="anggaran.program">
+			<field name="name">Penginkatan mutu kinerja management SDM, keuangan, fasilitas, dan kegiatan lain yang 
+efisien, transapran, dan akuntabel untu kmendukung
+peningkatan mutu kinerja akademik</field>
+			<field name="code">1</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan3"/>
+		</record>
+
+		<record id="program3_11" model="anggaran.program">
+			<field name="name">Penyempurnaan sistem keuangan dan peningkatan mulu laporan keuangan</field>
+			<field name="code">11</field>
+			<field name="kebijakan_id" ref="anggaran.kebijakan3"/>
+		</record>
+
+	
+
+	</data>
+</openerp>

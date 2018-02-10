@@ -1,0 +1,496 @@
+id,code unit,unit_id,kode kegiatan,kegiatan,cost_type,name,kode
+,11.11,Prodi Teknik Sipil (S1),1.01.01,Rapat koordinasi dgn dosen,1,Bahan habis pakai,650.1.1.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.01,Rapat koordinasi dgn dosen,2,Honor/Upah,650.1.1.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.01,Rapat koordinasi dgn dosen,3,Sewa,650.1.1.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.01,Rapat koordinasi dgn dosen,4,Outsourcing,650.1.1.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.01,Rapat koordinasi dgn dosen,5,Overhead,650.1.1.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.02,Ketersediaan rancangan pembelajaran,1,Bahan habis pakai,650.1.1.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.02,Ketersediaan rancangan pembelajaran,2,Honor/Upah,650.1.1.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.02,Ketersediaan rancangan pembelajaran,3,Sewa,650.1.1.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.02,Ketersediaan rancangan pembelajaran,4,Outsourcing,650.1.1.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.02,Ketersediaan rancangan pembelajaran,5,Overhead,650.1.1.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.03,Ketersediaan dosen,1,Bahan habis pakai,650.1.1.01.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.03,Ketersediaan dosen,2,Honor/Upah,650.1.1.01.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.03,Ketersediaan dosen,3,Sewa,650.1.1.01.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.03,Ketersediaan dosen,4,Outsourcing,650.1.1.01.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.03,Ketersediaan dosen,5,Overhead,650.1.1.01.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.04,Kualifikasi dosen,1,Bahan habis pakai,650.1.1.01.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.04,Kualifikasi dosen,2,Honor/Upah,650.1.1.01.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.04,Kualifikasi dosen,3,Sewa,650.1.1.01.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.04,Kualifikasi dosen,4,Outsourcing,650.1.1.01.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.04,Kualifikasi dosen,5,Overhead,650.1.1.01.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.05,Ketersediaan fasilitas kuliah,1,Bahan habis pakai,650.1.1.01.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.05,Ketersediaan fasilitas kuliah,2,Honor/Upah,650.1.1.01.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.05,Ketersediaan fasilitas kuliah,3,Sewa,650.1.1.01.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.05,Ketersediaan fasilitas kuliah,4,Outsourcing,650.1.1.01.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.05,Ketersediaan fasilitas kuliah,5,Overhead,650.1.1.01.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,1,Bahan habis pakai,650.1.1.01.06.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,2,Honor/Upah,650.1.1.01.06.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,3,Sewa,650.1.1.01.06.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,4,Outsourcing,650.1.1.01.06.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.06,Mata kuliah yg ditawarkan dan jumlah kelas,5,Overhead,650.1.1.01.06.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.07,Jadual kuliah,1,Bahan habis pakai,650.1.1.01.07.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.07,Jadual kuliah,2,Honor/Upah,650.1.1.01.07.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.07,Jadual kuliah,3,Sewa,650.1.1.01.07.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.07,Jadual kuliah,4,Outsourcing,650.1.1.01.07.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.07,Jadual kuliah,5,Overhead,650.1.1.01.07.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.08,Pengisian KRS oleh mhs,1,Bahan habis pakai,650.1.1.01.08.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.08,Pengisian KRS oleh mhs,2,Honor/Upah,650.1.1.01.08.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.08,Pengisian KRS oleh mhs,3,Sewa,650.1.1.01.08.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.08,Pengisian KRS oleh mhs,4,Outsourcing,650.1.1.01.08.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.08,Pengisian KRS oleh mhs,5,Overhead,650.1.1.01.08.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,1,Bahan habis pakai,650.1.1.01.09.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,2,Honor/Upah,650.1.1.01.09.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,3,Sewa,650.1.1.01.09.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,4,Outsourcing,650.1.1.01.09.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.09,Daftar peserta kelas & presensi/mhs/kuliah,5,Overhead,650.1.1.01.09.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.10,Daftar hadir dosen/mata kuliah,1,Bahan habis pakai,650.1.1.01.10.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.10,Daftar hadir dosen/mata kuliah,2,Honor/Upah,650.1.1.01.10.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.10,Daftar hadir dosen/mata kuliah,3,Sewa,650.1.1.01.10.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.10,Daftar hadir dosen/mata kuliah,4,Outsourcing,650.1.1.01.10.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.01.10,Daftar hadir dosen/mata kuliah,5,Overhead,650.1.1.01.10.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.01,Lembar penyetaraan,1,Bahan habis pakai,650.1.1.02.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.01,Lembar penyetaraan,2,Honor/Upah,650.1.1.02.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.01,Lembar penyetaraan,3,Sewa,650.1.1.02.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.01,Lembar penyetaraan,4,Outsourcing,650.1.1.02.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.01,Lembar penyetaraan,5,Overhead,650.1.1.02.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,1,Bahan habis pakai,650.1.1.02.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,2,Honor/Upah,650.1.1.02.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,3,Sewa,650.1.1.02.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,4,Outsourcing,650.1.1.02.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.02,Mahasiswa pindahan sudah mengisi KRS pada minggu ke satu,5,Overhead,650.1.1.02.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.03,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.02.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.03,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.02.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.03,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.02.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.03,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.02.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.03,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.02.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.04,Jadwal praktikum,1,Bahan habis pakai,650.1.1.02.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.04,Jadwal praktikum,2,Honor/Upah,650.1.1.02.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.04,Jadwal praktikum,3,Sewa,650.1.1.02.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.04,Jadwal praktikum,4,Outsourcing,650.1.1.02.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.04,Jadwal praktikum,5,Overhead,650.1.1.02.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.05,Modul / alat praktikum,1,Bahan habis pakai,650.1.1.02.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.05,Modul / alat praktikum,2,Honor/Upah,650.1.1.02.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.05,Modul / alat praktikum,3,Sewa,650.1.1.02.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.05,Modul / alat praktikum,4,Outsourcing,650.1.1.02.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.05,Modul / alat praktikum,5,Overhead,650.1.1.02.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.06,Bahan habis pakai,1,Bahan habis pakai,650.1.1.02.06.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.06,Bahan habis pakai,2,Honor/Upah,650.1.1.02.06.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.06,Bahan habis pakai,3,Sewa,650.1.1.02.06.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.06,Bahan habis pakai,4,Outsourcing,650.1.1.02.06.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.06,Bahan habis pakai,5,Overhead,650.1.1.02.06.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.07,Dana praktikum,1,Bahan habis pakai,650.1.1.02.07.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.07,Dana praktikum,2,Honor/Upah,650.1.1.02.07.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.07,Dana praktikum,3,Sewa,650.1.1.02.07.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.07,Dana praktikum,4,Outsourcing,650.1.1.02.07.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.02.07,Dana praktikum,5,Overhead,650.1.1.02.07.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.01,Ketersediaan rancangan praktikum,1,Bahan habis pakai,650.1.1.03.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.01,Ketersediaan rancangan praktikum,2,Honor/Upah,650.1.1.03.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.01,Ketersediaan rancangan praktikum,3,Sewa,650.1.1.03.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.01,Ketersediaan rancangan praktikum,4,Outsourcing,650.1.1.03.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.01,Ketersediaan rancangan praktikum,5,Overhead,650.1.1.03.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.02,Jadual praktikum,1,Bahan habis pakai,650.1.1.03.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.02,Jadual praktikum,2,Honor/Upah,650.1.1.03.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.02,Jadual praktikum,3,Sewa,650.1.1.03.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.02,Jadual praktikum,4,Outsourcing,650.1.1.03.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.02,Jadual praktikum,5,Overhead,650.1.1.03.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.03,Modul/alat praktikum,1,Bahan habis pakai,650.1.1.03.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.03,Modul/alat praktikum,2,Honor/Upah,650.1.1.03.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.03,Modul/alat praktikum,3,Sewa,650.1.1.03.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.03,Modul/alat praktikum,4,Outsourcing,650.1.1.03.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.03,Modul/alat praktikum,5,Overhead,650.1.1.03.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.04,Bahan habis pakai,1,Bahan habis pakai,650.1.1.03.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.04,Bahan habis pakai,2,Honor/Upah,650.1.1.03.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.04,Bahan habis pakai,3,Sewa,650.1.1.03.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.04,Bahan habis pakai,4,Outsourcing,650.1.1.03.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.04,Bahan habis pakai,5,Overhead,650.1.1.03.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.05,Dana praktikum,1,Bahan habis pakai,650.1.1.03.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.05,Dana praktikum,2,Honor/Upah,650.1.1.03.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.05,Dana praktikum,3,Sewa,650.1.1.03.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.05,Dana praktikum,4,Outsourcing,650.1.1.03.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.05,Dana praktikum,5,Overhead,650.1.1.03.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.06,Daftar peserta praktikum,1,Bahan habis pakai,650.1.1.03.06.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.06,Daftar peserta praktikum,2,Honor/Upah,650.1.1.03.06.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.06,Daftar peserta praktikum,3,Sewa,650.1.1.03.06.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.06,Daftar peserta praktikum,4,Outsourcing,650.1.1.03.06.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.06,Daftar peserta praktikum,5,Overhead,650.1.1.03.06.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.07,Asisten/instruktur,1,Bahan habis pakai,650.1.1.03.07.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.07,Asisten/instruktur,2,Honor/Upah,650.1.1.03.07.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.07,Asisten/instruktur,3,Sewa,650.1.1.03.07.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.07,Asisten/instruktur,4,Outsourcing,650.1.1.03.07.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.07,Asisten/instruktur,5,Overhead,650.1.1.03.07.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.08,Penugasan asisten/instruktur,1,Bahan habis pakai,650.1.1.03.08.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.08,Penugasan asisten/instruktur,2,Honor/Upah,650.1.1.03.08.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.08,Penugasan asisten/instruktur,3,Sewa,650.1.1.03.08.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.08,Penugasan asisten/instruktur,4,Outsourcing,650.1.1.03.08.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.08,Penugasan asisten/instruktur,5,Overhead,650.1.1.03.08.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.09,Nilai akhir praktikum,1,Bahan habis pakai,650.1.1.03.09.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.09,Nilai akhir praktikum,2,Honor/Upah,650.1.1.03.09.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.09,Nilai akhir praktikum,3,Sewa,650.1.1.03.09.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.09,Nilai akhir praktikum,4,Outsourcing,650.1.1.03.09.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.03.09,Nilai akhir praktikum,5,Overhead,650.1.1.03.09.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.01,Jumlah kehadiran dosen,1,Bahan habis pakai,650.1.1.04.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.01,Jumlah kehadiran dosen,2,Honor/Upah,650.1.1.04.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.01,Jumlah kehadiran dosen,3,Sewa,650.1.1.04.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.01,Jumlah kehadiran dosen,4,Outsourcing,650.1.1.04.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.01,Jumlah kehadiran dosen,5,Overhead,650.1.1.04.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.02,Presensi mhs,1,Bahan habis pakai,650.1.1.04.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.02,Presensi mhs,2,Honor/Upah,650.1.1.04.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.02,Presensi mhs,3,Sewa,650.1.1.04.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.02,Presensi mhs,4,Outsourcing,650.1.1.04.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.02,Presensi mhs,5,Overhead,650.1.1.04.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.03,Mahasiswa pindahan/melanjutkan,1,Bahan habis pakai,650.1.1.04.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.03,Mahasiswa pindahan/melanjutkan,2,Honor/Upah,650.1.1.04.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.03,Mahasiswa pindahan/melanjutkan,3,Sewa,650.1.1.04.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.03,Mahasiswa pindahan/melanjutkan,4,Outsourcing,650.1.1.04.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.04.03,Mahasiswa pindahan/melanjutkan,5,Overhead,650.1.1.04.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.01,Jumlah kehadiran asisten/instruktur,1,Bahan habis pakai,650.1.1.05.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.01,Jumlah kehadiran asisten/instruktur,2,Honor/Upah,650.1.1.05.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.01,Jumlah kehadiran asisten/instruktur,3,Sewa,650.1.1.05.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.01,Jumlah kehadiran asisten/instruktur,4,Outsourcing,650.1.1.05.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.01,Jumlah kehadiran asisten/instruktur,5,Overhead,650.1.1.05.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.02,Presensi mhs peserta praktikum,1,Bahan habis pakai,650.1.1.05.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.02,Presensi mhs peserta praktikum,2,Honor/Upah,650.1.1.05.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.02,Presensi mhs peserta praktikum,3,Sewa,650.1.1.05.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.02,Presensi mhs peserta praktikum,4,Outsourcing,650.1.1.05.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.05.02,Presensi mhs peserta praktikum,5,Overhead,650.1.1.05.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.06.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.06.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.06.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.06.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.06.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.02,Jadual ujian,1,Bahan habis pakai,650.1.1.06.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.02,Jadual ujian,2,Honor/Upah,650.1.1.06.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.02,Jadual ujian,3,Sewa,650.1.1.06.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.02,Jadual ujian,4,Outsourcing,650.1.1.06.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.02,Jadual ujian,5,Overhead,650.1.1.06.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.03,KPU,1,Bahan habis pakai,650.1.1.06.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.03,KPU,2,Honor/Upah,650.1.1.06.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.03,KPU,3,Sewa,650.1.1.06.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.03,KPU,4,Outsourcing,650.1.1.06.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.03,KPU,5,Overhead,650.1.1.06.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.06.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.06.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.06.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.06.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.06.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.06.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.06.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.06.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.06.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.06.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.06,Nilai akhir,1,Bahan habis pakai,650.1.1.06.06.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.06,Nilai akhir,2,Honor/Upah,650.1.1.06.06.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.06,Nilai akhir,3,Sewa,650.1.1.06.06.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.06,Nilai akhir,4,Outsourcing,650.1.1.06.06.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.06,Nilai akhir,5,Overhead,650.1.1.06.06.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.06.07.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.07,Vakasi ujian,2,Honor/Upah,650.1.1.06.07.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.07,Vakasi ujian,3,Sewa,650.1.1.06.07.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.07,Vakasi ujian,4,Outsourcing,650.1.1.06.07.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.06.07,Vakasi ujian,5,Overhead,650.1.1.06.07.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.01,Tersediaan sarana & prasarana ujian,1,Bahan habis pakai,650.1.1.07.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.01,Tersediaan sarana & prasarana ujian,2,Honor/Upah,650.1.1.07.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.01,Tersediaan sarana & prasarana ujian,3,Sewa,650.1.1.07.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.01,Tersediaan sarana & prasarana ujian,4,Outsourcing,650.1.1.07.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.01,Tersediaan sarana & prasarana ujian,5,Overhead,650.1.1.07.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.02,Jadual ujian,1,Bahan habis pakai,650.1.1.07.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.02,Jadual ujian,2,Honor/Upah,650.1.1.07.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.02,Jadual ujian,3,Sewa,650.1.1.07.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.02,Jadual ujian,4,Outsourcing,650.1.1.07.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.02,Jadual ujian,5,Overhead,650.1.1.07.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.03,KPU,1,Bahan habis pakai,650.1.1.07.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.03,KPU,2,Honor/Upah,650.1.1.07.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.03,KPU,3,Sewa,650.1.1.07.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.03,KPU,4,Outsourcing,650.1.1.07.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.03,KPU,5,Overhead,650.1.1.07.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.04,Naskah ujian & lembar jawab,1,Bahan habis pakai,650.1.1.07.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.04,Naskah ujian & lembar jawab,2,Honor/Upah,650.1.1.07.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.04,Naskah ujian & lembar jawab,3,Sewa,650.1.1.07.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.04,Naskah ujian & lembar jawab,4,Outsourcing,650.1.1.07.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.04,Naskah ujian & lembar jawab,5,Overhead,650.1.1.07.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.05,Daftar hadir & daftar nilai peserta ujian,1,Bahan habis pakai,650.1.1.07.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.05,Daftar hadir & daftar nilai peserta ujian,2,Honor/Upah,650.1.1.07.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.05,Daftar hadir & daftar nilai peserta ujian,3,Sewa,650.1.1.07.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.05,Daftar hadir & daftar nilai peserta ujian,4,Outsourcing,650.1.1.07.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.05,Daftar hadir & daftar nilai peserta ujian,5,Overhead,650.1.1.07.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.06,Nilai akhir,1,Bahan habis pakai,650.1.1.07.06.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.06,Nilai akhir,2,Honor/Upah,650.1.1.07.06.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.06,Nilai akhir,3,Sewa,650.1.1.07.06.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.06,Nilai akhir,4,Outsourcing,650.1.1.07.06.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.06,Nilai akhir,5,Overhead,650.1.1.07.06.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.07,Vakasi ujian,1,Bahan habis pakai,650.1.1.07.07.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.07,Vakasi ujian,2,Honor/Upah,650.1.1.07.07.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.07,Vakasi ujian,3,Sewa,650.1.1.07.07.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.07,Vakasi ujian,4,Outsourcing,650.1.1.07.07.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.07.07,Vakasi ujian,5,Overhead,650.1.1.07.07.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.08.01,Tersedia perush tempat mhs praktek,1,Bahan habis pakai,650.1.1.08.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.08.01,Tersedia perush tempat mhs praktek,2,Honor/Upah,650.1.1.08.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.08.01,Tersedia perush tempat mhs praktek,3,Sewa,650.1.1.08.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.08.01,Tersedia perush tempat mhs praktek,4,Outsourcing,650.1.1.08.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.08.01,Tersedia perush tempat mhs praktek,5,Overhead,650.1.1.08.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.01,Jumlah IPK/IPS <2,1,Bahan habis pakai,650.1.1.09.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.01,Jumlah IPK/IPS <2,2,Honor/Upah,650.1.1.09.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.01,Jumlah IPK/IPS <2,3,Sewa,650.1.1.09.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.01,Jumlah IPK/IPS <2,4,Outsourcing,650.1.1.09.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.01,Jumlah IPK/IPS <2,5,Overhead,650.1.1.09.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.02,"Jumlah IPK/IPS 2,02,5",1,Bahan habis pakai,650.1.1.09.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.02,"Jumlah IPK/IPS 2,02,5",2,Honor/Upah,650.1.1.09.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.02,"Jumlah IPK/IPS 2,02,5",3,Sewa,650.1.1.09.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.02,"Jumlah IPK/IPS 2,02,5",4,Outsourcing,650.1.1.09.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.02,"Jumlah IPK/IPS 2,02,5",5,Overhead,650.1.1.09.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.03,"Jumlah IPK/IPS 2,53,0",1,Bahan habis pakai,650.1.1.09.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.03,"Jumlah IPK/IPS 2,53,0",2,Honor/Upah,650.1.1.09.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.03,"Jumlah IPK/IPS 2,53,0",3,Sewa,650.1.1.09.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.03,"Jumlah IPK/IPS 2,53,0",4,Outsourcing,650.1.1.09.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.03,"Jumlah IPK/IPS 2,53,0",5,Overhead,650.1.1.09.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.04,"Jumlah IPK/IPS 3,04,0",1,Bahan habis pakai,650.1.1.09.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.04,"Jumlah IPK/IPS 3,04,0",2,Honor/Upah,650.1.1.09.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.04,"Jumlah IPK/IPS 3,04,0",3,Sewa,650.1.1.09.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.04,"Jumlah IPK/IPS 3,04,0",4,Outsourcing,650.1.1.09.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.04,"Jumlah IPK/IPS 3,04,0",5,Overhead,650.1.1.09.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,1,Bahan habis pakai,650.1.1.09.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,2,Honor/Upah,650.1.1.09.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,3,Sewa,650.1.1.09.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,4,Outsourcing,650.1.1.09.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.09.05,Segmentasi status akademik mhs berdasar perolehan SKS,5,Overhead,650.1.1.09.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.01,Ketepatan waktu mulai,1,Bahan habis pakai,650.1.1.10.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.01,Ketepatan waktu mulai,2,Honor/Upah,650.1.1.10.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.01,Ketepatan waktu mulai,3,Sewa,650.1.1.10.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.01,Ketepatan waktu mulai,4,Outsourcing,650.1.1.10.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.01,Ketepatan waktu mulai,5,Overhead,650.1.1.10.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.02,Ketepatan waktu selesai,1,Bahan habis pakai,650.1.1.10.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.02,Ketepatan waktu selesai,2,Honor/Upah,650.1.1.10.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.02,Ketepatan waktu selesai,3,Sewa,650.1.1.10.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.02,Ketepatan waktu selesai,4,Outsourcing,650.1.1.10.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.10.02,Ketepatan waktu selesai,5,Overhead,650.1.1.10.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.01,Jadual ujian skripsi,1,Bahan habis pakai,650.1.1.11.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.01,Jadual ujian skripsi,2,Honor/Upah,650.1.1.11.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.01,Jadual ujian skripsi,3,Sewa,650.1.1.11.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.01,Jadual ujian skripsi,4,Outsourcing,650.1.1.11.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.01,Jadual ujian skripsi,5,Overhead,650.1.1.11.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.02,Kehadiran pembimbing & penguji,1,Bahan habis pakai,650.1.1.11.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.02,Kehadiran pembimbing & penguji,2,Honor/Upah,650.1.1.11.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.02,Kehadiran pembimbing & penguji,3,Sewa,650.1.1.11.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.02,Kehadiran pembimbing & penguji,4,Outsourcing,650.1.1.11.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.02,Kehadiran pembimbing & penguji,5,Overhead,650.1.1.11.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.03,Jumlah mhs yg lulus,1,Bahan habis pakai,650.1.1.11.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.03,Jumlah mhs yg lulus,2,Honor/Upah,650.1.1.11.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.03,Jumlah mhs yg lulus,3,Sewa,650.1.1.11.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.03,Jumlah mhs yg lulus,4,Outsourcing,650.1.1.11.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),1.11.03,Jumlah mhs yg lulus,5,Overhead,650.1.1.11.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.01,Persiapan draft RIP & study banding,1,Bahan habis pakai,650.1.2.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.01,Persiapan draft RIP & study banding,2,Honor/Upah,650.1.2.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.01,Persiapan draft RIP & study banding,3,Sewa,650.1.2.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.01,Persiapan draft RIP & study banding,4,Outsourcing,650.1.2.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.01,Persiapan draft RIP & study banding,5,Overhead,650.1.2.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.02,Pengumpulan data dari unit terkait,1,Bahan habis pakai,650.1.2.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.02,Pengumpulan data dari unit terkait,2,Honor/Upah,650.1.2.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.02,Pengumpulan data dari unit terkait,3,Sewa,650.1.2.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.02,Pengumpulan data dari unit terkait,4,Outsourcing,650.1.2.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.02,Pengumpulan data dari unit terkait,5,Overhead,650.1.2.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.03,Rapat pendahuluan SC & OC,1,Bahan habis pakai,650.1.2.01.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.03,Rapat pendahuluan SC & OC,2,Honor/Upah,650.1.2.01.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.03,Rapat pendahuluan SC & OC,3,Sewa,650.1.2.01.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.03,Rapat pendahuluan SC & OC,4,Outsourcing,650.1.2.01.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.03,Rapat pendahuluan SC & OC,5,Overhead,650.1.2.01.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.04,"Raker penyususnan RIP, Panduan dan SOP",1,Bahan habis pakai,650.1.2.01.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.04,"Raker penyususnan RIP, Panduan dan SOP",2,Honor/Upah,650.1.2.01.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.04,"Raker penyususnan RIP, Panduan dan SOP",3,Sewa,650.1.2.01.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.04,"Raker penyususnan RIP, Panduan dan SOP",4,Outsourcing,650.1.2.01.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.01.04,"Raker penyususnan RIP, Panduan dan SOP",5,Overhead,650.1.2.01.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,1,Bahan habis pakai,650.1.2.02.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,2,Honor/Upah,650.1.2.02.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,3,Sewa,650.1.2.02.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,4,Outsourcing,650.1.2.02.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.01,Penyusunan panduan penelitian sesuai panduan Dikti,5,Overhead,650.1.2.02.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.02,Rapat koordinasi,1,Bahan habis pakai,650.1.2.02.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.02,Rapat koordinasi,2,Honor/Upah,650.1.2.02.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.02,Rapat koordinasi,3,Sewa,650.1.2.02.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.02,Rapat koordinasi,4,Outsourcing,650.1.2.02.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.02,Rapat koordinasi,5,Overhead,650.1.2.02.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.03,Sosialisasi program PP,1,Bahan habis pakai,650.1.2.02.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.03,Sosialisasi program PP,2,Honor/Upah,650.1.2.02.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.03,Sosialisasi program PP,3,Sewa,650.1.2.02.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.03,Sosialisasi program PP,4,Outsourcing,650.1.2.02.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.03,Sosialisasi program PP,5,Overhead,650.1.2.02.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.04,Penyusunan Company Profile,1,Bahan habis pakai,650.1.2.02.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.04,Penyusunan Company Profile,2,Honor/Upah,650.1.2.02.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.04,Penyusunan Company Profile,3,Sewa,650.1.2.02.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.04,Penyusunan Company Profile,4,Outsourcing,650.1.2.02.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.02.04,Penyusunan Company Profile,5,Overhead,650.1.2.02.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.01,Pelatihan pembuatan proposal Penelitian,1,Bahan habis pakai,650.1.2.03.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.01,Pelatihan pembuatan proposal Penelitian,2,Honor/Upah,650.1.2.03.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.01,Pelatihan pembuatan proposal Penelitian,3,Sewa,650.1.2.03.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.01,Pelatihan pembuatan proposal Penelitian,4,Outsourcing,650.1.2.03.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.01,Pelatihan pembuatan proposal Penelitian,5,Overhead,650.1.2.03.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,1,Bahan habis pakai,650.1.2.03.10.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,2,Honor/Upah,650.1.2.03.10.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,3,Sewa,650.1.2.03.10.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,4,Outsourcing,650.1.2.03.10.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.03.10,Pelatihan jurnal ilmiah sesuai saintech bagi dosen,5,Overhead,650.1.2.03.10.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.01,Seminar IPTEK regulair,1,Bahan habis pakai,650.1.2.04.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.01,Seminar IPTEK regulair,2,Honor/Upah,650.1.2.04.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.01,Seminar IPTEK regulair,3,Sewa,650.1.2.04.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.01,Seminar IPTEK regulair,4,Outsourcing,650.1.2.04.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.01,Seminar IPTEK regulair,5,Overhead,650.1.2.04.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.02,Presentasi seminar ilmiah dosen,1,Bahan habis pakai,650.1.2.05.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.02,Presentasi seminar ilmiah dosen,2,Honor/Upah,650.1.2.05.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.02,Presentasi seminar ilmiah dosen,3,Sewa,650.1.2.05.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.02,Presentasi seminar ilmiah dosen,4,Outsourcing,650.1.2.05.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.02,Presentasi seminar ilmiah dosen,5,Overhead,650.1.2.05.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.03,Seminar dan workshop nasional,1,Bahan habis pakai,650.1.2.04.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.03,Seminar dan workshop nasional,2,Honor/Upah,650.1.2.04.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.03,Seminar dan workshop nasional,3,Sewa,650.1.2.04.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.03,Seminar dan workshop nasional,4,Outsourcing,650.1.2.04.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.04.03,Seminar dan workshop nasional,5,Overhead,650.1.2.04.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.01,Stimulan penelitian bagi dosen,1,Bahan habis pakai,650.1.2.05.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.01,Stimulan penelitian bagi dosen,2,Honor/Upah,650.1.2.05.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.01,Stimulan penelitian bagi dosen,3,Sewa,650.1.2.05.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.01,Stimulan penelitian bagi dosen,4,Outsourcing,650.1.2.05.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),2.05.01,Stimulan penelitian bagi dosen,5,Overhead,650.1.2.05.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",1,Bahan habis pakai,650.1.3.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",2,Honor/Upah,650.1.3.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",3,Sewa,650.1.3.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",4,Outsourcing,650.1.3.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.01,"Penyusunan panduan penelitian, pengabdian & kewirausahaan",5,Overhead,650.1.3.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,1,Bahan habis pakai,650.1.3.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,2,Honor/Upah,650.1.3.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,3,Sewa,650.1.3.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,4,Outsourcing,650.1.3.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.01.02,Penyusunan peraturan & silabi pelatihan bagi masyarakat,5,Overhead,650.1.3.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,1,Bahan habis pakai,650.1.3.02.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,2,Honor/Upah,650.1.3.02.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,3,Sewa,650.1.3.02.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,4,Outsourcing,650.1.3.02.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.02.01,Pelatihan pemuatan proposal pengabdian masyarakat,5,Overhead,650.1.3.02.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,1,Bahan habis pakai,650.1.3.03.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,2,Honor/Upah,650.1.3.03.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,3,Sewa,650.1.3.03.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,4,Outsourcing,650.1.3.03.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.01,Pelatihan penulisan karya ilmiah bagi mhs,5,Overhead,650.1.3.03.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.02,Pelatiahan kewirausahaan mhs,1,Bahan habis pakai,650.1.3.03.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.02,Pelatiahan kewirausahaan mhs,2,Honor/Upah,650.1.3.03.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.02,Pelatiahan kewirausahaan mhs,3,Sewa,650.1.3.03.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.02,Pelatiahan kewirausahaan mhs,4,Outsourcing,650.1.3.03.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.03.02,Pelatiahan kewirausahaan mhs,5,Overhead,650.1.3.03.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,1,Bahan habis pakai,650.1.3.04.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,2,Honor/Upah,650.1.3.04.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,3,Sewa,650.1.3.04.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,4,Outsourcing,650.1.3.04.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.01,Pelatiahan kewirausahaan pemuda karang taruna,5,Overhead,650.1.3.04.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,1,Bahan habis pakai,650.1.3.04.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,2,Honor/Upah,650.1.3.04.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,3,Sewa,650.1.3.04.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,4,Outsourcing,650.1.3.04.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.04.02,Pelatiahan kewirausahaan remaja putus sekolah,5,Overhead,650.1.3.04.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.01,Kegiatan pengabdian masyarakat,1,Bahan habis pakai,650.1.3.05.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.01,Kegiatan pengabdian masyarakat,2,Honor/Upah,650.1.3.05.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.01,Kegiatan pengabdian masyarakat,3,Sewa,650.1.3.05.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.01,Kegiatan pengabdian masyarakat,4,Outsourcing,650.1.3.05.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.01,Kegiatan pengabdian masyarakat,5,Overhead,650.1.3.05.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,1,Bahan habis pakai,650.1.3.05.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,2,Honor/Upah,650.1.3.05.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,3,Sewa,650.1.3.05.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,4,Outsourcing,650.1.3.05.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.02,Mengadakan seminar dan lokakarya kewirausahaan,5,Overhead,650.1.3.05.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.03,Stimulan kewirausahaan,1,Bahan habis pakai,650.1.3.05.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.03,Stimulan kewirausahaan,2,Honor/Upah,650.1.3.05.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.03,Stimulan kewirausahaan,3,Sewa,650.1.3.05.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.03,Stimulan kewirausahaan,4,Outsourcing,650.1.3.05.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.03,Stimulan kewirausahaan,5,Overhead,650.1.3.05.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.04,Pengabdian institut/fakultas/prodi,1,Bahan habis pakai,650.1.3.05.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.04,Pengabdian institut/fakultas/prodi,2,Honor/Upah,650.1.3.05.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.04,Pengabdian institut/fakultas/prodi,3,Sewa,650.1.3.05.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.04,Pengabdian institut/fakultas/prodi,4,Outsourcing,650.1.3.05.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),3.05.04,Pengabdian institut/fakultas/prodi,5,Overhead,650.1.3.05.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",1,Bahan habis pakai,650.1.4.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",2,Honor/Upah,650.1.4.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",3,Sewa,650.1.4.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",4,Outsourcing,650.1.4.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.01,"Membangun & mengembangkan jejaring ke pemerintah, swasta dll",5,Overhead,650.1.4.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.02,Pelaksanaan MOU,1,Bahan habis pakai,650.1.4.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.02,Pelaksanaan MOU,2,Honor/Upah,650.1.4.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.02,Pelaksanaan MOU,3,Sewa,650.1.4.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.02,Pelaksanaan MOU,4,Outsourcing,650.1.4.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.02,Pelaksanaan MOU,5,Overhead,650.1.4.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.03,Carrier Center,1,Bahan habis pakai,650.1.4.01.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.03,Carrier Center,2,Honor/Upah,650.1.4.01.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.03,Carrier Center,3,Sewa,650.1.4.01.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.03,Carrier Center,4,Outsourcing,650.1.4.01.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),4.01.03,Carrier Center,5,Overhead,650.1.4.01.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.01,Penerbitan jurnal scientech,1,Bahan habis pakai,650.1.5.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.01,Penerbitan jurnal scientech,2,Honor/Upah,650.1.5.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.01,Penerbitan jurnal scientech,3,Sewa,650.1.5.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.01,Penerbitan jurnal scientech,4,Outsourcing,650.1.5.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.01,Penerbitan jurnal scientech,5,Overhead,650.1.5.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.02,Penerbitan karya pengabdian,1,Bahan habis pakai,650.1.5.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.02,Penerbitan karya pengabdian,2,Honor/Upah,650.1.5.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.02,Penerbitan karya pengabdian,3,Sewa,650.1.5.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.02,Penerbitan karya pengabdian,4,Outsourcing,650.1.5.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.02,Penerbitan karya pengabdian,5,Overhead,650.1.5.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.03,Penerbitan proceeding/ karya unggulan,1,Bahan habis pakai,650.1.5.01.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.03,Penerbitan proceeding/ karya unggulan,2,Honor/Upah,650.1.5.01.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.03,Penerbitan proceeding/ karya unggulan,3,Sewa,650.1.5.01.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.03,Penerbitan proceeding/ karya unggulan,4,Outsourcing,650.1.5.01.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.03,Penerbitan proceeding/ karya unggulan,5,Overhead,650.1.5.01.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.04,Proses akreditasi jurnal scientech,1,Bahan habis pakai,650.1.5.01.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.04,Proses akreditasi jurnal scientech,2,Honor/Upah,650.1.5.01.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.04,Proses akreditasi jurnal scientech,3,Sewa,650.1.5.01.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.04,Proses akreditasi jurnal scientech,4,Outsourcing,650.1.5.01.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.04,Proses akreditasi jurnal scientech,5,Overhead,650.1.5.01.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.05,Proses portal & web karya ilmih,1,Bahan habis pakai,650.1.5.01.05.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.05,Proses portal & web karya ilmih,2,Honor/Upah,650.1.5.01.05.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.05,Proses portal & web karya ilmih,3,Sewa,650.1.5.01.05.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.05,Proses portal & web karya ilmih,4,Outsourcing,650.1.5.01.05.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.05,Proses portal & web karya ilmih,5,Overhead,650.1.5.01.05.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.06,Pencetakan company profile,1,Bahan habis pakai,650.1.5.01.06.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.06,Pencetakan company profile,2,Honor/Upah,650.1.5.01.06.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.06,Pencetakan company profile,3,Sewa,650.1.5.01.06.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.06,Pencetakan company profile,4,Outsourcing,650.1.5.01.06.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.06,Pencetakan company profile,5,Overhead,650.1.5.01.06.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.07,Pameran Iptek open campus,1,Bahan habis pakai,650.1.5.01.07.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.07,Pameran Iptek open campus,2,Honor/Upah,650.1.5.01.07.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.07,Pameran Iptek open campus,3,Sewa,650.1.5.01.07.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.07,Pameran Iptek open campus,4,Outsourcing,650.1.5.01.07.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.07,Pameran Iptek open campus,5,Overhead,650.1.5.01.07.5.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.08,Membangun pusat penerbitan ISTN Press,1,Bahan habis pakai,650.1.5.01.08.1.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.08,Membangun pusat penerbitan ISTN Press,2,Honor/Upah,650.1.5.01.08.2.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.08,Membangun pusat penerbitan ISTN Press,3,Sewa,650.1.5.01.08.3.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.08,Membangun pusat penerbitan ISTN Press,4,Outsourcing,650.1.5.01.08.4.11.11
+,11.11,Prodi Teknik Sipil (S1),5.01.08,Membangun pusat penerbitan ISTN Press,5,Overhead,650.1.5.01.08.5.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,1,Bahan habis pakai,650.1.6.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,2,Honor/Upah,650.1.6.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,3,Sewa,650.1.6.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,4,Outsourcing,650.1.6.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.01,Penyusunan revisi format monevin penelitian & peng.mas,5,Overhead,650.1.6.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,1,Bahan habis pakai,650.1.6.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,2,Honor/Upah,650.1.6.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,3,Sewa,650.1.6.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,4,Outsourcing,650.1.6.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.02,Memantau & pembinaan wirausaha hasil pelatihan,5,Overhead,650.1.6.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.03,Monevin penelitian & pengab. Masyarakat,1,Bahan habis pakai,650.1.6.01.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.03,Monevin penelitian & pengab. Masyarakat,2,Honor/Upah,650.1.6.01.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.03,Monevin penelitian & pengab. Masyarakat,3,Sewa,650.1.6.01.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.03,Monevin penelitian & pengab. Masyarakat,4,Outsourcing,650.1.6.01.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.03,Monevin penelitian & pengab. Masyarakat,5,Overhead,650.1.6.01.03.5.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.04,Pelaporan-pelaporan,1,Bahan habis pakai,650.1.6.01.04.1.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.04,Pelaporan-pelaporan,2,Honor/Upah,650.1.6.01.04.2.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.04,Pelaporan-pelaporan,3,Sewa,650.1.6.01.04.3.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.04,Pelaporan-pelaporan,4,Outsourcing,650.1.6.01.04.4.11.11
+,11.11,Prodi Teknik Sipil (S1),6.01.04,Pelaporan-pelaporan,5,Overhead,650.1.6.01.04.5.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.01,Pengiriman proposal,1,Bahan habis pakai,650.1.7.01.01.1.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.01,Pengiriman proposal,2,Honor/Upah,650.1.7.01.01.2.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.01,Pengiriman proposal,3,Sewa,650.1.7.01.01.3.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.01,Pengiriman proposal,4,Outsourcing,650.1.7.01.01.4.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.01,Pengiriman proposal,5,Overhead,650.1.7.01.01.5.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.02,Pembayaran iuran forum,1,Bahan habis pakai,650.1.7.01.02.1.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.02,Pembayaran iuran forum,2,Honor/Upah,650.1.7.01.02.2.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.02,Pembayaran iuran forum,3,Sewa,650.1.7.01.02.3.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.02,Pembayaran iuran forum,4,Outsourcing,650.1.7.01.02.4.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.02,Pembayaran iuran forum,5,Overhead,650.1.7.01.02.5.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.03,Representasi,1,Bahan habis pakai,650.1.7.01.03.1.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.03,Representasi,2,Honor/Upah,650.1.7.01.03.2.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.03,Representasi,3,Sewa,650.1.7.01.03.3.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.03,Representasi,4,Outsourcing,650.1.7.01.03.4.11.11
+,11.11,Prodi Teknik Sipil (S1),7.01.03,Representasi,5,Overhead,650.1.7.01.03.5.11.11

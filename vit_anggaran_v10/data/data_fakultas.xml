@@ -1,0 +1,44 @@
+<openerp>
+	<data>
+		<!-- fakultas -->
+		<record id="fakultas_FIP" model="anggaran.fakultas">
+			<field name="name">Fakultas Ilmu Pendidikan</field>
+			<field name="code">FIP</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+		<record id="fakultas_FPIPS" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Ilmu Pengetahuan Sosial</field>
+			<field name="code">FPIPS</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+		<record id="fakultas_FPBS" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Bahasa dan Seni</field>
+			<field name="code">FPBS</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+		<record id="fakultas_FPMIPA" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam</field>
+			<field name="code">FPMIPA</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+
+		<record id="fakultas_FPTK" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Teknologi dan Kejuruan</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+			<field name="code">FPTK</field>
+		</record>
+
+		<record id="fakultas_FPOK" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Olahraga dan Kesehatan</field>
+			<field name="code">FPOK</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+
+		<record id="fakultas_FPEB" model="anggaran.fakultas">
+			<field name="name">Fakultas Pendidikan Ekonomi dan Bisnis</field>
+			<field name="code">FPEB</field>
+			<field name="alamat">Jl Dr Setiabudi No 299 Bandung</field>
+		</record>
+
+	</data>
+</openerp>

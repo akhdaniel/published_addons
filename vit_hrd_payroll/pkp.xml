@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- Master Pajak -->
+        <record model="ir.actions.act_window" id="action_ptkp">
+            <field name="name">Master PTKP</field>
+            <field name="res_model">hr.ptkp</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_pkp">
+            <field name="name">Master PKP</field>
+            <field name="res_model">hr.pkp</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="hr_ptkp_view_tree" model="ir.ui.view">
+        <field name="name">hr.ptkp</field>
+        <field name="model">hr.ptkp</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Master PTKP" editable="bottom">
+            <field name="kode"/>
+            <field name="nominal_bulan" on_change="onchange_kali(nominal_bulan,nominal_tahun)"/>
+            <field name="nominal_tahun" on_change="onchange_bagi(nominal_bulan,nominal_tahun)"/>
+            </tree>
+        </field>
+        </record>
+
+        <record id="hr_pkp_view_tree" model="ir.ui.view">
+        <field name="name">hr.pkp</field>
+        <field name="model">hr.pkp</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Master PKP" editable="bottom">
+            <field name="kode"/>
+            <field name="nominal_min" />
+            <field name="nominal_max"/>
+            <field name="pajak"/>
+            </tree>
+        </field>
+        </record>
+
+        <menuitem action="action_ptkp" parent="base.menu_tools" name="Master PTKP" id="master_ptkp" sequence="212" groups="base.group_hr_manager,base.group_hr_user"/>
+        <menuitem action="action_pkp" parent="base.menu_tools" name="Master PKP" id="master_pkp" sequence="213" groups="base.group_hr_manager,base.group_hr_user"/>
+
+
+    </data>
+</openerp>

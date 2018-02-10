@@ -1,0 +1,202 @@
+<openerp>
+	<data>
+		<!-- action list sup -->
+		<record id="action_sup_list" model="ir.actions.act_window">
+			<field name="name">List Surat Permohonan Uang Persediaan</field>
+			<field name="res_model">anggaran.sup</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Surat Permohonan Uang Persediaan
+		      </p>				
+				<p>Klik tombol create untuk membuat Surat Permohonan Uang Persediaan</p>
+			</field>
+		</record>
+		<!-- action list tup -->
+		<!--record id="action_tup_list" model="ir.actions.act_window">
+			<field name="name">List Surat Permohonan Tambahan Uang Persediaan</field>
+			<field name="res_model">anggaran.tup</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Surat Permohonan Tambahan Uang Persediaan
+		      </p>				
+				<p>Klik tombol create untuk membuat Surat Permohonan Tambahan Uang Persediaan</p>
+			</field>
+		</record-->
+
+
+		<!-- action list spp -->
+		<record id="action_spp_list" model="ir.actions.act_window">
+			<field name="name">List Surat Permohonan Pembayaran</field>
+			<field name="res_model">anggaran.spp</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Surat Permohonan Pembayaran
+		      </p>				
+				<p>Klik tombol create untuk membuat Surat Permohonan Pembayaran</p>
+			</field>
+		</record>
+
+		<!-- action list sptb -->
+		<record id="action_sptb_list" model="ir.actions.act_window">
+			<field name="name">List SPTB</field>
+			<field name="res_model">anggaran.sptb</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Surat Pertanggungjawaban Belanja
+		      </p>				
+				<p>Klik tombol create untuk membuat Surat Pertanggungjawaban Belanja</p>
+			</field>
+		</record>
+		<!-- action list spm -->
+		<record id="action_spm_list" model="ir.actions.act_window">
+			<field name="name">List SPM</field>
+			<field name="res_model">anggaran.spm</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Surat Perintah Membayar
+		      </p>				
+				<p>Klik tombol create untuk membuat Surat Perintah Membayar</p>
+			</field>
+		</record>
+		
+		<!-- action list investasi -->
+		<!--record id="action_investasi_list" model="ir.actions.act_window">
+			<field name="name">List Investasi</field>
+			<field name="res_model">anggaran.investasi</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Dokumen Investasi
+		      </p>				
+				<p>Klik tombol create untuk membuat Dokumen Investasi</p>
+			</field>
+		</record-->
+
+		<!-- action list kas masuk -->
+		<record id="action_kas_masuk_list" model="ir.actions.act_window">
+			<field name="name">List Kas Masuk</field>
+			<field name="res_model">anggaran.kas</field>
+			<field name="view_mode">tree,form</field>
+			<field name="context">{'search_default_in':1}</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Transaksi Kas Masuk
+		      </p>				
+				<p>Klik tombol create untuk membuat Transaksi Kas Masuk</p>
+			</field>
+		</record>
+
+		<!-- action list kas keluar -->
+		<record id="action_kas_keluar_list" model="ir.actions.act_window">
+			<field name="name">List Kas Keluar</field>
+			<field name="res_model">anggaran.kas</field>
+			<field name="view_mode">tree,form</field>
+			<field name="context">{'search_default_out':1}</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Transaksi Kas keluar
+		      </p>				
+				<p>Klik tombol create untuk membuat Transaksi Kas keluar</p>
+			</field>
+		</record>
+		<!-- action list kas keluar -->
+		<record id="action_biaya_list" model="ir.actions.act_window">
+			<field name="name">List Pencatatan Biaya</field>
+			<field name="res_model">anggaran.biaya</field>
+			<field name="view_mode">tree,form</field>
+			<field name="help" type="html">
+		      <p class="oe_view_nocontent_create">
+		        Manage Transaksi Pencatatan Biaya
+		      </p>				
+				<p>Klik tombol create untuk membuat Transaksi pertanggungjawaban biaya kas keluar</p>
+			</field>
+		</record>
+
+		<!--  menu_anggaran_transaksi -->
+		<menuitem id="menu_anggaran_transaksi"
+			 name="Transaksi"
+			 sequence="20"
+			 parent="menu_anggaran"/>
+
+		<!-- menu_sup -->
+		<menuitem id="menu_sup"
+			 action="action_sup_list"
+			 name="UUDP"
+			 sequence="10"
+			 parent="menu_anggaran_transaksi"/>
+
+		<!-- menu_tup -->
+		<!-- <menuitem id="menu_tup"
+			 action="action_tup_list"
+			 name="TUP"
+			 sequence="20"
+			 parent="menu_anggaran_transaksi"/>-->
+
+		<!-- menu_spp --> 
+		<menuitem id="menu_spp"
+			 action="action_spp_list"
+			 name="SPP"
+			 sequence="30"
+			 parent="menu_anggaran_transaksi"/>
+
+		<!-- menu_sptb -->
+		<menuitem id="menu_sptb"
+			 action="action_sptb_list"
+			 name="SPTB"
+			 sequence="40"
+			 parent="menu_anggaran_transaksi"/>
+			 
+		<!-- menu_spm -->
+		<menuitem id="menu_spm"
+			 action="action_spm_list"
+			 name="SPB"
+			 sequence="50"
+			 parent="menu_anggaran_transaksi"/>
+
+			 
+		<!-- menu_investasi -->
+		<!--menuitem id="menu_investasi"
+			 action="action_investasi_list"
+			 name="Investasi"
+			 sequence="60"
+			 parent="menu_anggaran_transaksi"/-->
+
+
+
+		<!-- menu_kas -->
+		<menuitem id="menu_kas"
+			 name="Transaksi Kas"
+			 sequence="30"
+			 parent="menu_anggaran"/>
+
+		
+		<!-- menu_kas masuk -->
+		<menuitem id="menu_kas_masuk"
+			 action="action_kas_masuk_list"
+			 name="Kas Masuk"
+			 sequence="10"
+			 parent="menu_kas"/>		
+		
+		<!-- menu_kas masuk -->
+		<menuitem id="menu_kas_keluar"
+			 action="action_kas_keluar_list"
+			 name="Kas Keluar"
+			 sequence="20"
+			 parent="menu_kas"/>
+
+
+		<!-- menu biaya -->
+		<menuitem id="menu_biaya"
+			 action="action_biaya_list"
+			 name="Pencatatan Biaya"
+			 sequence="30"
+			 parent="menu_kas"/>
+
+ 
+	</data>
+</openerp>
