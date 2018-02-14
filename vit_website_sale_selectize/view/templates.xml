@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="address" name="Address Management" inherit_id="website_sale.address">
+        <form position="replace">
+
+            <form name="/shop/checkout" method="post" class="checkout_autoformat">
+                <div t-attf-class="form-group #{error.get('name') and 'has-error' or ''} col-md-12 div_name">
+                    <label class="control-label" for="name">Name</label>
+                    <input type="text" name="name" class="form-control" t-att-value="'name' in checkout and checkout['name']" />
+                </div>
+                <div class="clearfix" />
+                <t t-if="mode[1] == 'billing'">
+                    <div t-attf-class="form-group #{error.get('email') and 'has-error' or ''} col-md-6" id="div_email">
+                        <label class="control-label" for="email">Email</label>
+                        <input type="email" name="email" class="form-control" t-att-value="'email' in checkout and checkout['email']" />
+                    </div>
+                </t>
+                <div t-attf-class="form-group #{error.get('phone') and 'has-error' or ''} col-md-6" id="div_phone">
+                    <label class="control-label" for="phone">Phone</label>
+                    <input type="tel" name="phone" class="form-control" t-att-value="'phone' in checkout and checkout['phone']" />
+                </div>
+                <div class="clearfix" />
+                <t t-if="mode == ('new', 'billing')">
+                    <div t-attf-class="form-group #{error.get('company_name') and 'has-error' or ''} col-md-6">
+                        <label class="control-label label-optional" for="company_name">Company Name</label>
+                        <input type="text" name="company_name" class="form-control" t-att-value="'company_name' in checkout and checkout['company_name']" />
+                    </div>
+                    <div t-attf-class="form-group #{error.get('vat') and 'has-error' or ''} col-md-6 div_vat">
+                        <label class="control-label label-optional" for="vat">TIN / VAT </label>
+                        <input type="text" name="vat" class="form-control" t-att-value="'vat' in checkout and checkout['vat']" />
+                    </div>
+                </t>
+                <div class="clearfix" />
+                <div t-attf-class="form-group #{error.get('street') and 'has-error' or ''} col-md-12 div_street">
+                    <label class="control-label" for="street">Street <span class="hidden-xs"> and Number</span></label>
+                    <input type="text" name="street" class="form-control" t-att-value="'street' in checkout and checkout['street']" />
+                </div>
+                <div class="clearfix" />
+                <t t-set='zip_city' t-value='country and [x for x in country.get_address_fields() if x in ["zip", "city"]] or ["city", "zip"]'/>
+                <t t-if="'zip' in zip_city and zip_city.index('zip') &lt; zip_city.index('city')">
+                    <div t-attf-class="form-group #{error.get('zip') and 'has-error' or ''} col-sm-4 div_zip">
+                        <label class="control-label label-optional" for="zip">Zip Code</label>
+                        <input type="text" name="zip" class="form-control" t-att-value="'zip' in checkout and checkout['zip']" />
+                    </div>
+                </t>
+                <div class="clearfix" />
+                <div t-attf-class="form-group #{error.get('country_id') and 'has-error' or ''} col-md-6 div_country">
+                    <label class="control-label" for="country_id">Country</label>
+                    <select id="country_id" name="country_id" />
+                </div>
+                <div t-attf-class="form-group #{error.get('state_id') and 'has-error' or ''} col-md-6 div_state">
+                    <label class="control-label" for="state_id">State / Province</label>
+                    <select name="state_id" id="state_id" />
+                </div>
+
+                <div class="clearfix" />
+                <div t-attf-class="form-group #{error.get('city') and 'has-error' or ''} col-sm-8 div_city">
+                    <label class="control-label" for="city">City</label>
+                    <select name="kota_id" id="kota_id"/>
+                    <input type="hidden" name="city" id="city" />
+                </div>
+                <t t-if="'zip' in zip_city and zip_city.index('zip') &gt; zip_city.index('city')">
+                    <div t-attf-class="form-group #{error.get('zip') and 'has-error' or ''} col-sm-4 div_zip">
+                        <label class="control-label label-optional" for="zip">Zip Code</label>
+                        <input type="text" name="zip" class="form-control" t-att-value="'zip' in checkout and checkout['zip']" />
+                    </div>
+                </t>
+
+                <div class="clearfix" />
+                <div t-attf-class="form-group #{error.get('kecamatan_id') and 'has-error' or ''} col-sm-8 div_kecamatan_id">
+                    <label class="control-label" for="kecamatan_id">Kecamatan</label>
+                    <select id="kecamatan_id" name="kecamatan_id"/>
+                </div>
+                <div t-attf-class="form-group #{error.get('kelurahan_id') and 'has-error' or ''} col-sm-8 div_kelurahan_id">
+                    <label class="control-label" for="kelurahan_id">Kelurahan</label>
+                    <select id="kelurahan_id" name="kelurahan_id"/>
+                </div>
+
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                <input type="hidden" name="submitted" value="1" />
+                <input type="hidden" name="partner_id" t-att-value="partner_id or '0'" />
+                <input type="hidden" name="callback" t-att-value="callback" />
+                <!-- Example -->
+                <input type="hidden" name="field_required" t-att-value="mode[1] == 'billing' and 'phone,name' or ''" />
+
+                <div class="clearfix"/>
+                <div>
+                    <a t-att-href="mode == ('new', 'billing') and '/shop/cart' or '/shop/checkout'" class="btn btn-default mb32">
+                        <span class="fa fa-long-arrow-left" /> Back
+                    </a>
+                    <a class="btn btn-default btn-primary pull-right mb32 a-submit a-submit-disable a-submit-loading">
+                        <span>Next </span><span class="fa fa-long-arrow-right" />
+                    </a>
+                </div>
+            </form>
+
+            <script>
+            $(document).ready(function(){
+            var xhr;
+            var state_id, $state_id;
+            var kota_id, $kota_id;
+            var kecamatan_id, $kecamatan_id;
+            var kelurahan_id, $kelurahan_id;
+
+            $country_id = $('#country_id').selectize({
+                valueField: 'id',
+                labelField: 'name',
+                searchField: 'name',
+                options: [{"id":"<t t-esc="country.id" t-if="country"/>", "name":"<t t-esc="country.name"  t-if="country"/>"}],
+                create: false,
+                persist: true,
+
+                load: function(query, callback) {
+                    if (!query.length) return callback();
+                    $.ajax({
+                        url: '/selectize/countries',
+                        type: 'GET',
+                        dataType: 'json',
+                        data: {
+                            q: query,
+                            page_limit: 10,
+                        },
+                        error: function(res) {
+                            console.log(res);
+                        },
+                        success: function(res) {
+                            callback(res);
+                        }
+                    });
+                },
+                onChange: function(value) {
+                    if (!value.length) return;
+                    state_id.disable();
+                    state_id.clearOptions();
+
+                    state_id.load(function(callback) {
+                        xhr &amp;&amp; xhr.abort();
+                        xhr = $.ajax({
+                            type: 'GET',
+                            dataType: 'json',
+                            url: '/selectize/states/' + value ,
+                            success: function(results) {
+                                console.log(results);
+                                state_id.enable();
+                                callback(results);
+                                state_id.setValue(<t t-esc="'state_id' in checkout and country and checkout['state_id']"/>);
+
+                            },
+                            error: function() {
+                                callback();
+                            }
+                        })
+                    });
+                }
+            });
+
+            $state_id = $('#state_id').selectize({
+                valueField: 'id',
+                labelField: 'name',
+                searchField: 'name',
+                options: [],
+                create: false,
+                onChange: function(value) {
+                    if (!value.length) return;
+                    kota_id.load(function(callback) {
+                        xhr &amp;&amp; xhr.abort();
+                        xhr = $.ajax({
+                            type: 'GET',
+                            dataType: 'json',
+                            url: '/selectize/cities/' + value ,
+                            success: function(results) {
+                                kota_id.disable();
+                                kota_id.clearOptions();
+                                kota_id.enable();
+                                callback(results);
+                                kota_id.setValue(<t t-esc="'kota_id' in checkout and country and checkout['kota_id']"/>);
+                            },
+                            error: function() {
+                                callback();
+                            }
+                        })
+                    });
+
+                }
+            });
+
+            $kota_id = $('#kota_id').selectize({
+                valueField: 'id',
+                labelField: 'name',
+                searchField: ['name'],
+                onChange: function(value) {
+                    if (!value.length) return;
+
+                    $("#city").val(kota_id.options[value].name);
+
+                    kecamatan_id.disable();
+                    kecamatan_id.clearOptions();
+
+                    kecamatan_id.load(function(callback) {
+                        xhr &amp;&amp; xhr.abort();
+                        xhr = $.ajax({
+                            type: 'GET',
+                            dataType: 'json',
+                            url: '/selectize/kecamatans/' + value ,
+                            success: function(results) {
+                                kecamatan_id.enable();
+                                callback(results);
+                                kecamatan_id.setValue(<t t-esc="'kecamatan_id' in checkout and country and checkout['kecamatan_id']"/>);
+                            },
+                            error: function() {
+                                callback();
+                            }
+                        })
+                    });
+
+                }
+            });
+            $kecamatan_id = $('#kecamatan_id').selectize({
+                valueField: 'id',
+                labelField: 'name',
+                searchField: ['name'],
+                onChange: function(value) {
+                    if (!value.length) return;
+                    kelurahan_id.disable();
+                    kelurahan_id.clearOptions();
+                    kelurahan_id.load(function(callback) {
+                        xhr &amp;&amp; xhr.abort();
+                        xhr = $.ajax({
+                            type: 'GET',
+                            dataType: 'json',
+                            url: '/selectize/kelurahans/' + value ,
+                            success: function(results) {
+                                kelurahan_id.enable();
+                                callback(results);
+                                kelurahan_id.setValue(<t t-esc="'kelurahan_id' in checkout and country and checkout['kelurahan_id']"/>);
+                            },
+                            error: function() {
+                                callback();
+                            }
+                        })
+                    });
+
+                }
+            });
+
+            $kelurahan_id = $('#kelurahan_id').selectize({
+                valueField: 'id',
+                labelField: 'name',
+                searchField: ['name'],
+            });
+
+            country_id = $country_id[0].selectize;
+
+            state_id = $state_id[0].selectize;
+            kota_id  = $kota_id[0].selectize;
+            kecamatan_id  = $kecamatan_id[0].selectize;
+            kelurahan_id  = $kelurahan_id[0].selectize;
+
+            country_id.setValue(<t t-esc="country.id"/>);
+
+        });
+        </script>
+
+        </form>
+    </template>
+
+
+
+</odoo>

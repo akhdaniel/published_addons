@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <function model="ir.model.fields" name="formbuilder_whitelist">
+            <value>res.partner</value>
+            <value eval="[
+                'name', 'phone', 'email',
+                'city', 'zip', 'street', 'state_id', 'country_id',
+                'vat', 'company_name', 'kota_id', 'kecamatan_id', 'kelurahan_id'
+            ]"/>
+        </function>
+
+    </data>
+</openerp>
