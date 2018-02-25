@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+		<record id="seq_doqar_wo" model="ir.sequence">
+			<field name="name">Work Order</field>
+			<field name="code">doqar.wo</field>
+			<field name="suffix">/DTM-WO/%(month)s/%(year)s</field>
+			<field name="padding">3</field>
+			<field name="next_number_actual">1</field>
+			<field name="number_increment">1</field>
+			<field name="implementation">standard</field>
+		</record>
+
+	</data>
+</openerp>
