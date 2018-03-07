@@ -41,7 +41,7 @@ class outbox(models.Model):
                 elif message.tag=='to':
                     to = message.text
                 elif message.tag=='balance':
-                    balance = message.text
+                    balance = message.text 
 
             messageid = 'none'
             return (status, text, messageid)
