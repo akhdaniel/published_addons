@@ -17,7 +17,7 @@ class outbox(models.Model):
     def send_gateway(self):
         _logger.info('send_gateway on vit_sms_zenziva')
 
-        config = self.env['vit_sms.config'].search([('code','=','Zenziva')])
+        config = self.env['vit_sms.config'].search([('code','=','zenziva')])
 
         if self.config_id == config:
             data = {'userkey'      : config.username,
@@ -26,17 +26,25 @@ class outbox(models.Model):
                     'nohp'       : self.destination,
                     }
 
-            url = config.hostname + config.plain_url
+            url = config.hostname + config.zenziva_url
             r = requests.post(url, data=data)
             _logger.info("response %s %s %s"  % (r.status_code, r.reason, r.text))
 
-            e = xml.etree.ElementTree.parseString(r.text)
-            for chi in e:
-                to = chi[0].text
-                status = chi[1].text
-                error_message = chi[2].text
-                messageid = 'none'
-            return (status, error_message, messageid)
+            status, text, messageid, balance = (-1,'empty','empty', -1)
+
+            root = xml.etree.ElementTree.fromstring(r.text)
+            for message in root.find('message'):
+                if message.tag=='status':
+                    status = message.text
+                elif message.tag=='text':
+                    text = message.text
+                elif message.tag=='to':
+                    to = message.text
+                elif message.tag=='balance':
+                    balance = message.text
+
+            messageid = 'none'
+            return (status, text, messageid)
 
 
     # set config default to Zenziva
