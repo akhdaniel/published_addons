@@ -30,7 +30,7 @@ class outbox(models.Model):
             r = requests.post(url, data=data)
             _logger.info("response %s %s %s"  % (r.status_code, r.reason, r.text))
 
-            status, text, messageid, balance = (-1,'empty','empty', '')
+            status, to, text, messageid, balance = (-1, '', 'empty','empty', '0')
 
             root = xml.etree.ElementTree.fromstring(r.text)
             for message in root.find('message'):
