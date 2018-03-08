@@ -9,8 +9,8 @@ class send_sms(models.Model):
     _name = 'vit_sms.send_sms'
     group_ids       = fields.Many2many(comodel_name="vit_sms.group", string="Groups", )
     partner_ids     = fields.Many2many(comodel_name="res.partner", string="Partners", )
-    partner_domain = fields.Char(string="Partner Search Domain", required=False, default="[('mobile','!=',False)]" )
-    additional_destination = fields.Char("Additional Destination", help="Comma separated mobile numbers")
+    partner_domain = fields.Char(string="Partner Search Domain", required=False, default="[('phone','!=',False)]" )
+    additional_destination = fields.Char("Additional Destination", help="Comma separated phone numbers")
     message         = fields.Text(string="Message", required=True,
                                   help="Message to send, max 160 chars. Available tokens: {name}, {street}, {city}, {country}", size=160)
     send_datetime   = fields.Datetime(string="Send datetime", required=False, default=lambda self: time.strftime("%Y-%m-%d %H:%M:%S"))
@@ -29,7 +29,7 @@ class send_sms(models.Model):
         outbox = self.env['vit_sms.outbox']
         for dest in self._compute_destination():
             data = {
-                'destination'   : dest.mobile,
+                'destination'   : dest.phone,
                 'message'       : self.replace_tokens(dest),
                 'send_datetime' : self.send_datetime,
                 'is_immediate'  : self.is_immediate,
@@ -63,15 +63,15 @@ class send_sms(models.Model):
     @api.depends("group_ids","partner_ids","additional_destination")
     def _compute_destination(self):
         # partner_ids
-        dest = [ p for p in self.partner_ids if p.mobile]
+        dest = [ p for p in self.partner_ids if p.phone]
 
         # group_ids
         for g in self.group_ids:
-            dest += [p for p in g.partner_ids if p.mobile]
+            dest += [p for p in g.partner_ids if p.phone]
 
         # partner domain
         partners = self.env['res.partner'].search(eval(self.partner_domain))
-        dest += [ p for p in partners if p.mobile]
+        dest += [ p for p in partners if p.phone]
 
         return dest
 

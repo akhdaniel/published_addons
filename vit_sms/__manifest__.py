@@ -1,6 +1,6 @@
 {
 	"name": "vitSMS - Base Module",
-	"version": "1.2",
+	"version": "1.3",
 	"depends": [
 		"base",
 		"mail"
