@@ -22,8 +22,9 @@
                     <group colspan="4">
                         <field name="group_ids" widget="many2many_tags"/>
                         <field name="partner_ids" widget="many2many_tags"/>
+                        <field name="partner_domain" />
                         <field name="additional_destination" />
-                        <field name="destination" />
+                        <!--field name="destination" /-->
                         <field name="message" />
                         <field name="send_datetime" />
                     </group>
@@ -37,11 +38,6 @@
             </field>
         </record>
         
-        <menuitem id="menu_vit_sms_outbox_wizard"
-                  parent="vit_sms_history"
-                  sequence="20"
-                  name="Send Message"
-                  action="act_open_vit_sms_outbox_wizard"/>
 
         
 

@@ -1,6 +1,6 @@
 {
 	"name": "vitSMS - Base Module",
-	"version": "1.1",
+	"version": "1.2",
 	"depends": [
 		"base",
 		"mail"
@@ -22,8 +22,9 @@
 		"view/group.xml",
 		"view/sent.xml",
 		"view/config.xml",
+		"view/send_sms.xml",
 		"data/cron.xml",
-		"wizard/outbox_wizard.xml",
+		#"wizard/outbox_wizard.xml",
 	],
 	"installable": True,
 	"auto_install": False,

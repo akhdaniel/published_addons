@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_vit_sms_send_sms_tree" model="ir.ui.view">
+            <field name="name">vit_sms.send_sms.tree</field>
+            <field name="model">vit_sms.send_sms</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Send SMS">
+                    <field name="group_ids"/>
+                    <field name="partner_ids"/>
+                    <field name="partner_domain"/>
+                    <field name="additional_destination"/>
+                    <field name="message"/>
+                    <field name="send_datetime"/>
+                    <field name="is_immediate"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_vit_sms_send_sms_form" model="ir.ui.view">
+            <field name="name">vit_sms.send_sms.form</field>
+            <field name="model">vit_sms.send_sms</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Send SMS" version="7.0">
+                    <header>
+                        <button string="Confirm" icon="fa-confirm" states="draft" type="object" name="action_confirm"/>
+                        <button string="Cancel" icon="fa-cancel" states="done" type="object" name="action_cancel"/>
+
+                    </header>
+
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="group_ids" widget="many2many_tags"/>
+                                <field name="partner_ids" widget="many2many_tags"/>
+                                <field name="partner_domain"/>
+                                <field name="additional_destination"/>
+                            </group>
+                            <group>
+                                <field name="send_datetime"/>
+                                <field name="is_immediate"/>
+                                <field name="state"/>
+                            </group>
+                            <group colspan="4">
+                                <field name="message"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_vit_sms_send_sms_search" model="ir.ui.view">
+            <field name="name">vit_sms.send_sms.search</field>
+            <field name="model">vit_sms.send_sms</field>
+            <field name="type">search</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <search string="Send SMS">
+                    <field name="message" select="True"/>
+                    <group expand="0" string="Group By">
+                        <filter string="" icon="terp-camera_test" name="" context="{'group_by':''}"/>
+                    </group>
+
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="act_open_vit_sms_send_sms_view">
+            <field name="name">Send SMS</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">vit_sms.send_sms</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_vit_sms_send_sms_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_sms_send_sms_view_form">
+            <field name="act_window_id" ref="act_open_vit_sms_send_sms_view"/>
+            <field name="sequence" eval="20"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_vit_sms_send_sms_form"/>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="act_open_vit_sms_send_sms_view_tree">
+            <field name="act_window_id" ref="act_open_vit_sms_send_sms_view"/>
+            <field name="sequence" eval="10"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_vit_sms_send_sms_tree"/>
+        </record>
+
+        <menuitem id="menu_vit_sms_send_sms"
+                  parent="vit_sms_history"
+                  sequence="30"
+                  action="act_open_vit_sms_send_sms_view"/>
+    
+    </data>
+</openerp>
