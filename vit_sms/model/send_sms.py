@@ -70,8 +70,9 @@ class send_sms(models.Model):
             dest += [p for p in g.partner_ids if p.phone]
 
         # partner domain
-        partners = self.env['res.partner'].search(eval(self.partner_domain))
-        dest += [ p for p in partners if p.phone]
+        if self.partner_domain:
+            partners = self.env['res.partner'].search(eval(self.partner_domain))
+            dest += [ p for p in partners if p.phone]
 
         return dest
 
