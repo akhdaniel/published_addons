@@ -1,6 +1,6 @@
 {
 	"name": "vitSMS - Zenziva Gateway Implementation",
-	"version": "1.1",
+	"version": "1.2",
 	"depends": [
 		"vit_sms",
 	],

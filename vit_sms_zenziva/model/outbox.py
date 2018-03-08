@@ -30,20 +30,21 @@ class outbox(models.Model):
             r = requests.post(url, data=data)
             _logger.info("response %s %s %s"  % (r.status_code, r.reason, r.text))
 
-            status, text, messageid, balance = (-1,'empty','empty', -1)
+            status, text, messageid, balance = (-1,'empty','empty', '')
 
             root = xml.etree.ElementTree.fromstring(r.text)
             for message in root.find('message'):
                 if message.tag=='status':
-                    status = message.text
+                    status = int(message.text)
                 elif message.tag=='text':
                     text = message.text
                 elif message.tag=='to':
                     to = message.text
                 elif message.tag=='balance':
-                    balance = message.text 
+                    balance = message.text
 
             messageid = 'none'
+            text += ' To:' +to+' Balance:' + balance
             return (status, text, messageid)
 
 

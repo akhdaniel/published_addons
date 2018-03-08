@@ -38,8 +38,8 @@ class outbox(models.Model):
             state = 'sent'
         else:
             state = 'failed'
-            self.error_message = error_message
 
+        self.error_message = error_message
         self.messageid = messageid
         self.move_to_sent(state)
 
@@ -73,6 +73,8 @@ class outbox(models.Model):
             (status,error_message, messageid) = out.send_gateway()
 
             out.messageid=messageid
+            out.error_message=error_message
+
             if status == 0 or out.retry > MAX_RETRY:
                 if out.retry < MAX_RETRY:
                     state = 'sent'
@@ -80,13 +82,12 @@ class outbox(models.Model):
                     state='failed'
                 out.move_to_sent(state)
             else:
-                out.error_message = error_message
                 out.retry = out.retry + 1
 
 
     def send_gateway(self):
         _logger.info('send_gateway to be implemented in gateway specific addon')
-        return (0,'')
+        return (0,'','')
     
     
     def send_sms(self, destination, message, send_datetime=False, is_immediate=False):
@@ -113,8 +114,8 @@ class outbox(models.Model):
                 state = 'sent'
             else:
                 state = 'failed'
-                out.error_message = error_message
 
+            out.error_message = error_message
             out.messageid=messageid
             out.move_to_sent(state)
 
