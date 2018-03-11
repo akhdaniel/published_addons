@@ -76,7 +76,7 @@ class send_sms(models.Model):
 
     def _compute_destination(self):
 
-        prefixes = self.prefixes.split(",")
+        prefixes = self.prefixes.split(",") if self.prefixes else []
 
         # partner_ids
         dest = [ p for p in self.partner_ids if p.phone]
