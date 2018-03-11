@@ -96,7 +96,7 @@
 
         <menuitem id="menu_vit_sms_outbox"
                   parent="vit_sms_history"
-                  sequence="10"
+                  sequence="20"
                   action="act_open_vit_sms_outbox_view"/>
     
     </data>

@@ -8,13 +8,13 @@
 
 
 		<menuitem id="vit_sms_history"
-				  name="History"
+				  name="Transactions"
 				  sequence="10"
 				  parent="vit_sms_mainmenu"
 		 />
 
 		<menuitem id="vit_sms_report"
-				  name="Report"
+				  name="Reports"
 				  sequence="20"
 				  parent="vit_sms_mainmenu"
 		 />

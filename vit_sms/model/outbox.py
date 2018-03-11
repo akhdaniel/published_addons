@@ -24,6 +24,7 @@ class outbox(models.Model):
     retry           = fields.Integer(string="Retry", required=False, default=0)
 
     messageid       = fields.Char(string="Message ID", required=False, help="Tracking for delivery report")
+    send_sms_id     = fields.Many2one(comodel_name="vit_sms.send_sms", string="Send SMS", required=False, )
 
     @api.model
     def create(self, vals):
@@ -63,6 +64,7 @@ class outbox(models.Model):
             'error_message' : self.error_message,
             'retry'         : self.retry,
             'messageid'     : self.messageid,
+            'send_sms_id'   : self.send_sms_id.id ,
         })
         self.unlink()
 
@@ -83,6 +85,8 @@ class outbox(models.Model):
                 out.move_to_sent(state)
             else:
                 out.retry = out.retry + 1
+
+            self.env.cr.commit()
 
 
     def send_gateway(self):

@@ -31,6 +31,7 @@
                     <header>
                         <button string="Confirm" icon="fa-confirm" states="draft" type="object" name="action_confirm"/>
                         <button string="Cancel" icon="fa-cancel" states="done" type="object" name="action_cancel"/>
+                        <field name="state" widget="statusbar"/>
 
                     </header>
 
@@ -45,12 +46,47 @@
                             <group>
                                 <field name="send_datetime"/>
                                 <field name="is_immediate"/>
-                                <field name="state"/>
+                                <field name="prefixes"/>
                             </group>
                             <group colspan="4">
                                 <field name="message"/>
                             </group>
                         </group>
+
+                        <notebook colspan="4">
+                            <page string="Outbox">
+                                <field name="outbox_ids">
+                                    <tree string="Outbox">
+                                        <field name="name"/>
+                                        <field name="destination"/>
+                                        <field name="message"/>
+                                        <field name="send_datetime"/>
+                                        <field name="is_immediate"/>
+                                        <field name="config_id"/>
+                                        <field name="state"/>
+                                        <field name="error_message"/>
+                                        <field name="retry"/>
+                                        <field name="messageid"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Sent">
+                                <field name="sent_ids">
+                                    <tree string="Sent">
+                                        <field name="name"/>
+                                        <field name="destination"/>
+                                        <field name="message"/>
+                                        <field name="send_datetime"/>
+                                        <field name="is_immediate"/>
+                                        <field name="config_id"/>
+                                        <field name="state"/>
+                                        <field name="error_message"/>
+                                        <field name="retry"/>
+                                        <field name="messageid"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
@@ -99,7 +135,7 @@
 
         <menuitem id="menu_vit_sms_send_sms"
                   parent="vit_sms_history"
-                  sequence="30"
+                  sequence="10"
                   action="act_open_vit_sms_send_sms_view"/>
     
     </data>

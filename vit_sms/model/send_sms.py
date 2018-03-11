@@ -18,9 +18,15 @@ class send_sms(models.Model):
     state           = fields.Selection(string="State", default='draft',
                                        selection=[('draft', 'Draft'), ('done','Done') ], required=False, )
 
+    outbox_ids      = fields.One2many(comodel_name="vit_sms.outbox", inverse_name="send_sms_id", string="Outbox", required=False, )
+    sent_ids        = fields.One2many(comodel_name="vit_sms.sent", inverse_name="send_sms_id", string="Sent", required=False, )
+
+    prefixes        = fields.Char(string="Prefix", required=False, help="Allowed prefix, comma separated values, eg: 062,+62,08")
 
     @api.multi
     def action_cancel(self):
+        self.env.cr.execute("delete from vit_sms_outbox where send_sms_id=%s", (self.id,) )
+        self.env.cr.execute("delete from vit_sms_sent where send_sms_id=%s", (self.id,) )
         self.state = 'draft'
 
     @api.multi
@@ -29,22 +35,24 @@ class send_sms(models.Model):
         outbox = self.env['vit_sms.outbox']
         for dest in self._compute_destination():
             data = {
-                'destination'   : dest.phone,
+                'destination'   : self.normalize_number(dest.phone),
                 'message'       : self.replace_tokens(dest),
                 'send_datetime' : self.send_datetime,
                 'is_immediate'  : self.is_immediate,
                 'state'         : 'open',
+                'send_sms_id'   : self.id
             }
             outbox.create(data)
 
         if self.additional_destination:
             for dest in self.additional_destination.split(","):
                 data = {
-                    'destination'   : dest,
+                    'destination'   : self.normalize_number(dest),
                     'message'       : self.message,
                     'send_datetime' : self.send_datetime,
                     'is_immediate'  : self.is_immediate,
                     'state'         : 'open',
+                    'send_sms_id'   : self.id
                 }
                 outbox.create(data)
 
@@ -59,9 +67,15 @@ class send_sms(models.Model):
         res = res.replace('{country}', dest.country_id.name if dest.country_id else '')
         return res
 
+    def normalize_number(self, phone):
+        res = phone.replace(" ","")
+        res = res.replace("-","")
+        return res
 
-    @api.depends("group_ids","partner_ids","additional_destination")
     def _compute_destination(self):
+
+        prefixes = self.prefixes.split(",")
+
         # partner_ids
         dest = [ p for p in self.partner_ids if p.phone]
 
@@ -74,5 +88,18 @@ class send_sms(models.Model):
             partners = self.env['res.partner'].search(eval(self.partner_domain))
             dest += [ p for p in partners if p.phone]
 
-        return dest
+        # remove non prefix
+        dups = [d for d in dest if (d.phone[:2] in prefixes or d.phone[:3] in prefixes or d.phone[:4] in prefixes)]
+
+        # remove duplicates
+        nodups=[]
+        nodup_phones = list(set([p.phone for p in dups]))
+
+        for ph in nodup_phones:
+            for p in dups:
+                if ph == p.phone:
+                    nodups.append(p)
+                    break
+
+        return nodups
 
