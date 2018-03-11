@@ -75,6 +75,8 @@ class send_sms(models.Model):
         return res
 
     def _compute_destination(self):
+        min_length = 9
+        max_length = 16
 
         prefixes = self.prefixes.split(",") if self.prefixes else []
 
@@ -93,13 +95,13 @@ class send_sms(models.Model):
         # remove non prefix
         dups = [d for d in dest if (d.phone[:2] in prefixes or d.phone[:3] in prefixes or d.phone[:4] in prefixes)]
 
-        # remove duplicates
+        # remove duplicates, validate length
         nodups=[]
         nodup_phones = list(set([p.phone for p in dups]))
 
         for ph in nodup_phones:
             for p in dups:
-                if ph == p.phone:
+                if ph == p.phone and len(ph)>min_length and len(ph)<max_length:
                     nodups.append(p)
                     break
 
