@@ -13,7 +13,7 @@ class outbox(models.Model):
     name            = fields.Char("Rec. Number", readonly=True)
     destination     = fields.Char("Destination",
                               help="Destination mobile numbers of group members or mobile phone number of Partners")
-    message         = fields.Text(string="Message", required=True, )
+    message         = fields.Char(string="Message", required=True, size=160)
     send_datetime   = fields.Datetime(string="Send datetime", required=False, default=lambda self: time.strftime("%Y-%m-%d %H:%M:%S"))
     is_immediate    = fields.Boolean(string="Imediate sending?", default=False )
 

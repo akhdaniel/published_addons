@@ -65,6 +65,8 @@ class send_sms(models.Model):
         res = res.replace('{street}', dest.street if dest.street else '')
         res = res.replace('{city}', dest.city if dest.city else '')
         res = res.replace('{country}', dest.country_id.name if dest.country_id else '')
+
+        res = res[:160]
         return res
 
     def normalize_number(self, phone):
