@@ -11,7 +11,7 @@ class send_sms(models.Model):
     partner_ids     = fields.Many2many(comodel_name="res.partner", string="Partners", )
     partner_domain = fields.Char(string="Partner Search Domain", required=False, default="[('phone','!=',False)]" )
     additional_destination = fields.Char("Additional Destination", help="Comma separated phone numbers")
-    message         = fields.Text(string="Message", required=True,
+    message         = fields.Char(string="Message", required=True,
                                   help="Message to send, max 160 chars. Available tokens: {name}, {street}, {city}, {country}", size=160)
     send_datetime   = fields.Datetime(string="Send datetime", required=False, default=lambda self: time.strftime("%Y-%m-%d %H:%M:%S"))
     is_immediate    = fields.Boolean(string="Imediate sending?", default=False )
