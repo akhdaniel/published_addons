@@ -19,7 +19,7 @@
             <p>
                 It provides public method for other addons to send SMS through this system:
                 <ul>
-                    <li><b>outbox.send_sms(destination, message, send_datetime=False, is_immediate=False )</b></li>
+                    <li><b>self.env['vit_sms.outbox'].send_sms(destination, message, send_datetime=False, is_immediate=False )</b></li>
                     <li><b>destination</b>: destination phone number</li>
                     <li><b>message</b>: text message to send</li>
                     <li><b>send_datetime</b>: when to send the message yyyy-mm-dd HH:MM:SS</li>
@@ -53,7 +53,7 @@
                 To implement the actual gateway specific sending process, override this method:
                 <ul>
                     <li>
-                        <b>outbox.send_gateway()</b> and return a tuple of (status, error_message, messageid)
+                        <b>self.env['vit_sms.outbox'].send_gateway()</b> and return a tuple of (status, error_message, messageid)
                     </li>
                 </ul>
 
