@@ -17,6 +17,12 @@ please click contact us for the most competitive price per SMS.
 
 Email: info@vitraining.com
 
+
+    
+
+        Find our other interesting modules that can make your life easier:
+        https://www.odoo.com/apps/modules/browse?search=vitraining
+
 """,
 	"data": [
 		"data/config.xml",

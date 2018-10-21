@@ -27,8 +27,14 @@
     "description": """
     
 Functionalities:
- - when the destination location is of type Input then create a new internal move that moves finished good from Input to Stock for QC purpose
- - picking type is QC
+-------------------------
+
+* when the destination location is of type Input then create a new internal move that moves finished good from Input to Stock for QC purpose
+* picking type is QC
+
+
+            Find our other interesting modules that can make your life easier:
+            https://www.odoo.com/apps/modules/browse?search=vitraining
 
     """,
 

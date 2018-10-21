@@ -13,11 +13,12 @@
 Manage
 ======================================================================
 
-* this is my academic information system module
-* created menu:
-* created object
-* created views
-* logic:
+Sample addon accompanying the ebook XML RPC Interfacing with PHP.
+https://play.google.com/store/books/details?id=NsxNDwAAQBAJ
+
+
+Find our other interesting modules that can make your life easier:
+https://www.odoo.com/apps/modules/browse?search=vitraining
 
 """,
 	"data": [

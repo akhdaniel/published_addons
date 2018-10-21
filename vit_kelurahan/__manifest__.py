@@ -12,6 +12,9 @@
 
 this module provide kecamatan, kelurahan, and state data for indonesian
 
+
+            Find our other interesting modules that can make your life easier:
+            https://www.odoo.com/apps/modules/browse?search=vitraining
 """,
 	"data": [
 		#"data/res.country.state.csv",

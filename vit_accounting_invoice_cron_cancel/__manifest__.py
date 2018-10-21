@@ -12,7 +12,12 @@
 
         For every invoices found, execute the existing "Cancel invoice" function (assumed that the sales jurnal is set to "allow cancel").
 
-        Also, cancel all related Sale Order for those Invoices
+        Also, cancel all related Sale Order for those Invoices.
+        
+        
+        Find our other interesting modules that can make your life easier:
+https://www.odoo.com/apps/modules/browse?search=vitraining
+
     """,
     'images': ['static/description/images/women-accountants.jpg'],
 

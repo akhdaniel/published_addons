@@ -43,6 +43,11 @@ Using this module, we enter the 12,000 and not the 0.000083333333333.
 This module also add number of decimal precision on the currency rate
 to avoid rounding for those currencies.
 
+
+Find our other interesting modules that can make your life easier:
+https://www.odoo.com/apps/modules/browse?search=vitraining
+
+
     ''',
     'depends': [
         'base',

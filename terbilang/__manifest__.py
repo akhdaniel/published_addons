@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-# Copyright (c) 2017 vitraining.com
+#    Copyright (C) 2016 Widiana Juniar <widianajuniar@gmail.com>.
+#    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -16,44 +17,30 @@
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-#
 ##############################################################################
-
 {
-    "name": "MRP Production Cost",
-    "version": "2.0",
-    "author" : "vitraining.com",
+    "name": "Terbilang",
+    "version": "8.0.0.0.0",
+    "category": "Extra",
+    "sequence": 14,
+    "author":  "vITraining",
     "website": "www.vitraining.com",
+    "license": "AGPL-3",
+    "summary": "",
     "description": """
-    
-Functionalities:
- - Calculates the production cost price from the actual price of the components
- - Assigns a picking for consumed materials
 
-Based on deltatech_mrp_cost with modifications on the calculation method.
-
-
-Find our other interesting modules that can make your life easier:
-https://www.odoo.com/apps/modules/browse?search=vitraining
-        
-        
     """,
-
-    "category": "Manufacturing",
     "depends": [
-        "mrp", "stock",
-        "sale",
-        "product",
-
+ 
     ],
-
     "data": [
-        "views/mrp_view.xml",
-        "data/mrp_data.xml"
+
     ],
-    "active": False,
-    "installable": True,
+    "demo": [
+    ],
+    "test": [
+    ],
+    "installable": False,
+    "auto_install": False,
+    "application": False,
 }
-
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

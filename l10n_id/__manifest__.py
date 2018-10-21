@@ -8,9 +8,17 @@
     'description': """
 This is the latest Indonesian Odoo localisation necessary to run Odoo accounting for SME's with:
 =================================================================================================
-    - generic Indonesian chart of accounts
-    - tax structure
-    - a few other adaptations""",
+
+* generic Indonesian chart of accounts
+* tax structure
+* a few other adaptations
+    
+    
+Find our other interesting modules that can make your life easier:
+https://www.odoo.com/apps/modules/browse?search=vitraining
+
+
+    """,
     'author': 'vitraining.com',
     'website': 'http://www.vitraining.com',
     'depends': [ 'base', 'account','base_iban', 'base_vat'],

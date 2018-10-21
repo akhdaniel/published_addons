@@ -10,14 +10,14 @@
 	'website': 'http://www.vitraining.com',
 	"description": """\
 
-Manage
+Features
 ======================================================================
 
-* this is my academic information system module
-* created menu:
-* created object
-* created views
-* logic:
+* template for creating Odoo v10 addons
+
+Find our other interesting modules that can make your life easier:
+https://www.odoo.com/apps/modules/browse?search=vitraining
+
 
 """,
 	"data": [
