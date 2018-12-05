@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim:fdn=3:
+-->
+<openerp>
+    <data>
+        <template id="module_web_backend" name="module web assets"
+                  inherit_id="website.assets_frontend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/module/static/src/js/my.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>

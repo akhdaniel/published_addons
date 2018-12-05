@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record model="ir.module.category" id="module_category_sms">
+            <field name="name">SMS</field>
+            <field name="description">SMS sending category</field>
+            <field name="sequence">10</field>
+        </record>
+
+        <record id="group_sms_manager" model="res.groups">
+            <field name="name">SMS Manager</field>
+            <field name="category_id" ref="module_category_sms"/>
+        </record>
+
+    </data>
+</openerp>

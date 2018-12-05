@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_vit_sms_config_nusasms_form" model="ir.ui.view">
+            <field name="name">vit_sms.config.form.nusasms</field>
+            <field name="model">vit_sms.config</field>
+            <field name="inherit_id" ref="vit_sms.view_vit_sms_config_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <field name="password" position="after">
+                    <field name="promedia_url"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_vit_sms_config_nusasms_tree" model="ir.ui.view">
+            <field name="name">vit_sms.config.tree.nusasms</field>
+            <field name="model">vit_sms.config</field>
+            <field name="inherit_id" ref="vit_sms.view_vit_sms_config_tree"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <field name="password" position="after">
+                    <field name="promedia_url"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</openerp>

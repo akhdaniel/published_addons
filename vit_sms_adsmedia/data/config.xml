@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="vit_sms_config_adsmedia" model="vit_sms.config">
+            <field name="code">AdsMedia</field>
+            <field name="name">AdsMedia</field>
+            <!-- <field name="hostname"></field> -->
+            <field name="username">enter your username</field>
+            <field name="password">enter your password</field>
+        </record>
+
+    </data>
+</openerp>

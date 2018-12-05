@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="vit_sms_config_nusasms" model="vit_sms.config">
+            <field name="code">promedia</field>
+            <field name="name">Promedia</field>
+            <field name="hostname">https://reguler.promedia.net/apps</field>
+            <field name="promedia_url">/smsapi.php</field>
+            <field name="username">enter your username</field>
+            <field name="password">enter your passkey</field>
+        </record>
+
+    </data>
+</openerp>
