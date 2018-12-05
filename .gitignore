@@ -1,10 +1,7 @@
-
-*.pyc
-
-*.pyc
-
-*.pyc
-
-*.pyc
-.DS_Store
-*.tmp
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
